@@ -252,6 +252,36 @@ button {
     box-shadow: 0 0 0 1px var(--accent-primary);
 }
 
+.option-item.correct {
+    background: rgba(16, 185, 129, 0.2) !important;
+    border-color: var(--success) !important;
+    animation: correctPulse 0.5s ease;
+}
+
+.option-item.incorrect {
+    background: rgba(239, 68, 68, 0.2) !important;
+    border-color: var(--error) !important;
+    animation: shake 0.4s ease;
+}
+
+.option-item.correct-hint {
+    border-color: var(--success);
+    border-style: dashed;
+    background: rgba(16, 185, 129, 0.05);
+}
+
+@keyframes correctPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); box-shadow: 0 0 20px rgba(16, 185, 129, 0.4); }
+    100% { transform: scale(1); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
 .option-radio {
     width: 20px;
     height: 20px;

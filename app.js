@@ -133,9 +133,27 @@ function renderQuestion() {
     // Add Event Listeners to options
     document.querySelectorAll('.option-item').forEach(item => {
         item.addEventListener('click', () => {
+            // If already answered, don't allow changing for instant feedback mode
+            if (currentState.answers[index] !== null) return;
+
             const optIndex = parseInt(item.dataset.index);
+            const isCorrect = optIndex === q.answer;
+            
             currentState.answers[index] = optIndex;
-            renderQuestion(); // Re-render to show selection
+            
+            // Apply visual feedback
+            item.classList.add(isCorrect ? 'correct' : 'incorrect');
+            
+            if (!isCorrect) {
+                // Highlight the correct answer
+                const correctItem = document.querySelector(`.option-item[data-index="${q.answer}"]`);
+                if (correctItem) correctItem.classList.add('correct-hint');
+            }
+
+            // Small delay before allowing next question or just leave it for review
+            setTimeout(() => {
+                // Optional: auto-advance or just let them click 'Next'
+            }, 1000);
         });
     });
 

@@ -1,0 +1,7 @@
+*.log
+*.aux
+*.dvi
+*.tex
+.DS_Store
+node_modules/
+temp_tikz*
