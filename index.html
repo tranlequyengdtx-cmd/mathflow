@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathFlow Assessment - Hệ thống bài tập Toán</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div id="app" class="glass-container">
+        <!-- Login Screen -->
+        <div id="login-screen" class="screen active">
+            <header>
+                <div class="logo">
+                    <i data-lucide="function-square"></i>
+                    <h1>MathFlow</h1>
+                </div>
+                <p>Hệ thống đánh giá năng lực Toán học</p>
+            </header>
+            <main>
+                <div class="input-group">
+                    <label for="student-name">Họ và tên</label>
+                    <input type="text" id="student-name" placeholder="Nhập tên của bạn...">
+                </div>
+                <div class="input-group">
+                    <label for="student-class">Lớp</label>
+                    <input type="text" id="student-class" placeholder="VD: 11A1...">
+                </div>
+                <button id="start-btn" class="primary-btn">Bắt đầu làm bài <i data-lucide="arrow-right"></i></button>
+            </main>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <header class="quiz-header">
+                <div class="progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <div class="quiz-info">
+                    <span id="question-number">Câu 1/10</span>
+                    <span id="timer">00:00</span>
+                </div>
+            </header>
+            <main id="question-container">
+                <!-- Question content will be injected here -->
+            </main>
+            <footer>
+                <button id="prev-btn" class="secondary-btn" disabled><i data-lucide="chevron-left"></i> Câu trước</button>
+                <button id="next-btn" class="primary-btn">Câu sau <i data-lucide="chevron-right"></i></button>
+                <button id="submit-btn" class="success-btn hidden">Nộp bài <i data-lucide="send"></i></button>
+            </footer>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <header>
+                <i data-lucide="trophy" class="result-icon"></i>
+                <h2>Kết quả bài làm</h2>
+                <p id="student-summary"></p>
+            </header>
+            <main>
+                <div class="score-card">
+                    <span class="score-label">Điểm số</span>
+                    <span id="final-score" class="score-value">0/0</span>
+                </div>
+                <div class="feedback-section">
+                    <label for="student-feedback">Phản hồi của bạn về bài tập này:</label>
+                    <textarea id="student-feedback" placeholder="Bạn có thắc mắc hay góp ý gì không?"></textarea>
+                </div>
+                <button id="save-feedback-btn" class="primary-btn">Gửi phản hồi <i data-lucide="check-circle"></i></button>
+            </main>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4014 @@
+[
+  {
+    "id": "luong_giac",
+    "content": "Đổi góc $108^\\circ$ sang rađian.\\n",
+    "type": "mcq",
+    "options": [
+      "$\\frac{3\\pi}{5}$",
+      "$\\frac{\\pi}{10}$",
+      "$\\frac{3\\pi}{2}$",
+      "$\\frac{\\pi}{4}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Đổi góc $-\\frac{7\\pi}{4}$ sang độ \\n",
+    "type": "mcq",
+    "options": [
+      "$-315^\\circ$",
+      "$-630^\\circ$",
+      "$-145^\\circ$",
+      "$-135^\\circ$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_gica",
+    "content": "Đổi góc $\\frac{\\pi}{12}$ sang đơn vị độ. \\n",
+    "type": "mcq",
+    "options": [
+      "$15^\\circ$",
+      "$10^\\circ$",
+      "$6^\\circ$",
+      "$5^\\circ$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_gica",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giả sử $\\tan\\alpha = 3$. Tính $\\cot\\alpha$. \\n",
+    "type": "mcq",
+    "options": [
+      "$3$",
+      "$\\frac{1}{3}$",
+      "$-2$",
+      "$-\\frac{1}{2}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giả sử $\\sin x = a$, $\\cos x = b$ với $a, b$ là các số khác $0$. Tính $\\tan x$.\\n",
+    "type": "mcq",
+    "options": [
+      "$\\frac{a}{b}$",
+      "$\\frac{b}{a}$",
+      "$a \\cdot b$",
+      "$\\frac{1}{a b}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Trong các hàm số $y=\\sin x$, $y=\\cos x$, $y=\\tan x$, $y=\\cot x$, có bao nhiêu hàm số có tập xác định là $\\mathbb{R}$? \\n",
+    "type": "mcq",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Hàm số $y = \\tan x$ có tập xác định là",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Hàm số $y = \\cot x$?có tập xác định là",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Trong các hàm số $y = \\sin x$, $y = \\cos x$, $y = \\tan x$, $y = \\cot x$, có bao nhiêu hàm số có tập giá trị là $\\mathbb{R}$? \\n",
+    "type": "mcq",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Tập giá trị của hàm số $y=\\cos x$ là",
+    "type": "mcq",
+    "options": [
+      "$\\mathbb{R}$",
+      "$[-1,1]$",
+      "$\\{x\\mid x=k\\pi, k\\in\\mathbb{Z}\\}$",
+      "$\\{x\\mid x=\\frac{\\pi}{2}+k\\pi, k\\in\\mathbb{Z}\\}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Trong các hàm số $y = \\sin x$, $y = \\cos x$, $y = \\tan x$, $y = \\cot x$, có bao nhiêu hàm số lẻ? \\n",
+    "type": "mcq",
+    "options": [
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $\\sin x = \\frac{\\sqrt{3}}{2}$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Công thức nghiệm của phương trình $\\sin x = \\sin \\alpha$ là",
+    "type": "mcq",
+    "options": [
+      "$x = \\alpha + 2k\\pi$ hoặc $x = \\pi - \\alpha + 2k\\pi,\\ k \\in \\mathbb{Z}$",
+      "$x = \\alpha + 2k\\pi,\\ k \\in \\mathbb{Z}$",
+      "$x = \\alpha + k\\pi,\\ k \\in \\mathbb{Z}$",
+      "$x = \\alpha + k\\pi,\\ k \\in \\mathbb{Z}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Có bao nhiêu giá trị nguyên của tham số $m$ để phương trình $\\cos x = m$ có nghiệm?",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $\\sin x = \\frac{1}{2}$.",
+    "type": "mcq",
+    "options": [
+      "$\\left[\\begin{array}{l}x = \\frac{\\pi}{6} + 2k\\pi \\\\x = \\frac{5\\pi}{6} + 2k\\pi\\n\\end{array}\\right.,\\ k \\in \\mathbb{Z}$",
+      "$\\left[\\begin{array}{l}x = \\frac{2\\pi}{3} + 2k\\pi \\\\x = \\frac{4\\pi}{3} + 2k\\pi\\n\\end{array}\\right.,\\ k \\in \\mathbb{Z}$",
+      "$\\left[\\begin{array}{l}x = -\\frac{\\pi}{6} + 2k\\pi \\\\x = \\frac{7\\pi}{6} + 2k\\pi\\n\\end{array}\\right.,\\ k \\in \\mathbb{Z}$",
+      "$\\left[\\begin{array}{l}x = \\frac{\\pi}{6} + k\\pi\\n\\end{array}\\right.,\\ k \\in \\mathbb{Z}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $\\cos x = \\frac{\\sqrt{3}}{2}$",
+    "type": "mcq",
+    "options": [
+      "$\\left[\\begin{array}{l}\\nx = \\frac{\\pi}{6} + 2k\\pi \\\\\\nx = -\\frac{\\pi}{6} + 2k\\pi\\n\\end{array}\\right.,\\ k \\in \\mathbb{Z}$",
+      "$\\left[\\begin{array}{l}\\nx = \\frac{\\pi}{3} + 2k\\pi \\\\\\nx = -\\frac{\\pi}{3} + 2k\\pi\\n\\end{array}\\right.,\\ k \\in \\mathbb{Z}$",
+      "$\\left[\\begin{array}{l}\\nx = \\frac{5\\pi}{6} + 2k\\pi \\\\\\nx = \\frac{7\\pi}{6} + 2k\\pi\\n\\end{array}\\right.,\\ k \\in \\mathbb{Z}$",
+      "$\\left[\\begin{array}{l}\\nx = \\frac{\\pi}{3} + k\\pi\\n\\end{array}\\right.,\\ k \\in \\mathbb{Z}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "",
+    "type": "mcq",
+    "options": [
+      "$x = \\pm \\frac{\\pi}{3} + k\\pi,\\ k \\in \\mathbb{Z}$",
+      "$x = \\frac{\\pi}{3} + k\\pi,\\ k \\in \\mathbb{Z}$",
+      "$x = -\\frac{\\pi}{3} + k\\pi,\\ k \\in \\mathbb{Z}$",
+      "$x = \\frac{\\pi}{3} + 2k\\pi,\\ k \\in \\mathbb{Z}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $\\cos x = -\\frac{1}{2}$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $\\tan x = \\sqrt{3}$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $\\sin \\left(2x - \\frac{\\pi}{4}\\right) = \\frac{\\sqrt{2}}{2}$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $\\cos \\left(x + \\frac{\\pi}{6}\\right) = 1$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $\\tan \\left(3x\\right) + \\frac{1}{\\sqrt{3}} = 0$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $2\\sin x + 1 = 0$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $\\sqrt{3}\\cos x - \\frac{3}{2} = 0$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Giải phương trình $3\\tan x - \\sqrt{3} = 0$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "luong_giac",
+    "content": "Một bánh xe có đường kính kể cả lốp xe là $55$ cm. Nếu xe chạy với tốc độ $50$ km/h thì trong một giây bánh xe quay được bao nhiêu vòng? (Kết quả làm tròn đến hàng phần trăm).",
+    "type": "mcq",
+    "options": [
+      "$8,04$",
+      "$28,94$",
+      "$0,29$",
+      "$1,45$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "luong_giac",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Dãy số nào sau đây là một cấp số cộng?\\n",
+    "type": "mcq",
+    "options": [
+      "$u_n = 3n - 1$.",
+      "$u_n = 3^n$.",
+      "$u_n = n^2 + 1$.",
+      "$u_n = \\frac{1}{n}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Cho cấp số cộng $(u_n)$ có $u_3 - u_1 = 4$, xác định công sai $d$.\\n",
+    "type": "mcq",
+    "options": [
+      "$d = 2$.",
+      "$d = 4$.",
+      "$d = -2$.",
+      "$8$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Cho cấp số cộng $(u_n)$ có các số hạng đầu tiên là $1; 4; 7; 10$. Xác định công sai $d$ và tính $u_{8}$.\\n",
+    "type": "mcq",
+    "options": [
+      "$3, u_8 = 22$.",
+      "$3, u_8 = 25$.",
+      "$4, u_8 = 29$.",
+      "$-3, u_8 = -20$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Cho cấp số nhân $(u_n)$ có $u_5 = 8$ and $u_3 = 2$. Xác định công bội $q$, biết $q > 0$.\\n",
+    "type": "mcq",
+    "options": [
+      "$q = 2$.",
+      "$q = 4$.",
+      "$q = \\pm 2$.",
+      "$q = \\sqrt{2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Cho cấp số cộng $(u_n)$ có $u_1 = 1$ và công sai $d = 2$, tính $S_{12}$.\\n",
+    "type": "mcq",
+    "options": [
+      "$S_{12} = 144$.",
+      "$S_{12} = 156$.",
+      "$S_{12} = 288$.",
+      "$S_{12} = 132$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Xác định công bội $q$ của cấp số nhân $(u_n)$ có $\\frac{u_5}{u_2} = -8.\\n",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Một công ty sản xuất dự kiến tăng sản lượng theo phương án cấp số cộng. Biết rằng năm đầu tiên công ty sản xuất được $15.000$ sản phẩm, mỗi năm sau đó tăng thêm $2.000$ sản phẩm so với năm trước.\\n\\begin{enumerate}[label=(\\alph*)]\\n    Hỏi năm thứ $5$, công ty sản xuất được bao nhiêu sản phẩm?\\n    Tính tổng sản phẩm công ty sản xuất được trong $5$ năm đầu.\\n\\end{enumerate}",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Một người gửi tiết kiệm $100$ triệu đồng vào ngân hàng với lãi suất kép $5\\%$ mỗi năm, \\begin{enumerate}[label=(\\alph*)]\\n\nSau 1 năm, số tiền (cả vốn và lãi) mà người đó nhận được là bao nhiêu?\\n    \nViết công thức tính số tiền người đó nhận được sau $n$ năm.\\n\\end{enumerate}\\n",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Cho cấp số nhân $(u_n)$ có các số hạng đầu tiên là $2; 6; 18; 54$. Xác định công bội $q$ và tính $u_6$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Cho cấp số cộng $(u_n)$ thỏa mãn\\n\n$$\\begin{cases} u_3 - u_1 = 8 \\\\ u_1 + u_7 = 18 \\end{cases}$$\n\\n\\begin{enumerate}[label=(\\alph*)]\\n \nXác định công sai $d$ và số hạng đầu $u_1$.\\n \nTính giá trị của $u_{3}+u_7$.\\n",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "Một vận động viên chạy marathon tập luyện theo kế hoạch tăng quãng đường chạy hằng ngày theo cấp số cộng. Ngày đầu tiên, anh ấy chạy được $3 \\text{ km}$, mỗi ngày sau đó tăng thêm $0.5 \\text{ km}$ so với ngày trước.\\n\\begin{enumerate}[label=(\\alph*)]\\n    Hỏi ngày thứ $10$, vận động viên chạy được quãng đường là bao nhiêu $\\text{km}$?\\n    Tính tổng quãng đường anh ấy chạy được sau $10$ ngày tập luyện.\\n\\end{enumerate}",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "day_so_cap_so",
+    "content": "\\begin{enumerate}[label=(\\alph*)]\\n    Sau 1 năm, số tiền (cả vốn và lãi) mà người đó nhận được là bao nhiêu?\\n    Viết công thức tính số tiền người đó nhận được sau $n$ năm.\\n\\end{enumerate}\\n\n\\textit{Lưu ý: Lãi suất kép được hiểu là tiền lãi sau mỗi kỳ hạn sẽ được cộng vào tiền gốc để tiếp tục sinh lãi cho các kỳ hạn tiếp theo.}",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "day_so_cap_so",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Một hình chóp có đáy là ngũ giác có bao nhiêu mặt và bao nhiêu cạnh?\n\n\\begin{tikzpicture}[scale=1]\n\\coordinate (A) at (0,0);\n\\coordinate (B) at (1.4,.2);\n\\coordinate (C) at (2,0.8);\n\\coordinate (D) at (.65,1.3);\n\\coordinate (E) at (-0.3,1.2);\n\\coordinate (S) at (0.9,3);\n\\draw[thick] (A)--(B)--(C);\n\\draw[thick,dashed] (C)--(D)--(E);\n\\draw[thick] (E)--(A);\n\\draw[thick] (S)--(A);\n\\draw[thick] (S)--(B);\n\\draw[thick] (S)--(C);\n\\draw[thick,dashed] (S)--(D);\n\\draw[thick] (S)--(E);\n\\node[below left] at (A) {\\small $A$};\n\\node[below right] at (B) {\\small $B$};\n\\node[right] at (C) {\\small $C$};\n\\node[above right] at (D) {\\small $D$};\n\\node[left] at (E) {\\small $E$};\n\\node[above] at (S) {\\small $S$};\n\\end{tikzpicture",
+    "type": "mcq",
+    "options": [
+      "5 mặt, 5 cạnh",
+      "6 mặt, 5 cạnh",
+      "6 mặt, 10 cạnh",
+      "5 mặt, 10 cạnh"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành, $AC$ cắt $BD$ tại $O$. Lấy điểm $M$ trên cạnh $SO$. Khẳng định nào sau đây \\textbf{sai}?\n\n\\begin{tikzpicture}[scale=1]\n% Các đỉnh của hình bình hành\n\\coordinate (A) at (0,0);\n\\coordinate (B) at (2.4,0.2);\n\\coordinate (C) at (3.1,1.4);\n\\coordinate (D) at (0.7,1.2);\n\\coordinate (S) at (.86,3);\n% Trung điểm O của AC\n\\coordinate (O) at ($(A)!0.5!(C)$);\n% Điểm M trên SO\n\\coordinate (M) at ($(S)!0.7!(O)$);\n% Đáy hình bình hành\n\\draw[thick] (A)--(B);\n\\draw[thick] (C)--(B);\n% Đường chéo đáy\n\\draw[dashed] (A)--(C);\n\\draw[dashed] (B)--(D);\n\\draw[dashed] (C)--(D);\n\\draw[dashed] (A)--(D);\n\\draw[dashed] (S)--(O);\n% Cạnh bên\n\\draw[thick] (S)--(A);\n\\draw[thick] (S)--(B);\n\\draw[thick] (S)--(C);\n\\draw[thick,dashed] (S)--(D);\n% Các điểm và nhãn\n\\fill (A) circle (1pt) node[below left]{\\small $A$};\n\\fill (B) circle (1pt) node[below right]{\\small $B$};\n\\fill (C) circle (1pt) node[right]{\\small $C$};\n\\fill (D) circle (1pt) node[left]{\\small $D$};\n\\fill (S) circle (1pt) node[above]{\\small $S$};\n\\fill (O) circle (1pt) node[below right]{\\small $O$};\n\\fill (M) circle (1pt) node[right]{\\small $M$}\n\\end{tikzpicture}",
+    "type": "mcq",
+    "options": [
+      "Các đường thẳng $AM$ và $SC$ cắt nhau.",
+      "Các đường thẳng $BM$ và $SD$ cắt nhau.",
+      "Các đường thẳng $DM$ và $SB$ cắt nhau.",
+      "Các đường thẳng $CD$ và $SO$ cắt nhau."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho hình chóp $S.ABCD$ có $AC$ cắt $BD$ tại $M$, $AB$ cắt $CD$ tại $N$. Trong các đường thẳng sau đây, đường nào là giao tuyến của hai mặt phẳng $(SAC)$ và $(SBD)$?",
+    "type": "mcq",
+    "options": [
+      "$SM$",
+      "$SN$",
+      "$SB$",
+      "$SC$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Tìm giao tuyến của hai mặt phẳng $(SAC)$ và $(SBD)$.",
+    "type": "mcq",
+    "options": [
+      "$SO$",
+      "$SC$",
+      "$SD$",
+      "$SA$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Các yếu tố nào sau đây xác định một mặt phẳng duy nhất? \\n",
+    "type": "mcq",
+    "options": [
+      "Ba điểm phân biệt",
+      "Một điểm và một đường thẳng",
+      "Hai đường thẳng cắt nhau",
+      "Bốn điểm phân biệt"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Hình tứ diện có bao nhiêu cạnh? \\n",
+    "type": "mcq",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho tứ diện $ABCD$, phát biểu nào sau đây đúng? \n\n\\begin{tikzpicture}[scale=1.1]\n% Các đỉnh của tứ diện\n\\coordinate (A) at (0,0);\n\\coordinate (B) at (2.2,0);\n\\coordinate (C) at (.66,-1.1);\n\\coordinate (D) at (1,2);\n% Cạnh nhìn thấy (liền nét)\n\\draw[thick] (A)--(C);\n\\draw[thick] (A)--(D);\n\\draw[thick] (C)--(D);\n\\draw[thick] (B)--(D);\n\\draw[thick] (C)--(B);\n% Cạnh khuất\n\\draw[dashed] (B)--(A);\\n \n% Các điểm và nhãn\n\\fill (A) circle (1pt) node[below left]{\\small $A$};\n\\fill (B) circle (1pt) node[below right]{\\small $B$}; \n\\fill (C) circle (1pt) node[right]{\\small $C$};\n\\fill (D) circle (1pt) node[above]{\\small $D$};\n\\end{tikzpicture}",
+    "type": "mcq",
+    "options": [
+      "$AC$ và $BD$ cắt nhau",
+      "$AC$ và $BD$ không có điểm chung",
+      "$AD$ và $BC$ đồng phẳng",
+      "$AB\\parallel CD$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Qua điểm $A$ nằm ngoài mặt phẳng $(P)$, có thể vẽ được bao nhiêu đường thẳng song song với $(P)$? \\n",
+    "type": "mcq",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "Vô số"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Trong không gian, khẳng định nào sau đây đúng?",
+    "type": "mcq",
+    "options": [
+      "Hai đường thẳng không có điểm chung thì chéo nhau",
+      "Hai đường thẳng phân biệt không cắt nhau thì song song",
+      "Hai đường thẳng không cùng nằm trên một mặt phẳng thì chéo nhau",
+      "Hai đường thẳng không có điểm chung thì song song"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Xét hai đường thẳng $a,b$ phân biệt, không có điểm chung và cùng nằm trong một mặt phẳng. Khẳng định nào sau đây đúng? \\n",
+    "type": "mcq",
+    "options": [
+      "$a\\parallel b$",
+      "$a$ và $b$ chéo nhau",
+      "$a$ và $b$ cắt nhau",
+      "$a$ và $b$ vuông góc nhau"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho hai mặt phẳng $(P)$ và $(Q)$ song song với nhau, khẳng định nào sau đây \\textbf{sai}?",
+    "type": "mcq",
+    "options": [
+      "Nếu đường thẳng $a$ chứa trong $(P)$ thì ta có $a \\parallel (Q)$",
+      "Nếu một đường thẳng $d$ cắt $(P)$ thì $d$ cũng cắt $(Q)$",
+      "Nếu mặt phẳng $(R)$ cắt $(P)$ thì $(R)$ cũng cắt $(Q)$ và hai giao tuyến đó song song với nhau.",
+      "Nếu $b \\parallel (P)$ thì $b \\parallel (Q)$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $d$ là giao tuyến của hai mặt phẳng $(SAD)$ và $(SBC)$. Khẳng định nào sau đây đúng?",
+    "type": "mcq",
+    "options": [
+      "$d$ qua $S$ và song song với $AB$",
+      "$d$ qua $S$ và song song với $DC$",
+      "$d$ qua $S$ và song song với $AD$",
+      "$d$ trùng với $SO$ với $O$ là giao điểm của $AC$ và $BD$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành. Gọi $I,J,E,F$ lần lượt là trung điểm $SA,SB,SC,SD$. Trong các đường thẳng sau, đường thẳng nào \\textbf{không} song song với $IJ$? \\n",
+    "type": "mcq",
+    "options": [
+      "$EF$",
+      "$DC$",
+      "$AD$",
+      "$AB$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành, $AC$ cắt $BD$ tại $O$. Gọi $M$ là trung điểm cạnh $SC$. Khẳng định nào sau đây \\textbf{sai}?\n\n\\begin{tikzpicture}[scale=1]\\n  % Các đỉnh của hình bình hành\\n  \\coordinate (A) at (0,0);\\n  \\coordinate (B) at (2.4,0.2);\\n\\coordinate (C) at (3.1,1.4);\\n  \\coordinate (D) at (0.7,1.2);\\n  \\coordinate (S) at (.86,3);\\n % Trung điểm O của AC\\n  \\coordinate (O) at ($(A)!0.5!(C)$);\\n % Điểm M trên SO\\n  \\coordinate (M) at ($(S)!0.5!(C)$);\\n\\n  % Đáy hình bình hành\\n  \\draw[thick] (A)--(B);\\n  \\draw[thick] (C)--(B);\\n % Đường chéo đáy\\n  \\draw[dashed] (A)--(C);\\n  \\draw[dashed] (B)--(D);\\n   \\draw[dashed] (C)--(D);\\n   \\draw[dashed] (A)--(D);\\n    \\draw[dashed] (S)--(O);\\n    \\draw[dashed] (M)--(O);\\n % Cạnh bên\\n  \\draw[thick] (S)--(A);\\n  \\draw[thick] (S)--(B);\\n  \\draw[thick] (S)--(C);\\n  \\draw[thick,dashed] (S)--(D);\\n % Các điểm và nhãn\\n  \\fill (A) circle (1pt) node[below left]{\\small $A$};\\n  \\fill (B) circle (1pt) node[below right]{\\small $B$};\\n\\fill (C) circle (1pt) node[right]{\\small $C$};\\n  \\fill (D) circle (1pt) node[left]{\\small $D$};\\n  \\fill (S) circle (1pt) node[above]{\\small $S$};\\n\\fill (O) circle (1pt) node[below right]{\\small $O$};\\n  \\fill (M) circle (1pt) node[right]{\\small $M$};\\n\\end{tikzpicture}",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $O$ là giao điểm của $AC$ và $BD$.\nGọi $M, N$ lần lượt là trung điểm của $SB$ và $SD$.\n\\begin{itemize}\n\t[a)] Tìm giao tuyến của hai mặt phẳng $(SAC)$ và $(SBD)$.\n\t[b)] Tìm giao tuyến của hai mặt phẳng $(AMN)$ và $(SAC)$.\n\t[c)] Tìm giao tuyến của hai mặt phẳng $(AMN)$ và $(ABCD)$.\n\t[d)] Tìm giao điểm $I$ của đường thẳng $SC$ và mặt phẳng $(AMN)$.\n\\end{itemize}",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành. Gọi $M, N, P$ lần lượt là trung điểm các đoạn $SA, AB, CD$.\n\\begin{itemize}\n[a)] Tìm giao tuyến của hai mặt phẳng $(SAD)$ và $(MNP)$.\n[b)] Chứng minh $SB$ song song với mặt phẳng $(MNP)$ và $AD$ song song với mặt phẳng $(MNP)$.\n[c)] Chứng minh mặt phẳng $(MNP)$ song song với mặt phẳng $(SBC)$.\n\\end{itemize}",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "quan_he_song_song",
+    "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thang với $AB \\parallel CD$ và $AB=2CD$.\nLấy $M, N$ lần lượt là trung điểm của $AB$ và $SB$.\\begin{itemize}\n\n[b)] Tìm giao điểm của $(CND)$ và $SA$.\n[c)] Chứng minh $(CMN) \\parallel (SAD)$.\n\\end{itemize}",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_song_song",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Tính $\\lim u_n$ với $u_n = \\frac{1}{n^2}$.",
+    "type": "mcq",
+    "options": [
+      "$+\\infty$.",
+      "$-\\infty$.",
+      "$0$.",
+      "$1$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Cho dãy số $(u_n)$ với $u_n = q^n$, trong đó $|q|<1$. Tính $\\lim u_n$.\\n",
+    "type": "mcq",
+    "options": [
+      "$0$.",
+      "$1$.",
+      "$-\\infty$.",
+      "$+\\infty$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Tính $\\lim\\limits_{n \\to +\\infty} \\frac{2n + 1}{n + 3}$.\\n",
+    "type": "mcq",
+    "options": [
+      "$2$.",
+      "$1$.",
+      "$\\frac{1}{3}$.",
+      "$+\\infty$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Cho các dãy số $(u_n), (v_n)$ thỏa mãn $\\lim u_n = 1$ và $\\lim(u_n \\cdot v_n) = 5$. Giá trị của $\\lim v_n$ bằng\\n",
+    "type": "mcq",
+    "options": [
+      "$5$.",
+      "$1$.",
+      "$4$.",
+      "$6$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Tính $\\lim\\limits_{x \\to 1} 3$.\\n",
+    "type": "mcq",
+    "options": [
+      "$3$.",
+      "$1$.",
+      "$0$.",
+      "$+\\infty$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tcu",
+    "content": "Cho $\\lim\\limits_{x \\to x_0} f(x) = 2$ và $\\lim\\limits_{x \\to x_0} g(x) = 3$. Tính $\\lim\\limits_{x \\to x_0} [f(x) + g(x)]$.\\n",
+    "type": "mcq",
+    "options": [
+      "$6$.",
+      "$-1$.",
+      "$5$.",
+      "$1$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tcu",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Tính $\\lim\\limits_{x \\to 0} (x^2 - 3x + 1)$.\\n",
+    "type": "mcq",
+    "options": [
+      "$1$.",
+      "$0$.",
+      "$-1$.",
+      "$3$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Hàm số $y=f(x)$ được gọi là liên tục tại điểm $x_0$ nếu\\n",
+    "type": "mcq",
+    "options": [
+      "$\\lim\\limits_{x \\to x_0^+} f(x) = \\lim\\limits_{x \\to x_0^-} f(x)$.",
+      "$\\lim\\limits_{x \\to x_0} f(x) = x_0$.",
+      "$\\lim\\limits_{x \\to x_0} f(x) = f(x_0)$.",
+      "$f(x)$ xác định tại $x_0$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Tính $\\lim\\limits_{x \\to 2} \\frac{x^2 - 4}{x - 2}$.\\n",
+    "type": "mcq",
+    "options": [
+      "$0$.",
+      "$2$.",
+      "$4$.",
+      "$+\\infty$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Tính $\\lim\\limits_{x \\to +\\infty} x^2$.\\n",
+    "type": "mcq",
+    "options": [
+      "$-\\infty$.",
+      "$+\\infty$.",
+      "$0$.",
+      "$1$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Tính $\\lim\\limits_{x \\to -\\infty} x^3$.\\n",
+    "type": "mcq",
+    "options": [
+      "$-\\infty$.",
+      "$+\\infty$.",
+      "$0$.",
+      "$1$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Hàm số nào sau đây \\textbf{không} liên tục trên $\\mathbb{R}$?\\n",
+    "type": "mcq",
+    "options": [
+      "$y = \\sin x$.",
+      "$y = \\tan x$.",
+      "$y = x^2$.",
+      "$y = \\sqrt{1+x^2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Biết rằng $\\lim\\limits_{x \\to +\\infty} \\frac{\\sqrt{ax^2+1}}{x} = 2$ (với $a > 0$). Giá trị của tham số $a$ là\\n",
+    "type": "mcq",
+    "options": [
+      "$4$.",
+      "$2$.",
+      "$\\sqrt{2}$.",
+      "$1$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Tính tổng vô hạn $S=1+\\frac12+\\frac1{2^2}+\\frac1{2^3}+\\cdots+\\frac1{2^n}+\\cdots$\\n",
+    "type": "mcq",
+    "options": [
+      "$1$.",
+      "$2$.",
+      "$\\frac{1}{2}$.",
+      "$3$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Cho hàm số $$f(x) = \\begin{cases} \\n      \\frac{\\sqrt{x+3}-2}{x-1} & \\text{khi } x \\neq 1 \\\\\\n      a & \\text{khi } x = 1 \\n   \\end{cases}$$\\nHàm số $f(x)$ liên tục tại điểm $x=1$ khi $a$ có giá trị nào sau đây?\\n",
+    "type": "mcq",
+    "options": [
+      "$\\frac{1}{4}$.",
+      "$\\frac{1}{2}$.",
+      "$1$.",
+      "$-\\frac{1}{4}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "gioi_han_lien_tuc",
+    "content": "Một căn phòng được trang bị máy sưởi. Sau $t$ phút kể từ khi bật máy, nhiệt độ trung bình trong phòng được xác định bởi công thức: $T(t)=\\frac{40t + 20}{t + 1}$ (độ C). Người ta thấy rằng, khi thời gian đủ lâu, nhiệt độ trong phòng sẽ dần đạt tới một giá trị $T_0$ cố định. Hãy xác định giá trị $T_0$.\\n",
+    "type": "mcq",
+    "options": [
+      "$20^\\circ\\text{C}$.",
+      "$40^\\circ\\text{C}$.",
+      "$60^\\circ\\text{C}$.",
+      "$30^\\circ\\text{C}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "gioi_han_lien_tuc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Xét hàm số $y = \\log_2 x$. \n\\begin{enumerate}[label=\\alph*)]\n    Hàm số có tập xác định là $(0;+\\infty)$.\n    Đồ thị hàm số đi qua điểm $(1;0)$.\n    Hàm số đồng biến trên $\\mathbb{R}$.\n    Tập giá trị của hàm số là $\\mathbb{R}$.\n\\end{enumerate}",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Đúng sai",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarti",
+    "content": "Xét hàm số $y=a^x$ với $0<a\\ne1$.\n\\begin{enumerate}[label=\\alph*)]\nTập xác định là $(0;+\\infty)$.\nĐồ thị hàm số qua điểm $(0;1)$.\nHàm số nghịch biến trên $\\mathbb{R}$ nếu $0<a<1$.\nHàm số có tập giá trị $(-\\infty;+\\infty)$.\n\\end{enumerate}",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarti",
+      "grade": "11",
+      "type": "Đúng sai",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Rút gọn biểu thức $P=x^{\frac{1}{3}} \\cdot \\sqrt[6]{x}$ với $x>0$.",
+    "type": "mcq",
+    "options": [
+      "$\\sqrt{x}$.",
+      "$x^{\\frac{1}{8}}$.",
+      "$x^{\\frac{2}{9}}$.",
+      "$x^2$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Cho $0 < a \\neq 1$ và $x, y > 0$. Khẳng định nào sau đây \\textbf{sai}?",
+    "type": "mcq",
+    "options": [
+      "$\\log_{a}x^{\\alpha}=\\alpha \\log_{a}x$.",
+      "$\\log_{a}(xy)=\\log_{a}x+\\log_{a}y$.",
+      "$\\log_{a}\\sqrt{x}=\\frac{1}{2}\\log_{a}x$.",
+      "$\\log_{\\sqrt{a}}x=\\frac{1}{2}\\log_{a}x$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarti",
+    "content": "Tìm tập nghiệm của phương trình $\\log_{3}(2x-1)=\\log_{3}(x-1)$.",
+    "type": "mcq",
+    "options": [
+      "$\\emptyset$.",
+      "$\\{-2\\}$.",
+      "$\\{3\\}$.",
+      "$\\{2\\}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarti",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Phương trình $3^{x-1}=27$ có tập nghiệm là\n    .",
+    "type": "mcq",
+    "options": [
+      "$\\{10\\}$.",
+      "$\\{4\\}$.",
+      "$\\{9\\}$.",
+      "$\\{3\\}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarti",
+    "content": "Rút gọn biểu thức $x^{\nrac{1}{3}} \\cdot \\sqrt[6]{x}$ với $x>0$.",
+    "type": "mcq",
+    "options": [
+      "$\\sqrt{x}$.",
+      "$x^{\\frac{1}{8}}$.",
+      "$x^{\\frac{2}{9}}$.",
+      "$x^2$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarti",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarti",
+    "content": "Cho $0 < a \\neq 1$ và $x, y > 0$. Khẳng định nào sau đây \\textbf{sai}?",
+    "type": "mcq",
+    "options": [
+      "$\\log_{a}x^{\\alpha}=\\alpha \\log_{a}x$.",
+      "$\\log_{a}(xy)=\\log_{a}x+\\log_{a}y$.",
+      "$\\log_{a}\\sqrt{x}=\\frac{1}{2}\\log_{a}x$.",
+      "$\\log_{\\sqrt{a}}x=\\frac{1}{2}\\log_{a}x$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarti",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarti",
+    "content": "Tìm tập nghiệm của phương trình $\\log_{3}(2x-1)=\\log_{3}(x-1)$.",
+    "type": "mcq",
+    "options": [
+      "$\\emptyset$.",
+      "$\\{-2\\}$.",
+      "$\\{3\\}$.",
+      "$\\{2\\}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarti",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarti",
+    "content": "Phương trình $3^{x-1}=27$ có nghiệm là",
+    "type": "mcq",
+    "options": [
+      "$x=10$.",
+      "$x=4$.",
+      "$x=9$.",
+      "$x=3$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarti",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarti",
+    "content": "Phương trình $\\log_3(3x-2) = \\log_3(x+4)$ có tập nghiệm $S=\\{a\\}$. Giá trị của $a$ là bao nhiêu?",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarti",
+      "grade": "11",
+      "type": "Trả lời ngắn",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarti",
+    "content": "Bất phương trình $2^{3x-4} < 32$ có tập nghiệm là $S = (-\\infty; a)$ với $a$ là số nguyên. Tính $a^2 + 10$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarti",
+      "grade": "11",
+      "type": "Trả lời ngắn",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Với $a>0$ rút gọn $a^{\\frac{2}{3}}.\\sqrt{a}$.",
+    "type": "mcq",
+    "options": [
+      "$a^{\\frac{1}{3}}$.",
+      "$a^{\\frac{7}{6}}$.",
+      "$a^{\\frac{5}{6}}$.",
+      "$a^{\\frac{4}{3}}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Với $a \\ne 0$, rút gọn $a\\cdots\\sqrt[3]{a^2} : a^{-2}$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Với $a > 0$, viết $a^{\\frac{5}{3}}$ duói dạng căn thức.",
+    "type": "mcq",
+    "options": [
+      "$\\sqrt[5]{a^3}$.",
+      "$\\sqrt[3]{a^5}$.",
+      "$\\sqrt{a^{15}}$.",
+      "$\\sqrt[3]{a^2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Với $a > 0$, viết $a^{-\\frac{1}{2}}$ dưới dạng căn thức.\\n",
+    "type": "mcq",
+    "options": [
+      "$\\sqrt{a}$.",
+      "$\\frac{1}{\\sqrt{a}}$.",
+      "$-\\sqrt{a}$.",
+      "$\\frac{1}{a^2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Với $a, b>0$ và $a \\neq 1$, khẳng định nào sau đây \\textbf{sai}?\\n",
+    "type": "mcq",
+    "options": [
+      "$\\log_a a = 1$.",
+      "$\\log_a 1 = 0$.",
+      "$\\log_a (a^b) = b$.",
+      "$a^{\\log_a b} = a$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Với $a, b, c$ là các số thực dương và $a \\neq 1$, khẳng định nào sau đây đúng?\\n",
+    "type": "mcq",
+    "options": [
+      "$\\log_a (bc) = \\log_a b + \\log_a c$.",
+      "$\\log_a (bc) = \\log_a b \\cdot \\log_a c$.",
+      "$\\log_a (bc) = \\log_a b - \\log_a c$.",
+      "$\\log_a (bc) = c \\log_a b$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Với $a, b>0$ và $a \\neq 1$, khẳng định nào sau đây \\textbf{sai}?\\n",
+    "type": "mcq",
+    "options": [
+      "$\\log_{\\sqrt{a}} b = \\frac{1}{2}\\log_a b$.",
+      "$\\log_{a^2} b = \\frac{1}{2}\\log_a b$.",
+      "$\\log_{a} b^2 = 2\\log_a b$.",
+      "$\\log_{\\frac{1}{a}} b = -\\log_a b$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Tập xác định của hàm số $y = \\log_5(2x + 1)$ là\\n\\choicess{2}\\n\\n    {$\\left( -\\frac{1}{2}; +\\infty \\right)$.}\\n    {$\\left[ -\\frac{1}{2}; +\\infty \\right)$.}\\n    {$\\left( -\\infty; -\\frac{1}{2} \\right)$.}\\n    {$\\mathbb{R} \\setminus \\left\\{ -\\frac{1}{2} \\right\\}$.",
+    "type": "mcq",
+    "options": [
+      "$\\left( -\\frac{1}{2}; +\\infty \\right)$.",
+      "$\\left[ -\\frac{1}{2}; +\\infty \\right)$.",
+      "$\\left( -\\infty; -\\frac{1}{2} \\right)$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Tập xác định của hàm số $y = \\log_2(3 - x)$ là\\n",
+    "type": "mcq",
+    "options": [
+      "$(3; +\\infty)$.",
+      "$(-\\infty; 3)$.",
+      "$\\mathbb{R} \\setminus \\{3\\}$.",
+      "$(-\\infty; 3]$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Xét hàm số $y = 3^x$, khẳng định nào sau đây \\textbf{sai}?\\n\\choicess{2}\\n\\n    {Hàm số đồng biến trên $\\mathbb{R}$.}\\n    {Đồ thị hàm số đi qua điểm $(0; 1)$.}\\n    {Tập xác định là $D = (0; +\\infty)$.}\\n    {Tập giá trị là $T = (0; +\\infty)$.",
+    "type": "mcq",
+    "options": [
+      "Hàm số đồng biến trên $\\mathbb{R}$.",
+      "Đồ thị hàm số đi qua điểm $(0; 1)$.",
+      "Tập xác định là $D = (0; +\\infty)$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Xét hàm số $y = \\log_{0,5} x$, khẳng định nào sau đây \\textbf{đúng}?\\n\\choicess{2}\\n\\n    {Hàm số tăng trên khoảng $(0; +\\infty)$.}\\n    {Hàm số giảm trên khoảng $(0; +\\infty)$.}\\n    {Tập xác định của hàm số là $\\mathbb{R}$.}\\n    {Đồ thị hàm số đi qua điểm $M(0; 0)$.",
+    "type": "mcq",
+    "options": [
+      "Hàm số tăng trên khoảng $(0; +\\infty)$.",
+      "Hàm số giảm trên khoảng $(0; +\\infty)$.",
+      "Tập xác định của hàm số là $\\mathbb{R}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Nghiệm của phương trình $\\left(\\frac{1}{3}\\right)^x = \\left(\\frac{1}{3}\\right)^{2-x}$ là\\n",
+    "type": "mcq",
+    "options": [
+      "$x = 1$.",
+      "$x = 2$.",
+      "$x = 0$.",
+      "$x = -1$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Nghiệm của phương trình $2^{x-1} = 16$ là\\n",
+    "type": "mcq",
+    "options": [
+      "$x = 3$.",
+      "$x = 4$.",
+      "$x = 5$.",
+      "$x = 17$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Nghiệm của phương trình $\\log_5 x = \\log_5 7$ là\\n",
+    "type": "mcq",
+    "options": [
+      "$x = 7$.",
+      "$x = 5$.",
+      "$x = 1$.",
+      "$x = 12$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Nghiệm của phương trình $\\log_3(2x + 1) = 2$ là\\n",
+    "type": "mcq",
+    "options": [
+      "$x = 4$.",
+      "$x = 3$.",
+      "$x = \\frac{7}{2}$.",
+      "$x = 8$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Tập nghiệm của bất phương trình $\\left(\\frac{1}{2}\\right)^x > 4$ là\\n\\choicess{4}\\n\\n    {$(-\\infty; -2)$.}\\n    {$(-2; +\\infty)$.}\\n    {$(2; +\\infty)$.}\\n    {$(-\\infty; 2)$.",
+    "type": "mcq",
+    "options": [
+      "$(-\\infty; -2)$.",
+      "$(-2; +\\infty)$.",
+      "$(2; +\\infty)$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Giải bất phương trình $\\log_2 x < 1$.\\n.",
+    "type": "mcq",
+    "options": [
+      "$0<x< 2$.",
+      "$x< 2$.",
+      "$x>2$.",
+      "$0<x< 1$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Đường cong trong hình bên là đồ thị của hàm số nào dưới đây?\\n\\begin{center}\\n\\begin{tikzpicture}[scale=0.8,>=stealth]\\n    % Vẽ hệ trục tọa độ\\n    \\draw[->] (-3,0) -- (3,0) node[right] {$x$};\\n    \\draw[->] (0,-1) -- (0,5) node[above] {$y$};\\n    \\draw[fill=black] (0,0) circle (1pt) node[below left] {$O$};\\n    \\n    % Vẽ đồ thị hàm số y = 2^x\\n    \\draw[thick, black, smooth, samples=100, domain=-3:2.2] plot (\\x, {2^(\\x)});\\n\\end{tikzpicture}\\n\\end{center}\\n\\n\\choicess{4}\\n\\n    {$y = \\log_2 x$.}\\n    {$y = 2^x$.}\\n    {$y = \\left(\\frac{1}{2}\\right)^x$.}\\n    {$y = x^2$.",
+    "type": "mcq",
+    "options": [
+      "$y = \\log_2 x$.",
+      "$y = 2^x$.",
+      "$y = \\left(\\frac{1}{2}\\right)^x$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Đường cong trong hình bên dưới là đồ thị của hàm số nào trong các hàm số sau?\\n\\begin{center}\\n\\begin{tikzpicture}[scale=0.7, >=stealth]\\n    % Vẽ hệ trục tọa độ\\n    \\draw[->] (-3,0) -- (3,0) node[below] {$x$};\\n    \\draw[->] (0,-1.5) -- (0,5) node[left] {$y$};\\n\\n    % Vẽ các vạch chia trên trục\\n    \\foreach \\x in {-2,-1,1,2} \\draw (\\x,0.1) -- (\\x,-0.1) node[below] {\\small $\\x$};\\n    \\foreach \\y in {1,2,3,4} \\draw (0.1,\\y) -- (-0.1,\\y) node[left] {\\small $\\y$};\\n\\n    % Vẽ đồ thị hàm số y = (1/2)^x = 2^(-x)\\n    \\draw[thick, color=black, domain=-2.2:2.5, samples=150] plot (\\x, {2^(-\\x)});\\n\\n    % Điểm (-2, 4)\\n    \\draw[dashed] (-2,0) -- (-2,4) -- (0,4);\\n    \\fill (-2,4) circle (2pt);\\n    % Điểm (0, 1)\\n    \\fill (0,1) circle (2pt);\\n\\end{tikzpicture}\\n\\end{center}\\n\\n\\choicess{4}\\n\\n    {$y = 2^x$.}\\n    {$y = \\left(\\frac{1}{2}\\right)^x$.}\\n    {$y = \\left(\\frac{1}{4}\\right)^x$.}\\n    {$y = 2-x$.",
+    "type": "mcq",
+    "options": [
+      "$y = 2^x$.",
+      "$y = \\left(\\frac{1}{2}\\right)^x$.",
+      "$y = \\left(\\frac{1}{4}\\right)^x$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Đường cong trong hình bên dưới là đồ thị của hàm số nào trong các hàm số sau?\\n\\begin{center}\\n\\begin{tikzpicture}[scale=0.8, >=stealth]\\n    % Vẽ hệ trục tọa độ\\n    \\draw[->] (-1.5,0) -- (5,0) node[below] {$x$};\\n    \\draw[->] (0,-2.5) -- (0,2.5) node[left] {$y$};\\n\\n    % Vẽ đồ thị hàm số y = log3(x)\\n    \\draw[thick, color=black, domain=0.12:4.8, samples=200] plot (\\x, {ln(\\x)/ln(3)});\\n\\end{tikzpicture}\\n\\end{center}\\n\\n\\choicess{4}\\n\\n    {$y = 3^x$.}\\n    {$y = \\log_3 x$.}\\n    {$y = \\log_{\\frac{1}{3}} x$.}\\n    {$y = \\left(\\frac{1}{3}\\right)^x$.",
+    "type": "mcq",
+    "options": [
+      "$y = 3^x$.",
+      "$y = \\log_3 x$.",
+      "$y = \\log_{\\frac{1}{3}} x$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Cho $\\log_3 2 = a$, tính $\\log_3 24$ theo $a$.\\n\\choicess{4}\\n\\n    {$3a + 1$.}\\n    {$a + 3$.}\\n    {$a^3 + 1$.}\\n    {$3a$.",
+    "type": "mcq",
+    "options": [
+      "$3a + 1$.",
+      "$a + 3$.",
+      "$a^3 + 1$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Cho $\\log_2 5 = b$, tính $\\log_5 \\sqrt{2}$ theo $b$.\\n\\choicess{4}\\n\\n    {$\\frac{1}{2b}$.}\\n    {$\\frac{2}{b}$.}\\n    {$\\frac{b}{2}$.}\\n    {$2b$.",
+    "type": "mcq",
+    "options": [
+      "$\\frac{1}{2b}$.",
+      "$\\frac{2}{b}$.",
+      "$\\frac{b}{2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Một loài vi khuẩn được nuôi cấy trong phòng thí nghiệm với số lượng ban đầu là 500 con. Số lượng vi khuẩn sau $t$ giờ được cho bởi công thức $N(t) = 500 \\cdot 2^t$. \\nSau bao lâu thì số lượng vi khuẩn đạt $8000$ con?\\n",
+    "type": "mcq",
+    "options": [
+      "$4$ giờ.",
+      "$16$ giờ.",
+      "$5$ giờ.",
+      "$3$ giờ."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "mu_logarit",
+    "content": "Một chất phóng xạ có chu kỳ bán rã là 20 năm. Biết khối lượng ban đầu là $500$g. Công thức tính khối lượng còn lại sau $t$ năm là $$M(t) = 500 \\cdot \\left(\\frac{1}{2}\\right)^{\\frac{t}{20}}.$$\\nHỏi sau 60 năm, khối lượng chất phóng xạ còn lại bao nhiêu?\\n",
+    "type": "mcq",
+    "options": [
+      "$62,5$g.",
+      "$125$g.",
+      "$250$g.",
+      "$50$g."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "mu_logarit",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "id": "Quan hệ vuông góc",
+    "content": "Một chiếc lều có dạng hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng 3m và chiều cao $SO=2$m. Tính thể tích của chiếc lều đó.\n\n> [!tip] Gợi ý\n> Sử dụng công thức thể tích hình chóp: $V = \\frac{1}{3} S_{ABCD} \\cdot SO$. Với đáy là hình vuông cạnh $a$, diện tích $S = a^2$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "Quan hệ vuông góc",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Một thùng carton hình hộp chữ nhật với các kích thước đo được là chiều dài $50\\text{ cm}$, chiều rộng $40\\text{ cm}$ và chiều cao $30\\text{ cm}$. Tính thể tích của chiếc thùng carton đó.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Trong không gian, hai đường thẳng được gọi là vuông góc với nhau nếu góc giữa chúng bằng bao nhiêu độ?",
+    "type": "mcq",
+    "options": [
+      "$90^\\circ$.",
+      "$0^\\circ$.",
+      "$180^\\circ$.",
+      "$45^\\circ$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$. Biết $\\widehat{ASC}=30^\\circ$, tính góc giữa đường thẳng $SC$ và mặt phẳng $(ABC)$.",
+    "type": "mcq",
+    "options": [
+      "$30^\\circ$.",
+      "$60^\\circ$.",
+      "$90^\\circ$.",
+      "$45^\\circ$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Tính thể tích của khối lập phương có cạnh bằng $4$.",
+    "type": "mcq",
+    "options": [
+      "$64$.",
+      "$16$.",
+      "$12$.",
+      "$48$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Tính thể tích của khối chóp tứ giác đều có cạnh đáy bằng $1$ và đường cao bằng $2$.",
+    "type": "mcq",
+    "options": [
+      "$\\dfrac{2}{3}$.",
+      "$\\dfrac{1}{3}$.",
+      "$2$.",
+      "$\\dfrac{1}{6}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Tính thể tích của khối chóp tứ giác đều có tất cả các cạnh bằng $a$.",
+    "type": "mcq",
+    "options": [
+      "$\\dfrac{a^3\\sqrt{2}}{6}$.",
+      "$\\dfrac{a^3\\sqrt{2}}{2}$.",
+      "$\\dfrac{a^3\\sqrt{2}}{3}$.",
+      "$\\dfrac{a^3}{3}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Tính thể tích của khối lăng trụ có diện tích đáy bằng $2a^2$ và chiều cao bằng $3a$.",
+    "type": "mcq",
+    "options": [
+      "$2a^3$.",
+      "$6a^3$.",
+      "$3a^3$.",
+      "$a^3$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth}\n    Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$, đáy $ABC$ là tam giác vuông cân tại $A$ có $AB=3$ và $SB=5$. Tính thể tích của khối chóp đã cho.\n    \n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.3\\textwidth}\n    \\vspace{0pt}\n    \\centering\n    <img src=\"assets/tikz_b41326c940.svg\" class=\"tikz-img\">\n\\end{minipage}",
+    "type": "mcq",
+    "options": [
+      "$6$.",
+      "$18$.",
+      "$12$.",
+      "$\\frac{3}{2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Cho điểm $A$ nằm ngoài mặt phẳng $(\\alpha)$. Có bao nhiêu đường thẳng đi qua $A$ và vuông góc với mặt phẳng $(\\alpha)$?",
+    "type": "mcq",
+    "options": [
+      "$1$.",
+      "$0$.",
+      "$2$.",
+      "Vô số."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth}\n        Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa $(ABCD)$ và $(BDD'B')$.\n    \n    \\end{minipage}\n    \\hfill\n    \\begin{minipage}[t]{0.3\\textwidth}\n        \\vspace{2pt}\n        \\centering\n        \\begin{tikzpicture}[scale=0.55, line join=round, line cap=round]\n            \\coordinate (A) at (0,0); \\coordinate (B) at (3.2,0);\n            \\coordinate (D) at (1.5,1.2); \\coordinate (C) at ($(B)+(D)-(A)$);\n            \\coordinate (A') at (0,3); \\coordinate (B') at (3.2,3);\n            \\coordinate (D') at (1.5,4.2); \\coordinate (C') at ($(B')+(D')-(A')$);\n            \\draw[dashed] (A)--(D) (D)--(C) (D)--(D');\n            \\draw (A)--(B)--(C)--(C')--(D')--(A')--cycle;\n            \\draw (A')--(B') (B')--(C') (B')--(B);\n            \\node[left] at (A) {$A$}; \\node[right] at (B) {$B$};\n            \\node[right] at (C) {$C$}; \\node[above right] at (D) {$D$};\n            \\node[left] at (A') {$A'$}; \\node[above] at (B') {$B'$};\n            \\node[above] at (C') {$C'$}; \\node[above] at (D') {$D'$};\n        \\end{tikzpicture}\n    \\end{minipage}",
+    "type": "mcq",
+    "options": [
+      "$90^\\circ$.",
+      "$45^\\circ$.",
+      "$30^\\circ$.",
+      "$60^\\circ$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth}\n        Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA \\perp (ABCD)$. Tính khoảng cách giữa hai đường thẳng $SA$ và $CD$.\n        \n    \\end{minipage}\n    \\hfill\n    \\begin{minipage}[t]{0.3\\textwidth}\n    \\vspace{0pt}\n        \\centering\n        <img src=\"assets/tikz_51300a4247.svg\" class=\"tikz-img\">\n    \\end{minipage}",
+    "type": "mcq",
+    "options": [
+      "$a$.",
+      "$a\\sqrt{2}$.",
+      "$2a$.",
+      "$\\frac{a}{2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth}\n    Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$ và tam giác $ABC$ vuông tại $B$. Góc phẳng nhị diện tạo bởi mặt phẳng $(SBC)$ và mặt phẳng $(ABC)$ là góc nào sau đây?\n    \n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.35\\textwidth}\n    \\vspace{-5pt} \n    \\begin{center}\n    <img src=\"assets/tikz_bf3b1d493a.svg\" class=\"tikz-img\">\n    \\end{center}\n\\end{minipage}",
+    "type": "mcq",
+    "options": [
+      "$\\widehat{SBA}$",
+      "$\\widehat{SCA}$",
+      "$\\widehat{ASB}$",
+      "$\\widehat{BSC}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Trong không gian, góc giữa hai đường thẳng song song là bao nhiêu độ?",
+    "type": "mcq",
+    "options": [
+      "$0^\\circ$.",
+      "$45^\\circ$.",
+      "$90^\\circ$.",
+      "$180^\\circ$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$. Cho biết $\\widehat{SCA}=30^\\circ$, tính góc giữa đường thẳng $SC$ và mặt phẳng $(ABC)$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Tính thể tích của khối chóp tứ giác đều có cạnh đáy bằng $1$ và đường cao bằng $2$.",
+    "type": "mcq",
+    "options": [
+      "$\\dfrac{2}{3}$.",
+      "$\\dfrac{1}{3}$.",
+      "$2$.",
+      "$\\dfrac{1}{6}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Tính thể tích của khối chóp tứ giác đều có tất cả các cạnh bằng $a$.",
+    "type": "mcq",
+    "options": [
+      "$\\dfrac{a^3\\sqrt{2}}{6}$.",
+      "$\\dfrac{a^3\\sqrt{2}}{2}$.",
+      "$\\dfrac{a^3\\sqrt{2}}{3}$.",
+      "$\\dfrac{a^3}{3}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Tính thể tích của khối lăng trụ có diện tích đáy $B=2a^2$ và chiều cao $h=3a$.",
+    "type": "mcq",
+    "options": [
+      "$6a^3$.",
+      "$2a^3$.",
+      "$3a^3$.",
+      "$a^3$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$ và $SB=5$. Đáy $ABC$ là tam giác vuông cân tại $A$, $AB=3$. Tính thể tích của khối chóp đã cho.\n\n\\begin{tikzpicture}[scale=0.65, font=\\footnotesize, line join=round, line cap=round]\n        \\coordinate (A) at (0,0);\n        \\coordinate (B) at (-1.2,-1);\n        \\coordinate (C) at (2.2,-1);\n \n        \\draw[dashed] (S) -- (A) -- (B) (A) -- (C);\n        \\draw (S) -- (B) -- (C) -- (S);\n        \\fill (S) circle (1pt) node[above] {$S$};\n        \\fill (A) circle (1pt) node[left] {$A$};\n        \\fill (B) circle (1pt) node[below left] {$B$};\n        \\fill (C) circle (1pt) node[below right] {$C$};\n        \\draw (0,0.2) -- (0.2,0.2) -- (0.2,0); % Ký hiệu vuông góc tại A\n    \\end{tikzpicture}",
+    "type": "mcq",
+    "options": [
+      "$6$.",
+      "$18$.",
+      "$12$.",
+      "$\\frac{3}{2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa $(ABCD)$ và $(BDD'B')$.\n\n\\begin{tikzpicture}[scale=0.55, line join=round, line cap=round]\n            \\coordinate (A) at (0,0); \\coordinate (B) at (3.2,0);\n            \\coordinate (D) at (1.5,1.2); \\coordinate (C) at ($(B)+(D)-(A)$);\n            \\coordinate (A') at (0,3); \\coordinate (B') at (3.2,3);\n            \\coordinate (D') at (1.5,4.2); \\coordinate (C') at ($(B')+(D')-(A')$);\n            \\draw[dashed] (A)--(D) (D)--(C) (D)--(D');\n            \\draw (A)--(B)--(C)--(C')--(D')--(A')--cycle;\n            \\draw (A')--(B') (B')--(C') (B')--(B);\n            \\node[left] at (A) {$A$}; \\node[right] at (B) {$B$};\n            \\node[right] at (C) {$C$}; \\node[above right] at (D) {$D$};\n            \\node[left] at (A') {$A'$}; \\node[above] at (B') {$B'$};\n            \\node[above] at (C') {$C'$}; \\node[above] at (D') {$D'$};\n        \\end{tikzpicture}",
+    "type": "mcq",
+    "options": [
+      "$90^\\circ$.",
+      "$45^\\circ$.",
+      "$30^\\circ$.",
+      "$60^\\circ$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA \\perp (ABCD)$. Tính khoảng cách giữa hai đường thẳng $SA$ và $CD$.\n\n<img src=\"assets/tikz_51300a4247.svg\" class=\"tikz-img\">",
+    "type": "mcq",
+    "options": [
+      "$a$.",
+      "$a\\sqrt{2}$.",
+      "$2a$.",
+      "$\\frac{a}{2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_gco",
+    "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$ và tam giác $ABC$ vuông tại $B$. Góc phẳng nhị diện tạo bởi mặt phẳng $(SBC)$ và mặt phẳng $(ABC)$ là góc nào sau đây?\n\n<img src=\"assets/tikz_bf3b1d493a.svg\" class=\"tikz-img\">",
+    "type": "mcq",
+    "options": [
+      "$\\widehat{SBA}$",
+      "$\\widehat{SCA}$",
+      "$\\widehat{ASB}$",
+      "$\\widehat{BSC}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_gco",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth}\\n     \nKim tự tháp Louvre ở Pháp có dạng một hình chóp tứ giác đều $S.ABCD$. Đáy là hình vuông tâm $O$, $AB=34$ m, $SA=32$ m và $SO \\perp (ABCD)$.\\n\\begin{enumerate}[label=\\alph*)]\\n    \nTính khoảng cách từ đỉnh đến đáy của kim tự tháp (Làm tròn đến hàng phần chục).\\n    \nTính góc được tạo bởi các cạnh bên và mặt đáy (Làm tròn đến hàng đơn vị của độ).\\n    \nTính thể tích của kim tự tháp.\\n    \\\nitem Chứng minh rằng $AC \\perp (SBD)$ và $(SAC) \\perp (ABCD)$.\\n\n\\end{enumerate}\\n\n\\end{minipage}\\n\n\\hfill\\n\n\\begin{minipage}[t]{0.35\\textwidth}\\n    \\vspace{0pt}\\n    \\begin{center}\\n\\begin{tikzpicture}[scale=1.2, line join=round, line cap=round]\\n    % 1. Định nghĩa các tọa độ\\n    % Đáy ABCD là hình bình hành để tạo hiệu ứng 3D\\n    \\coordinate (O) at (0,0);           % Tâm đáy\\n    \\coordinate (A) at (-1,-0.5);       % Góc trước bên trái\\n    \\coordinate (B) at (1,-0.5);        % Góc trước bên phải\\n    \\coordinate (C) at (1.,0.5);       % Góc sau bên phải\\n    \\coordinate (D) at (-1,0.5);      % Góc sau bên trái\\n    \\coordinate (S) at (0,2.5);         % Đỉnh chóp (nằm thẳng đứng trên tâm O)\\n\\n    % 2. Vẽ các cạnh khuất (nét đứt)\\n    \\draw[thick] (D) -- (A);\\n    \\draw[dashed] (D) -- (C);\\n    \\draw[thick] (S) -- (D);\\n    \\draw[dashed] (A) -- (C);           % Đường chéo AC\\n    \\draw[dashed] (B) -- (D);           % Đường chéo BD\\n    \\draw[dashed, blue, thick] (S) -- (O); % Đường cao SO\\n\\n    % 3. Vẽ các cạnh nhìn thấy (nét liền)\\n    \\draw[thick] (A) -- (B) -- (C);     % Các cạnh đáy trước\\n    \\draw[thick] (S) -- (A);            % Cạnh bên SA\\n    \\draw[thick] (S) -- (B);            % Cạnh bên SB\\n    \\draw[thick] (S) -- (C);            % Cạnh bên SC\\n\\n        % 5. Gán nhãn cho các điểm\\n    \\node[left] at (A) {$A$};\\n    \\node[below] at (B) {$B$};\\n    \\node[right] at (C) {$C$};\\n    \\node[above left] at (D) {$D$};\\n    \\node[above] at (S) {$S$};\\n    \\node[below] at (O) {$O$};\\n\\n\\end{tikzpicture}\\n\\end{center}\\n\\end{minipage}",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình hộp chữ nhật $ABCD.A'B'C'D'$. Hình chiếu vuông góc của điểm $A'$ lên mặt phẳng $(ABCD)$ là điểm nào?",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth} \nCho hình chóp $S.ABC$ có $SA \\perp (ABC)$, đáy $ABC$ là tam giác vuông tại $B$.\nKhẳng định nào sau đây \\textbf{sai}?\n\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.3\\textwidth}\n\\vspace{-10pt} % Dùng giá trị âm để kéo hình lên hoặc dương để đẩy xuống\n\\centering<img src=\"assets/tikz_3961d1e0bf.svg\" class=\"tikz-img\">\n\\end{minipage}",
+    "type": "mcq",
+    "options": [
+      "$BC \\perp SB$.",
+      "$BC \\perp SA$.",
+      "$BC \\perp (SAB)$.",
+      "$BC \\perp SC$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth}\nCho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA \\perp (ABCD)$.\nTính khoảng cách giữa hai đường thẳng $SA$ và $BC$.\n\n\\end{minipage}\\hfill\n\\begin{minipage}[t]{0.3\\textwidth}\n\\vspace{0pt}\n\\centering\n\\begin{tikzpicture}[scale=0.8, line join=round, line cap=round]\n\\coordinate (A) at (0,0);\n\\coordinate (B) at (-0.8,-1);\n\\coordinate (D) at (2.5,0);\n\\coordinate (C) at ($(B)+(D)-(A)$);\n\\coordinate (S) at (0,2.5);\n\n\\draw[dashed] (S)--(A)--(D) (A)--(B);\n\\draw (S)--(B)--(C)--(D)--cycle;\n\\draw (S)--(C);\n\\draw (0,0.25)--(0.25,0.25)--(0.25,0);\n\n\\node[above right] at (A) {$A$};\n\\node[below left] at (B) {$B$};\n\\node[below right] at (C) {$C$};\n\\node[right] at (D) {$D$};\n\\node[above] at (S) {$S$};\n\\end{tikzpicture}\n\\end{minipage}",
+    "type": "mcq",
+    "options": [
+      "$a$.",
+      "$a\\sqrt{2}$.",
+      "$\\dfrac{a}{2}$.",
+      "$2a$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$. Khẳng định nào sau đây là \\textbf{sai}?",
+    "type": "mcq",
+    "options": [
+      "$SA \\perp AB$.",
+      "$SA \\perp BC$.",
+      "$SA \\perp AC$.",
+      "$SA \\perp SB$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Tính thể tích của khối chóp có chiều cao bằng $3$ và diện tích đáy bằng $10$.",
+    "type": "mcq",
+    "options": [
+      "$30$.",
+      "$10$.",
+      "$90$.",
+      "$13$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình chóp $S.ABCD$ có $SA \\perp (ABCD)$. Xác định góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$.\\n",
+    "type": "mcq",
+    "options": [
+      "$\\widehat{SAC}$.",
+      "$\\widehat{SCA}$.",
+      "$\\widehat{ASC}$.",
+      "$\\widehat{SCD}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình chóp $S.ABCD$ có $(SAB) \\perp (ABCD)$ và tam giác $SAB$ đều. Đáy $ABCD$ là hình vuông tâm $O$ và $H$ là trung điểm đoạn $AB$. Hình chiếu vuông góc của $S$ lên $(ABCD)$ là điểm nào?\\n",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình chóp $S.ABC$ có $SA\\perp(ABC)$ và $\\widehat{BSA} = 50^\\circ$. Tính góc giữa đường thẳng $SB$ và mặt phẳng $(ABC)$.",
+    "type": "mcq",
+    "options": [
+      "$40^\\circ$.",
+      "$50^\\circ$.",
+      "$90^\\circ$.",
+      "$130^\\circ$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth}\nCho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $1$. Tính khoảng cách giữa hai mặt phẳng $(AA'B'B)$ và $(CC'D'D)$.\n\n\\end{minipage}\\hfill\n\\begin{minipage}[t]{0.3\\textwidth}\n\\vspace{2pt} \n\\centering \n      \\begin{tikzpicture}[scale=0.6, line join=round, line cap=round]\n\\coordinate (A) at (0,0);\\coordinate (B) at (4,0);\n\\coordinate (D) at (1.5,1.2);\n\\coordinate (C) at ($(B)+(D)-(A)$);\n\\coordinate (A') at (0,3);\n\\coordinate (B') at (4,3);\n\\coordinate (D') at (1.5,4.2);\n\\coordinate (C') at ($(B')+(D')-(A')$);\n\\draw[dashed] (A)--(D) (D)--(C) (D)--(D');\n\\draw (A)--(B)--(C)--(C')--(D')--(A')--cycle;\n\\draw (A')--(B') (B')--(C') (B')--(B);\n\n\\node[left] at (A) {$A$};\n\\node[right] at (B) {$B$};\n\\node[right] at (C) {$C$};\n\\node[above right] at (D) {$D$};\n\\node[left] at (A') {$A'$};\n\\node[above] at (B') {$B'$};\n\\node[above] at (C') {$C'$};\n\\node[above] at (D') {$D'$};\n\\end{tikzpicture}\n\\end{minipage}",
+    "type": "mcq",
+    "options": [
+      "$1$.",
+      "$\\sqrt{2}$.",
+      "$\\sqrt{3}$.",
+      "$\\frac{1}{2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $a$. Tính khoảng cách giữa hai đường thẳng $BC$ và $A'D'$.",
+    "type": "mcq",
+    "options": [
+      "$a$.",
+      "$a\\sqrt{2}$.",
+      "$a\\sqrt{3}$.",
+      "$\\dfrac{a\\sqrt{2}}{2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $a$. Tính khoảng cách giữa đường thẳng $CD$ và mặt phẳng $(ABC'D')$.",
+    "type": "mcq",
+    "options": [
+      "$a$.",
+      "$\\dfrac{a}{2}$.",
+      "$\\dfrac{a\\sqrt{2}}{2}$.",
+      "$a\\sqrt{2}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth} \nCho hình chóp $S.ABC$ có $SA \\perp(ABC)$, đáy $ABC$ là tam giác vuông tại $A$. Khẳng định nào sau đây \\textbf{sai}?\n\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.3\\textwidth}\n\\vspace{-10pt}\n\\centering<img src=\"assets/tikz_12ac0dfdb7.svg\" class=\"tikz-img\">\n\\end{minipage}\n^q-qhvg-40",
+    "type": "mcq",
+    "options": [
+      "$AB \\perp AC$",
+      "$AC \\perp (SAB)$.",
+      "$AB \\perp (SAC)$.",
+      "$BC \\perp (SAB)$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho tứ diện $ABCD$ có $AB = AC$ và $DB = DC$. Khẳng định nào sau đây đúng?",
+    "type": "mcq",
+    "options": [
+      "$BC \\perp AD$.",
+      "$AC \\perp BD$.",
+      "$AB \\perp CD$.",
+      "$AB \\perp AD$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, hai mặt bên $(SAB)$ và $(SAD)$ cùng vuông góc với mặt đáy. Gọi $AH, AK$ lần lượt là đường cao của các tam giác $SAB, SAD$. Mệnh đề nào sau đây là \\textbf{sai}?",
+    "type": "mcq",
+    "options": [
+      "$AK \\perp BD$.",
+      "$BC \\perp AH$.",
+      "$HK \\perp SC$.",
+      "$SC \\perp AK$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth}\n    Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông tâm $O$, $SA \\perp (ABCD)$. Gọi $I$ là trung điểm của $SC$. Khoảng cách từ $I$ đến mặt phẳng $(ABCD)$ bằng độ dài đoạn thẳng nào sau đây?\n    \n\\end{minipage}\n\\begin{minipage}[t]{0.3\\textwidth}\n\\vspace{0pt}    \n\\centering\n    \\begin{tikzpicture}[scale=0.6, line join=round, line cap=round]\n        \\coordinate (A) at (0,0);\n        \\coordinate (B) at (-1.5,-1.5);\n        \\coordinate (D) at (3,0);\n        \\coordinate (C) at ($(B)+(D)-(A)$);\n        \\coordinate (S) at (0,3);\n        \\coordinate (O) at (intersection of A--C and B--D);\n        \\coordinate (I) at ($(S)!0.5!(C)$);\n        \n        \\draw [dashed] (S)--(A)--(B) (A)--(D) (A)--(C) (B)--(D) (I)--(O);\n        \\draw (S)--(B)--(C)--(D)--cycle (S)--(C);\n        \n        \\fill (A) circle (1.5pt) node[left] {$A$};\n        \\fill (B) circle (1.5pt) node[below left] {$B$};\n        \\fill (C) circle (1.5pt) node[below right] {$C$};\n        \\fill (D) circle (1.5pt) node[right] {$D$};\n        \\fill (S) circle (1.5pt) node[above] {$S$};\n        \\fill (O) circle (1.5pt) node[below] {$O$};\n        \\fill (I) circle (1.5pt) node[right] {$I$};\n    \\end{tikzpicture}\n\\end{minipage}",
+    "type": "mcq",
+    "options": [
+      "$IO$.",
+      "$SA$.",
+      "$IC$.",
+      "$IB$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Tính thể tích $V$ của khối chóp tứ giác đều có cạnh đáy bằng $7$ m và cạnh bên bằng $8$ m.\n    \n%vandung",
+    "type": "mcq",
+    "options": [
+      "$V = \\dfrac{49\\sqrt{79}}{6} \\text{ m}^3$.",
+      "$V = \\dfrac{49\\sqrt{79}}{2} \\text{ m}^3$.",
+      "$V = \\dfrac{49\\sqrt{15}}{6} \\text{ m}^3$.",
+      "$V = \\dfrac{49\\sqrt{15}}{2} \\text{ m}^3$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA \\perp (ABCD)$ và $SA = a\\sqrt{6}$. Gọi $\\alpha$ là góc giữa đường thẳng $SB$ và mặt phẳng $(ABCD)$. Giá trị của $\\tan \\alpha$ bằng",
+    "type": "mcq",
+    "options": [
+      "$\\sqrt{6}$",
+      "$\\frac{\\sqrt{6}}{6}$",
+      "$\\sqrt{7}$",
+      "$\\frac{\\sqrt{6}}{2}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "\\begin{minipage}[t]{0.65\\textwidth}\n    Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA \\perp (ABCD)$ và $SA = a\\sqrt{6}$. Gọi $\\alpha$ là góc giữa đường thẳng $SB$ và mặt phẳng $(SAC)$. Tính $\\sin \\alpha$.\n    \n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.3\\textwidth}\n    \\vspace{-10pt}\n    \\centering\n    \\begin{tikzpicture}[scale=0.8, font=\\footnotesize, line join=round, line cap=round]\n        \\coordinate (A) at (0,0);\n        \\coordinate (B) at (-1.2,-1.2);\n        \\coordinate (D) at (2.5,0);\n        \\coordinate (C) at ($(B)+(D)-(A)$);\n        \\coordinate (S) at (0,3);\n        \\coordinate (O) at ($(A)!0.5!(C)$);\n        \\draw[dashed] (S)--(A)--(B) (A)--(D) (A)--(C) (B)--(D);\n        \\draw (S)--(B)--(C)--(D)--(S) (S)--(C);\n        \\fill (S) circle (1pt) node[above] {$S$};\n        \\fill (A) circle (1pt) node[above left] {$A$};\n        \\fill (B) circle (1pt) node[below left] {$B$};\n        \\fill (C) circle (1pt) node[below right] {$C$};\n        \\fill (D) circle (1pt) node[right] {$D$};\n        \\fill (O) circle (1pt) node[below] {$O$};\n        \\draw (0,0.25) -- (0.25,0.25) -- (0.25,0);\n    \\end{tikzpicture}\n\\end{minipage\n}",
+    "type": "mcq",
+    "options": [
+      "$\\frac{1}{\\sqrt{14}}$",
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$\\frac{\\sqrt{2}}{4}$",
+      "$\\frac{1}{2}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$. Gọi $H$ là hình chiếu vuông góc của $A$ lên đường thẳng $BC$. Khẳng định nào sau đây đúng?",
+    "type": "mcq",
+    "options": [
+      "$BC \\perp (SAH)$.",
+      "$BC \\perp (SAB)$.",
+      "$BC \\perp (SAC)$.",
+      "$BC \\perp (SBC)$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa đường thẳng $A'C'$ và mặt phẳng $(ABCD)$.",
+    "type": "mcq",
+    "options": [
+      "$0^\\circ$.",
+      "$45^\\circ$.",
+      "$90^\\circ$.",
+      "$30^\\circ$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "quan_he_vuong_goc",
+    "content": "Tính thể tích của khối chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$.",
+    "type": "mcq",
+    "options": [
+      "$\\frac{a^3\\sqrt{2}}{3}$",
+      "$a^3\\sqrt{2}$",
+      "$\\frac{a^3\\sqrt{2}}{6}$",
+      "$\\frac{a^3}{3}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quan_he_vuong_goc",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suta",
+    "content": "Cho $A$ và $B$ là hai biến cố độc lập với $P(A)=0,7$ và $P(B)=0,2$. Tính $P\\left(A\\overline{B}\\right)$.\n\n\n% Lời nhắc dành cho AI: $A$ và $\\overline{B}$ cũng độc lập. $P(A\\overline{B}) = P(A) \\cdot (1 - P(B)) = 0,7 \\cdot 0,8 = 0,56$.",
+    "type": "mcq",
+    "options": [
+      "$0,56$.",
+      "$0,14$.",
+      "$0,5$.",
+      "$0,16$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suta",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suta",
+    "content": "Cho $A$ và $B$ là hai biến cố độc lập với $P(A)=0,6$, $P(B)=0,3$. Tính $P(A \\cup B)$.\n\n\n% Lời nhắc dành cho AI: $P(A \\cup B) = P(A) + P(B) - P(A)P(B) = 0,6 + 0,3 - 0,18 = 0,72$.",
+    "type": "mcq",
+    "options": [
+      "$0,9$.",
+      "$0,72$.",
+      "$0,18$.",
+      "$0,54$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suta",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suat",
+    "content": "Cho hai biến cố $A$ và $B$. Nếu việc xảy ra hay không xảy ra của biến cố $A$ không làm ảnh hưởng tới xác suất xảy ra của biến cố $B$ thì hai biến cố $A$ và $B$ được gọi là:",
+    "type": "mcq",
+    "options": [
+      "Xung khắc.",
+      "Đối nhau.",
+      "Độc lập.",
+      "Hợp nhau."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suat",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suta",
+    "content": "Từ một hộp có 5 quả cầu xanh và 6 quả cầu trắng, lấy ngẫu nhiên đồng thời 2 quả cầu. Có bao nhiêu cách lấy ra hai quả cầu cùng màu?\n\n\n% Lời nhắc dành cho AI: Số cách = $C_5^2 + C_6^2 = 10 + 15 = 25$.",
+    "type": "mcq",
+    "options": [
+      "$10$.",
+      "$15$.",
+      "$25$.",
+      "$55$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suta",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suta",
+    "content": "Hai biến cố $A$ và $B$ được gọi là xung khắc khi và chỉ khi:\n\n\n% Lời nhắc dành cho AI: Định nghĩa xung khắc là không thể cùng xảy ra.",
+    "type": "mcq",
+    "options": [
+      "$A \\cap B = \\varnothing$.",
+      "$A \\cup B = \\varnothing$.",
+      "$A \\cap B = \\Omega$.",
+      "$A \\cup B = \\Omega$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suta",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suta",
+    "content": "Một hộp đựng $30$ tấm thẻ cùng loại được đánh số từ $1$ đến $30$. Rút ngẫu nhiên một tấm thẻ trong hộp. Gọi $A$ là biến cố “Rút được tấm thẻ ghi số chia hết cho $3$”; Gọi $B$ là biến cố “Rút được tấm thẻ ghi số lớn hơn $10$ và nhỏ hơn $20$”. Số phần tử của biến cố $A \\cap B$ là bao nhiêu?\n\n\n% Lời nhắc dành cho AI: Các số thỏa mãn: $12, 15, 18$. Vậy có 3 phần tử.",
+    "type": "mcq",
+    "options": [
+      "$3$.",
+      "$4$.",
+      "$5$.",
+      "$6$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suta",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suta",
+    "content": "Cho $A$ và $B$ là hai biến cố xung khắc. Công thức nào sau đây đúng?\n\n\n% Lời nhắc dành cho AI: Quy tắc cộng xác suất cho hai biến cố xung khắc.",
+    "type": "mcq",
+    "options": [
+      "$P(A \\cup B) = P(A) + P(B)$.",
+      "$P(A \\cup B) = P(A) - P(B)$.",
+      "$P(A \\cap B) = P(A) + P(B)$.",
+      "$P(A \\cap B) = P(A) - P(B)$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suta",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suat",
+    "content": "Xác suất bắn trúng mục tiêu của một vận động viên ở mỗi lần bắn là $0,7$. Người đó thực hiện hai lần bắn một cách độc lập. Tính xác suất để trong 2 lần bắn, chỉ có đúng một lần trúng mục tiêu.\n\n\n% Lời nhắc dành cho AI: Xác suất = $P(T1)P(\\overline{T2}) + P(\\overline{T1})P(T2) = 0,7 \\cdot 0,3 + 0,3 \\cdot 0,7 = 0,42$.",
+    "type": "mcq",
+    "options": [
+      "$0,42$.",
+      "$0,49$.",
+      "$0,21$.",
+      "$0,09$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suat",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suat",
+    "content": "Gieo một con xúc xắc cân đối và đồng chất hai lần liên tiếp. Xét các biến cố $A$: ``Tổng số chấm ở hai lần gieo bằng $8$'' và $B$: ``Số chấm xuất hiện ở lần gieo thứ hai là số chẵn''. Tính $P(AB)$.\n\n\n% Lời nhắc dành cho AI: $AB$ gồm các cặp $(2,6), (4,4), (6,2)$. Không gian mẫu là 36. Xác suất là $3/36 = 1/12$.",
+    "type": "mcq",
+    "options": [
+      "$\\frac{1}{12}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{5}{36}$",
+      "$\\frac{1}{4}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suat",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suta",
+    "content": "Cho $A$ và $B$ là hai biến cố độc lập với $P(A) = 0,3$ và $P(B) = 0,5$. Tính $P(A \\cup B)$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suta",
+      "grade": "11",
+      "type": "Trả lời ngắn",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suta",
+    "content": "Gieo một con xúc xắc cân đối và đồng chất $4$ lần. Xác suất của biến cố $A$: ``Mặt $4$ chấm xuất hiện ít nhất $1$ lần'' là\n    \n\n    \\begin{itemize}\n        [\\textbf{Lời giải:}] \n        Số phần tử của không gian mẫu khi gieo xúc xắc $4$ lần là: $n(\\Omega) = 6^4$. \\\\\n        Gọi $A$ là biến cố: ``Mặt $4$ chấm xuất hiện ít nhất $1$ lần''. \\\\\n        Biến cố đối $\\overline{A}$: ``Mặt $4$ chấm không xuất hiện lần nào trong cả $4$ lần gieo''. \\\\\n        Trong mỗi lần gieo, các mặt không phải mặt $4$ chấm gồm $\\{1; 2; 3; 5; 6\\}$ (có $5$ khả năng). \\\\\n        Số kết quả thuận lợi cho $\\overline{A}$ là: $n(\\overline{A}) = 5^4$. \\\\\n        Xác suất của biến cố đối là: $P(\\overline{A}) = \\dfrac{5^4}{6^4} = \\left(\\dfrac{5}{6}\\right)^4$. \\\\\n        Vậy xác suất của biến cố $A$ là: $P(A) = 1 - P(\\overline{A}) = 1 - \\left(\\dfrac{5}{6}\\right)^4$.\n        [\\textbf{Phân tích phương án nhiễu:}]\n        \\begin{itemize}\n            \\textbf{Phương án $\\left(\\dfrac{1}{6}\\right)^4$:} Học sinh nhầm lẫn sang xác suất để mặt $4$ chấm xuất hiện trong \\textit{cả 4 lần} gieo.\n            \\textbf{Phương án $1 - \\left(\\dfrac{1}{6}\\right)^4$:} Học sinh sử dụng biến cố đối nhưng xác định sai nội dung biến cố đối (nhầm $\\overline{A}$ là biến cố mặt $4$ chấm xuất hiện cả $4$ lần).\n            \\textbf{Phương án $\\dfrac{4}{6}$:} Học sinh lấy số lần gieo chia cho số mặt của xúc xắc, một lỗi sai sơ đẳng về tư duy xác suất cổ điển.\n        \\end{itemize}\n    \\end{itemize}",
+    "type": "mcq",
+    "options": [
+      "$1 - \\left(\\dfrac{5}{6}\\right)^4$.",
+      "$\\left(\\dfrac{1}{6}\\right)^4$.",
+      "$1 - \\left(\\dfrac{1}{6}\\right)^4$.",
+      "$\\dfrac{4}{6}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suta",
+      "grade": "11",
+      "type": "Trả lời ngắn",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suta",
+    "content": "Một khu dân cư có $40$ hộ gia đình, trong đó có $20$ hộ trồng hoa, $15$ hộ trồng rau và $8$ hộ trồng cả hoa và rau. Chọn ngẫu nhiên một hộ trong khu dân cư trên, tính xác suất để hộ được chọn trồng hoa hoặc trồng rau.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suta",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suat",
+    "content": "Hai cầu thủ bóng đá chuẩn bị sút phạt đền, biết rằng mỗi người thực hiện một cú sút với xác suất ghi bàn tương ứng là $0,8$ và $0,7$. Tính xác suất để có ít nhất một cầu thủ ghi bàn.",
+    "type": "mcq",
+    "options": [
+      "$0,94$.",
+      "$0,56$.",
+      "$0,06$.",
+      "$0,15$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suat",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suat",
+    "content": "Từ một tổ có $4$ nam và $5$ nữ, chọn ngẫu nhiên $3$ học sinh. Tính xác suất của biến cố: \"Trong $3$ học sinh được chọn có $2$ nam và $1$ nữ\".",
+    "type": "mcq",
+    "options": [
+      "$\\dfrac{10}{21}$.",
+      "$\\dfrac{5}{14}$.",
+      "$\\dfrac{30}{84}$.",
+      "$\\dfrac{10}{28}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suat",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suat",
+    "content": "Từ một hộp chứa 6 viên bi xanh và 4 viên bi đỏ, lấy ngẫu nhiên đồng thời 2 viên bi. Tính xác suất để lấy được 2 viên bi cùng màu xanh.",
+    "type": "mcq",
+    "options": [
+      "$\\dfrac{1}{3}$.",
+      "$\\dfrac{2}{15}$.",
+      "$\\dfrac{7}{15}$.",
+      "$\\dfrac{8}{15}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suat",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suat",
+    "content": "Tung một đồng xu cân đối và đồng chất hai lần liên tiếp. Xét hai biến cố $A$: \"Có ít nhất một lần xuất hiện mặt sấp\" và $B$: \"Có ít nhất một lần xuất hiện mặt ngửa\". Số phần tử của biến cố $A \\cap B$ là",
+    "type": "mcq",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$4$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suat",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suat",
+    "content": "Từ một hộp có $5$ viên bi màu đen và $4$ viên bi màu trắng, chọn ngẫu nhiên $2$ viên bi. Tính xác suất của biến cố \"Hai viên bi được chọn có cùng màu\".",
+    "type": "mcq",
+    "options": [
+      "$\\frac{4}{9}$",
+      "$\\frac{5}{9}$",
+      "$\\frac{1}{9}$",
+      "$\\frac{2}{9}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suat",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "quy_tac_xac_suat",
+    "content": "Một chiếc hộp chứa $8$ viên bi màu xanh và $5$ viên bi màu đỏ. Lấy ra ngẫu nhiên một viên bi, xem màu và không trả lại. Thực hiện phép thử trên hai lần liên tiếp. Tính xác suất của biến cố: \"Lấy được $2$ viên bi cùng màu\".",
+    "type": "mcq",
+    "options": [
+      "$\\frac{19}{39}$",
+      "$\\frac{14}{39}$",
+      "$\\frac{89}{156}$",
+      "$\\frac{7}{13}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "quy_tac_xac_suat",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm của hàm số $y=2\\sin 3x + \\cos 2x$.\n\n\n% Lời nhắc dành cho AI: Sử dụng đạo hàm hàm hợp $(\\sin u)' = u' \\cos u$ và $(\\cos u)' = -u' \\sin u$.",
+    "type": "mcq",
+    "options": [
+      "$y'=6\\cos 3x - 2\\sin 2x$.",
+      "$y'=2\\cos 3x + \\sin 2x$.",
+      "$y'=-6\\cos 3x + 2\\sin 2x$.",
+      "$y'=2\\cos 3x - \\sin 2x$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm của hàm số $y=\\frac{3x-1}{x+2}$.",
+    "type": "mcq",
+    "options": [
+      "$y'=\\frac{7}{(x+2)^2}$.",
+      "$y'=\\frac{5}{(x+2)^2}$.",
+      "$y'=\\frac{-7}{(x+2)^2}$.",
+      "$y'=3$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tìm hệ số góc tiếp tuyến của đồ thị hàm số $y=x^4-2x^2+1$ tại điểm $M(1;0)$.",
+    "type": "mcq",
+    "options": [
+      "$4$.",
+      "$-4$.",
+      "$0$.",
+      "$2$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "dao_hma",
+    "content": "Với $x>0$, tính đạo hàm của hàm số $y=\\ln x$.\n\n\n% Lời nhắc dành cho AI: Đây là công thức đạo hàm cơ bản của hàm logarit tự nhiên.",
+    "type": "mcq",
+    "options": [
+      "$y'=\\dfrac{1}{x}$.",
+      "$y'=e^x$.",
+      "$y'=-\\dfrac{1}{x^2}$.",
+      "$y'=\t\\dfrac{1}{\\ln x}$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_hma",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm cấp hai của hàm số $y=x^3-3x^2+5x-2$.\n.\n\n% Lời nhắc dành cho AI: Ưu tiên cấu trúc hỏi: \"Tính/ Tìm <noi_dung> .\"",
+    "type": "mcq",
+    "options": [
+      "$y''=3x^2-6x+5$.",
+      "$y''=6x-6$.",
+      "$y''=6x$.",
+      "$y''=6$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "id": "dao_hma",
+    "content": "Xét một vật có phương trình chuyển động là $S(t) = t^3 - 3t^2 + 5t$, trong đó $t$ được tính bằng giây, $S$ được tính bằng mét. Tính gia tốc của vật tại thời điểm $t = 3$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_hma",
+      "grade": "11",
+      "type": "Trả lời ngắn",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Nhiệt độ cơ thể người trong thời gian bị bệnh được cho bởi công thức $T(t) = -0,1t^2 + 1,2t + 98,6$, trong đó $T$ tính theo đơn vị $^\\circ\\text{F}$ và $t$ tính theo đơn vị ngày. Tìm tốc độ thay đổi của nhiệt độ tại thời điểm $t = 2$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trả lời ngắn",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Viết phương trình tiếp tuyến của đồ thị hàm số $y=-x^3+3x-1$ tại điểm có hoành độ bằng 2.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Viết phương trình tiếp tuyến của đồ thị hàm số $y=x^3-3x+2$ tại điểm $B(1;0)$.",
+    "type": "short_answer",
+    "options": [],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Tự luận",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Xác định hệ số góc tiếp tuyến của đồ thị hàm số $y = x^2 - 3x$ tại điểm có hoành độ bằng $2$.\n    .",
+    "type": "mcq",
+    "options": [
+      "$1$.",
+      "$-1$.",
+      "$2$.",
+      "$0$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_hma",
+    "content": "Tính đạo hàm của hàm số $y = x^4$.",
+    "type": "mcq",
+    "options": [
+      "y' = 4x^3.",
+      "y' = 4x^4.",
+      "y' = x^3.",
+      "y' = 4x^5."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_hma",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm của hàm số $y = x^3$.",
+    "type": "mcq",
+    "options": [
+      "y' = 3x^2.",
+      "y' = 3x.",
+      "y' = x^2.",
+      "y' = 3x^3."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Với $x > 0$, tính đạo hàm của hàm số $y = \\frac{1}{x} + \\sqrt{x}$.",
+    "type": "mcq",
+    "options": [
+      "y' = -\\frac{1}{x^2} + \\frac{1}{2\\sqrt{x}}.",
+      "y' = \\frac{1}{x^2} + \\frac{1}{2\\sqrt{x}}.",
+      "y' = -\\frac{1}{x^2} + \\frac{1}{\\sqrt{x}}.",
+      "y' = \\ln x + \\frac{1}{2\\sqrt{x}}."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Với $x > 0$, tính đạo hàm của hàm số $y = e^x + \\ln x$.",
+    "type": "mcq",
+    "options": [
+      "y' = e^x + \\frac{1}{x}.",
+      "y' = e^x - \\frac{1}{x}.",
+      "y' = xe^{x-1} + \\frac{1}{x}.",
+      "y' = e^x + \\frac{1}{x^2}."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm của hàm số $y = e^x \\cdot \\sin x$.",
+    "type": "mcq",
+    "options": [
+      "y' = e^x(\\sin x + \\cos x).",
+      "y' = e^x \\cdot \\cos x.",
+      "y' = e^x(\\sin x - \\cos x).",
+      "y' = e^x + \\cos x."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm của hàm số $y = x \\cdot e^x$.",
+    "type": "mcq",
+    "options": [
+      "y' = e^x(1 + x).",
+      "y' = e^x.",
+      "y' = 1 + e^x.",
+      "y' = e^x(1 - x)."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm của hàm số $y = \\frac{2x+1}{1-x}$.\n    $",
+    "type": "mcq",
+    "options": [
+      "$y' = \\frac{3}{(1-x)^2}$",
+      "$y' = \\frac{1}{(1-x)^2}$",
+      "$y' = \\frac{-3}{(1-x)^2}$",
+      "$y' = \\frac{3}{1-x}"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_hma",
+    "content": "Cho hàm số $f(x) = (x-1)^3$. Tính $f'(1)$.\\",
+    "type": "mcq",
+    "options": [
+      "0.",
+      "1.",
+      "3.",
+      "-3."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_hma",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Cho hàm số $f(x) = (x-2)^4$, tính $f'(2).$",
+    "type": "mcq",
+    "options": [
+      "0.",
+      "1.",
+      "4.",
+      "-8."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm của hàm số $y = \\tan(e^x)$.",
+    "type": "mcq",
+    "options": [
+      "$y' = \\frac{e^x}{\\cos^2(e^x)}$",
+      "$y' = \\frac{1}{\\cos^2(e^x)}$",
+      "$y' = e^x \\tan(e^x)$",
+      "$y' = -\\frac{e^x}{\\cos^2(e^x)}$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm của hàm số $y = \\sin(e^x)$.",
+    "type": "mcq",
+    "options": [
+      "$y' = e^x \\cos(e^x)$",
+      "$y' = \\cos(e^x)$",
+      "$y' = -e^x \\cos(e^x)$",
+      "$y' = e^x \\sin(e^x)$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm cấp hai của hàm số $y = e^x$.",
+    "type": "mcq",
+    "options": [
+      "$e^x$",
+      "$x \\cdot e^{x-1}$",
+      "$0$",
+      "$1$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm cấp hai của hàm số $y = x^3 - 2x + 5$.",
+    "type": "mcq",
+    "options": [
+      "$6x$",
+      "$3x^2 - 2$",
+      "$6$",
+      "$3x - 2$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Tính đạo hàm cấp hai của hàm số $y = x^4 - 3x^2 + 1$.",
+    "type": "mcq",
+    "options": [
+      "y'' = 12x^2 - 6.",
+      "y'' = 4x^3 - 6x.",
+      "y'' = 12x^2 - 6x.",
+      "y'' = 4x^2 - 6."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Nhận biết",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Viết phương trình tiếp tuyến của đồ thị hàm số $y = \\frac{2x+1}{x-1}$ tại điểm có tung độ bằng $5$.",
+    "type": "mcq",
+    "options": [
+      "$y = -3x + 11$",
+      "$y = -3x - 1$",
+      "$y = 3x + 1$",
+      "$y = 3x - 11$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Viết phương trình tiếp tuyến của đồ thị hàm số $y = x^4$ tại điểm có hoành độ bằng $1$.",
+    "type": "mcq",
+    "options": [
+      "$y = 4x - 3$",
+      "$y = 4x + 3$",
+      "$y = x - 1$",
+      "$y = 4x - 4$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Viết phương trình tiếp tuyến của đồ thị hàm số $y = \\frac{1}{x-1}$ tại điểm có hoành độ bằng $0$.",
+    "type": "mcq",
+    "options": [
+      "$y = -x - 1$",
+      "$y = -x + 1$",
+      "$y = x - 1$",
+      "$y = x + 1$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Viết phương trình tiếp tuyến của đồ thị hàm số $y = \\frac{$1}{$x+1}$ tại điểm có hoành độ $x_0 = 0$.",
+    "type": "mcq",
+    "options": [
+      "$y = -x + 1$.",
+      "$y = -x - 1$.",
+      "$y = x + 1$.",
+      "$y = -x$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Một chất điểm chuyển động theo qui luật được cho bởi phương trình $s(t) = \\frac{2}{3}t^3 - t^2 + 3t - 4$ ($s$ tính bằng m, $t$ tính bằng s). Hỏi vận tốc tức thời của chất điểm tại thời điểm $t = 6$ là bao nhiêu?",
+    "type": "mcq",
+    "options": [
+      "63 m/s.",
+      "75 m/s.",
+      "60 m/s.",
+      "117 m/s."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Một chất điểm chuyển động theo qui luật được cho bởi phương trình $s(t) = \\frac{1}{3}t^3 - 2t^2 + 5t + 10$ ($t$ tính bằng giây, $s$ tính bằng mét). \nVận tốc tức thời của chất điểm tại thời điểm $t = 5$ giây là bao nhiêu?",
+    "type": "mcq",
+    "options": [
+      "10 m/s.",
+      "5 m/s.",
+      "8 m/s.",
+      "12 m/s."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Vận dụng",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Viết phương trình tiếp tuyến của đồ thị hàm số $(C): y = -x^2 + 3$ tại điểm có hoành độ bằng $1$.",
+    "type": "mcq",
+    "options": [
+      "$y = -2x + 4$.",
+      "$y = -2x + 2$.",
+      "$y = 2x + 4$.",
+      "$y = 2x + 1$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "id": "dao_ham",
+    "content": "Viết phương trình tiếp tuyến của đồ thị hàm số $y = x^3 - 3x + 2$ tại điểm có hoành độ bằng $1.$",
+    "type": "mcq",
+    "options": [
+      "$y = 0$",
+      "$y = 3x - 3$",
+      "$y = -3x + 3$",
+      "$y = x - 1$"
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "dao_ham",
+      "grade": "11",
+      "type": "Trắc nghiệm",
+      "difficulty": "Thông hiểu",
+      "tags": "",
+      "links": "",
+      "date": "2026-05-11"
+    }
+  }
+]
