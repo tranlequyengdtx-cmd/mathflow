@@ -4,10 +4,10 @@
     "content": "Để đi từ thành phố A đến thành phố B có 3 con đường, từ B đến C có 6 con đường. Có bao nhiêu cách đi từ A đến C qua B?",
     "type": "mcq",
     "options": [
-      "9.",
-      "3.",
-      "2.",
-      "18."
+      "9",
+      "3",
+      "2",
+      "18"
     ],
     "answer": 3,
     "metadata": {
@@ -22,10 +22,10 @@
     "content": "Tính $A_{8}^3$.",
     "type": "mcq",
     "options": [
-      "24.",
-      "56.",
-      "336.",
-      "40.320."
+      "24",
+      "56",
+      "336",
+      "40.320"
     ],
     "answer": 2,
     "metadata": {
@@ -40,10 +40,10 @@
     "content": "Tính tổng $ C_5^0 + C_5^1 + C_5^2 + C_5^3 + C_5^4 + C_5^5$.",
     "type": "mcq",
     "options": [
-      "10.",
-      "32.",
-      "25.",
-      "16."
+      "10",
+      "32",
+      "25",
+      "16"
     ],
     "answer": 1,
     "metadata": {
@@ -58,10 +58,10 @@
     "content": "Có bao nhiêu cách sắp xếp 5 cuốn sách khác nhau vào một kệ sách dài?",
     "type": "mcq",
     "options": [
-      "5.",
-      "25.",
-      "60.",
-      "120."
+      "5",
+      "25",
+      "60",
+      "120"
     ],
     "answer": 3,
     "metadata": {
@@ -76,10 +76,10 @@
     "content": "Trong mặt phẳng $Oxy$, vectơ nào sau đây là một vectơ pháp tuyến của đường thẳng $d: x - 4y + 1 = 0$.",
     "type": "mcq",
     "options": [
-      "$\\vec{n}=(4; 1)$.",
-      "$\\vec{n}=(1; 4)$.",
-      "$\\vec{n}=(-4; 1)$.",
-      "$\\vec{n}=(1; -4)$."
+      "$\\vec{n}=(4; 1)$",
+      "$\\vec{n}=(1; 4)$",
+      "$\\vec{n}=(-4; 1)$",
+      "$\\vec{n}=(1; -4)$"
     ],
     "answer": 3,
     "metadata": {
@@ -94,10 +94,10 @@
     "content": "Trong mặt phẳng $Oxy$, cho hai điểm $M(3; -2)$ và $N(1; 4)$. Xác định tọa độ của vectơ $\\overrightarrow{MN}$.",
     "type": "mcq",
     "options": [
-      "$\\overrightarrow{MN}=(-2; 6)$.",
-      "$\\overrightarrow{MN}=(2; -6)$.",
-      "$\\overrightarrow{MN}=(4; 2)$.",
-      "$\\overrightarrow{MN}=(-2; 2)$."
+      "$\\overrightarrow{MN}=(-2; 6)$",
+      "$\\overrightarrow{MN}=(2; -6)$",
+      "$\\overrightarrow{MN}=(4; 2)$",
+      "$\\overrightarrow{MN}=(-2; 2)$"
     ],
     "answer": 0,
     "metadata": {
@@ -112,10 +112,10 @@
     "content": "Có bao nhiêu đoạn thẳng được lập từ $2$ trong số $8$ điểm phân biệt?",
     "type": "mcq",
     "options": [
-      "56.",
-      "16.",
-      "28.",
-      "64."
+      "56",
+      "16",
+      "28",
+      "64"
     ],
     "answer": 2,
     "metadata": {
@@ -130,10 +130,10 @@
     "content": "Từ một hộp chứa 6 quả cầu xanh và 4 quả cầu vàng, lấy ngẫu nhiên 1 quả cầu. Tính xác suất lấy được quả cầu màu vàng.",
     "type": "mcq",
     "options": [
-      "$\\dfrac{3}{5}$.",
-      "$\\dfrac{1}{4}$.",
-      "$\\dfrac{2}{5}$.",
-      "$\\dfrac{2}{3}$."
+      "$\\dfrac{3}{5}$",
+      "$\\dfrac{1}{4}$",
+      "$\\dfrac{2}{5}$",
+      "$\\dfrac{2}{3}$"
     ],
     "answer": 2,
     "metadata": {
@@ -148,10 +148,10 @@
     "content": "Xét lục giác đều ABCDEF. Có bao nhiêu tam giác được lập từ 3 đỉnh trong số các đỉnh của lục giác đã cho?",
     "type": "mcq",
     "options": [
-      "120.",
-      "720.",
-      "40.",
-      "20."
+      "120",
+      "720",
+      "40",
+      "20"
     ],
     "answer": 3,
     "metadata": {
@@ -166,10 +166,10 @@
     "content": "Một nhóm có 20 người, có bao nhiêu cách chọn ra một đội gồm 4 người để đi công tác?",
     "type": "mcq",
     "options": [
-      "$C_{20}^4$.",
-      "$A_{20}^4$.",
-      "$20^4$.",
-      "$4!$."
+      "$C_{20}^4$",
+      "$A_{20}^4$",
+      "$20^4$",
+      "$4!$"
     ],
     "answer": 0,
     "metadata": {
@@ -184,10 +184,10 @@
     "content": "Tìm hệ số của $x^2$ trong khai triển nhị thức $(x+3)^4$.",
     "type": "mcq",
     "options": [
-      "27.",
-      "54.",
-      "12.",
-      "6."
+      "27",
+      "54",
+      "12",
+      "6"
     ],
     "answer": 1,
     "metadata": {
@@ -202,10 +202,10 @@
     "content": "Trong mặt phẳng $Oxy$, viết phương trình chính tắc của Parabol có tiêu điểm $F(2; 0)$.",
     "type": "mcq",
     "options": [
-      "$y^2 = 4x$.",
-      "$x^2 = 8y$.",
-      "$y^2 = 8x$.",
-      "$y^2 = -8x$."
+      "$y^2 = 4x$",
+      "$x^2 = 8y$",
+      "$y^2 = 8x$",
+      "$y^2 = -8x$"
     ],
     "answer": 2,
     "metadata": {
@@ -220,10 +220,10 @@
     "content": "Hệ số của $x^4$ trong khai triển nhị thức $(x - 2)^5$ là",
     "type": "mcq",
     "options": [
-      "10.",
-      "80.",
-      "$-80$.",
-      "$-10$."
+      "10",
+      "80",
+      "$-80$",
+      "$-10$"
     ],
     "answer": 3,
     "metadata": {
@@ -238,10 +238,10 @@
     "content": "Trong mặt phẳng $Oxy$, cho Elip có phương trình chính tắc $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$. Tính tiêu cự của Elip đã cho.",
     "type": "mcq",
     "options": [
-      "8.",
-      "4.",
-      "16.",
-      "2."
+      "8",
+      "4",
+      "16",
+      "2"
     ],
     "answer": 0,
     "metadata": {
@@ -274,10 +274,10 @@
     "content": "Trong mặt phẳng $Oxy$, cho hai điểm $M(2;0)$ và $N(-2;4)$. Biết rằng đường thẳng $\\Delta$ vuông góc với đường thẳng $MN$, vectơ nào sau đây là một vectơ pháp tuyến của $\\Delta$?",
     "type": "mcq",
     "options": [
-      "\\(\\vec{n} = (1; 1)\\)",
-      "\\(\\vec{n} = (4; 4)\\)",
-      "\\(\\vec{n} = (-1; 1)\\)",
-      "\\(\\vec{n} = (2; 2)\\)"
+      "$\\vec{n} = (1; 1)$",
+      "$\\vec{n} = (4; 4)$",
+      "$\\vec{n} = (-1; 1)$",
+      "$\\vec{n} = (2; 2)$"
     ],
     "answer": 2,
     "metadata": {
@@ -292,10 +292,10 @@
     "content": "Trong mặt phẳng $Oxy$, đường thẳng nào sau đây song song với đường thẳng $x - 2y + 5 = 0$?",
     "type": "mcq",
     "options": [
-      "$2x - 4y - 1 = 0$.",
-      "$x + 2y + 5 = 0$.",
-      "$x - 2y + 5 = 0$.",
-      "$2x - 4y + 10 = 0$."
+      "$2x - 4y - 1 = 0$",
+      "$x + 2y + 5 = 0$",
+      "$x - 2y + 5 = 0$",
+      "$2x - 4y + 10 = 0$"
     ],
     "answer": 0,
     "metadata": {
@@ -310,10 +310,10 @@
     "content": "Trong mặt phẳng $Oxy$, cho ba điểm $A(1; 1)$, $B(3; 5)$ và $C(-1; 3)$. Viết phương trình đường thẳng đi qua $A$ và vuông góc với đường thẳng $BC$.",
     "type": "mcq",
     "options": [
-      "$x + 2y - 3 = 0$.",
-      "$2x + y - 3 = 0$.",
-      "$2x - y - 1 = 0$.",
-      "$x - 2y + 1 = 0$."
+      "$x + 2y - 3 = 0$",
+      "$2x + y - 3 = 0$",
+      "$2x - y - 1 = 0$",
+      "$x - 2y + 1 = 0$"
     ],
     "answer": 1,
     "metadata": {
@@ -346,10 +346,10 @@
     "content": "Trong mặt phẳng $Oxy$, viết phương trình chính tắc của Hyperbol có độ dài trục thực bằng $12$ và tiêu cự bằng $20$.",
     "type": "mcq",
     "options": [
-      "\\(\\frac{x^2}{36} - \\frac{y^2}{100} = 1\\)",
-      "\\(\\frac{x^2}{144} - \\frac{y^2}{400} = 1\\)",
-      "\\(\\frac{x^2}{36} - \\frac{y^2}{64} = 1\\)",
-      "\\(\\frac{x^2}{36} + \\frac{y^2}{64} = 1\\)"
+      "$\\frac{x^2}{36} - \\frac{y^2}{100} = 1$",
+      "$\\frac{x^2}{144} - \\frac{y^2}{400} = 1$",
+      "$\\frac{x^2}{36} - \\frac{y^2}{64} = 1$",
+      "$\\frac{x^2}{36} + \\frac{y^2}{64} = 1$"
     ],
     "answer": 2,
     "metadata": {
