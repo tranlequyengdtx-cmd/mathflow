@@ -1,468 +1,362 @@
 [
   {
-    "id": "vecto",
-    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $A(2;1)$ và $B(0;2)$. Xác định tọa độ của vectơ $\\overrightarrow{AB}$.",
+    "id": "q1",
+    "content": "Để đi từ thành phố A đến thành phố B có 3 con đường, từ B đến C có 6 con đường. Có bao nhiêu cách đi từ A đến C qua B?",
     "type": "mcq",
     "options": [
-      "$\\overrightarrow{AB}=(2; -1)$.",
-      "$\\overrightarrow{AB}=(-2; 1)$.",
-      "$\\overrightarrow{AB}=(2; 3)$.",
-      "$\\overrightarrow{AB}=(-2; 3)$."
+      "9.",
+      "3.",
+      "2.",
+      "18."
     ],
-    "answer": 0,
+    "answer": 3,
     "metadata": {
-      "topic": "vecto",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Nhận biết",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"vecto\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Nhận biết\"\ntags:\n  - vecto\n  - hk2\nlinks:\n  - \"[[vecto]]\"\n  - \"[[lop_10]]\"\ndate: 2026-05-02"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "vecot",
-    "content": "Trong mặt phẳng $Oxy$, vectơ nào sau đây là vectơ pháp tuyến của đường thẳng $d: 3x - 2y + 5 = 0$.",
+    "id": "q2",
+    "content": "Tính $A_{8}^3$.",
     "type": "mcq",
     "options": [
-      "$\\vec{n}=(3; 2)$.",
-      "$\\vec{n}=(2; 3)$.",
-      "$\\vec{n}=(-2; 3)$.",
-      "$\\vec{n}=(3; -2)$."
+      "24.",
+      "56.",
+      "336.",
+      "40.320."
     ],
-    "answer": 0,
+    "answer": 2,
     "metadata": {
-      "topic": "vecot",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Nhận biết",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-04",
-      "raw_yaml": "topic: \"vecot\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Nhận biết\"\ntags:\n  - vecto\n  - hk2\n  - easy\nlinks:\n  - \"[[vecto]]\"\n  - \"[[lop_10]]\"\n  - \"[[phuong_trinh_duong_thang]]\"\ndate: 2026-05-04"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "vecto",
-    "content": "Tính tích vô hướng của hai vectơ $\\vec{a}=(2;3)$ và $\\vec{b}=(4;-1).$",
-    "type": "short_answer",
-    "options": [],
-    "answer": 0,
-    "metadata": {
-      "topic": "vecto",
-      "grade": "10",
-      "type": "Trả lời ngắn",
-      "difficulty": "Thông hiểu",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"vecto\"\ngrade: 10\ntype: \"Trả lời ngắn\"\ndifficulty: \"Thông hiểu\"\ntags:\n  - vecto\n  - tich_vo_huong\n  - hk2\nlinks:\n  - \"[[vecto]]\"\n  - \"[[lop_10]]\"\ndate: 2026-05-02"
-    }
-  },
-  {
-    "id": "vecot",
-    "content": "Cho đoạn thẳng $AB$ có độ dài bằng $4$. Độ dài của vectơ $\\overrightarrow{AB}$ là",
+    "id": "q3",
+    "content": "Tính tổng $ C_5^0 + C_5^1 + C_5^2 + C_5^3 + C_5^4 + C_5^5$.",
     "type": "mcq",
     "options": [
-      "$0$.",
-      "$\\pm 4$.",
-      "$4$.",
-      "$-4$."
+      "10.",
+      "32.",
+      "25.",
+      "16."
     ],
-    "answer": 0,
+    "answer": 1,
     "metadata": {
-      "topic": "vecot",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Nhận biết",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-04",
-      "raw_yaml": "topic: \"vecot\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Nhận biết\"\ntags:\n  - vecto\n  - hk2\nlinks:\n  - \"[[vecto]]\"\n  - \"[[lop_10]]\"\ndate: 2026-05-04"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "ham_so_bac_hai",
-    "content": "Tìm nghiệm nguyên nhỏ nhất của bất phương trình $x^2 - 5x + 4 < 0$.\n\n    \\begin{itemize}\n        [\\textbf{Lời giải:}] \n        Xét tam thức bậc hai $f(x) = x^2 - 5x + 4$. \\\\\n        Cho $f(x) = 0 \\Leftrightarrow x^2 - 5x + 4 = 0 \\Leftrightarrow \\left[ \\begin{aligned} x &= 1 \\\\ x &= 4 \\end{aligned} \\right.$. \\\\\n        Vì hệ số $a = 1 > 0$ nên $f(x) < 0$ khi $x$ nằm trong khoảng hai nghiệm: $x \\in (1; 4)$. \\\\\n        Các nghiệm nguyên của bất phương trình là $x \\in \\{2; 3\\}$. \\\\\n        Vậy nghiệm nguyên nhỏ nhất là $x = 2$.\n        [\\textbf{Phân tích phương án nhiễu:}]\n        \\begin{itemize}\n            \\textbf{Phương án $1$:} Học sinh nhầm lẫn giữa khoảng nghiệm $(1; 4)$ và đoạn nghiệm $[1; 4]$, hoặc \tlấy luôn giá trị nghiệm của phương trình làm nghiệm của bất phương trình.\n            \\textbf{Phương án $0$:} Học sinh giải sai dấu của tam thức (lấy khoảng ngoài nghiệm) rồi tìm số tự nhiên nhỏ nhất, hoặc tính toán sai nghiệm của phương trình.\n            \\textbf{Phương án $3$:} Học sinh tìm đúng các nghiệm nguyên $\\{2; 3\\}$ nhưng lại chọn nghiệm nguyên lớn nhất thay vì nhỏ nhất.\n        \\end{itemize}\n    \\end{itemize}",
-    "type": "short_answer",
-    "options": [],
-    "answer": 0,
-    "metadata": {
-      "topic": "ham_so_bac_hai",
-      "grade": "10",
-      "type": "Trả lời ngắn",
-      "difficulty": "Thông hiểu",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"ham_so_bac_hai\"\ngrade: 10\ntype: \"Trả lời ngắn\"\ndifficulty: \"Thông hiểu\"\ntags:\n  - ham_so_bac_hai\n  - tam_thuc_bac_hai\n  - hk2\nlinks:\n  - \"[[ham_so_bac_hai]]\"\n  - \"[[lop_10]]\"\n  - \"[[tam_thuc_bac_hai]]\"\n  - \"[[bat_phuong_trinh_bac_hai_mot_an]]\"\ndate: 2026-05-02"
-    }
-  },
-  {
-    "id": "ham_so_bac_hai",
-    "content": "Giải phương trình: $\\sqrt{x^2 - 3x + 2} = x - 1$.\t\nGiải: Bình phương hai vế thu được\n\\[\n x^2 - 3x + 2 = (x - 1)^2 \\Rightarrow x=1.\t\n\\]\nThử lại thấy $x=1$ thỏa phương trình. \nVậy phương trình đã cho có nghiệm $x=1$.",
-    "type": "short_answer",
-    "options": [],
-    "answer": 0,
-    "metadata": {
-      "topic": "ham_so_bac_hai",
-      "grade": "10",
-      "type": "Tự luận",
-      "difficulty": "Thông hiểu",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"ham_so_bac_hai\"\ngrade: 10\ntype: \"Tự luận\"\ndifficulty: \"Thông hiểu\"\ntags:\n  - ham_so_bac_hai\n  - phuong_trinh_qui_ve_bac_hai\n  - hk2\nlinks:\n  - \"[[ham_so_bac_hai]]\"\n  - \"[[lop_10]]\"\n  - \"[[phuong_trinh_qui_ve_bac_hai]]\"\ndate: 2026-05-02"
-    }
-  },
-  {
-    "id": "toa_do_mat_phang",
-    "content": "Trong mặt phẳng $Oxy$, viết phương trình chính tắc của Parabol có tiêu điểm $F\\left(\\frac{3}{2}; 0\\right)$.",
+    "id": "q4",
+    "content": "Có bao nhiêu cách sắp xếp 5 cuốn sách khác nhau vào một kệ sách dài?",
     "type": "mcq",
     "options": [
-      "$x^2 = -6y$.",
-      "$x^2 = 6y$.",
-      "$y^2 = 6x$.",
-      "$y^2 = -6x$."
+      "5.",
+      "25.",
+      "60.",
+      "120."
     ],
-    "answer": 0,
+    "answer": 3,
     "metadata": {
-      "topic": "toa_do_mat_phang",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Nhận biết",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-04",
-      "raw_yaml": "topic: \"toa_do_mat_phang\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Nhận biết\"\ntags:\n  - toa_do_mat_phang\n  - hk2\n  - parabol\nlinks:\n  - \"[[toa_do_mat_phang]]\"\n  - \"[[lop_10]]\"\n  - \"[[parabol]]\"\ndate: 2026-05-04"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "toa_do_mat_phang",
-    "content": "Trong mặt phẳng $Oxy$, đường thẳng $2x - 3y + 3 = 0$ song song với đường thẳng nào sau đây?",
+    "id": "q5",
+    "content": "Trong mặt phẳng $Oxy$, vectơ nào sau đây là một vectơ pháp tuyến của đường thẳng $d: x - 4y + 1 = 0$.",
     "type": "mcq",
     "options": [
-      "$4x - 6y - 6 = 0$.",
-      "$4x - 6y + 6 = 0$.",
-      "$2x + 3y + 3 = 0$.",
-      "$3x - 2y + 3 = 0$."
+      "$\\vec{n}=(4; 1)$.",
+      "$\\vec{n}=(1; 4)$.",
+      "$\\vec{n}=(-4; 1)$.",
+      "$\\vec{n}=(1; -4)$."
     ],
-    "answer": 0,
+    "answer": 3,
     "metadata": {
-      "topic": "toa_do_mat_phang",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Nhận biết",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"toa_do_mat_phang\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Nhận biết\"\ntags:\n  - toa_do_mat_phang\n  - hk2\nlinks:\n  - \"[[toa_do_mat_phang]]\"\n  - \"[[lop_10]]\"\n  - \"[[vi_tri_tuong_doi]]\"\ndate: 2026-05-02"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "toa_do_mat_phang",
-    "content": "Trong mặt phẳng $Oxy$, đường thẳng $\\Delta: 2x - y + 1 = 0$ cắt đường thẳng nào sau đây?\n    \n\n    \\begin{itemize}\n        [\\textbf{Lời giải:}] \n        Đường thẳng $\\Delta$ có vectơ pháp tuyến là $\\vec{n} = (2; -1)$.\n        \\begin{itemize}\n            Xét đường thẳng $x + y - 5 = 0$ có vectơ pháp tuyến $\\vec{n}_1 = (1; 1)$.\n            Ta thấy $\\dfrac{2}{1} \\neq \\dfrac{-1}{1}$, do đó hai vectơ pháp tuyến không cùng phương. \n            Vậy hai đường thẳng này cắt nhau.\n        \\end{itemize}\n        [\\textbf{Phân tích phương án nhiễu:}]\n        \\begin{itemize}\n            \\textbf{Phương án $2x - y + 3 = 0$:} Đường thẳng này có cùng bộ hệ số $a, b$ với $\\Delta$ nhưng khác hệ số tự do ($1 \\neq 3$). Đây là đường thẳng song song với $\\Delta$.\n            \\textbf{Phương án $-4x + 2y + 1 = 0$:} Hệ số $a, b$ tỉ lệ với $\\Delta$ theo tỉ số $-2$ ($\\dfrac{2}{-4} = \\dfrac{-1}{2} \\neq \\dfrac{1}{1}$). Đây là đường thẳng song song với $\\Delta$.\n            \\textbf{Phương án $4x - 2y + 2 = 0$:} Tất cả các hệ số đều tỉ lệ với $\\Delta$ theo tỉ số $2$ ($\\dfrac{4}{2} = \\dfrac{-2}{-1} = \\dfrac{2}{1}$). Đây thực chất là đường thẳng trùng với $\\Delta$.\n        \\end{itemize}\n    \\end{itemize}",
+    "id": "q6",
+    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $M(3; -2)$ và $N(1; 4)$. Xác định tọa độ của vectơ $\\overrightarrow{MN}$.",
     "type": "mcq",
     "options": [
-      "$x + y - 5 = 0$.",
-      "$2x - y + 3 = 0$.",
-      "$-4x + 2y + 1 = 0$.",
-      "$4x - 2y + 2 = 0$."
+      "$\\overrightarrow{MN}=(-2; 6)$.",
+      "$\\overrightarrow{MN}=(2; -6)$.",
+      "$\\overrightarrow{MN}=(4; 2)$.",
+      "$\\overrightarrow{MN}=(-2; 2)$."
     ],
     "answer": 0,
     "metadata": {
-      "topic": "toa_do_mat_phang",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Thông hiểu",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"toa_do_mat_phang\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Thông hiểu\"\ntags:\n  - toa_do_mat_phang\n  - hk2\nlinks:\n  - \"[[toa_do_mat_phang]]\"\n  - \"[[lop_10]]\"\n  - \"[[vi_tri_tuong_doi]]\"\ndate: 2026-05-02"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "toa_do_mat_phang",
-    "content": "Trong mặt phẳng $Oxy$, xét Elip $(E)$ có phương trình chính tắc $\\frac{x^2}{100} + \\frac{y^2}{36} = 1$ với các tiêu điểm là $F_1,F_2$.\n    \\begin{enumerate}[label=\\alph*)]\n        $(E)$ có độ dài trục lớn bằng 20.\n        $(E)$ có độ dài trục bé bằng 6.\n        Tiêu cự của $(E)$ bằng 16.\n        Lấy điểm $M$ bất kỳ thuộc $(E)$, diện tích của tam giác $MF_1F_2$ bằng 36.\t\n    \\end{enumerate}\n\n\n% Lời nhắc dành cho AI: Ý d) ở mức vận dụng. Một câu hỏi đúng sai cần có độ khó tăng dần.",
-    "type": "short_answer",
-    "options": [],
-    "answer": 0,
-    "metadata": {
-      "topic": "toa_do_mat_phang",
-      "grade": "10",
-      "type": "Đúng sai",
-      "difficulty": "Thông hiểu",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"toa_do_mat_phang\"\ngrade: 10\ntype: \"Đúng sai\"\ndifficulty: \"Thông hiểu\"\ntags:\n  - toa_do_mat_phang\n  - hk2\nlinks:\n  - \"[[toa_do_mat_phang]]\"\n  - \"[[lop_10]]\"\n  - \"[[elip]]\"\ndate: 2026-05-02"
-    }
-  },
-  {
-    "id": "toa_do_mat_phang",
-    "content": "Trong mặt phẳng $Oxy$, cho tam giác $ABC$ có tọa độ các đỉnh là $A(1; 3)$, $B(-1; 1)$ và $C(3; -1)$.\n    \\begin{enumerate}[label=\\alph*)]\n        Tọa độ trung điểm $M$ của cạnh $AC$ là $M(4; 2)$.\n        Tọa độ trọng tâm của tam giác $ABC$ là $G(1; 1)$.\n        Phương trình tham số của đường thẳng $BC$ là $\\begin{cases} x = -1 + 2t \\\\ y = 1 - t \\end{cases}\\quad(t\\in\\mathbf R)$.\n        Đường thẳng đi qua $C$ và vuông góc với cạnh $AB$ có phương trình là $x - y - 4 = 0$.\n    \\end{enumerate}\n\\end{Questions}\n\n\n% Lời nhắc dành cho AI: Một câu hỏi đúng sai cần có đầy đủ cả ý đúng và ý sai.",
-    "type": "short_answer",
-    "options": [],
-    "answer": 0,
-    "metadata": {
-      "topic": "toa_do_mat_phang",
-      "grade": "10",
-      "type": "Đúng sai",
-      "difficulty": "Thông hiểu",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"toa_do_mat_phang\"\ngrade: 10\ntype: \"Đúng sai\"\ndifficulty: \"Thông hiểu\"\ntags:\n  - toa_do_mat_phang\n  - trung_diem\n  - trong_tam\n  - phuong_trinh_tham_so\n  - phuong_trinh_tong_quat\n  - hk2\nlinks:\n  - \"[[toa_do_mat_phang]]\"\n  - \"[[lop_10]]\"\n  - \"[[phuong_trinh_duong_thang]]\"\ndate: 2026-05-02"
-    }
-  },
-  {
-    "id": "toa_do_mat_phang",
-    "content": "Trong mặt phẳng tọa độ $Oxy$, cho Elip $(E): \\dfrac{x^2}{100} + \\dfrac{y^2}{36} = 1$. Độ dài trục lớn và tiêu cự của Elip $(E)$ lần lượt là",
+    "id": "q7",
+    "content": "Có bao nhiêu đoạn thẳng được lập từ $2$ trong số $8$ điểm phân biệt?",
     "type": "mcq",
     "options": [
-      "$20$ và $16$.",
-      "$10$ và $8$.",
-      "$20$ và $8$.",
-      "$10$ và $16$."
+      "56.",
+      "16.",
+      "28.",
+      "64."
     ],
-    "answer": 0,
+    "answer": 2,
     "metadata": {
-      "topic": "toa_do_mat_phang",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Thông hiểu",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-07",
-      "raw_yaml": "topic: \"toa_do_mat_phang\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Thông hiểu\"\ntags:\n  - toa_do_mat_phang\n  - hk2\nlinks:\n  - \"[[toa_do_mat_phang]]\"\n  - \"[[lop_10]]\"\n  - \"[[elip]]\"\ndate: 2026-05-07"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "toa_do_mat_phang",
-    "content": "Trong mặt phẳng tọa độ $Oxy$, viết phương trình chính tắc của hypebol $(H)$ có độ dài trục thực bằng $6$ và tiêu cự bằng $10$.\n    \n%thonghiue",
+    "id": "q8",
+    "content": "Từ một hộp chứa 6 quả cầu xanh và 4 quả cầu vàng, lấy ngẫu nhiên 1 quả cầu. Tính xác suất lấy được quả cầu màu vàng.",
     "type": "mcq",
     "options": [
-      "$\\dfrac{x^2}{9} - \\dfrac{y^2}{16} = 1$.",
-      "$\\dfrac{x^2}{9} - \\dfrac{y^2}{64} = 1$.",
-      "$\\dfrac{x^2}{36} - \\dfrac{y^2}{64} = 1$.",
-      "$\\dfrac{x^2}{9} + \\dfrac{y^2}{16} = 1$."
+      "$\\dfrac{3}{5}$.",
+      "$\\dfrac{1}{4}$.",
+      "$\\dfrac{2}{5}$.",
+      "$\\dfrac{2}{3}$."
     ],
-    "answer": 0,
+    "answer": 2,
     "metadata": {
-      "topic": "toa_do_mat_phang",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Thông hiểu",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-07",
-      "raw_yaml": "topic: \"toa_do_mat_phang\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Thông hiểu\"\ntags:\n  - toa_do_mat_phang\n  - hk2\nlinks:\n  - \"[[toa_do_mat_phang]]\"\n  - \"[[lop_10]]\"\n  - \"[[hyperbol]]\"\ndate: 2026-05-07"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "dai_so_to_hop",
-    "content": "Một lớp học có 41 học sinh, có bao nhiêu cách chọn 3 học sinh của lớp để làm nhiệm vụ trực cổng?\n    \n\n% Lời nhắc dành cho AI: cách lựa chọn tình huống gần gũi với đối tượng hs - trực cổng",
+    "id": "q9",
+    "content": "Xét lục giác đều ABCDEF. Có bao nhiêu tam giác được lập từ 3 đỉnh trong số các đỉnh của lục giác đã cho?",
     "type": "mcq",
     "options": [
-      "$41^3$.",
-      "$A_{41}^3$.",
-      "$3!$.",
-      "$C_{41}^3$."
+      "120.",
+      "720.",
+      "40.",
+      "20."
     ],
-    "answer": 0,
+    "answer": 3,
     "metadata": {
-      "topic": "dai_so_to_hop",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "hiểu",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"dai_so_to_hop\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"hiểu\"\ntags:\n  - dai_so_to_hop\n  - hk2\nlinks:\n  - \"[[dai_so_to_hop]]\"\n  - \"[[lop_10]]\"\n  - \"[[to_hop]]\"\ndate: 2026-05-02"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "dai_so_to_hop",
-    "content": "Có bao nhiêu cách xếp 5 học sinh thành một hàng dọc?",
+    "id": "q10",
+    "content": "Một nhóm có 20 người, có bao nhiêu cách chọn ra một đội gồm 4 người để đi công tác?",
     "type": "mcq",
     "options": [
-      "$5$.",
-      "$25$.",
-      "$120$.",
-      "$10$."
+      "$C_{20}^4$.",
+      "$A_{20}^4$.",
+      "$20^4$.",
+      "$4!$."
     ],
     "answer": 0,
     "metadata": {
-      "topic": "dai_so_to_hop",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Nhận biết",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-01",
-      "raw_yaml": "topic: \"dai_so_to_hop\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Nhận biết\"\ntags:\n  - dai_so_to_hop\n  - hoan_vi\n  - hk2\nlinks:\n  - \"[[dai_so_to_hop]]\"\n  - \"[[lop_10]]\"\n  - \"[[hoan_vi]]\"\ndate: 2026-05-01"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "dai_so_to_hop",
-    "content": "Trong một quán ăn, thực đơn bữa sáng gồm có $5$ món chính và $4$ loại đồ uống khác nhau. Hỏi khách hàng có bao nhiêu cách chọn một suất ăn gồm một món chính và một loại đồ uống?",
+    "id": "q11",
+    "content": "Tìm hệ số của $x^2$ trong khai triển nhị thức $(x+3)^4$.",
     "type": "mcq",
     "options": [
-      "$20$.",
-      "$9$.",
-      "$5$.",
-      "$4$."
+      "27.",
+      "54.",
+      "12.",
+      "6."
     ],
-    "answer": 0,
+    "answer": 1,
     "metadata": {
-      "topic": "dai_so_to_hop",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Nhận biết",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"dai_so_to_hop\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Nhận biết\"\ntags:\n  - dai_so_to_hop\n  - hk2\nlinks:\n  - \"[[dai_so_to_hop]]\"\n  - \"[[lop_10]]\"\n  - \"[[qui_tac_nhan]]\"\ndate: 2026-05-02"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "dai_so_to_hop",
-    "content": "Tính tổng $C_4^0+C_4^1+C_4^2+C_4^3+C_4^4$.\n    \n\n% Lời nhắc dành cho AI: ưu tiên dạng câu hỏi có nhiều hướng xử lí, với bài này hs trung bình có thể dùng MTCT, hs giỏi sẽ nhận ra đây là khai triển của $(1+1)^4$.",
+    "id": "q12",
+    "content": "Trong mặt phẳng $Oxy$, viết phương trình chính tắc của Parabol có tiêu điểm $F(2; 0)$.",
     "type": "mcq",
     "options": [
-      "$16$.",
-      "$32$.",
-      "$8$.",
-      "$4$."
+      "$y^2 = 4x$.",
+      "$x^2 = 8y$.",
+      "$y^2 = 8x$.",
+      "$y^2 = -8x$."
     ],
-    "answer": 0,
+    "answer": 2,
     "metadata": {
-      "topic": "dai_so_to_hop",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Vận dụng",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"dai_so_to_hop\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Vận dụng\"\ntags:\n  - dai_so_to_hop\n  - hk2\n  - mtct\nlinks:\n  - \"[[dai_so_to_hop]]\"\n  - \"[[lop_10]]\"\n  - \"[[nhi_thuc_newton]]\"\ndate: 2026-05-02"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "dai_so_to_hop",
-    "content": "Có bao nhiêu cách xếp 6 học sinh thành một hàng ngang?",
+    "id": "q13",
+    "content": "Hệ số của $x^4$ trong khai triển nhị thức $(x - 2)^5$ là",
     "type": "mcq",
     "options": [
-      "$120$.",
-      "$720$.",
-      "$6$.",
-      "$36$."
+      "10.",
+      "80.",
+      "$-80$.",
+      "$-10$."
     ],
-    "answer": 0,
+    "answer": 3,
     "metadata": {
-      "topic": "dai_so_to_hop",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Vận dụng",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"dai_so_to_hop\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Vận dụng\"\ntags:\n  - dai_so_to_hop\n  - hk2\n  - hoan_vi\nlinks:\n  - \"[[dai_so_to_hop]]\"\n  - \"[[lop_10]]]\"\ndate: 2026-05-02"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   },
   {
-    "id": "dai_so_to_hop",
-    "content": "Có bao nhiêu số tự nhiên có $3$ chữ số khác nhau được lập từ tập hợp $\\{1, 2, 3, 4, 5, 6\\}$?\n\n    \\begin{itemize}\n        [\\textbf{Lời giải:}] \n        Mỗi số tự nhiên có $3$ chữ số khác nhau được lập từ tập hợp $A$ là một chỉnh hợp chập $3$ của $6$ phần tử. \\\\\n        Số các số lập được là: $A_6^3 = 6 \\cdot 5 \\cdot 4 = 120$.\n        [\\textbf{Phân tích phương án nhiễu:}]\n        \\begin{itemize}\n            \\textbf{Phương án $20$:} Học sinh nhầm lẫn giữa chỉnh hợp và tổ hợp ($C_6^3 = 20$). Lỗi này xảy ra khi học sinh không nhận ra rằng thay đổi thứ tự các chữ số sẽ tạo ra số mới (ví dụ $123$ khác $321$).\n            \\textbf{Phương án $216$:} Học sinh nhầm sang trường hợp các chữ số có thể giống nhau ($6^3 = 216$).\n            \\textbf{Phương án $18$:} Học sinh sử dụng quy tắc cộng ($6 + 6 + 6$) hoặc lấy $6 \\cdot 3$.\n        \\end{itemize}\n    \\end{itemize}",
-    "type": "short_answer",
-    "options": [],
-    "answer": 0,
-    "metadata": {
-      "topic": "dai_so_to_hop",
-      "grade": "10",
-      "type": "Trả lời ngắn",
-      "difficulty": "Nhận biết",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"dai_so_to_hop\"\ngrade: 10\ntype: \"Trả lời ngắn\"\ndifficulty: \"Nhận biết\"\ntags:\n  - dai_so_to_hop\n  - chinh_hop\n  - hk2\nlinks:\n  - \"[[dai_so_to_hop]]\"\n  - \"[[lop_10]]\"\n  - \"[[chinh_hop]]\"\ndate: 2026-05-02"
-    }
-  },
-  {
-    "id": "dai_so_to_hop",
-    "content": "Cho khai triển $(x+1)^4 + (x-1)^4 = ax^4 + bx^3 + cx^2 + dx + e$. Tính giá trị của $b+d$.\n\n% Lời nhắc dành cho AI: Trong khai triển của (x+a)^4 và (x-a)^4, hệ số của các số hạng chứa x^k luôn trái dấu nếu k lẻ, tức là b=d=0. Đây là một câu hỏi rèn khả năng phán đoán nhanh!",
-    "type": "short_answer",
-    "options": [],
-    "answer": 0,
-    "metadata": {
-      "topic": "dai_so_to_hop",
-      "grade": "10",
-      "type": "Trả lời ngắn",
-      "difficulty": "Vận dụng",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-05",
-      "raw_yaml": "topic: \"dai_so_to_hop\"\ngrade: 10\ntype: \"Trả lời ngắn\"\ndifficulty: \"Vận dụng\"\ntags:\n  - dai_so_to_hop\n  - nhi_thuc_newton\n  - hk2\nlinks:\n  - \"[[dai_so_to_hop]]\"\n  - \"[[lop_10]]\"\n  - \"[[nhi_thuc_newton]]\"\ndate: 2026-05-05"
-    }
-  },
-  {
-    "id": "dai_so_to_hop",
-    "content": "Cho 7 điểm phân biệt nằm trên hai đường thẳng cắt nhau tại $I$ như hình vẽ bên dưới, với $I$ là 1 trong số 7 điểm được cho.\n\\begin{enumerate}[label=\\alph*)]\n        Có bao nhiêu đoạn thẳng được tạo thành từ 2 trong số 7 điểm đã cho?\n        Có bao nhiêu tam giác có các đỉnh là 3 trong số 7 điểm đã cho và đồng thời trong ba đỉnh của tam giác đó phải có mặt điểm $I$?\n\tCó bao nhiêu tam giác có các đỉnh là 3 trong số các điểm đã cho?\n\\end{enumerate}\n\n\\begin{center}\t\n<img src=\"assets/tikz_ad287e8ebb.svg\" class=\"tikz-img\">\n\\end{center}",
-    "type": "short_answer",
-    "options": [],
-    "answer": 0,
-    "metadata": {
-      "topic": "dai_so_to_hop",
-      "grade": "10",
-      "type": "Tự luận",
-      "difficulty": "Vận dụng",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-05",
-      "raw_yaml": "topic: \"dai_so_to_hop\"\ngrade: 10\ntype: \"Tự luận\"\ndifficulty: \"Vận dụng\"\ntags:\n  - dai_so_to_hop\n  - hk2\nlinks:\n  - \"[[dai_so_to_hop]]\"\n  - \"[[lop_10]]\"\n  - \"[[to_hop_hinh_hoc]]\"\ndate: 2026-05-05"
-    }
-  },
-  {
-    "id": "dai_so_to_hop",
-    "content": "Cho $11$ điểm phân biệt, có bao nhiêu đoạn thẳng được lập từ $2$ trong số các điểm đã cho?",
+    "id": "q14",
+    "content": "Trong mặt phẳng $Oxy$, cho Elip có phương trình chính tắc $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$. Tính tiêu cự của Elip đã cho.",
     "type": "mcq",
     "options": [
-      "$55$.",
-      "$110$.",
-      "$22$.",
-      "$121$."
+      "8.",
+      "4.",
+      "16.",
+      "2."
     ],
     "answer": 0,
     "metadata": {
-      "topic": "dai_so_to_hop",
-      "grade": "10",
-      "type": "Tự luận",
-      "difficulty": "Vận dụng",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-07",
-      "raw_yaml": "topic: \"dai_so_to_hop\"\ngrade: 10\ntype: \"Tự luận\"\ndifficulty: \"Vận dụng\"\ntags:\n  - dai_so_to_hop\n  - hk2\nlinks:\n  - \"[[dai_so_to_hop]]\"\n  - \"[[lop_10]]\"\ndate: 2026-05-07"
-    }
-  },
-  {
-    "id": "xac_suat_co_dien",
-    "content": "Từ một hộp chứa 5 quả cầu trắng và 4 quả cầu đỏ có kích thước và khối lượng như nhau\t, lấy ngẫu nhiên 1 quả cầu. Tính xác suất lấy được quả cầu màu trắng.\n    \n\n\n% Lời nhắc dành cho AI: Chú ý cách đặt câu hỏi, \"các quả cầu có kích thước và khối lượng như nhau\" để việc chọn một quả cầu đảm bảo tính ngẫu nhiên.",
-    "type": "mcq",
-    "options": [
-      "$\\dfrac{5}{9}$.",
-      "$\\dfrac{4}{9}$.",
-      "$\\dfrac{5}{4}$.",
-      "$\\dfrac{1}{5}$."
-    ],
-    "answer": 0,
-    "metadata": {
-      "topic": "xac_suat_co_dien",
+      "topic": "On_tap",
       "grade": "10",
       "type": "Trắc nghiệm",
-      "difficulty": "Nhận biết",
-      "tags": "",
-      "links": "",
-      "date": "2026-05-02",
-      "raw_yaml": "topic: \"xac_suat_co_dien\"\ngrade: 10\ntype: \"Trắc nghiệm\"\ndifficulty: \"Nhận biết\"\ntags:\n  - xac_suat_co_dien\n  - hk2\nlinks:\n  - \"[[xac_suat_co_dien]]\"\n  - \"[[lop_10]]\"\ndate: 2026-05-02"
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q15",
+    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $B(3; 5)$ và $C(-1; 3)$. Phương trình tham số của đường thẳng $BC$ là",
+    "type": "mcq",
+    "options": [
+      "$\\begin{cases} x = 3 + 2t \\\\ y = 5 - t \\end{cases}$",
+      "$\\begin{cases} x = 3 - 2t \\\\ y = 5 - t \\end{cases}$",
+      "$\\begin{cases} x = -1 + t \\\\ y = 3 - 2t \\end{cases}$",
+      "$\\begin{cases} x = 3 + t \\\\ y = 5 + 2t \\end{cases}$"
+    ],
+    "answer": 1,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q16",
+    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $M(2;0)$ và $N(-2;4)$. Biết rằng đường thẳng $\\Delta$ vuông góc với đường thẳng $MN$, vectơ nào sau đây là một vectơ pháp tuyến của $\\Delta$?",
+    "type": "mcq",
+    "options": [
+      "\\(\\vec{n} = (1; 1)\\)",
+      "\\(\\vec{n} = (4; 4)\\)",
+      "\\(\\vec{n} = (-1; 1)\\)",
+      "\\(\\vec{n} = (2; 2)\\)"
+    ],
+    "answer": 2,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q17",
+    "content": "Trong mặt phẳng $Oxy$, đường thẳng nào sau đây song song với đường thẳng $x - 2y + 5 = 0$?",
+    "type": "mcq",
+    "options": [
+      "$2x - 4y - 1 = 0$.",
+      "$x + 2y + 5 = 0$.",
+      "$x - 2y + 5 = 0$.",
+      "$2x - 4y + 10 = 0$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q18",
+    "content": "Trong mặt phẳng $Oxy$, cho ba điểm $A(1; 1)$, $B(3; 5)$ và $C(-1; 3)$. Viết phương trình đường thẳng đi qua $A$ và vuông góc với đường thẳng $BC$.",
+    "type": "mcq",
+    "options": [
+      "$x + 2y - 3 = 0$.",
+      "$2x + y - 3 = 0$.",
+      "$2x - y - 1 = 0$.",
+      "$x - 2y + 1 = 0$."
+    ],
+    "answer": 1,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q19",
+    "content": "Cho hàm số $f(x) = x^2 - 4x + 5$. Khẳng định nào sau đây là đúng về dấu của $f(-2006)$ và $f(2006)$?",
+    "type": "mcq",
+    "options": [
+      "$f(-2006) < 0$ và $f(2006) > 0$",
+      "$f(-2006) > 0$ và $f(2006) > 0$",
+      "$f(-2006) > 0$ và $f(2006) < 0$",
+      "$f(-2006) < 0$ và $f(2006) < 0$"
+    ],
+    "answer": 1,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q20",
+    "content": "Trong mặt phẳng $Oxy$, viết phương trình chính tắc của Hyperbol có độ dài trục thực bằng $12$ và tiêu cự bằng $20$.",
+    "type": "mcq",
+    "options": [
+      "\\(\\frac{x^2}{36} - \\frac{y^2}{100} = 1\\)",
+      "\\(\\frac{x^2}{144} - \\frac{y^2}{400} = 1\\)",
+      "\\(\\frac{x^2}{36} - \\frac{y^2}{64} = 1\\)",
+      "\\(\\frac{x^2}{36} + \\frac{y^2}{64} = 1\\)"
+    ],
+    "answer": 2,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
     }
   }
 ]
