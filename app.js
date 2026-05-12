@@ -80,6 +80,10 @@ async function startQuiz() {
     currentState.studentClass = classInfo;
     currentState.startTime = new Date();
     
+    // Re-initialize answers array with the correct length
+    currentState.answers = Array(questions.length).fill(null);
+    currentState.currentQuestionIndex = 0;
+    
     showScreen('quiz');
     renderQuestion();
     startTimer();
@@ -182,7 +186,9 @@ function prevQuestion() {
     }
 }
 
-function submitQuiz() {
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz896O2PBzFGWHS96y-pyFrU5-35Nz8q1S2yKb1wObibjeNrOEDvQdgYTUd0kRX5Ea7/exec';
+
+async function submitQuiz() {
     clearInterval(currentState.timerInterval);
     
     // Calculate Score
@@ -191,17 +197,57 @@ function submitQuiz() {
         if (ans === questions[i].answer) score++;
     });
 
+    const scoreText = `${score}/${questions.length}`;
+    
     // Show Results
-    elements.finalScore.textContent = `${score}/${questions.length}`;
+    elements.finalScore.textContent = scoreText;
     elements.studentSummary.textContent = `${currentState.studentName} - Lớp ${currentState.studentClass}`;
     
     showScreen('result');
+
+    // Automatically send basic results to Google Sheets
+    sendDataToGoogle({
+        studentName: currentState.studentName,
+        studentClass: currentState.studentClass,
+        score: scoreText,
+        feedback: "Nộp bài tự động"
+    });
 }
 
-function saveFeedback() {
-    const feedback = elements.studentFeedback.value;
-    alert(`Cảm ơn ${currentState.studentName}! Phản hồi của bạn đã được ghi nhận: "${feedback}"`);
-    // In a real app, you'd send this to a backend (Python/CSV)
+async function sendDataToGoogle(data) {
+    try {
+        console.log('Sending data to Google Sheets...', data);
+        // Use no-cors mode for Google Apps Script if needed, 
+        // but for a teacher's tool, a simple fetch usually works with proper Apps Script setup
+        await fetch(GOOGLE_SCRIPT_URL, {
+            method: 'POST',
+            mode: 'no-cors', // Important for Google Apps Script redirects
+            cache: 'no-cache',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+        console.log('Data sent successfully');
+    } catch (e) {
+        console.error('Error sending data:', e);
+    }
+}
+
+async function saveFeedback() {
+    const feedback = elements.studentFeedback.value.trim();
+    if (!feedback) return;
+
+    elements.saveFeedbackBtn.disabled = true;
+    elements.saveFeedbackBtn.textContent = "Đang gửi...";
+
+    await sendDataToGoogle({
+        studentName: currentState.studentName,
+        studentClass: currentState.studentClass,
+        score: elements.finalScore.textContent,
+        feedback: feedback
+    });
+
+    alert(`Cảm ơn ${currentState.studentName}! Ý kiến của bạn đã được gửi tới giáo viên.`);
+    elements.saveFeedbackBtn.textContent = "Đã gửi phản hồi";
 }
 
 // --- Event Listeners ---
