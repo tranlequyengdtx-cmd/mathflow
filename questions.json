@@ -1,31 +1,13 @@
 [
   {
     "id": "q1",
-    "content": "Để đi từ thành phố A đến thành phố B có 3 con đường, từ B đến C có 6 con đường. Có bao nhiêu cách đi từ A đến C qua B?",
+    "content": "Một hộp đựng 20 tấm thẻ cùng loại được đánh số từ 1 đến 20. Rút ngẫu nhiên một tấm thẻ. Gọi $A$ là biến cố \"Rút được thẻ ghi số lẻ\", $B$ là biến cố \"Rút được thẻ ghi số chia hết cho 5\". Số phần tử của biến cố $A \\cap B$ là",
     "type": "mcq",
     "options": [
-      "9",
-      "3",
-      "2",
-      "18"
-    ],
-    "answer": 3,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q2",
-    "content": "Tính $A_{8}^3$.",
-    "type": "mcq",
-    "options": [
-      "24",
-      "56",
-      "336",
-      "40.320"
+      "1.",
+      "2.",
+      "4.",
+      "5."
     ],
     "answer": 2,
     "metadata": {
@@ -36,68 +18,14 @@
     }
   },
   {
-    "id": "q3",
-    "content": "Tính tổng $ C_5^0 + C_5^1 + C_5^2 + C_5^3 + C_5^4 + C_5^5$.",
+    "id": "q2",
+    "content": "Tính đạo hàm của hàm số $y = \\frac{2x-1}{x+1}$.",
     "type": "mcq",
     "options": [
-      "10",
-      "32",
-      "25",
-      "16"
-    ],
-    "answer": 1,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q4",
-    "content": "Có bao nhiêu cách sắp xếp 5 cuốn sách khác nhau vào một kệ sách dài?",
-    "type": "mcq",
-    "options": [
-      "5",
-      "25",
-      "60",
-      "120"
-    ],
-    "answer": 3,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q5",
-    "content": "Trong mặt phẳng $Oxy$, vectơ nào sau đây là một vectơ pháp tuyến của đường thẳng $d: x - 4y + 1 = 0$.",
-    "type": "mcq",
-    "options": [
-      "$\\vec{n}=(4; 1)$",
-      "$\\vec{n}=(1; 4)$",
-      "$\\vec{n}=(-4; 1)$",
-      "$\\vec{n}=(1; -4)$"
-    ],
-    "answer": 3,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q6",
-    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $M(3; -2)$ và $N(1; 4)$. Xác định tọa độ của vectơ $\\overrightarrow{MN}$.",
-    "type": "mcq",
-    "options": [
-      "$\\overrightarrow{MN}=(-2; 6)$",
-      "$\\overrightarrow{MN}=(2; -6)$",
-      "$\\overrightarrow{MN}=(4; 2)$",
-      "$\\overrightarrow{MN}=(-2; 2)$"
+      "$y'=\\dfrac{3}{(x+1)^2}$.",
+      "$y'=\\dfrac{1}{(x+1)^2}$.",
+      "$y'=\\dfrac{-3}{(x+1)^2}$.",
+      "$y'=\\dfrac{-1}{(x+1)^2}$."
     ],
     "answer": 0,
     "metadata": {
@@ -108,14 +36,86 @@
     }
   },
   {
-    "id": "q7",
-    "content": "Có bao nhiêu đoạn thẳng được lập từ $2$ trong số $8$ điểm phân biệt?",
+    "id": "q3",
+    "content": "Tính đạo hàm của hàm số $y = \\sin 3x + 2\\cos 2x$.",
     "type": "mcq",
     "options": [
-      "56",
-      "16",
-      "28",
-      "64"
+      "$y' = 3\\cos 3x - 4\\sin 2x$.",
+      "$y' = 3\\cos 3x + 4\\sin 2x$.",
+      "$y' = \\cos 3x - 2\\sin 2x$.",
+      "$y' = -3\\cos 3x + 4\\sin 2x$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q4",
+    "content": "Đạo hàm cấp hai của hàm số $y = x^3 - 3x^2 + x - 3$ là",
+    "type": "mcq",
+    "options": [
+      "$y'' = 6x - 6$.",
+      "$y'' = 3x^2 - 6x + 1$.",
+      "$y'' = 6x + 6$.",
+      "$y'' = 6x^2 - 6$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q5",
+    "content": "Trong không gian, góc giữa hai đường thẳng song song với nhau bằng bao nhiêu độ?\n    \n    \n    \\begin{minipage}[t]{0.65\\textwidth}",
+    "type": "mcq",
+    "options": [
+      "$0^\\circ$.",
+      "$45^\\circ$.",
+      "$90^\\circ$.",
+      "$180^\\circ$."
+    ],
+    "answer": 2,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q6",
+    "content": "Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa mặt phẳng $(ABCD)$ và mặt phẳng $(BDD'B')$.\n    \n    \\end{minipage}\n    \\hfill\n    \\begin{minipage}[t]{0.3\\textwidth}\n        \\vspace{-10pt}\n        \\centering\n        <img src=\"assets/tikz_509905985c.svg\" class=\"tikz-img\">\n    \\end{minipage}\n    %hieu",
+    "type": "mcq",
+    "options": [
+      "$0^\\circ$.",
+      "$45^\\circ$.",
+      "$60^\\circ$.",
+      "$90^\\circ$."
+    ],
+    "answer": 3,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q7",
+    "content": "Hai biến cố $A$ và $B$ được gọi là xung khắc khi và chỉ khi\n    \n    %biet",
+    "type": "mcq",
+    "options": [
+      "$A \\cup B = \\Omega$.",
+      "$A \\cup B = \\emptyset$.",
+      "$A \\cap B = \\emptyset$.",
+      "$A \\cap B = \\Omega$."
     ],
     "answer": 2,
     "metadata": {
@@ -127,15 +127,15 @@
   },
   {
     "id": "q8",
-    "content": "Từ một hộp chứa 6 quả cầu xanh và 4 quả cầu vàng, lấy ngẫu nhiên 1 quả cầu. Tính xác suất lấy được quả cầu màu vàng.",
+    "content": "Tính hệ số góc của tiếp tuyến với đồ thị hàm số $y = x^4 - 3x$ tại điểm có hoành độ bằng $0$.",
     "type": "mcq",
     "options": [
-      "$\\dfrac{3}{5}$",
-      "$\\dfrac{1}{4}$",
-      "$\\dfrac{2}{5}$",
-      "$\\dfrac{2}{3}$"
+      "$3$.",
+      "$ -3 $.",
+      "$0$.",
+      "$-1$."
     ],
-    "answer": 2,
+    "answer": 1,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -145,15 +145,15 @@
   },
   {
     "id": "q9",
-    "content": "Xét lục giác đều ABCDEF. Có bao nhiêu tam giác được lập từ 3 đỉnh trong số các đỉnh của lục giác đã cho?",
+    "content": "Tính đạo hàm cấp hai của hàm số $y = e^x$.",
     "type": "mcq",
     "options": [
-      "120",
-      "720",
-      "40",
-      "20"
+      "$y''=e^x$.",
+      "$y''=-e^x$.",
+      "$y''=xe^x$.",
+      "$y''=0$."
     ],
-    "answer": 3,
+    "answer": 0,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -163,15 +163,15 @@
   },
   {
     "id": "q10",
-    "content": "Một nhóm có 20 người, có bao nhiêu cách chọn ra một đội gồm 4 người để đi công tác?",
+    "content": "Cho hai biến cố $A$ và $B$ độc lập. Khẳng định nào sau đây \\textbf{sai}?",
     "type": "mcq",
     "options": [
-      "$C_{20}^4$",
-      "$A_{20}^4$",
-      "$20^4$",
-      "$4!$"
+      "$P(AB) = P(A) \\cdot P(B)$.",
+      "$P(A\\overline{B}) = P(A) \\cdot P(\\overline{B})$.",
+      "$P(AB) = 0$.",
+      "$P(\\overline{A}\\cdot\\overline{B}) = P(\\overline{A}) \\cdot P(\\overline{B})$."
     ],
-    "answer": 0,
+    "answer": 2,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -181,15 +181,15 @@
   },
   {
     "id": "q11",
-    "content": "Tìm hệ số của $x^2$ trong khai triển nhị thức $(x+3)^4$.",
+    "content": "Tính đạo hàm cấp hai của hàm số $y = \\ln x$.",
     "type": "mcq",
     "options": [
-      "27",
-      "54",
-      "12",
-      "6"
+      "$y''=-\\frac{1}{x^2}$.",
+      "$y''=\\frac{1}{x^2}$.",
+      "$y''=\\frac{1}{x}$.",
+      "$y''=-\\frac{2}{x^2}$."
     ],
-    "answer": 1,
+    "answer": 0,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -199,67 +199,13 @@
   },
   {
     "id": "q12",
-    "content": "Trong mặt phẳng $Oxy$, viết phương trình chính tắc của Parabol có tiêu điểm $F(2; 0)$.",
+    "content": "Trong không gian, cho hai đường thẳng $a$ và $b$ chéo nhau. Có bao nhiêu mặt phẳng chứa $a$ và song song với $b$?",
     "type": "mcq",
     "options": [
-      "$y^2 = 4x$",
-      "$x^2 = 8y$",
-      "$y^2 = 8x$",
-      "$y^2 = -8x$"
-    ],
-    "answer": 2,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q13",
-    "content": "Hệ số của $x^4$ trong khai triển nhị thức $(x - 2)^5$ là",
-    "type": "mcq",
-    "options": [
-      "10",
-      "80",
-      "$-80$",
-      "$-10$"
-    ],
-    "answer": 3,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q14",
-    "content": "Trong mặt phẳng $Oxy$, cho Elip có phương trình chính tắc $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$. Tính tiêu cự của Elip đã cho.",
-    "type": "mcq",
-    "options": [
-      "8",
-      "4",
-      "16",
-      "2"
-    ],
-    "answer": 0,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q15",
-    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $B(3; 5)$ và $C(-1; 3)$. Phương trình tham số của đường thẳng $BC$ là",
-    "type": "mcq",
-    "options": [
-      "$\\begin{cases} x = 3 + 2t \\\\ y = 5 - t \\end{cases}$",
-      "$\\begin{cases} x = 3 - 2t \\\\ y = 5 - t \\end{cases}$",
-      "$\\begin{cases} x = -1 + t \\\\ y = 3 - 2t \\end{cases}$",
-      "$\\begin{cases} x = 3 + t \\\\ y = 5 + 2t \\end{cases}$"
+      "Vô số.",
+      "$1$.",
+      "$2$.",
+      "Không có."
     ],
     "answer": 1,
     "metadata": {
@@ -270,14 +216,50 @@
     }
   },
   {
-    "id": "q16",
-    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $M(2;0)$ và $N(-2;4)$. Biết rằng đường thẳng $\\Delta$ vuông góc với đường thẳng $MN$, vectơ nào sau đây là một vectơ pháp tuyến của $\\Delta$?",
+    "id": "q13",
+    "content": "Tính thể tích của khối lăng trụ có diện tích đáy bằng $6a^2$ và chiều cao bằng $3a$.",
     "type": "mcq",
     "options": [
-      "$\\vec{n} = (1; 1)$",
-      "$\\vec{n} = (4; 4)$",
-      "$\\vec{n} = (-1; 1)$",
-      "$\\vec{n} = (2; 2)$"
+      "$2a^3$.",
+      "$18a^3$.",
+      "$9a^3$.",
+      "$6a^3$."
+    ],
+    "answer": 1,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q14",
+    "content": "Cho hai biến cố $A$ và $B$ xung khắc có $P(A) = 0,2$ và $P(B) = 0,3$. Tính $P\\left(A \\cup B\\right)$.",
+    "type": "mcq",
+    "options": [
+      "$0,1$",
+      "$0,5$",
+      "$0,06$",
+      "$0,6$"
+    ],
+    "answer": 1,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q15",
+    "content": "Tính thể tích của khối lập phương có cạnh bằng $8$.",
+    "type": "mcq",
+    "options": [
+      "$64$.",
+      "$48$.",
+      "$512$.",
+      "$192$."
     ],
     "answer": 2,
     "metadata": {
@@ -288,16 +270,34 @@
     }
   },
   {
-    "id": "q17",
-    "content": "Trong mặt phẳng $Oxy$, đường thẳng nào sau đây song song với đường thẳng $x - 2y + 5 = 0$?",
+    "id": "q16",
+    "content": "Cho hình chóp tứ giác đều có cạnh đáy bằng $a$ và chiều cao bằng $3a$. Tính thể tích khối chóp đã cho.",
     "type": "mcq",
     "options": [
-      "$2x - 4y - 1 = 0$",
-      "$x + 2y + 5 = 0$",
-      "$x - 2y + 5 = 0$",
-      "$2x - 4y + 10 = 0$"
+      "$3a^3$.",
+      "$a^3$.",
+      "$\\frac{1}{3}a^3$.",
+      "$9a^3$."
     ],
-    "answer": 0,
+    "answer": 1,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q17",
+    "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$ và $\\widehat{ASB} = 25^\\circ$. Tính góc giữa đường thẳng $SB$ và mặt phẳng $(ABC)$.\n    \n    \\begin{minipage}[t]{0.65\\textwidth}",
+    "type": "mcq",
+    "options": [
+      "$25^\\circ$.",
+      "$65^\\circ$.",
+      "$90^\\circ$.",
+      "$115^\\circ$."
+    ],
+    "answer": 1,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -307,13 +307,13 @@
   },
   {
     "id": "q18",
-    "content": "Trong mặt phẳng $Oxy$, cho ba điểm $A(1; 1)$, $B(3; 5)$ và $C(-1; 3)$. Viết phương trình đường thẳng đi qua $A$ và vuông góc với đường thẳng $BC$.",
+    "content": "Cho hình chóp tứ giác đều $S.ABCD$ có đáy là hình vuông tâm $O$, cạnh bằng $1$ và $SB = 2$. Tính khoảng cách từ $S$ đến mặt phẳng $(ABCD)$.\n    \n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.3\\textwidth}\n    \\vspace{-10pt}\n    \\centering\n    <img src=\"assets/tikz_904fb5fb21.svg\" class=\"tikz-img\">\n\\end{minipage}",
     "type": "mcq",
     "options": [
-      "$x + 2y - 3 = 0$",
-      "$2x + y - 3 = 0$",
-      "$2x - y - 1 = 0$",
-      "$x - 2y + 1 = 0$"
+      "$\\frac{\\sqrt{7}}{2}$.",
+      "$\\frac{\\sqrt{14}}{2}$.",
+      "$\\frac{\\sqrt{15}}{2}$.",
+      "$\\frac{\\sqrt{13}}{2}$."
     ],
     "answer": 1,
     "metadata": {
@@ -325,15 +325,15 @@
   },
   {
     "id": "q19",
-    "content": "Cho hàm số $f(x) = x^2 - 4x + 5$. Khẳng định nào sau đây là đúng về dấu của $f(-2006)$ và $f(2006)$?",
+    "content": "Phương trình $\\log_2(2x-5) = \\log_2(1-x)$ có tập nghiệm là",
     "type": "mcq",
     "options": [
-      "$f(-2006) < 0$ và $f(2006) > 0$",
-      "$f(-2006) > 0$ và $f(2006) > 0$",
-      "$f(-2006) > 0$ và $f(2006) < 0$",
-      "$f(-2006) < 0$ và $f(2006) < 0$"
+      "$\\emptyset$.",
+      "$\\{2\\}$.",
+      "$\\{0\\}$.",
+      "$\\{6\\}$."
     ],
-    "answer": 1,
+    "answer": 0,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -343,13 +343,31 @@
   },
   {
     "id": "q20",
-    "content": "Trong mặt phẳng $Oxy$, viết phương trình chính tắc của Hyperbol có độ dài trục thực bằng $12$ và tiêu cự bằng $20$.",
+    "content": "Hàm số nào sau đây có tập giá trị là $\\mathbb{R}$?\n    \n\n   \\begin{minipage}[t]{0.65\\textwidth}",
     "type": "mcq",
     "options": [
-      "$\\frac{x^2}{36} - \\frac{y^2}{100} = 1$",
-      "$\\frac{x^2}{144} - \\frac{y^2}{400} = 1$",
-      "$\\frac{x^2}{36} - \\frac{y^2}{64} = 1$",
-      "$\\frac{x^2}{36} + \\frac{y^2}{64} = 1$"
+      "$y = \\log_2x$.",
+      "$y = x^4 $.",
+      "$y = 2^x$.",
+      "$y = \\sin x$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q21",
+    "content": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông tại $A$, $AB = 3$, $SA = 3\\sqrt{3}$ và $SA \\perp (ABC)$. Tính góc giữa đường thẳng $SB$ và mặt phẳng $(ABC)$.\n    \n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.3\\textwidth}\n    \\vspace{-10pt}\n    \\centering\n    <img src=\"assets/tikz_4d1b065013.svg\" class=\"tikz-img\">\n\\end{minipage}",
+    "type": "mcq",
+    "options": [
+      "$30^\\circ$.",
+      "$45^\\circ$.",
+      "$60^\\circ$.",
+      "$90^\\circ$."
     ],
     "answer": 2,
     "metadata": {
