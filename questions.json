@@ -1,13 +1,13 @@
 [
   {
     "id": "q1",
-    "content": "Một hộp đựng 20 tấm thẻ cùng loại được đánh số từ 1 đến 20. Rút ngẫu nhiên một tấm thẻ. Gọi $A$ là biến cố \"Rút được thẻ ghi số lẻ\", $B$ là biến cố \"Rút được thẻ ghi số chia hết cho 5\". Số phần tử của biến cố $A \\cap B$ là",
+    "content": "Trong không gian, góc giữa hai đường thẳng song song với nhau bằng bao nhiêu độ?",
     "type": "mcq",
     "options": [
-      "1.",
-      "2.",
-      "4.",
-      "5."
+      "$180^\\circ$.",
+      "$90^\\circ$.",
+      "$0^\\circ$.",
+      "$45^\\circ$."
     ],
     "answer": 2,
     "metadata": {
@@ -19,15 +19,15 @@
   },
   {
     "id": "q2",
-    "content": "Tính đạo hàm của hàm số $y = \\frac{2x-1}{x+1}$.",
+    "content": "Tính đạo hàm cấp hai của hàm số $y = e^x$.",
     "type": "mcq",
     "options": [
-      "$y'=\\dfrac{3}{(x+1)^2}$.",
-      "$y'=\\dfrac{1}{(x+1)^2}$.",
-      "$y'=\\dfrac{-3}{(x+1)^2}$.",
-      "$y'=\\dfrac{-1}{(x+1)^2}$."
+      "$y''=-e^x$.",
+      "$y''=e^x$.",
+      "$y''=xe^x$.",
+      "$y''=0$."
     ],
-    "answer": 0,
+    "answer": 1,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -37,15 +37,15 @@
   },
   {
     "id": "q3",
-    "content": "Tính đạo hàm của hàm số $y = \\sin 3x + 2\\cos 2x$.",
+    "content": "Hai biến cố $A$ và $B$ được gọi là xung khắc khi và chỉ khi",
     "type": "mcq",
     "options": [
-      "$y' = 3\\cos 3x - 4\\sin 2x$.",
-      "$y' = 3\\cos 3x + 4\\sin 2x$.",
-      "$y' = \\cos 3x - 2\\sin 2x$.",
-      "$y' = -3\\cos 3x + 4\\sin 2x$."
+      "$A \\cup B = \\Omega$.",
+      "$A \\cap B = \\emptyset$.",
+      "$A \\cap B = \\Omega$.",
+      "$A \\cup B = \\emptyset$."
     ],
-    "answer": 0,
+    "answer": 1,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -55,13 +55,13 @@
   },
   {
     "id": "q4",
-    "content": "Đạo hàm cấp hai của hàm số $y = x^3 - 3x^2 + x - 3$ là",
+    "content": "Tính thể tích của khối lăng trụ có diện tích đáy bằng $6a^2$ và chiều cao bằng $3a$.",
     "type": "mcq",
     "options": [
-      "$y'' = 6x - 6$.",
-      "$y'' = 3x^2 - 6x + 1$.",
-      "$y'' = 6x + 6$.",
-      "$y'' = 6x^2 - 6$."
+      "$18a^3$.",
+      "$9a^3$.",
+      "$6a^3$.",
+      "$2a^3$."
     ],
     "answer": 0,
     "metadata": {
@@ -73,13 +73,31 @@
   },
   {
     "id": "q5",
-    "content": "Trong không gian, góc giữa hai đường thẳng song song với nhau bằng bao nhiêu độ?\n    \n    \n    \\begin{minipage}[t]{0.65\\textwidth}",
+    "content": "Tính thể tích của khối lập phương có cạnh bằng $8$.",
     "type": "mcq",
     "options": [
-      "$0^\\circ$.",
-      "$45^\\circ$.",
-      "$90^\\circ$.",
-      "$180^\\circ$."
+      "$64$.",
+      "$512$.",
+      "$48$.",
+      "$192$."
+    ],
+    "answer": 1,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q6",
+    "content": "Hàm số nào sau đây có tập giá trị là $\\mathbb{R}$?",
+    "type": "mcq",
+    "options": [
+      "$y = x^4 $.",
+      "$y = 2^x$.",
+      "$y = \\log_2x$.",
+      "$y = \\sin x$."
     ],
     "answer": 2,
     "metadata": {
@@ -90,32 +108,14 @@
     }
   },
   {
-    "id": "q6",
-    "content": "Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa mặt phẳng $(ABCD)$ và mặt phẳng $(BDD'B')$.\n    \n    \\end{minipage}\n    \\hfill\n    \\begin{minipage}[t]{0.3\\textwidth}\n        \\vspace{-10pt}\n        \\centering\n        <img src=\"assets/tikz_509905985c.svg\" class=\"tikz-img\">\n    \\end{minipage}\n    %hieu",
-    "type": "mcq",
-    "options": [
-      "$0^\\circ$.",
-      "$45^\\circ$.",
-      "$60^\\circ$.",
-      "$90^\\circ$."
-    ],
-    "answer": 3,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
     "id": "q7",
-    "content": "Hai biến cố $A$ và $B$ được gọi là xung khắc khi và chỉ khi\n    \n    %biet",
+    "content": "Đạo hàm cấp hai của hàm số $y = x^3 - 3x^2 + x - 3$ là",
     "type": "mcq",
     "options": [
-      "$A \\cup B = \\Omega$.",
-      "$A \\cup B = \\emptyset$.",
-      "$A \\cap B = \\emptyset$.",
-      "$A \\cap B = \\Omega$."
+      "$y'' = 3x^2 - 6x + 1$.",
+      "$y'' = 6x + 6$.",
+      "$y'' = 6x - 6$.",
+      "$y'' = 6x^2 - 6$."
     ],
     "answer": 2,
     "metadata": {
@@ -127,15 +127,14 @@
   },
   {
     "id": "q8",
-    "content": "Tính hệ số góc của tiếp tuyến với đồ thị hàm số $y = x^4 - 3x$ tại điểm có hoành độ bằng $0$.",
+    "content": "Tính đạo hàm cấp hai của hàm số $y = \\ln x$.\n    \\choicess{4}{$y''=\\frac{1}{x^2}$.}{$y''=\\frac{1}{x}$.}{*$y''=-\\frac{1}{x^2}$.}{$y''=-\\frac{2}{x^2$.}",
     "type": "mcq",
     "options": [
-      "$3$.",
-      "$ -3 $.",
-      "$0$.",
-      "$-1$."
+      "$y''=\\frac{1}{x^2}$.",
+      "$y''=\\frac{1}{x}$.",
+      "$y''=-\\frac{1}{x^2}$."
     ],
-    "answer": 1,
+    "answer": 2,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -145,13 +144,13 @@
   },
   {
     "id": "q9",
-    "content": "Tính đạo hàm cấp hai của hàm số $y = e^x$.",
+    "content": "Tính hệ số góc của tiếp tuyến với đồ thị hàm số $y = x^4 - 3x$ tại điểm có hoành độ bằng $0$.",
     "type": "mcq",
     "options": [
-      "$y''=e^x$.",
-      "$y''=-e^x$.",
-      "$y''=xe^x$.",
-      "$y''=0$."
+      "$ -3 $.",
+      "$3$.",
+      "$0$.",
+      "$-1$."
     ],
     "answer": 0,
     "metadata": {
@@ -166,12 +165,12 @@
     "content": "Cho hai biến cố $A$ và $B$ độc lập. Khẳng định nào sau đây \\textbf{sai}?",
     "type": "mcq",
     "options": [
-      "$P(AB) = P(A) \\cdot P(B)$.",
       "$P(A\\overline{B}) = P(A) \\cdot P(\\overline{B})$.",
-      "$P(AB) = 0$.",
-      "$P(\\overline{A}\\cdot\\overline{B}) = P(\\overline{A}) \\cdot P(\\overline{B})$."
+      "$P(AB) = P(A) \\cdot P(B)$.",
+      "$P(\\overline{A}\\cdot\\overline{B}) = P(\\overline{A}) \\cdot P(\\overline{B})$.",
+      "$P(AB) = 0$."
     ],
-    "answer": 2,
+    "answer": 3,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -181,13 +180,13 @@
   },
   {
     "id": "q11",
-    "content": "Tính đạo hàm cấp hai của hàm số $y = \\ln x$.",
+    "content": "Cho hai biến cố $A$ và $B$ xung khắc có $P(A) = 0,2$ và $P(B) = 0,3$. Tính $P\\left(A \\cup B\\right)$.",
     "type": "mcq",
     "options": [
-      "$y''=-\\frac{1}{x^2}$.",
-      "$y''=\\frac{1}{x^2}$.",
-      "$y''=\\frac{1}{x}$.",
-      "$y''=-\\frac{2}{x^2}$."
+      "$0,5$",
+      "$0,1$",
+      "$0,06$",
+      "$0,6$"
     ],
     "answer": 0,
     "metadata": {
@@ -217,60 +216,6 @@
   },
   {
     "id": "q13",
-    "content": "Tính thể tích của khối lăng trụ có diện tích đáy bằng $6a^2$ và chiều cao bằng $3a$.",
-    "type": "mcq",
-    "options": [
-      "$2a^3$.",
-      "$18a^3$.",
-      "$9a^3$.",
-      "$6a^3$."
-    ],
-    "answer": 1,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q14",
-    "content": "Cho hai biến cố $A$ và $B$ xung khắc có $P(A) = 0,2$ và $P(B) = 0,3$. Tính $P\\left(A \\cup B\\right)$.",
-    "type": "mcq",
-    "options": [
-      "$0,1$",
-      "$0,5$",
-      "$0,06$",
-      "$0,6$"
-    ],
-    "answer": 1,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q15",
-    "content": "Tính thể tích của khối lập phương có cạnh bằng $8$.",
-    "type": "mcq",
-    "options": [
-      "$64$.",
-      "$48$.",
-      "$512$.",
-      "$192$."
-    ],
-    "answer": 2,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q16",
     "content": "Cho hình chóp tứ giác đều có cạnh đáy bằng $a$ và chiều cao bằng $3a$. Tính thể tích khối chóp đã cho.",
     "type": "mcq",
     "options": [
@@ -288,8 +233,98 @@
     }
   },
   {
+    "id": "q14",
+    "content": "Tính đạo hàm của hàm số $y = \\frac{2x-1}{x+1}$.",
+    "type": "mcq",
+    "options": [
+      "$y'=\\frac{1}{(x+1)^2}$.",
+      "$y'=\\frac{-3}{(x+1)^2}$.",
+      "$y'=\\dfrac{3}{(x+1)^2}$.",
+      "$y'=\\dfrac{-1}{(x+1)^2}$."
+    ],
+    "answer": 2,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q15",
+    "content": "Tính đạo hàm của hàm số $y = \\sin 3x + 2\\cos 2x$.",
+    "type": "mcq",
+    "options": [
+      "$y' = 3\\cos 3x - 4\\sin 2x$.",
+      "$y' = 3\\cos 3x + 4\\sin 2x$.",
+      "$y' = \\cos 3x - 2\\sin 2x$.",
+      "$y' = -3\\cos 3x + 4\\sin 2x$."
+    ],
+    "answer": 0,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q16",
+    "content": "Phương trình $\\log_2(2x-5) = \\log_2(1-x)$ có tập nghiệm là",
+    "type": "mcq",
+    "options": [
+      "$\\{2\\}$.",
+      "$\\emptyset$.",
+      "$\\{0\\}$.",
+      "$\\{6\\}$."
+    ],
+    "answer": 1,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
     "id": "q17",
-    "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$ và $\\widehat{ASB} = 25^\\circ$. Tính góc giữa đường thẳng $SB$ và mặt phẳng $(ABC)$.\n    \n    \\begin{minipage}[t]{0.65\\textwidth}",
+    "content": "Một hộp đựng 20 tấm thẻ cùng loại được đánh số từ 1 đến 20. Rút ngẫu nhiên một tấm thẻ. Gọi $A$ là biến cố \"Rút được thẻ ghi số lẻ\", $B$ là biến cố \"Rút được thẻ ghi số chia hết cho 5\". Số phần tử của biến cố $A \\cap B$ là",
+    "type": "mcq",
+    "options": [
+      "1.",
+      "4.",
+      "5.",
+      "2."
+    ],
+    "answer": 3,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q18",
+    "content": "Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa mặt phẳng $(ABCD)$ và mặt phẳng $(BDD'B')$.\n    \n    \n    \n    \n        \n        \n        <img src=\"assets/tikz_509905985c.svg\" class=\"tikz-img\">",
+    "type": "mcq",
+    "options": [
+      "$45^\\circ$.",
+      "$0^\\circ$.",
+      "$90^\\circ$.",
+      "$60^\\circ$."
+    ],
+    "answer": 2,
+    "metadata": {
+      "topic": "On_tap",
+      "grade": "10",
+      "type": "Trắc nghiệm",
+      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+    }
+  },
+  {
+    "id": "q19",
+    "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$ và $\\widehat{ASB} = 25^\\circ$. Tính góc giữa đường thẳng $SB$ và mặt phẳng $(ABC)$.",
     "type": "mcq",
     "options": [
       "$25^\\circ$.",
@@ -306,52 +341,16 @@
     }
   },
   {
-    "id": "q18",
-    "content": "Cho hình chóp tứ giác đều $S.ABCD$ có đáy là hình vuông tâm $O$, cạnh bằng $1$ và $SB = 2$. Tính khoảng cách từ $S$ đến mặt phẳng $(ABCD)$.\n    \n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.3\\textwidth}\n    \\vspace{-10pt}\n    \\centering\n    <img src=\"assets/tikz_904fb5fb21.svg\" class=\"tikz-img\">\n\\end{minipage}",
-    "type": "mcq",
-    "options": [
-      "$\\frac{\\sqrt{7}}{2}$.",
-      "$\\frac{\\sqrt{14}}{2}$.",
-      "$\\frac{\\sqrt{15}}{2}$.",
-      "$\\frac{\\sqrt{13}}{2}$."
-    ],
-    "answer": 1,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
-    "id": "q19",
-    "content": "Phương trình $\\log_2(2x-5) = \\log_2(1-x)$ có tập nghiệm là",
-    "type": "mcq",
-    "options": [
-      "$\\emptyset$.",
-      "$\\{2\\}$.",
-      "$\\{0\\}$.",
-      "$\\{6\\}$."
-    ],
-    "answer": 0,
-    "metadata": {
-      "topic": "On_tap",
-      "grade": "10",
-      "type": "Trắc nghiệm",
-      "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-    }
-  },
-  {
     "id": "q20",
-    "content": "Hàm số nào sau đây có tập giá trị là $\\mathbb{R}$?\n    \n\n   \\begin{minipage}[t]{0.65\\textwidth}",
+    "content": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông tại $A$, $AB = 3$, $SA = 3\\sqrt{3}$ và $SA \\perp (ABC)$. Tính góc giữa đường thẳng $SB$ và mặt phẳng $(ABC)$.\n    \n    \n    \n    \n        \n        \n        <img src=\"assets/tikz_985b73403e.svg\" class=\"tikz-img\">",
     "type": "mcq",
     "options": [
-      "$y = \\log_2x$.",
-      "$y = x^4 $.",
-      "$y = 2^x$.",
-      "$y = \\sin x$."
+      "$30^\\circ$.",
+      "$45^\\circ$.",
+      "$90^\\circ$.",
+      "$60^\\circ$."
     ],
-    "answer": 0,
+    "answer": 3,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -361,15 +360,15 @@
   },
   {
     "id": "q21",
-    "content": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông tại $A$, $AB = 3$, $SA = 3\\sqrt{3}$ và $SA \\perp (ABC)$. Tính góc giữa đường thẳng $SB$ và mặt phẳng $(ABC)$.\n    \n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.3\\textwidth}\n    \\vspace{-10pt}\n    \\centering\n    <img src=\"assets/tikz_4d1b065013.svg\" class=\"tikz-img\">\n\\end{minipage}",
+    "content": "Cho hình chóp tứ giác đều $S.ABCD$ có đáy là hình vuông tâm $O$, cạnh bằng $1$ và $SB = 2$. Tính khoảng cách từ $S$ đến mặt phẳng $(ABCD)$.\n    \n    \n    \n    \n        \n        \n        <img src=\"assets/tikz_ab46f10ee7.svg\" class=\"tikz-img\">",
     "type": "mcq",
     "options": [
-      "$30^\\circ$.",
-      "$45^\\circ$.",
-      "$60^\\circ$.",
-      "$90^\\circ$."
+      "$\\frac{\\sqrt{7}}{2}$.",
+      "$\\frac{\\sqrt{14}}{2}$.",
+      "$\\frac{\\sqrt{15}}{2}$.",
+      "$\\frac{\\sqrt{13}}{2}$."
     ],
-    "answer": 2,
+    "answer": 1,
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
