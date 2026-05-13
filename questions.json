@@ -307,7 +307,7 @@
   },
   {
     "id": "q18",
-    "content": "Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa mặt phẳng $(ABCD)$ và mặt phẳng $(A'B'C'D')$.\n\n    \n    \n    <img src=\"assets/tikz_765ea93148.svg\" class=\"tikz-img\">",
+    "content": "Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa mặt phẳng $(ACC'A')$ và mặt phẳng $(BD D'B')$.\n\n    \n    \n    <img src=\"assets/tikz_765ea93148.svg\" class=\"tikz-img\">",
     "type": "mcq",
     "options": [
       "$90^\\circ$",
