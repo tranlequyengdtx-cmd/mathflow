@@ -9,7 +9,8 @@ let currentState = {
     startTime: null,
     timerInterval: null,
     totalTimeSeconds: 0,
-    cheatCount: 0
+    cheatCount: 0,
+    reviewMode: false
 };
 
 // DOM Elements
@@ -34,7 +35,11 @@ const elements = {
     studentSummary: document.getElementById('student-summary'),
     saveFeedbackBtn: document.getElementById('save-feedback-btn'),
     studentFeedback: document.getElementById('student-feedback'),
-    finalTime: document.getElementById('final-time')
+    finalTime: document.getElementById('final-time'),
+    themeToggle: document.getElementById('theme-toggle'),
+    themeIcon: document.getElementById('theme-icon'),
+    reviewBtn: document.getElementById('review-btn'),
+    exitReviewBtn: document.getElementById('exit-review-btn')
 };
 
 // Initialize Icons
@@ -52,6 +57,14 @@ async function loadQuestions() {
     } catch (e) {
         console.error('Lỗi khi tải câu hỏi:', e);
     }
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
 }
 
 function showScreen(screenName) {
@@ -77,11 +90,23 @@ async function startQuiz() {
         questions = [
             { id: "demo", content: "Chưa có câu hỏi nào được xuất từ Vault. Vui lòng chạy kịch bản kết nối.", type: "mcq", options: ["Đã hiểu"], answer: 0 }
         ];
+    } else {
+        // Shuffle Questions
+        shuffleArray(questions);
+        // Shuffle Options for each question
+        questions.forEach(q => {
+            const optionsWithIndices = q.options.map((opt, i) => ({ text: opt, originalIndex: i }));
+            shuffleArray(optionsWithIndices);
+            q.options = optionsWithIndices.map(o => o.text);
+            // Update correct answer index
+            q.answer = optionsWithIndices.findIndex(o => o.originalIndex === q.answer);
+        });
     }
 
     currentState.studentName = name;
     currentState.studentClass = classInfo;
     currentState.startTime = new Date();
+    currentState.reviewMode = false;
 
     // Re-initialize answers array with the correct length
     currentState.answers = Array(questions.length).fill(null);
@@ -119,13 +144,37 @@ function renderQuestion() {
         <div class="question-card">
             <div class="question-text">${q.content}</div>
             <div class="options-list">
-                ${q.options.map((opt, i) => `
-                    <div class="option-item ${currentState.answers[index] === i ? 'selected' : ''}" data-index="${i}">
-                        <div class="option-radio"></div>
-                        <div class="option-content">${opt}</div>
-                    </div>
-                `).join('')}
+                ${q.options.map((opt, i) => {
+                    let statusClass = '';
+                    if (currentState.reviewMode) {
+                        if (i === q.answer) statusClass = 'correct';
+                        else if (currentState.answers[index] === i) statusClass = 'incorrect';
+                    } else {
+                        if (currentState.answers[index] === i) {
+                            const isCorrect = i === q.answer;
+                            statusClass = isCorrect ? 'correct' : 'incorrect';
+                        }
+                    }
+
+                    return `
+                        <div class="option-item ${statusClass} ${currentState.answers[index] === i ? 'selected' : ''}" data-index="${i}">
+                            <div class="option-radio"></div>
+                            <div class="option-content">${opt}</div>
+                        </div>
+                    `;
+                }).join('')}
             </div>
+            ${currentState.reviewMode && q.explanation ? `
+                <div class="explanation-box">
+                    <div class="explanation-title"><i data-lucide="info"></i> Giải thích chi tiết:</div>
+                    <div class="explanation-content">${q.explanation}</div>
+                </div>
+            ` : ''}
+            ${currentState.reviewMode && !q.explanation ? `
+                <div class="explanation-box">
+                    <div class="explanation-title"><i data-lucide="check-circle"></i> Đáp án đúng là: ${q.options[q.answer]}</div>
+                </div>
+            ` : ''}
         </div>
     `;
 
@@ -141,41 +190,47 @@ function renderQuestion() {
     });
 
     // Add Event Listeners to options
-    document.querySelectorAll('.option-item').forEach(item => {
-        item.addEventListener('click', () => {
-            // If already answered, don't allow changing for instant feedback mode
-            if (currentState.answers[index] !== null) return;
+    if (!currentState.reviewMode) {
+        document.querySelectorAll('.option-item').forEach(item => {
+            item.addEventListener('click', () => {
+                // If already answered, don't allow changing for instant feedback mode
+                if (currentState.answers[index] !== null) return;
 
-            const optIndex = parseInt(item.dataset.index);
-            const isCorrect = optIndex === q.answer;
+                const optIndex = parseInt(item.dataset.index);
+                const isCorrect = optIndex === q.answer;
 
-            currentState.answers[index] = optIndex;
+                currentState.answers[index] = optIndex;
 
-            // Apply visual feedback
-            item.classList.add(isCorrect ? 'correct' : 'incorrect');
+                // Apply visual feedback
+                item.classList.add(isCorrect ? 'correct' : 'incorrect');
 
-            if (!isCorrect) {
-                // Highlight the correct answer
-                const correctItem = document.querySelector(`.option-item[data-index="${q.answer}"]`);
-                if (correctItem) correctItem.classList.add('correct-hint');
-            }
-
-            // Small delay before allowing next question or just leave it for review
-            setTimeout(() => {
-                // Optional: auto-advance or just let them click 'Next'
-            }, 1000);
+                if (!isCorrect) {
+                    // Highlight the correct answer
+                    const correctItem = document.querySelector(`.option-item[data-index="${q.answer}"]`);
+                    if (correctItem) correctItem.classList.add('correct-hint');
+                }
+            });
         });
-    });
+    }
 
     // Update Navigation Buttons
     elements.prevBtn.disabled = index === 0;
-    if (index === questions.length - 1) {
-        elements.nextBtn.classList.add('hidden');
-        elements.submitBtn.classList.remove('hidden');
-    } else {
-        elements.nextBtn.classList.remove('hidden');
+    
+    if (currentState.reviewMode) {
+        elements.nextBtn.classList.toggle('hidden', index === questions.length - 1);
         elements.submitBtn.classList.add('hidden');
+        elements.exitReviewBtn.classList.remove('hidden');
+    } else {
+        elements.exitReviewBtn.classList.add('hidden');
+        if (index === questions.length - 1) {
+            elements.nextBtn.classList.add('hidden');
+            elements.submitBtn.classList.remove('hidden');
+        } else {
+            elements.nextBtn.classList.remove('hidden');
+            elements.submitBtn.classList.add('hidden');
+        }
     }
+    lucide.createIcons();
 }
 
 function nextQuestion() {
@@ -279,12 +334,34 @@ async function saveFeedback() {
     elements.saveFeedbackBtn.textContent = "Đã gửi phản hồi";
 }
 
+function toggleTheme() {
+    document.body.classList.toggle('light-mode');
+    const isLight = document.body.classList.contains('light-mode');
+    elements.themeIcon.setAttribute('data-lucide', isLight ? 'moon' : 'sun');
+    lucide.createIcons();
+}
+
+function enterReviewMode() {
+    currentState.reviewMode = true;
+    currentState.currentQuestionIndex = 0;
+    showScreen('quiz');
+    renderQuestion();
+}
+
+function exitReview() {
+    currentState.reviewMode = false;
+    showScreen('result');
+}
+
 // --- Event Listeners ---
 elements.startBtn.addEventListener('click', startQuiz);
 elements.nextBtn.addEventListener('click', nextQuestion);
 elements.prevBtn.addEventListener('click', prevQuestion);
 elements.submitBtn.addEventListener('click', submitQuiz);
 elements.saveFeedbackBtn.addEventListener('click', saveFeedback);
+elements.themeToggle.addEventListener('click', toggleTheme);
+elements.reviewBtn.addEventListener('click', enterReviewMode);
+elements.exitReviewBtn.addEventListener('click', exitReview);
 
 // Enter to start
 elements.studentClass.addEventListener('keypress', (e) => {
