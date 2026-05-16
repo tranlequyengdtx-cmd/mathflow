@@ -71,7 +71,7 @@ async function startQuiz() {
     }
 
     await loadQuestions();
-    
+
     if (questions.length === 0) {
         // Sample fallback if no questions exported
         questions = [
@@ -82,13 +82,13 @@ async function startQuiz() {
     currentState.studentName = name;
     currentState.studentClass = classInfo;
     currentState.startTime = new Date();
-    
+
     // Re-initialize answers array with the correct length
     currentState.answers = Array(questions.length).fill(null);
     currentState.currentQuestionIndex = 0;
     currentState.totalTimeSeconds = 0;
     currentState.cheatCount = 0;
-    
+
     showScreen('quiz');
     renderQuestion();
     startTimer();
@@ -108,7 +108,7 @@ function startTimer() {
 function renderQuestion() {
     const index = currentState.currentQuestionIndex;
     const q = questions[index];
-    
+
     // Update Progress
     const progress = ((index + 1) / questions.length) * 100;
     elements.progressBar.style.width = `${progress}%`;
@@ -134,8 +134,8 @@ function renderQuestion() {
     // Render LaTeX
     renderMathInElement(elements.questionContainer, {
         delimiters: [
-            {left: '$$', right: '$$', display: true},
-            {left: '$', right: '$', display: false}
+            { left: '$$', right: '$$', display: true },
+            { left: '$', right: '$', display: false }
         ],
         throwOnError: false
     });
@@ -148,12 +148,12 @@ function renderQuestion() {
 
             const optIndex = parseInt(item.dataset.index);
             const isCorrect = optIndex === q.answer;
-            
+
             currentState.answers[index] = optIndex;
-            
+
             // Apply visual feedback
             item.classList.add(isCorrect ? 'correct' : 'incorrect');
-            
+
             if (!isCorrect) {
                 // Highlight the correct answer
                 const correctItem = document.querySelector(`.option-item[data-index="${q.answer}"]`);
@@ -192,11 +192,11 @@ function prevQuestion() {
     }
 }
 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz896O2PBzFGWHS96y-pyFrU5-35Nz8q1S2yKb1wObibjeNrOEDvQdgYTUd0kRX5Ea7/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyKfePtv4VUWkLkptih8B9DEJnvFV10QBrGQYIWpTdaFQNzsR6EbPtoqXJq1o5QDkd2/exec';
 
 async function submitQuiz() {
     clearInterval(currentState.timerInterval);
-    
+
     // Calculate Score
     let score = 0;
     currentState.answers.forEach((ans, i) => {
@@ -204,13 +204,13 @@ async function submitQuiz() {
     });
 
     const scoreText = `${score}/${questions.length}`;
-    
+
     // Format Time
     const totalTime = currentState.totalTimeSeconds;
     const mins = Math.floor(totalTime / 60).toString().padStart(2, '0');
     const secs = (totalTime % 60).toString().padStart(2, '0');
     const timeText = `${mins}:${secs}`;
-    
+
     // Format Cheating Info
     const cheatInfo = currentState.cheatCount > 0 ? `Có (${currentState.cheatCount} lần)` : "Không";
 
@@ -220,7 +220,7 @@ async function submitQuiz() {
         elements.finalTime.textContent = timeText;
     }
     elements.studentSummary.textContent = `${currentState.studentName} - Lớp ${currentState.studentClass}`;
-    
+
     showScreen('result');
 
     // Automatically send basic results to Google Sheets
