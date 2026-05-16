@@ -7,7 +7,9 @@ let currentState = {
     currentQuestionIndex: 0,
     answers: Array(questions.length).fill(null),
     startTime: null,
-    timerInterval: null
+    timerInterval: null,
+    totalTimeSeconds: 0,
+    cheatCount: 0
 };
 
 // DOM Elements
@@ -31,7 +33,8 @@ const elements = {
     finalScore: document.getElementById('final-score'),
     studentSummary: document.getElementById('student-summary'),
     saveFeedbackBtn: document.getElementById('save-feedback-btn'),
-    studentFeedback: document.getElementById('student-feedback')
+    studentFeedback: document.getElementById('student-feedback'),
+    finalTime: document.getElementById('final-time')
 };
 
 // Initialize Icons
@@ -83,6 +86,8 @@ async function startQuiz() {
     // Re-initialize answers array with the correct length
     currentState.answers = Array(questions.length).fill(null);
     currentState.currentQuestionIndex = 0;
+    currentState.totalTimeSeconds = 0;
+    currentState.cheatCount = 0;
     
     showScreen('quiz');
     renderQuestion();
@@ -93,6 +98,7 @@ function startTimer() {
     const startTime = Date.now();
     currentState.timerInterval = setInterval(() => {
         const elapsed = Math.floor((Date.now() - startTime) / 1000);
+        currentState.totalTimeSeconds = elapsed;
         const mins = Math.floor(elapsed / 60).toString().padStart(2, '0');
         const secs = (elapsed % 60).toString().padStart(2, '0');
         elements.timer.textContent = `${mins}:${secs}`;
@@ -199,8 +205,20 @@ async function submitQuiz() {
 
     const scoreText = `${score}/${questions.length}`;
     
+    // Format Time
+    const totalTime = currentState.totalTimeSeconds;
+    const mins = Math.floor(totalTime / 60).toString().padStart(2, '0');
+    const secs = (totalTime % 60).toString().padStart(2, '0');
+    const timeText = `${mins}:${secs}`;
+    
+    // Format Cheating Info
+    const cheatInfo = currentState.cheatCount > 0 ? `Có (${currentState.cheatCount} lần)` : "Không";
+
     // Show Results
     elements.finalScore.textContent = scoreText;
+    if (elements.finalTime) {
+        elements.finalTime.textContent = timeText;
+    }
     elements.studentSummary.textContent = `${currentState.studentName} - Lớp ${currentState.studentClass}`;
     
     showScreen('result');
@@ -210,6 +228,8 @@ async function submitQuiz() {
         studentName: currentState.studentName,
         studentClass: currentState.studentClass,
         score: scoreText,
+        time: timeText,
+        cheated: cheatInfo,
         feedback: "Nộp bài tự động"
     });
 }
@@ -239,10 +259,19 @@ async function saveFeedback() {
     elements.saveFeedbackBtn.disabled = true;
     elements.saveFeedbackBtn.textContent = "Đang gửi...";
 
+    // Format Time & Cheat info to re-send if needed
+    const totalTime = currentState.totalTimeSeconds;
+    const mins = Math.floor(totalTime / 60).toString().padStart(2, '0');
+    const secs = (totalTime % 60).toString().padStart(2, '0');
+    const timeText = `${mins}:${secs}`;
+    const cheatInfo = currentState.cheatCount > 0 ? `Có (${currentState.cheatCount} lần)` : "Không";
+
     await sendDataToGoogle({
         studentName: currentState.studentName,
         studentClass: currentState.studentClass,
         score: elements.finalScore.textContent,
+        time: timeText,
+        cheated: cheatInfo,
         feedback: feedback
     });
 
@@ -260,4 +289,12 @@ elements.saveFeedbackBtn.addEventListener('click', saveFeedback);
 // Enter to start
 elements.studentClass.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') startQuiz();
+});
+
+// --- Cheating Detection ---
+document.addEventListener('visibilitychange', () => {
+    if (document.hidden && currentState.screen === 'quiz') {
+        currentState.cheatCount++;
+        alert("Cảnh báo: Bạn đã rời khỏi màn hình làm bài! Hành vi này đã được ghi nhận.");
+    }
 });
