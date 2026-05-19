@@ -52,7 +52,36 @@ lucide.createIcons();
 async function loadQuestions() {
     try {
         const response = await fetch('questions.json');
-        questions = await response.json();
+        const data = await response.json();
+        
+        if (Array.isArray(data)) {
+            questions = data;
+        } else {
+            questions = data.questions || [];
+            
+            // Nếu file xuất cấu hình thời gian kiểm tra cố định, áp dụng và vô hiệu hóa thay đổi trên UI
+            if (data.timeLimit !== undefined) {
+                currentState.timeLimit = data.timeLimit;
+                if (elements.examTime) {
+                    let optionExists = false;
+                    for (let i = 0; i < elements.examTime.options.length; i++) {
+                        if (parseFloat(elements.examTime.options[i].value) === data.timeLimit) {
+                            optionExists = true;
+                            break;
+                        }
+                    }
+                    if (!optionExists) {
+                        const newOpt = document.createElement('option');
+                        newOpt.value = data.timeLimit;
+                        newOpt.textContent = data.timeLimit > 0 ? (data.timeLimit < 1 ? `${data.timeLimit * 60} Giây` : `${data.timeLimit} Phút`) : "Không giới hạn";
+                        elements.examTime.appendChild(newOpt);
+                    }
+                    elements.examTime.value = data.timeLimit;
+                    elements.examTime.disabled = true; // Học sinh không được tự chọn
+                }
+            }
+        }
+        
         if (questions.length === 0) {
             alert('Không tìm thấy câu hỏi nào!');
         }
@@ -109,7 +138,7 @@ async function startQuiz() {
     currentState.studentClass = classInfo;
     currentState.startTime = new Date();
     currentState.reviewMode = false;
-    currentState.timeLimit = parseInt(elements.examTime.value, 10) || 0;
+    currentState.timeLimit = parseFloat(elements.examTime.value) || 0;
 
     // Re-initialize answers array with the correct length
     currentState.answers = Array(questions.length).fill(null);
@@ -554,3 +583,4 @@ document.addEventListener('fullscreenchange', () => {
 // Khởi chạy chế độ bảo mật và kiểm tra bài thi chưa hoàn thành
 setupSecurityRestrictions();
 checkSavedState();
+loadQuestions();
