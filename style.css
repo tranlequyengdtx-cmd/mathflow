@@ -134,7 +134,7 @@ label {
     font-weight: 400;
 }
 
-input[type="text"], textarea {
+input[type="text"], textarea, select {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--glass-border);
     border-radius: 12px;
@@ -145,11 +145,25 @@ input[type="text"], textarea {
     transition: all 0.3s ease;
 }
 
-input[type="text"]:focus, textarea:focus {
+select option {
+    background: var(--bg-color);
+    color: var(--text-primary);
+}
+
+input[type="text"]:focus, textarea:focus, select:focus {
     outline: none;
     border-color: var(--accent-primary);
     background: rgba(255, 255, 255, 0.07);
     box-shadow: 0 0 0 4px rgba(0, 210, 255, 0.1);
+}
+
+@keyframes pulseWarning {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+.pulse-warning {
+    animation: pulseWarning 1s infinite;
 }
 
 /* Buttons */
@@ -416,4 +430,12 @@ footer {
     h1 {
         font-size: 2rem;
     }
+}
+
+/* Security feature: Disable text selection */
+.no-select {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }

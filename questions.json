@@ -1,15 +1,16 @@
 [
   {
     "id": "q1",
-    "content": "Trong không gian, góc giữa hai đường thẳng vuông góc bằng bao nhiêu độ?",
+    "content": "Trong mặt phẳng tọa độ $Oxy$, viết phương trình chính tắc của hypebol $(H)$ có độ dài trục thực bằng $6$ và tiêu cự bằng $10$.",
     "type": "mcq",
     "options": [
-      "$0^\\circ$",
-      "$90^\\circ$",
-      "$180^\\circ$",
-      "$45^\\circ$"
+      "$\\dfrac{x^2}{9} - \\dfrac{y^2}{16} = 1$.",
+      "$\\dfrac{x^2}{9} - \\dfrac{y^2}{64} = 1$.",
+      "$\\dfrac{x^2}{36} - \\dfrac{y^2}{64} = 1$.",
+      "$\\dfrac{x^2}{9} + \\dfrac{y^2}{16} = 1$."
     ],
-    "answer": 1,
+    "answer": 2,
+    "explanation": "Hướng dẫn giải:\n\t> Ta có $a=3,c=5$ suy ra $b^2=c^2-a^2=16$.",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -19,15 +20,16 @@
   },
   {
     "id": "q2",
-    "content": "Tính thể tích của khối lập phương có cạnh bằng $4$.",
+    "content": "Trong mặt phẳng tọa độ $Oxy$, viết phương trình chính tắc của hypebol $(H)$ có độ dài trục ảo bằng $10$ và tiêu cự bằng $26$.",
     "type": "mcq",
     "options": [
-      "$16$",
-      "$64$",
-      "$12$",
-      "$48$"
+      "$\\dfrac{x^2}{144} - \\dfrac{y^2}{25} = 1$.",
+      "$\\dfrac{x^2}{25} - \\dfrac{y^2}{144} = 1$.",
+      "$\\dfrac{x^2}{169} - \\dfrac{y^2}{25} = 1$.",
+      "$\\dfrac{x^2}{144} + \\dfrac{y^2}{25} = 1$."
     ],
-    "answer": 1,
+    "answer": 0,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -37,15 +39,16 @@
   },
   {
     "id": "q3",
-    "content": "Cho hai biến cố độc lập $A$ và $B$ có $P(A) = 0,3$ và $P(B) = 0,5$. Tính $P(AB)$.",
+    "content": "Tính $A_{8}^3$.",
     "type": "mcq",
     "options": [
-      "0,8.",
-      "0,15.",
-      "0,2.",
-      "1,5."
+      "24",
+      "56",
+      "336",
+      "40.320"
     ],
-    "answer": 1,
+    "answer": 2,
+    "explanation": "Hướng dẫn:\n\t> $A_{8}^3=8.7.6$.",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -55,15 +58,16 @@
   },
   {
     "id": "q4",
-    "content": "Tính thể tích của khối lăng trụ có diện tích đáy bằng $4a^2$ và chiều cao bằng $5a$.",
+    "content": "Tính tổng $ C_5^0 + C_5^1 + C_5^2 + C_5^3 + C_5^4 + C_5^5$.",
     "type": "mcq",
     "options": [
-      "$9a^3$",
-      "$\\dfrac{20}{3}a^3$",
-      "$20a^3$",
-      "$10a^3$"
+      "10",
+      "32",
+      "25",
+      "16"
     ],
-    "answer": 2,
+    "answer": 1,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -73,15 +77,16 @@
   },
   {
     "id": "q5",
-    "content": "Tính đạo hàm của hàm số $y = e^{2x}$.",
+    "content": "Có bao nhiêu cách sắp xếp 5 cuốn sách khác nhau vào một kệ sách dài?",
     "type": "mcq",
     "options": [
-      "$y'=e^{2x}$",
-      "$y'=2e^{2x}$",
-      "$y'=4e^{2x}$",
-      "$y'=4e^x$"
+      "5",
+      "25",
+      "60",
+      "120"
     ],
-    "answer": 1,
+    "answer": 3,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -91,15 +96,16 @@
   },
   {
     "id": "q6",
-    "content": "Xét hàm số $f(x) = a^x$ với $a > 0, a \\neq 1$. Khẳng định nào sau đây \\textbf{sai}?",
+    "content": "Trong mặt phẳng $Oxy$, vectơ nào sau đây là một vectơ pháp tuyến của đường thẳng $d: x - 4y + 1 = 0$.",
     "type": "mcq",
     "options": [
-      "Hàm số nghịch biến khi $0 < a < 1$.",
-      "Hàm số đi qua điểm $(1; 0)$.",
-      "Hàm số có tập xác định là $\\mathbb R$.",
-      "Hàm có tập giá trị là $(0;+\\infty)$."
+      "$\\vec{n}=(4; 1)$",
+      "$\\vec{n}=(1; 4)$",
+      "$\\vec{n}=(-4; 1)$",
+      "$\\vec{n}=(1; -4)$"
     ],
-    "answer": 1,
+    "answer": 3,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -109,15 +115,16 @@
   },
   {
     "id": "q7",
-    "content": "Trong không gian, cho điểm $M$ và đường thẳng $d$ không đi qua $M$. Có bao nhiêu mặt phẳng đi qua $M$ và vuông góc với đường thẳng $d$?",
+    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $M(3; -2)$ và $N(1; 4)$. Xác định tọa độ của vectơ $\\overrightarrow{MN}$.",
     "type": "mcq",
     "options": [
-      "Vô số.",
-      "$1$.",
-      "$2$.",
-      "Không có."
+      "$\\overrightarrow{MN}=(-2; 6)$",
+      "$\\overrightarrow{MN}=(2; -6)$",
+      "$\\overrightarrow{MN}=(4; 2)$",
+      "$\\overrightarrow{MN}=(-2; 2)$"
     ],
-    "answer": 1,
+    "answer": 0,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -127,15 +134,16 @@
   },
   {
     "id": "q8",
-    "content": "Tính đạo hàm cấp hai của hàm số $y = \\dfrac{1}{x}$.",
+    "content": "Có bao nhiêu đoạn thẳng được lập từ $2$ trong số $8$ điểm phân biệt?",
     "type": "mcq",
     "options": [
-      "$y''=-\\dfrac{1}{x^2}$",
-      "$y''=\\dfrac{1}{x^2}$",
-      "$y''=\\dfrac{2}{x^3}$",
-      "$y''=-\\dfrac{2}{x^3}$"
+      "56",
+      "16",
+      "28",
+      "64"
     ],
     "answer": 2,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -145,15 +153,16 @@
   },
   {
     "id": "q9",
-    "content": "Phương trình $\\log_3(x-4) = \\log_3(2-x)$ có tập nghiệm là",
+    "content": "Từ một hộp chứa 6 quả cầu xanh và 4 quả cầu vàng, lấy ngẫu nhiên 1 quả cầu. Tính xác suất lấy được quả cầu màu vàng.",
     "type": "mcq",
     "options": [
-      "$\\{3\\}$",
-      "$\\emptyset$",
-      "$\\{6\\}$",
-      "$\\{0\\}$"
+      "$\\dfrac{3}{5}$",
+      "$\\dfrac{1}{4}$",
+      "$\\dfrac{2}{5}$",
+      "$\\dfrac{2}{3}$"
     ],
-    "answer": 1,
+    "answer": 2,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -163,15 +172,16 @@
   },
   {
     "id": "q10",
-    "content": "Tính hệ số góc của tiếp tuyến với đồ thị hàm số $y = x^3 + 2x - 5$ tại điểm có hoành độ bằng $0$.",
+    "content": "Xét lục giác đều ABCDEF. Có bao nhiêu tam giác được lập từ 3 đỉnh trong số các đỉnh của lục giác đã cho?",
     "type": "mcq",
     "options": [
-      "$0$",
-      "$2$",
-      "$-5$",
-      "$3$"
+      "120",
+      "720",
+      "40",
+      "20"
     ],
-    "answer": 1,
+    "answer": 3,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -181,15 +191,16 @@
   },
   {
     "id": "q11",
-    "content": "Tính đạo hàm của hàm số $y = \\frac{x+2}{x-1}$.",
+    "content": "Một nhóm có 20 người, có bao nhiêu cách chọn ra một đội gồm 4 người để đi công tác?",
     "type": "mcq",
     "options": [
-      "$y'=\\dfrac{3}{(x-1)^2}$",
-      "$y'=\\dfrac{-3}{(x-1)^2}$",
-      "$y'=\\dfrac{1}{(x-1)^2}$",
-      "$y'=\\dfrac{-1}{(x-1)^2}$"
+      "$C_{20}^4$",
+      "$A_{20}^4$",
+      "$20^4$",
+      "$4!$"
     ],
-    "answer": 1,
+    "answer": 0,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -199,15 +210,16 @@
   },
   {
     "id": "q12",
-    "content": "Tính đạo hàm cấp hai của hàm số $y = x^3 + 3x^2 - 5x + 1$.",
+    "content": "Tìm hệ số của $x^2$ trong khai triển nhị thức $(x+3)^4$.",
     "type": "mcq",
     "options": [
-      "$y'' = 3x^2 + 6x - 5$",
-      "$y'' = 6x - 6$",
-      "$y'' = 6x + 6$",
-      "$y'' = 6x + 3$"
+      "27",
+      "54",
+      "12",
+      "6"
     ],
-    "answer": 2,
+    "answer": 1,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -217,15 +229,16 @@
   },
   {
     "id": "q13",
-    "content": "Cho hai biến cố độc lập $A$ và $B$ có $P(A) = 0,4$ và $P(B) = 0,1$. Tính $P(A \\cup B)$.",
+    "content": "Trong mặt phẳng $Oxy$, viết phương trình chính tắc của Parabol có tiêu điểm $F(2; 0)$.",
     "type": "mcq",
     "options": [
-      "0,5.",
-      "0,46.",
-      "0,04.",
-      "0,44."
+      "$y^2 = 4x$",
+      "$x^2 = 8y$",
+      "$y^2 = 8x$",
+      "$y^2 = -8x$"
     ],
-    "answer": 1,
+    "answer": 2,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -235,15 +248,16 @@
   },
   {
     "id": "q14",
-    "content": "Một hộp đựng 30 tấm thẻ cùng loại được đánh số từ 1 đến 30. Rút ngẫu nhiên một tấm thẻ. Gọi $A$ là biến cố \"Rút được thẻ ghi số chẵn\", $B$ là biến cố \"Rút được thẻ ghi số chia hết cho 7\". Số phần tử của biến cố $A \\cap B$ là",
+    "content": "Hệ số của $x^4$ trong khai triển nhị thức $(x - 2)^5$ là",
     "type": "mcq",
     "options": [
-      "4.",
-      "3.",
-      "$2$.",
-      "1."
+      "10",
+      "80",
+      "$-80$",
+      "$-10$"
     ],
-    "answer": 2,
+    "answer": 3,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -253,15 +267,16 @@
   },
   {
     "id": "q15",
-    "content": "Tính thể tích khối chóp tứ giác đều có cạnh đáy bằng $a$ và chiều cao bằng $6a$.",
+    "content": "Trong mặt phẳng $Oxy$, cho Elip có phương trình chính tắc $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$. Tính tiêu cự của Elip đã cho.",
     "type": "mcq",
     "options": [
-      "$6a^3$",
-      "$a^3$",
-      "$2a^3$",
-      "$\\dfrac{1}{3}a^3$"
+      "8",
+      "4",
+      "16",
+      "2"
     ],
-    "answer": 2,
+    "answer": 0,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -271,15 +286,16 @@
   },
   {
     "id": "q16",
-    "content": "Tính đạo hàm của hàm số $y = \\cos 2x - \\sin 4x$.",
+    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $B(3; 5)$ và $C(-1; 3)$. Phương trình tham số của đường thẳng $BC$ là",
     "type": "mcq",
     "options": [
-      "$y' = -2\\sin 2x - 4\\cos 4x$",
-      "$y' = 2\\sin 2x - 4\\cos 4x$",
-      "$y' = -2\\sin 2x + 4\\cos 4x$",
-      "$y' = 2\\sin 2x + 4\\cos 4x$"
+      "$\\begin{cases} x = 3 + 2t \\\\ y = 5 - t \\end{cases}$",
+      "$\\begin{cases} x = 3 - 2t \\\\ y = 5 - t \\end{cases}$",
+      "$\\begin{cases} x = -1 + t \\\\ y = 3 - 2t \\end{cases}$",
+      "$\\begin{cases} x = 3 + t \\\\ y = 5 + 2t \\end{cases}$"
     ],
-    "answer": 0,
+    "answer": 1,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -289,15 +305,16 @@
   },
   {
     "id": "q17",
-    "content": "Xét hai biến cố $A$ và $B$ độc lập, khẳng định nào sau đây đúng?",
+    "content": "Trong mặt phẳng $Oxy$, cho hai điểm $M(2;0)$ và $N(-2;4)$. Biết rằng đường thẳng $\\Delta$ vuông góc với đường thẳng $MN$, vectơ nào sau đây là một vectơ pháp tuyến của $\\Delta$?",
     "type": "mcq",
     "options": [
-      "$P(A \\cup B) = P(A) + P(B)$",
-      "$P(A\\cdot \\overline B) = P(A) \\cdot P(\\overline B)$",
-      "$P(A \\cup B) = P(A) \\cdot P(B)$",
-      "$P(AB) = P(A) + P(B)$"
+      "$\\vec{n} = (1; 1)$",
+      "$\\vec{n} = (4; 4)$",
+      "$\\vec{n} = (-1; 1)$",
+      "$\\vec{n} = (2; 2)$"
     ],
-    "answer": 1,
+    "answer": 2,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -307,15 +324,16 @@
   },
   {
     "id": "q18",
-    "content": "Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa mặt phẳng $(ACC'A')$ và mặt phẳng $(BD D'B')$.\n\n    \n    \n    <img src=\"assets/tikz_765ea93148.svg\" class=\"tikz-img\">",
+    "content": "Trong mặt phẳng $Oxy$, đường thẳng nào sau đây song song với đường thẳng $x - 2y + 5 = 0$?",
     "type": "mcq",
     "options": [
-      "$90^\\circ$",
-      "$0^\\circ$",
-      "$45^\\circ$",
-      "$180^\\circ$"
+      "$2x - 4y - 1 = 0$",
+      "$x + 2y + 5 = 0$",
+      "$x - 2y + 5 = 0$",
+      "$2x - 4y + 10 = 0$"
     ],
     "answer": 0,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -325,15 +343,16 @@
   },
   {
     "id": "q19",
-    "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$ và $\\widehat{ASB} = 35^\\circ$. Tính góc giữa đường thẳng $SB$ và mặt phẳng $(ABC)$.",
+    "content": "Trong mặt phẳng $Oxy$, cho ba điểm $A(1; 1)$, $B(3; 5)$ và $C(-1; 3)$. Viết phương trình đường thẳng đi qua $A$ và vuông góc với đường thẳng $BC$.",
     "type": "mcq",
     "options": [
-      "$35^\\circ$",
-      "$55^\\circ$",
-      "$90^\\circ$",
-      "$145^\\circ$"
+      "$x + 2y - 3 = 0$",
+      "$2x + y - 3 = 0$",
+      "$2x - y - 1 = 0$",
+      "$x - 2y + 1 = 0$"
     ],
     "answer": 1,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -343,15 +362,16 @@
   },
   {
     "id": "q20",
-    "content": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông tại $A$, $AB = 2$, $SA = 2\\sqrt{3}$ và $SA \\perp (ABC)$. Tính góc giữa đường thẳng $SB$ và mặt phẳng $(ABC)$.\n\n    \n    \n    <img src=\"assets/tikz_ae150fd1e0.svg\" class=\"tikz-img\">",
+    "content": "Cho hàm số $f(x) = x^2 - 4x + 5$. Khẳng định nào sau đây là đúng về dấu của $f(-2006)$ và $f(2006)$?",
     "type": "mcq",
     "options": [
-      "$30^\\circ$",
-      "$45^\\circ$",
-      "$90^\\circ$",
-      "$60^\\circ$"
+      "$f(-2006) < 0$ và $f(2006) > 0$",
+      "$f(-2006) > 0$ và $f(2006) > 0$",
+      "$f(-2006) > 0$ và $f(2006) < 0$",
+      "$f(-2006) < 0$ và $f(2006) < 0$"
     ],
-    "answer": 3,
+    "answer": 1,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
@@ -361,15 +381,16 @@
   },
   {
     "id": "q21",
-    "content": "Cho hình chóp tứ giác đều $S.ABCD$ có đáy là hình vuông tâm $O$, cạnh bằng $2$ và $SB = \\sqrt{6}$. Tính khoảng cách từ $S$ đến mặt phẳng $(ABCD)$.\n\n    \n    \n    <img src=\"assets/tikz_4f1365c404.svg\" class=\"tikz-img\">",
+    "content": "Trong mặt phẳng $Oxy$, viết phương trình chính tắc của Hyperbol có độ dài trục thực bằng $12$ và tiêu cự bằng $20$.",
     "type": "mcq",
     "options": [
-      "$\\sqrt{2}$",
-      "$2$",
-      "$\\sqrt{5}$",
-      "$\\sqrt{3}$"
+      "$\\frac{x^2}{36} - \\frac{y^2}{100} = 1$",
+      "$\\frac{x^2}{144} - \\frac{y^2}{400} = 1$",
+      "$\\frac{x^2}{36} - \\frac{y^2}{64} = 1$",
+      "$\\frac{x^2}{36} + \\frac{y^2}{64} = 1$"
     ],
-    "answer": 1,
+    "answer": 2,
+    "explanation": "",
     "metadata": {
       "topic": "On_tap",
       "grade": "10",
