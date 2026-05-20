@@ -1,4 +1,4 @@
-{
+window.mathflowData = {
   "questions": [
     {
       "id": "q1",
@@ -192,4 +192,4 @@
     }
   ],
   "timeLimit": 10.0
-}
+};

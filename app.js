@@ -44,49 +44,86 @@ const elements = {
     examTime: document.getElementById('exam-time')
 };
 
+// Safe wrappers for third-party libraries (handles offline mode or local file access)
+function safeCreateIcons() {
+    if (typeof lucide !== 'undefined' && lucide.createIcons) {
+        try {
+            lucide.createIcons();
+        } catch (e) {
+            console.warn("Lucide icons failed to render:", e);
+        }
+    }
+}
+
+function safeRenderMath(element) {
+    if (typeof renderMathInElement !== 'undefined') {
+        try {
+            renderMathInElement(element, {
+                delimiters: [
+                    { left: '$$', right: '$$', display: true },
+                    { left: '$', right: '$', display: false }
+                ],
+                throwOnError: false
+            });
+        } catch (e) {
+            console.warn("KaTeX failed to render:", e);
+        }
+    }
+}
+
 // Initialize Icons
-lucide.createIcons();
+safeCreateIcons();
 
 // --- Core Functions ---
 
+function parseQuestionsData(data) {
+    if (Array.isArray(data)) {
+        questions = data;
+    } else {
+        questions = data.questions || [];
+        
+        // Nếu file xuất cấu hình thời gian kiểm tra cố định, áp dụng và vô hiệu hóa thay đổi trên UI
+        if (data.timeLimit !== undefined) {
+            currentState.timeLimit = data.timeLimit;
+            if (elements.examTime) {
+                let optionExists = false;
+                for (let i = 0; i < elements.examTime.options.length; i++) {
+                    if (parseFloat(elements.examTime.options[i].value) === data.timeLimit) {
+                        optionExists = true;
+                        break;
+                    }
+                }
+                if (!optionExists) {
+                    const newOpt = document.createElement('option');
+                    newOpt.value = data.timeLimit;
+                    newOpt.textContent = data.timeLimit > 0 ? (data.timeLimit < 1 ? `${data.timeLimit * 60} Giây` : `${data.timeLimit} Phút`) : "Không giới hạn";
+                    elements.examTime.appendChild(newOpt);
+                }
+                elements.examTime.value = data.timeLimit;
+                elements.examTime.disabled = true; // Học sinh không được tự chọn
+            }
+        }
+    }
+}
+
 async function loadQuestions() {
+    // 1. Nạp từ biến toàn cục trước (Bypass CORS khi học sinh chạy trực tiếp file HTML offline!)
+    if (window.mathflowData) {
+        parseQuestionsData(window.mathflowData);
+        return;
+    }
+
+    // 2. Fallback sang fetch questions.json
     try {
         const response = await fetch('questions.json');
         const data = await response.json();
-        
-        if (Array.isArray(data)) {
-            questions = data;
-        } else {
-            questions = data.questions || [];
-            
-            // Nếu file xuất cấu hình thời gian kiểm tra cố định, áp dụng và vô hiệu hóa thay đổi trên UI
-            if (data.timeLimit !== undefined) {
-                currentState.timeLimit = data.timeLimit;
-                if (elements.examTime) {
-                    let optionExists = false;
-                    for (let i = 0; i < elements.examTime.options.length; i++) {
-                        if (parseFloat(elements.examTime.options[i].value) === data.timeLimit) {
-                            optionExists = true;
-                            break;
-                        }
-                    }
-                    if (!optionExists) {
-                        const newOpt = document.createElement('option');
-                        newOpt.value = data.timeLimit;
-                        newOpt.textContent = data.timeLimit > 0 ? (data.timeLimit < 1 ? `${data.timeLimit * 60} Giây` : `${data.timeLimit} Phút`) : "Không giới hạn";
-                        elements.examTime.appendChild(newOpt);
-                    }
-                    elements.examTime.value = data.timeLimit;
-                    elements.examTime.disabled = true; // Học sinh không được tự chọn
-                }
-            }
-        }
-        
-        if (questions.length === 0) {
-            alert('Không tìm thấy câu hỏi nào!');
-        }
+        parseQuestionsData(data);
     } catch (e) {
-        console.error('Lỗi khi tải câu hỏi:', e);
+        console.warn('Lỗi khi nạp file câu hỏi động (chạy offline hoặc không tìm thấy file):', e);
+    }
+    
+    if (questions.length === 0) {
+        alert('Không tìm thấy câu hỏi nào!');
     }
 }
 
@@ -102,7 +139,7 @@ function showScreen(screenName) {
     Object.values(screens).forEach(s => s.classList.remove('active'));
     screens[screenName].classList.add('active');
     currentState.screen = screenName;
-    lucide.createIcons();
+    safeCreateIcons();
 }
 
 async function startQuiz() {
@@ -250,13 +287,7 @@ function renderQuestion() {
     elements.questionContainer.innerHTML = html;
 
     // Render LaTeX
-    renderMathInElement(elements.questionContainer, {
-        delimiters: [
-            { left: '$$', right: '$$', display: true },
-            { left: '$', right: '$', display: false }
-        ],
-        throwOnError: false
-    });
+    safeRenderMath(elements.questionContainer);
 
     // Add Event Listeners to options
     if (!currentState.reviewMode) {
@@ -292,7 +323,7 @@ function renderQuestion() {
             elements.submitBtn.classList.add('hidden');
         }
     }
-    lucide.createIcons();
+    safeCreateIcons();
 }
 
 function nextQuestion() {
@@ -413,7 +444,7 @@ function toggleTheme() {
     document.body.classList.toggle('light-mode');
     const isLight = document.body.classList.contains('light-mode');
     elements.themeIcon.setAttribute('data-lucide', isLight ? 'moon' : 'sun');
-    lucide.createIcons();
+    safeCreateIcons();
 }
 
 function enterReviewMode() {
