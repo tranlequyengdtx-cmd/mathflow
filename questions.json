@@ -49,7 +49,7 @@
         "$36$"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "> Hoán vị $6!$.",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -68,7 +68,7 @@
         "$(2;4)$"
       ],
       "answer": 3,
-      "explanation": "> \"ngọn trừ gốc\"",
+      "explanation": "> \"ngọn trừ gốc, $B-A$\"",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -138,10 +138,10 @@
       "content": "Từ một túi chứa $6$ viên bi xanh và $4$ viên bi đỏ, lấy ngẫu nhiên $1$ viên bi. Tính xác suất lấy được viên bi màu xanh.",
       "type": "mcq",
       "options": [
-        "$\\dfrac{2}{5}$",
-        "$\\dfrac{1}{6}$",
-        "$\\dfrac{3}{5}$",
-        "$\\dfrac{1}{10}$"
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{1}{10}$"
       ],
       "answer": 2,
       "explanation": "",
@@ -163,7 +163,7 @@
         "$4x - 2y + 6 = 0$"
       ],
       "answer": 2,
-      "explanation": "",
+      "explanation": "> $\\frac a{a'}=\\frac{b}{b'}=\\frac c{c'}$.",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -201,7 +201,7 @@
         "$f(0) < 0$ và $f(2026) < 0$."
       ],
       "answer": 2,
-      "explanation": "",
+      "explanation": "> Dấu của $f(2006)$ là dấu của $f(x)$ khi $x\\to+\\infty$, cùng dấu với $a$.",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -220,7 +220,7 @@
         "$10$."
       ],
       "answer": 1,
-      "explanation": "> $C_5^3x^2\\cdots3^3=270x^2$, hệ số cần tìm là 270.",
+      "explanation": "> $C_5^3x^2\\cdot3^3=270x^2$, hệ số cần tìm là 270.",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -229,5 +229,5 @@
       }
     }
   ],
-  "timeLimit": 15.0
+  "timeLimit": 12.0
 }
