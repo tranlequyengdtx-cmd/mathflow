@@ -229,5 +229,6 @@ window.mathflowData = {
       }
     }
   ],
+  "allowSolve": false,
   "timeLimit": 15.0
 };

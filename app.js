@@ -11,7 +11,8 @@ let currentState = {
     totalTimeSeconds: 0,
     timeLimit: 0,
     cheatCount: 0,
-    reviewMode: false
+    reviewMode: false,
+    allowSolve: false
 };
 
 // DOM Elements
@@ -79,8 +80,10 @@ safeCreateIcons();
 function parseQuestionsData(data) {
     if (Array.isArray(data)) {
         questions = data;
+        currentState.allowSolve = false;
     } else {
         questions = data.questions || [];
+        currentState.allowSolve = data.allowSolve !== undefined ? data.allowSolve : false;
         
         // Nếu file xuất cấu hình thời gian kiểm tra cố định, áp dụng và vô hiệu hóa thay đổi trên UI
         if (data.timeLimit !== undefined) {
@@ -379,6 +382,13 @@ async function submitQuiz() {
     }
     elements.studentSummary.textContent = `${currentState.studentName} - Lớp ${currentState.studentClass}`;
 
+    // Ẩn hoặc hiển thị nút Xem lại bài làm dựa trên allowSolve
+    if (currentState.allowSolve) {
+        elements.reviewBtn.classList.remove('hidden');
+    } else {
+        elements.reviewBtn.classList.add('hidden');
+    }
+
     showScreen('result');
 
     // Automatically send basic results to Google Sheets
@@ -445,6 +455,11 @@ function toggleTheme() {
 }
 
 function enterReviewMode() {
+    // Bảo mật kép: Chặn truy cập nếu giáo viên đã khóa tính năng xem giải
+    if (!currentState.allowSolve) {
+        alert("Tính năng xem lại bài làm đã bị giáo viên khóa cho bài thi này.");
+        return;
+    }
     currentState.reviewMode = true;
     currentState.currentQuestionIndex = 0;
     showScreen('quiz');
