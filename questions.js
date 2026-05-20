@@ -2,7 +2,7 @@ window.mathflowData = {
   "questions": [
     {
       "id": "q1",
-      "content": "Bạn Nam có $4$ cái áo sơ mi trắng và $3$ cái quần tây khác nhau. Hỏi Nam có bao nhiêu cách chọn một bộ đồng phục gồm một áo sơ mi trắng và một quần tây?\n    \n\t>[!tips] \n\t> Qui tắc nhân.",
+      "content": "Bạn Nam có $4$ cái áo sơ mi trắng và $3$ cái quần tây khác nhau. Hỏi Nam có bao nhiêu cách chọn một bộ đồng phục gồm một áo sơ mi trắng và một quần tây?",
       "type": "mcq",
       "options": [
         "$7$",
@@ -21,7 +21,7 @@ window.mathflowData = {
     },
     {
       "id": "q2",
-      "content": "Tính giá trị của $A_9^2$.\n    \n\t>[!tips] \n\t>$9.8=72$",
+      "content": "Tính giá trị của $A_9^2$.",
       "type": "mcq",
       "options": [
         "$36$",
@@ -59,7 +59,7 @@ window.mathflowData = {
     },
     {
       "id": "q4",
-      "content": "Trong mặt phẳng $Oxy$, cho hai điểm $A(2;1)$ và $B(4;5)$. Tìm tọa độ của vectơ $\\vec{AB}$.\n    \n\t>[!tips] \n\t> \"ngọn trừ gốc\"",
+      "content": "Trong mặt phẳng $Oxy$, cho hai điểm $A(2;1)$ và $B(4;5)$. Tìm tọa độ của vectơ $\\vec{AB}$.",
       "type": "mcq",
       "options": [
         "$(6;6)$",
@@ -116,7 +116,7 @@ window.mathflowData = {
     },
     {
       "id": "q7",
-      "content": "Một lớp học có $43$ học sinh, có bao nhiêu cách chọn $3$ học sinh của lớp để làm nhiệm vụ trực cổng?\n    \n\t>[!tips] \n\t> Chọn 3 phần tử từ tập 43 phần tử, không xét thứ tự, kết quả: $C^3_{43}",
+      "content": "Một lớp học có $43$ học sinh, có bao nhiêu cách chọn $3$ học sinh của lớp để làm nhiệm vụ trực cổng?",
       "type": "mcq",
       "options": [
         "$A_{43}^3$",
