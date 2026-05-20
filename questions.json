@@ -86,7 +86,7 @@
         "$(1;-5)$",
         "$(5;1)$"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -125,7 +125,7 @@
         "$3!$"
       ],
       "answer": 1,
-      "explanation": "> Chọn 3 phần tử từ tập 43 phần tử, không xét thứ tự, kết quả: $C^3_{43}",
+      "explanation": "> Chọn 3 phần tử từ tập 43 phần tử, không xét thứ tự, kết quả: $C^3_{43}$.",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -173,7 +173,7 @@
     },
     {
       "id": "q10",
-      "content": "Tính tổng $S = C_4^0 + C_4^1 + C_4^2 + C_4^3 + C_4^4$.",
+      "content": "Tính tổng $C_4^0 + C_4^1 + C_4^2 + C_4^3 + C_4^4$.",
       "type": "mcq",
       "options": [
         "$16$",
@@ -182,7 +182,45 @@
         "$4$"
       ],
       "answer": 0,
+      "explanation": "> $S=(1+1)^4=16.$",
+      "metadata": {
+        "topic": "On_tap",
+        "grade": "10",
+        "type": "Trắc nghiệm",
+        "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+      }
+    },
+    {
+      "id": "q11",
+      "content": "Cho hàm số $f(x) = -3x^2 + 4x + 7$. Khẳng định nào sau đây đúng?",
+      "type": "mcq",
+      "options": [
+        "$f(0) > 0$ và $f(2026) > 0$.",
+        "$f(0) < 0$ và $f(2026) > 0$.",
+        "$f(0) > 0$ và $f(2026) < 0$.",
+        "$f(0) < 0$ và $f(2026) < 0$."
+      ],
+      "answer": 2,
       "explanation": "",
+      "metadata": {
+        "topic": "On_tap",
+        "grade": "10",
+        "type": "Trắc nghiệm",
+        "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+      }
+    },
+    {
+      "id": "q12",
+      "content": "Tìm hệ số của $x^2$ trong khai triển nhị thức $(x + 3)^5$.",
+      "type": "mcq",
+      "options": [
+        "$90$.",
+        "$270$.",
+        "$810$.",
+        "$10$."
+      ],
+      "answer": 1,
+      "explanation": "> $C_5^3x^2\\cdots3^3=270x^2$, hệ số cần tìm là 270.",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
