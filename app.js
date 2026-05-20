@@ -192,9 +192,6 @@ async function startQuiz() {
 
     // Lưu trạng thái làm bài ban đầu
     saveStateToLocalStorage();
-
-    // Yêu cầu chế độ toàn màn hình
-    await enterFullscreen();
 }
 
 function startTimer() {
@@ -546,9 +543,6 @@ function restoreQuiz(data) {
     showScreen('quiz');
     renderQuestion();
     startTimer();
-    
-    // Tự động vào lại chế độ toàn màn hình
-    enterFullscreen();
 }
 
 function checkSavedState() {
@@ -600,7 +594,8 @@ document.addEventListener('visibilitychange', () => {
     }
 });
 
-// Sự kiện thay đổi trạng thái toàn màn hình
+// Sự kiện thay đổi trạng thái toàn màn hình (Đã loại bỏ theo yêu cầu của giáo viên)
+/*
 document.addEventListener('fullscreenchange', () => {
     const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
     if (!isFullscreen && currentState.screen === 'quiz' && !currentState.reviewMode) {
@@ -610,6 +605,7 @@ document.addEventListener('fullscreenchange', () => {
         enterFullscreen(); // Cố gắng phục hồi toàn màn hình
     }
 });
+*/
 
 // Khởi chạy chế độ bảo mật và kiểm tra bài thi chưa hoàn thành
 setupSecurityRestrictions();

@@ -11,7 +11,7 @@ window.mathflowData = {
         "$4$"
       ],
       "answer": 1,
-      "explanation": "",
+      "explanation": "> Qui tắc nhân.",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -30,7 +30,7 @@ window.mathflowData = {
         "$81$"
       ],
       "answer": 2,
-      "explanation": "",
+      "explanation": "> $9.8=72$",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -68,7 +68,7 @@ window.mathflowData = {
         "$(2;4)$"
       ],
       "answer": 3,
-      "explanation": "",
+      "explanation": "> \"ngọn trừ gốc\"",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -125,7 +125,7 @@ window.mathflowData = {
         "$3!$"
       ],
       "answer": 1,
-      "explanation": "",
+      "explanation": "> Chọn 3 phần tử từ tập 43 phần tử, không xét thứ tự, kết quả: $C^3_{43}",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
