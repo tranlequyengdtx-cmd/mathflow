@@ -163,7 +163,7 @@
         "$4x - 2y + 6 = 0$"
       ],
       "answer": 2,
-      "explanation": "> $\\frac a{a'}=\\frac{b}{b'}=\\frac c{c'}$.",
+      "explanation": "> Chú ý: Cho $d:ax+by+c=0$ và $d':a'x+b'y+c'=0$, khi đó $d$ song song với $d'$ khi: $\\frac a{a'}=\\frac{b}{b'}\\ne\\frac c{c'}$.",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -229,5 +229,5 @@
       }
     }
   ],
-  "timeLimit": 12.0
+  "timeLimit": 15.0
 }
