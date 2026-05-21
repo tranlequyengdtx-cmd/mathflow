@@ -2,16 +2,16 @@ window.mathflowData = {
   "questions": [
     {
       "id": "q1",
-      "content": "Bạn Nam có $4$ cái áo sơ mi trắng và $3$ cái quần tây khác nhau. Hỏi Nam có bao nhiêu cách chọn một bộ đồng phục gồm một áo sơ mi trắng và một quần tây?",
+      "content": "Tính đạo hàm của hàm số $y=\\frac{3x-1}{x+2}$.",
       "type": "mcq",
       "options": [
-        "$7$",
-        "$12$",
-        "$3$",
-        "$4$"
+        "$y'=\\frac{7}{(x+2)^2}$",
+        "$y'=\\frac{5}{(x+2)^2}$",
+        "$y'=\\frac{-7}{(x+2)^2}$",
+        "$y'=3$"
       ],
-      "answer": 1,
-      "explanation": "> Qui tắc nhân.",
+      "answer": 0,
+      "explanation": "",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -21,16 +21,16 @@ window.mathflowData = {
     },
     {
       "id": "q2",
-      "content": "Tính giá trị của $A_9^2$.",
+      "content": "Với $x > 0$, tính đạo hàm của hàm số $y=\\frac{1}{x} + \\sqrt{x}$.",
       "type": "mcq",
       "options": [
-        "$36$",
-        "$18$",
-        "$72$",
-        "$81$"
+        "$y'=-\\frac{1}{x^2} + \\frac{1}{2\\sqrt{x}}$",
+        "$y'=\\frac{1}{x^2} + \\frac{1}{2\\sqrt{x}}$",
+        "$y'=-\\frac{1}{x^2} + \\frac{1}{\\sqrt{x}}$",
+        "$y'=\\ln x + \\frac{1}{2\\sqrt{x}}$"
       ],
-      "answer": 2,
-      "explanation": "> $9.8=72$",
+      "answer": 0,
+      "explanation": "",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -40,16 +40,16 @@ window.mathflowData = {
     },
     {
       "id": "q3",
-      "content": "Có bao nhiêu cách xếp $6$ học sinh thành một hàng dọc?",
+      "content": "Với $x > 0$, tính đạo hàm của hàm số $y=e^x + \\ln x$.",
       "type": "mcq",
       "options": [
-        "$720$",
-        "$120$",
-        "$6$",
-        "$36$"
+        "$y'=e^x + \\frac{1}{x}$",
+        "$y'=e^x - \\frac{1}{x}$",
+        "$y'=xe^{x-1} + \\frac{1}{x}$",
+        "$y'=e^x + \\frac{1}{x^2}$"
       ],
       "answer": 0,
-      "explanation": "> Hoán vị $6!$.",
+      "explanation": "",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -59,16 +59,16 @@ window.mathflowData = {
     },
     {
       "id": "q4",
-      "content": "Trong mặt phẳng $Oxy$, cho hai điểm $A(2;1)$ và $B(4;5)$. Tìm tọa độ của vectơ $\\vec{AB}$.",
+      "content": "Tính đạo hàm của hàm số $y=2\\sin 3x + \\cos 2x$.",
       "type": "mcq",
       "options": [
-        "$(6;6)$",
-        "$(1;2)$",
-        "$(-2;-4)$",
-        "$(2;4)$"
+        "$y'=6\\cos 3x - 2\\sin 2x$",
+        "$y'=2\\cos 3x + \\sin 2x$",
+        "$y'=-6\\cos 3x + 2\\sin 2x$",
+        "$y'=2\\cos 3x - \\sin 2x$"
       ],
-      "answer": 3,
-      "explanation": "> \"ngọn trừ gốc, $B-A$\"",
+      "answer": 0,
+      "explanation": "",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -78,15 +78,15 @@ window.mathflowData = {
     },
     {
       "id": "q5",
-      "content": "Trong mặt phẳng $Oxy$, vectơ nào sau đây là một vectơ pháp tuyến của đường thẳng $d \\colon 5x - y + 2 = 0$?",
+      "content": "Tìm hệ số góc tiếp tuyến của đồ thị hàm số $y=x^4-2x^2+1$ tại điểm $M(1;0)$.",
       "type": "mcq",
       "options": [
-        "$(5;-1)$",
-        "$(1;5)$",
-        "$(1;-5)$",
-        "$(5;1)$"
+        "$4$",
+        "$-4$",
+        "$0$",
+        "$2$"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -97,15 +97,15 @@ window.mathflowData = {
     },
     {
       "id": "q6",
-      "content": "Trong mặt phẳng $Oxy$, tìm tọa độ tiêu điểm $F$ của Parabol $(P): y^2 = 12x$.",
+      "content": "Tính đạo hàm của hàm số $y=\\tan(e^x)$.",
       "type": "mcq",
       "options": [
-        "$F(0;3)$",
-        "$F(3;0)$",
-        "$F(6;0)$",
-        "$F(12;0)$"
+        "$y'=\\frac{e^x}{\\cos^2(e^x)}$",
+        "$y'=\\frac{1}{\\cos^2(e^x)}$",
+        "$y'=e^x \\cdot \\tan(e^x)$",
+        "$y'=-\\frac{e^x}{\\sin^2(e^x)}$"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -116,34 +116,15 @@ window.mathflowData = {
     },
     {
       "id": "q7",
-      "content": "Một lớp học có $43$ học sinh, có bao nhiêu cách chọn $3$ học sinh của lớp để làm nhiệm vụ trực cổng?",
+      "content": "Tính đạo hàm cấp hai của hàm số $y=x^4 - 3x^2 + 1$.",
       "type": "mcq",
       "options": [
-        "$A_{43}^3$",
-        "$C_{43}^3$",
-        "$43^3$",
-        "$3!$"
+        "$y''=12x^2 - 6$",
+        "$y''=4x^3 - 6x$",
+        "$y''=12x^2 - 6x$",
+        "$y''=4x^2 - 6$"
       ],
-      "answer": 1,
-      "explanation": "> Chọn 3 phần tử từ tập 43 phần tử, không xét thứ tự, kết quả: $C^3_{43}$.",
-      "metadata": {
-        "topic": "On_tap",
-        "grade": "10",
-        "type": "Trắc nghiệm",
-        "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-      }
-    },
-    {
-      "id": "q8",
-      "content": "Từ một túi chứa $6$ viên bi xanh và $4$ viên bi đỏ, lấy ngẫu nhiên $1$ viên bi. Tính xác suất lấy được viên bi màu xanh.",
-      "type": "mcq",
-      "options": [
-        "$\\frac{2}{5}$",
-        "$\\frac{1}{6}$",
-        "$\\frac{3}{5}$",
-        "$\\frac{1}{10}$"
-      ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -153,17 +134,36 @@ window.mathflowData = {
       }
     },
     {
-      "id": "q9",
-      "content": "Trong mặt phẳng $Oxy$, đường thẳng $2x - y + 3 = 0$ song song với đường thẳng nào sau đây?",
+      "id": "q8",
+      "content": "Viết phương trình tiếp tuyến của đồ thị hàm số $(C): y=-x^2 + 3$ tại điểm có hoành độ bằng $1$.",
       "type": "mcq",
       "options": [
-        "$2x + y + 3 = 0$",
-        "$x - 2y + 3 = 0$",
-        "$4x - 2y + 1 = 0$",
-        "$4x - 2y + 6 = 0$"
+        "$y=-2x + 4$",
+        "$y=-2x + 2$",
+        "$y=2x + 4$",
+        "$y=2x + 1$"
       ],
-      "answer": 2,
-      "explanation": "> Chú ý: Cho $d:ax+by+c=0$ và $d':a'x+b'y+c'=0$, khi đó $d$ song song với $d'$ khi: $\\frac a{a'}=\\frac{b}{b'}\\ne\\frac c{c'}$.",
+      "answer": 0,
+      "explanation": "> Ta có $y'(1)=-2$, pttt có dạng $y+2x=(-1^2+3)+2.1$ hay $y=-2x+4$.",
+      "metadata": {
+        "topic": "On_tap",
+        "grade": "10",
+        "type": "Trắc nghiệm",
+        "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
+      }
+    },
+    {
+      "id": "q9",
+      "content": "Một chất điểm chuyển động có phương trình $s=\\frac{1}{3}t^3 - 2t^2 + 5t + 10$ ($t$ tính bằng giây, $s$ tính bằng mét).\n\t Tính vận tốc tức thời của chất điểm tại thời điểm $t=5$ giây.",
+      "type": "mcq",
+      "options": [
+        "$10$ m/s",
+        "$5$ m/s",
+        "$8$ m/s",
+        "$12$ m/s"
+      ],
+      "answer": 1,
+      "explanation": "",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -173,54 +173,16 @@ window.mathflowData = {
     },
     {
       "id": "q10",
-      "content": "Tính tổng $C_4^0 + C_4^1 + C_4^2 + C_4^3 + C_4^4$.",
+      "content": "Một vật chuyển động theo quỹ đạo $s(t)=t^3 - 3t^2 + 5t$ ($t$ tính bằng giây, $S$ tính bằng mét). Tìm gia tốc của vật tại thời điểm $t=3$ giây.",
       "type": "mcq",
       "options": [
-        "$16$",
-        "$32$",
-        "$8$",
-        "$4$"
+        "$12$ m/s$^2$",
+        "$18$ m/s$^2$",
+        "$6$ m/s$^2$",
+        "$0$ m/s$^2$"
       ],
       "answer": 0,
-      "explanation": "> $S=(1+1)^4=16.$",
-      "metadata": {
-        "topic": "On_tap",
-        "grade": "10",
-        "type": "Trắc nghiệm",
-        "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-      }
-    },
-    {
-      "id": "q11",
-      "content": "Cho hàm số $f(x) = -3x^2 + 4x + 7$. Khẳng định nào sau đây đúng?",
-      "type": "mcq",
-      "options": [
-        "$f(0) > 0$ và $f(2026) > 0$.",
-        "$f(0) < 0$ và $f(2026) > 0$.",
-        "$f(0) > 0$ và $f(2026) < 0$.",
-        "$f(0) < 0$ và $f(2026) < 0$."
-      ],
-      "answer": 2,
-      "explanation": "> Dấu của $f(2006)$ là dấu của $f(x)$ khi $x\\to+\\infty$, cùng dấu với $a$.",
-      "metadata": {
-        "topic": "On_tap",
-        "grade": "10",
-        "type": "Trắc nghiệm",
-        "raw_yaml": "topic: 'On_tap'\ngrade: '10'\ntype: 'Trắc nghiệm'"
-      }
-    },
-    {
-      "id": "q12",
-      "content": "Tìm hệ số của $x^2$ trong khai triển nhị thức $(x + 3)^5$.",
-      "type": "mcq",
-      "options": [
-        "$90$.",
-        "$270$.",
-        "$810$.",
-        "$10$."
-      ],
-      "answer": 1,
-      "explanation": "> $C_5^3x^2\\cdot3^3=270x^2$, hệ số cần tìm là 270.",
+      "explanation": "> Ta có $a(t)=s''(t)$, suy ra $a(3)=s''(3)=$.",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -229,6 +191,6 @@ window.mathflowData = {
       }
     }
   ],
-  "allowSolve": false,
-  "timeLimit": 15.0
+  "allowSolve": true,
+  "timeLimit": 5.0
 };
