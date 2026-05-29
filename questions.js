@@ -10,7 +10,7 @@ window.mathflowData = {
         "$y'=\\frac{-7}{(x+2)^2}$",
         "$y'=3$"
       ],
-      "answer": 0,
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -29,7 +29,7 @@ window.mathflowData = {
         "$y'=-\\frac{1}{x^2} + \\frac{1}{\\sqrt{x}}$",
         "$y'=\\ln x + \\frac{1}{2\\sqrt{x}}$"
       ],
-      "answer": 0,
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -48,7 +48,7 @@ window.mathflowData = {
         "$y'=xe^{x-1} + \\frac{1}{x}$",
         "$y'=e^x + \\frac{1}{x^2}$"
       ],
-      "answer": 0,
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -67,7 +67,7 @@ window.mathflowData = {
         "$y'=-6\\cos 3x + 2\\sin 2x$",
         "$y'=2\\cos 3x - \\sin 2x$"
       ],
-      "answer": 0,
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -86,7 +86,7 @@ window.mathflowData = {
         "$0$",
         "$2$"
       ],
-      "answer": 2,
+      "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -105,7 +105,7 @@ window.mathflowData = {
         "$y'=e^x \\cdot \\tan(e^x)$",
         "$y'=-\\frac{e^x}{\\sin^2(e^x)}$"
       ],
-      "answer": 0,
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -124,7 +124,7 @@ window.mathflowData = {
         "$y''=12x^2 - 6x$",
         "$y''=4x^2 - 6$"
       ],
-      "answer": 0,
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -143,8 +143,8 @@ window.mathflowData = {
         "$y=2x + 4$",
         "$y=2x + 1$"
       ],
-      "answer": 0,
-      "explanation": "> Ta có $y'(1)=-2$, pttt có dạng $y+2x=(-1^2+3)+2.1$ hay $y=-2x+4$.",
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "U0EgCUYPwpxXewpCS0NMSXIAFB4WHRUAHEYPwpxXO+G7kgsEUkENdABIDx5AUCpaTV9GXG1dVEdSDRUmEhRLC0BTDENSSEE=",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -162,7 +162,7 @@ window.mathflowData = {
         "$8$ m/s",
         "$12$ m/s"
       ],
-      "answer": 1,
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
       "explanation": "",
       "metadata": {
         "topic": "On_tap",
@@ -181,8 +181,8 @@ window.mathflowData = {
         "$6$ m/s$^2$",
         "$0$ m/s$^2$"
       ],
-      "answer": 0,
-      "explanation": "> Ta có $a(t)=s''(t)$, suy ra $a(3)=s''(3)=$.",
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "U0EgCUYPwpxXexJNF1tYB3gVGEYfSU1UGxMVTwU+U0ECWlZdYkEXFR5eSElMSA==",
       "metadata": {
         "topic": "On_tap",
         "grade": "10",
@@ -192,5 +192,5 @@ window.mathflowData = {
     }
   ],
   "allowSolve": true,
-  "timeLimit": 5.0
+  "timeLimit": 15.0
 };

@@ -5,7 +5,7 @@ let currentState = {
     studentName: '',
     studentClass: '',
     currentQuestionIndex: 0,
-    answers: Array(questions.length).fill(null),
+    answers: [], // Array of originalIndex answers
     startTime: null,
     timerInterval: null,
     totalTimeSeconds: 0,
@@ -13,6 +13,36 @@ let currentState = {
     cheatCount: 0,
     reviewMode: false,
     allowSolve: false
+};
+
+const MathFlowCrypto = {
+    salt: "mathflow_secret_2026",
+    
+    async hashAnswer(index) {
+        const text = `${index}_${this.salt}`;
+        const encoder = new TextEncoder();
+        const data = encoder.encode(text);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    },
+
+    xorDecrypt(base64String) {
+        if (!base64String) return "";
+        try {
+            const binaryStr = atob(base64String);
+            const xordStr = decodeURIComponent(escape(binaryStr));
+            let decrypted = "";
+            for (let i = 0; i < xordStr.length; i++) {
+                const keyChar = this.salt.charCodeAt(i % this.salt.length);
+                decrypted += String.fromCharCode(xordStr.charCodeAt(i) ^ keyChar);
+            }
+            return decrypted;
+        } catch (e) {
+            console.error("Lỗi giải mã:", e);
+            return "Lỗi giải mã lời giải.";
+        }
+    }
 };
 
 // DOM Elements
@@ -166,11 +196,11 @@ async function startQuiz() {
         shuffleArray(questions);
         // Shuffle Options for each question
         questions.forEach(q => {
-            const optionsWithIndices = q.options.map((opt, i) => ({ text: opt, originalIndex: i }));
-            shuffleArray(optionsWithIndices);
-            q.options = optionsWithIndices.map(o => o.text);
-            // Update correct answer index
-            q.answer = optionsWithIndices.findIndex(o => o.originalIndex === q.answer);
+            if (q.options && q.options.length > 0 && typeof q.options[0] === 'string') {
+                const optionsWithIndices = q.options.map((opt, i) => ({ text: opt, originalIndex: i }));
+                shuffleArray(optionsWithIndices);
+                q.options = optionsWithIndices;
+            }
         });
     }
 
@@ -255,17 +285,17 @@ function renderQuestion() {
         <div class="question-card">
             <div class="question-text">${q.content}</div>
             <div class="options-list">
-                ${q.options.map((opt, i) => {
+                ${q.options.map((optObj, i) => {
                     let statusClass = '';
                     if (currentState.reviewMode) {
-                        if (i === q.answer) statusClass = 'correct';
-                        else if (currentState.answers[index] === i) statusClass = 'incorrect';
+                        if (optObj.originalIndex === q.correctOriginalIndex) statusClass = 'correct';
+                        else if (currentState.answers[index] === optObj.originalIndex) statusClass = 'incorrect';
                     }
 
                     return `
-                        <div class="option-item ${statusClass} ${currentState.answers[index] === i ? 'selected' : ''}" data-index="${i}">
+                        <div class="option-item ${statusClass} ${currentState.answers[index] === optObj.originalIndex ? 'selected' : ''}" data-original-index="${optObj.originalIndex}">
                             <div class="option-radio"></div>
-                            <div class="option-content">${opt}</div>
+                            <div class="option-content">${optObj.text}</div>
                         </div>
                     `;
                 }).join('')}
@@ -273,12 +303,12 @@ function renderQuestion() {
             ${currentState.reviewMode && q.explanation ? `
                 <div class="explanation-box">
                     <div class="explanation-title"><i data-lucide="info"></i> Giải thích chi tiết:</div>
-                    <div class="explanation-content">${q.explanation}</div>
+                    <div class="explanation-content">${MathFlowCrypto.xorDecrypt(q.explanation)}</div>
                 </div>
             ` : ''}
             ${currentState.reviewMode && !q.explanation ? `
                 <div class="explanation-box">
-                    <div class="explanation-title"><i data-lucide="check-circle"></i> Đáp án đúng là: ${q.options[q.answer]}</div>
+                    <div class="explanation-title"><i data-lucide="check-circle"></i> Đáp án đúng là: ${q.options.find(o => o.originalIndex === q.correctOriginalIndex)?.text || ''}</div>
                 </div>
             ` : ''}
         </div>
@@ -293,8 +323,8 @@ function renderQuestion() {
     if (!currentState.reviewMode) {
         document.querySelectorAll('.option-item').forEach(item => {
             item.addEventListener('click', () => {
-                const optIndex = parseInt(item.dataset.index);
-                currentState.answers[index] = optIndex;
+                const origIndex = parseInt(item.dataset.originalIndex);
+                currentState.answers[index] = origIndex;
 
                 // Cập nhật giao diện lựa chọn
                 document.querySelectorAll('.option-item').forEach(opt => opt.classList.remove('selected'));
@@ -360,9 +390,13 @@ async function submitQuiz() {
 
     // Calculate Score
     let score = 0;
-    currentState.answers.forEach((ans, i) => {
-        if (ans === questions[i].answer) score++;
-    });
+    for (let i = 0; i < currentState.answers.length; i++) {
+        const ans = currentState.answers[i];
+        if (ans !== null && ans !== undefined) {
+            const hash = await MathFlowCrypto.hashAnswer(ans);
+            if (hash === questions[i].answer) score++;
+        }
+    }
 
     const scoreText = `${score}/${questions.length}`;
 
@@ -454,12 +488,25 @@ function toggleTheme() {
     safeCreateIcons();
 }
 
-function enterReviewMode() {
+async function enterReviewMode() {
     // Bảo mật kép: Chặn truy cập nếu giáo viên đã khóa tính năng xem giải
     if (!currentState.allowSolve) {
         alert("Tính năng xem lại bài làm đã bị giáo viên khóa cho bài thi này.");
         return;
     }
+    
+    // Pre-calculate correct indices
+    for (let q of questions) {
+        if (q.options) {
+            for (let i = 0; i < q.options.length; i++) {
+                if (await MathFlowCrypto.hashAnswer(i) === q.answer) {
+                    q.correctOriginalIndex = i;
+                    break;
+                }
+            }
+        }
+    }
+    
     currentState.reviewMode = true;
     currentState.currentQuestionIndex = 0;
     showScreen('quiz');
@@ -605,7 +652,18 @@ document.addEventListener('visibilitychange', () => {
     if (document.hidden && currentState.screen === 'quiz' && !currentState.reviewMode) {
         currentState.cheatCount++;
         saveStateToLocalStorage();
-        alert("Cảnh báo: Bạn đã rời khỏi màn hình làm bài! Hành vi này đã được ghi nhận.");
+        
+        const overlay = document.getElementById('cheat-overlay');
+        if (overlay) overlay.classList.add('active');
+        
+        if (currentState.cheatCount >= 3) {
+            alert(`Cảnh báo lần ${currentState.cheatCount}: Bạn đã rời tab làm bài quá nhiều lần! Hệ thống tự động thu bài.`);
+            if (overlay) overlay.classList.remove('active');
+            submitQuiz();
+        } else {
+            alert(`Cảnh báo lần ${currentState.cheatCount}: Bạn đã rời tab làm bài!`);
+            if (overlay) overlay.classList.remove('active');
+        }
     }
 });
 
