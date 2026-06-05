@@ -319,6 +319,47 @@ function startTimer() {
     }
 }
 
+let qTextEl, optsListEl, explainBoxEl, explainTitleEl, explainContentEl;
+
+function initSkeletonDOM() {
+    elements.questionContainer.innerHTML = `
+        <div class="question-card">
+            <div id="q-text" class="question-text"></div>
+            <div id="opts-list" class="options-list"></div>
+            <div id="explain-box" class="explanation-box hidden">
+                <div id="explain-title" class="explanation-title"></div>
+                <div id="explain-content" class="explanation-content"></div>
+            </div>
+        </div>
+    `;
+    qTextEl = document.getElementById('q-text');
+    optsListEl = document.getElementById('opts-list');
+    explainBoxEl = document.getElementById('explain-box');
+    explainTitleEl = document.getElementById('explain-title');
+    explainContentEl = document.getElementById('explain-content');
+
+    // Event delegation for option items
+    optsListEl.addEventListener('click', (e) => {
+        if (currentState.reviewMode) return;
+        
+        const item = e.target.closest('.option-item');
+        if (!item || item.classList.contains('hidden')) return;
+
+        const index = currentState.currentQuestionIndex;
+        const origIndex = parseInt(item.getAttribute('data-original-index'));
+        currentState.answers[index] = origIndex;
+
+        // Cập nhật giao diện lựa chọn
+        optsListEl.querySelectorAll('.option-item').forEach(opt => {
+            opt.classList.remove('selected');
+        });
+        item.classList.add('selected');
+
+        // Lưu đáp án vào bộ nhớ tạm
+        saveStateToLocalStorage();
+    });
+}
+
 function renderQuestion() {
     const index = currentState.currentQuestionIndex;
     const q = questions[index];
@@ -328,60 +369,86 @@ function renderQuestion() {
     elements.progressBar.style.width = `${progress}%`;
     elements.questionNumber.textContent = `Câu ${index + 1}/${questions.length}`;
 
-    // Generate HTML
-    let html = `
-        <div class="question-card">
-            <div class="question-text">${q.content}</div>
-            <div class="options-list">
-                ${q.options.map((optObj, i) => {
-                    let statusClass = '';
-                    if (currentState.reviewMode) {
-                        if (optObj.originalIndex === q.correctOriginalIndex) statusClass = 'correct';
-                        else if (currentState.answers[index] === optObj.originalIndex) statusClass = 'incorrect';
-                    }
+    // Ensure skeleton is initialized
+    if (!qTextEl) {
+        initSkeletonDOM();
+    }
 
-                    return `
-                        <div class="option-item ${statusClass} ${currentState.answers[index] === optObj.originalIndex ? 'selected' : ''}" data-original-index="${optObj.originalIndex}">
-                            <div class="option-radio"></div>
-                            <div class="option-content">${optObj.text}</div>
-                        </div>
-                    `;
-                }).join('')}
-            </div>
-            ${currentState.reviewMode && q.explanation ? `
-                <div class="explanation-box">
-                    <div class="explanation-title"><i data-lucide="info"></i> Giải thích chi tiết:</div>
-                    <div class="explanation-content">${MathFlowCrypto.xorDecrypt(q.explanation)}</div>
-                </div>
-            ` : ''}
-            ${currentState.reviewMode && !q.explanation ? `
-                <div class="explanation-box">
-                    <div class="explanation-title"><i data-lucide="check-circle"></i> Đáp án đúng là: ${q.options.find(o => o.originalIndex === q.correctOriginalIndex)?.text || ''}</div>
-                </div>
-            ` : ''}
-        </div>
-    `;
+    // Update question content
+    qTextEl.innerHTML = q.content;
 
-    elements.questionContainer.innerHTML = html;
+    // Adjust the number of option elements to match q.options.length
+    let optionEls = optsListEl.querySelectorAll('.option-item');
+    while (optionEls.length < q.options.length) {
+        const item = document.createElement('div');
+        item.className = 'option-item';
+        item.innerHTML = `
+            <div class="option-radio"></div>
+            <div class="option-content"></div>
+        `;
+        optsListEl.appendChild(item);
+        optionEls = optsListEl.querySelectorAll('.option-item');
+    }
 
-    // Render LaTeX
-    safeRenderMath(elements.questionContainer);
+    // Hide extra options if any
+    for (let i = 0; i < optionEls.length; i++) {
+        if (i < q.options.length) {
+            optionEls[i].classList.remove('hidden');
+        } else {
+            optionEls[i].classList.add('hidden');
+        }
+    }
 
-    // Add Event Listeners to options
-    if (!currentState.reviewMode) {
-        document.querySelectorAll('.option-item').forEach(item => {
-            item.addEventListener('click', () => {
-                const origIndex = parseInt(item.dataset.originalIndex);
-                currentState.answers[index] = origIndex;
+    // Update option contents and states
+    q.options.forEach((optObj, i) => {
+        const item = optionEls[i];
+        item.setAttribute('data-original-index', optObj.originalIndex);
+        
+        const contentEl = item.querySelector('.option-content');
+        contentEl.innerHTML = optObj.text;
 
-                // Cập nhật giao diện lựa chọn
-                document.querySelectorAll('.option-item').forEach(opt => opt.classList.remove('selected'));
-                item.classList.add('selected');
-                
-                // Lưu đáp án vào bộ nhớ tạm
-                saveStateToLocalStorage();
-            });
+        // Reset classes
+        item.className = 'option-item';
+        
+        let statusClass = '';
+        if (currentState.reviewMode) {
+            if (optObj.originalIndex === q.correctOriginalIndex) statusClass = 'correct';
+            else if (currentState.answers[index] === optObj.originalIndex) statusClass = 'incorrect';
+        }
+        
+        if (statusClass) {
+            item.classList.add(statusClass);
+        }
+        if (currentState.answers[index] === optObj.originalIndex) {
+            item.classList.add('selected');
+        }
+    });
+
+    // Update explanation box
+    if (currentState.reviewMode) {
+        if (q.explanation) {
+            explainBoxEl.classList.remove('hidden');
+            explainTitleEl.innerHTML = `<i data-lucide="info"></i> Giải thích chi tiết:`;
+            explainContentEl.innerHTML = MathFlowCrypto.xorDecrypt(q.explanation);
+        } else {
+            explainBoxEl.classList.remove('hidden');
+            const correctOptText = q.options.find(o => o.originalIndex === q.correctOriginalIndex)?.text || '';
+            explainTitleEl.innerHTML = `<i data-lucide="check-circle"></i> Đáp án đúng là: ${correctOptText}`;
+            explainContentEl.innerHTML = '';
+        }
+    } else {
+        explainBoxEl.classList.add('hidden');
+    }
+
+    // Render LaTeX on local components
+    if (typeof renderMathInElement !== 'undefined') {
+        safeRenderMath(qTextEl);
+        q.options.forEach((_, i) => {
+            safeRenderMath(optionEls[i].querySelector('.option-content'));
         });
+        if (currentState.reviewMode) {
+            safeRenderMath(explainBoxEl);
+        }
     }
 
     // Update Navigation Buttons
@@ -436,15 +503,14 @@ async function submitQuiz() {
     // Tắt chế độ chống sao chép
     document.body.classList.remove('no-select');
 
-    // Calculate Score
-    let score = 0;
-    for (let i = 0; i < currentState.answers.length; i++) {
-        const ans = currentState.answers[i];
-        if (ans !== null && ans !== undefined) {
-            const hash = await MathFlowCrypto.hashAnswer(ans);
-            if (hash === questions[i].answer) score++;
-        }
-    }
+    // Calculate Score using Promise.all to break async waterfall
+    const verificationPromises = currentState.answers.map(async (ans, idx) => {
+        if (ans === null || ans === undefined) return false;
+        const hash = await MathFlowCrypto.hashAnswer(ans);
+        return hash === questions[idx].answer;
+    });
+    const results = await Promise.all(verificationPromises);
+    const score = results.filter(Boolean).length;
 
     const scoreText = `${score}/${questions.length}`;
 
@@ -612,39 +678,70 @@ function setupSecurityRestrictions() {
 }
 
 // --- LocalStorage State Management ---
+let saveStateTimeout = null;
+
 function saveStateToLocalStorage() {
     if (currentState.screen === 'quiz' && !currentState.reviewMode) {
-        const stateToSave = {
-            questions: questions,
-            currentState: {
+        if (saveStateTimeout) {
+            clearTimeout(saveStateTimeout);
+        }
+        saveStateTimeout = setTimeout(() => {
+            const stateToSave = {
+                quiz_id: (window.mathflowData && window.mathflowData.matrix) || "mathflow_default_quiz",
                 studentName: currentState.studentName,
                 studentClass: currentState.studentClass,
-                currentQuestionIndex: currentState.currentQuestionIndex,
+                current_index: currentState.currentQuestionIndex,
                 answers: currentState.answers,
                 startTime: currentState.startTime ? currentState.startTime.getTime() : null,
-                totalTimeSeconds: currentState.totalTimeSeconds,
                 timeLimit: currentState.timeLimit,
                 cheatCount: currentState.cheatCount,
-                savedAt: Date.now()
-            }
-        };
-        localStorage.setItem('mathflow_state', JSON.stringify(stateToSave));
+                savedAt: Date.now(),
+                question_sequence: questions.map(q => ({
+                    id: q.id,
+                    opts: q.options.map(o => o.originalIndex)
+                }))
+            };
+            localStorage.setItem('mathflow_state', JSON.stringify(stateToSave));
+            saveStateTimeout = null;
+        }, 300);
     }
 }
 
 function clearLocalStorageState() {
+    if (saveStateTimeout) {
+        clearTimeout(saveStateTimeout);
+        saveStateTimeout = null;
+    }
     localStorage.removeItem('mathflow_state');
 }
 
 function restoreQuiz(data) {
-    questions = data.questions;
-    currentState.studentName = data.currentState.studentName;
-    currentState.studentClass = data.currentState.studentClass;
-    currentState.currentQuestionIndex = data.currentState.currentQuestionIndex;
-    currentState.answers = data.currentState.answers;
-    currentState.startTime = new Date(data.currentState.startTime);
-    currentState.timeLimit = data.currentState.timeLimit;
-    currentState.cheatCount = data.currentState.cheatCount;
+    // Reconstruct questions sequence from master list to minimize localStorage storage size
+    const rawQuestions = (window.mathflowData && window.mathflowData.questions) || [];
+    questions = data.question_sequence.map(seqItem => {
+        const originalQ = rawQuestions.find(q => q.id === seqItem.id);
+        if (!originalQ) return null;
+        
+        const qCopy = JSON.parse(JSON.stringify(originalQ));
+        if (qCopy.options && qCopy.options.length > 0) {
+            qCopy.options = seqItem.opts.map(origIdx => {
+                const optVal = qCopy.options[origIdx];
+                return {
+                    text: typeof optVal === 'string' ? optVal : (optVal.text || ""),
+                    originalIndex: origIdx
+                };
+            });
+        }
+        return qCopy;
+    }).filter(q => q !== null);
+
+    currentState.studentName = data.studentName;
+    currentState.studentClass = data.studentClass;
+    currentState.currentQuestionIndex = data.current_index;
+    currentState.answers = data.answers;
+    currentState.startTime = new Date(data.startTime);
+    currentState.timeLimit = data.timeLimit;
+    currentState.cheatCount = data.cheatCount;
     currentState.reviewMode = false;
 
     // Bật chế độ chống sao chép
@@ -661,9 +758,9 @@ function checkSavedState() {
         try {
             const data = JSON.parse(saved);
             // Kiểm tra tính hợp lệ và thời gian lưu (dưới 4 tiếng)
-            if (data && data.currentState && (Date.now() - data.currentState.savedAt < 4 * 60 * 60 * 1000)) {
+            if (data && data.studentName && (Date.now() - data.savedAt < 4 * 60 * 60 * 1000)) {
                 setTimeout(() => {
-                    const confirmRestore = confirm(`Phát hiện bài làm chưa hoàn thành của học sinh ${data.currentState.studentName} (Lớp ${data.currentState.studentClass}). Bạn có muốn tiếp tục làm bài không?`);
+                    const confirmRestore = confirm(`Phát hiện bài làm chưa hoàn thành của học sinh ${data.studentName} (Lớp ${data.studentClass}). Bạn có muốn tiếp tục làm bài không?`);
                     if (confirmRestore) {
                         restoreQuiz(data);
                     } else {
