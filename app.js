@@ -139,33 +139,81 @@ function parseQuestionsData(data) {
     }
 }
 
-async function loadQuestions() {
-    // 1. Nạp từ biến toàn cục trước (Bypass CORS khi học sinh chạy trực tiếp file HTML offline!)
-    if (window.mathflowData) {
-        parseQuestionsData(window.mathflowData);
-        return;
-    }
-
-    // 2. Fallback sang fetch questions.json
-    try {
-        const response = await fetch('questions.json');
-        const data = await response.json();
-        parseQuestionsData(data);
-    } catch (e) {
-        console.warn('Lỗi khi nạp file câu hỏi động (chạy offline hoặc không tìm thấy file):', e);
-    }
-    
-    if (questions.length === 0) {
-        alert('Không tìm thấy câu hỏi nào!');
-    }
-}
-
+// Thuật toán xáo trộn mảng tối giản (Fisher-Yates)
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
+}
+
+function loadQuestions() {
+    if (typeof window.mathflowData === 'undefined') {
+        alert("Lỗi: Không tìm thấy dữ liệu câu hỏi mathflowData!");
+        return;
+    }
+
+    const rawData = window.mathflowData;
+    let poolQuestions = rawData.questions || [];
+    
+    // Đọc cấu hình bảo mật cơ bản
+    currentState.allowSolve = rawData.allowSolve || false;
+    currentState.timeLimit = rawData.timeLimit ? rawData.timeLimit * 60 : 0;
+
+    // XỬ LÝ MA TRẬN PHÂN TẦNG NATIVE TRÊN TRÌNH DUYỆT (E:NB:TH:VD)
+    if (rawData.matrix && poolQuestions.length > 0) {
+        const parts = rawData.matrix.split(':').map(Number);
+        let reqE = 0, reqNB = 0, reqTH = 0, reqVD = 0;
+
+        if (parts.length === 4) {
+            // Định dạng nâng cấp: E : NB : TH : VD
+            [reqE, reqNB, reqTH, reqVD] = parts;
+        } else if (parts.length === 3) {
+            // Định dạng tương thích cũ: NB : TH : VD (E mặc định = 0)
+            [reqNB, reqTH, reqVD] = parts;
+        }
+
+        // Gom các nhóm theo level
+        const buckets = { 'E': [], 'NB': [], 'TH': [], 'VD': [] };
+        poolQuestions.forEach(q => {
+            const lvl = (q.metadata && q.metadata.level ? q.metadata.level.toUpperCase() : 'NB');
+            if (buckets[lvl]) {
+                buckets[lvl].push(q);
+            } else {
+                buckets['NB'].push(q); // Fallback
+            }
+        });
+
+        let finalSelected = [];
+        const config = [
+            { key: 'E', req: reqE },
+            { key: 'NB', req: reqNB },
+            { key: 'TH', req: reqTH },
+            { key: 'VD', req: reqVD }
+        ];
+
+        config.forEach(item => {
+            let available = buckets[item.key];
+            shuffleArray(available); // Xáo trộn nội bộ tầng của máy học sinh đó
+            
+            if (available.length < item.req) {
+                console.warn(`Không đủ câu hỏi nhóm ${item.key}. Có: ${available.length}, Cần: ${item.req}`);
+                finalSelected = finalSelected.concat(available);
+            } else {
+                finalSelected = finalSelected.concat(available.slice(0, item.req));
+            }
+        });
+
+        // Trộn tổng hợp một lần cuối để xáo thứ tự các câu đan xen nhau tự nhiên
+        questions = shuffleArray(finalSelected);
+    } else {
+        // Fallback: Nếu không có ma trận, lấy toàn bộ kho đề và trộn ngẫu nhiên phẳng
+        questions = shuffleArray([...poolQuestions]);
+    }
+
+    // Khởi tạo mảng đáp án trống tương ứng với số câu đã bốc
+    currentState.answers = new Array(questions.length).fill(null);
 }
 
 function showScreen(screenName) {
