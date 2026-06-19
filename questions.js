@@ -1,211 +1,587 @@
 window.mathflowData = {
   "questions": [
     {
-      "id": "unlabeled",
-      "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$. Khẳng định nào sau đây là \\textbf{sai}?",
+      "id": "q1",
+      "content": "Một nhóm học sinh gồm 5 nam và 7 nữ. Có bao nhiêu cách chọn một học sinh của nhóm đó?",
       "type": "mcq",
       "options": [
-        "$SA \\perp AB$.",
-        "$SA \\perp BC$.",
-        "$SA \\perp AC$.",
-        "$SA \\perp SB$."
+        "5",
+        "12",
+        "35",
+        "7"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "wqwRVAzhuoMCCFcuBhxDBuG7ihd/UeG7qVxRQUEH4bq5Rg/CjhQ3UwYL4bq/C1Qzw5IQFgNGVklZVEhPFMK+EA1N",
+      "metadata": {
+        "raw_yaml": "topic: 'q1'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q1",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q2",
+      "content": "Một nhóm học sinh gồm 4 nam và 9 nữ. Có bao nhiêu cách chọn một học sinh nữ của nhóm đó?",
+      "type": "mcq",
+      "options": [
+        "4",
+        "13",
+        "36",
+        "9"
+      ],
+      "answer": "01c6b0d64395f3d7bf091357884eab0299392344e0bae206a60c0553a4543850",
+      "explanation": "O8KNVAsO4bqlTxQ34bq+C0NDRQAtXV5VFgMJwocFRlVPGeG6sFMLwokcRRfCrBIJElXCjAIcRg==",
+      "metadata": {
+        "raw_yaml": "topic: 'q2'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q2",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q3",
+      "content": "Từ một nhóm học sinh gồm 6 nam và 8 nữ, có bao nhiêu cách chọn ra 2 học sinh gồm một nam và một nữ?",
+      "type": "mcq",
+      "options": [
+        "48",
+        "14",
+        "12",
+        "26"
       ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
+      "explanation": "PuG6sFQLwocPB1c8G+G6qA1SCcKUfxYGEmoZCBkNFUxXV2JTUVtWRRfCvlFYHA==",
       "metadata": {
-        "raw_yaml": "label: \"quan_he_vuong_goc\"\nlop: 11\nloai: \"Trắc nghiệm\"\nmuc_do: \"Biet\"\ntags:\n  - quan_he_vuong_goc\nlinks:\n  - \"[[quan_he_vuong_goc]]\"\n  - \"[[lop_11]]\"\n  - \"[[hinh_chop]]\"\ndate: \"2026-05-12\"",
-        "label": "quan_he_vuong_goc",
-        "lop": "11",
-        "loai": "Trắc nghiệm",
-        "muc_do": "Biet",
-        "tags": "",
-        "links": "",
-        "date": "2026-05-12"
+        "raw_yaml": "topic: 'q3'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q3",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
       }
     },
     {
-      "id": "unlabeled",
-      "content": "Cho hình lập phương $ABCD.A'B'C'D'$ có cạnh bằng $a$. Tính khoảng cách giữa đường thẳng $CD$ và mặt phẳng $(ABC'D')$. \\choicess{4}{$a$.}{$\\dfrac{a}{2}$.}{$\\dfrac{a\\sqrt{2}}{2}$.}{$a\\sqrt{2}$.}",
-      "type": "short_answer",
-      "options": [],
-      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
-      "metadata": {
-        "raw_yaml": "label: \"quan_he_vuong_goc\"\nlop: 11\nloai: \"Trắc nghiệm\"\nmuc_do: \"Hieu\"\ntags:\n  - quan_he_vuong_goc\nlinks:\n  - \"[[quan_he_vuong_goc]]\"\n  - \"[[lop_11]]\"\n  - \"[[lap_phuong]]\"\n  - \"[[khoang_cach]]\"\ndate: \"2026-05-12\"",
-        "label": "quan_he_vuong_goc",
-        "lop": "11",
-        "loai": "Trắc nghiệm",
-        "muc_do": "Hieu",
-        "tags": "",
-        "links": "",
-        "date": "2026-05-12"
-      }
-    },
-    {
-      "id": "unlabeled",
-      "content": "Cho hình chóp $S.ABCD$ có $(SAB) \\perp (ABCD)$ và tam giác $SAB$ đều. Đáy $ABCD$ là hình vuông tâm $O$ và $H$ là trung điểm đoạn $AB$. Hình chiếu vuông góc của $S$ lên $(ABCD)$ là điểm nào?\\n",
-      "type": "short_answer",
-      "options": [],
-      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
-      "metadata": {
-        "raw_yaml": "label: \"quan_he_vuong_goc\"\nlop: 11\nloai: \"Trắc nghiệm\"\nmuc_do: \"Hieu\"\ntags:\n  - quan_he_vuong_goc\nlinks:\n  - \"[[quan_he_vuong_goc]]\"\n  - \"[[lop_11]]\"\n  - \"[[hinh_chop]]\"\n  - \"[[hinh_chieu]]\"\ndate: \"2026-05-05\"",
-        "label": "quan_he_vuong_goc",
-        "lop": "11",
-        "loai": "Trắc nghiệm",
-        "muc_do": "Hieu",
-        "tags": "",
-        "links": "",
-        "date": "2026-05-05"
-      }
-    },
-    {
-      "id": "unlabeled",
-      "content": "Một chiếc lều có dạng hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng 3m và chiều cao $SO=2$m. Tính thể tích của chiếc lều đó.\n\n> [!tip] Gợi ý\n> Sử dụng công thức thể tích hình chóp: $V = \\frac{1}{3} S_{ABCD} \\cdot SO$. Với đáy là hình vuông cạnh $a$, diện tích $S = a^2$.",
-      "type": "short_answer",
-      "options": [],
-      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
-      "metadata": {
-        "raw_yaml": "label: \"Quan hệ vuông góc\"\nlop: 11\nloai: \"Tự luận\"\nmuc_do: \"Biet\"\ntags:\n  - toán\n  - hình_học\n  - thể_tích\nlinks:\n  - \"[[quan_he_vuong_goc]]\"\n  - \"[[lop_11]]\"\ndate: \"2026-05-03\"",
-        "label": "Quan hệ vuông góc",
-        "lop": "11",
-        "loai": "Tự luận",
-        "muc_do": "Biet",
-        "tags": "",
-        "links": "",
-        "date": "2026-05-03"
-      }
-    },
-    {
-      "id": "unlabeled",
-      "content": "Tính thể tích $V$ của khối chóp tứ giác đều có cạnh đáy bằng $7$ m và cạnh bên bằng $8$ m.\n    \\choicess{4}{$V = \\dfrac{49\\sqrt{79}}{6} \\text{ m}^3$.}{$V = \\dfrac{49\\sqrt{79}}{2} \\text{ m}^3$.}{$V = \\dfrac{49\\sqrt{15}}{6} \\text{ m}^3$.}{$V = \\dfrac{49\\sqrt{15}}{2} \\text{ m}^3$.}",
-      "type": "short_answer",
-      "options": [],
-      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
-      "metadata": {
-        "raw_yaml": "label: \"quan_he_vuong_goc\"\nlop: 11\nloai: \"Trắc nghiệm\"\nmuc_do: \"Hieu\"\ntags:\n  - quan_he_vuong_goc\n  - hk2\nlinks:\n  - \"[[quan_he_vuong_goc]]\"\n  - \"[[lop_11]]\"\n  - \"[[the_tich]]\"\ndate: \"2026-05-09\"",
-        "label": "quan_he_vuong_goc",
-        "lop": "11",
-        "loai": "Trắc nghiệm",
-        "muc_do": "Hieu",
-        "tags": "",
-        "links": "",
-        "date": "2026-05-09"
-      }
-    },
-    {
-      "id": "unlabeled",
-      "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$, đáy $ABC$ là tam giác vuông cân tại $A$ có $AB=3$ và $SB=5$. Tính thể tích của khối chóp đã cho.\n    \n\n    \n    \n    <img src=\"assets/tikz_b41326c940.svg\" class=\"tikz-img\">",
+      "id": "q4",
+      "content": "Có bao nhiêu cách sắp xếp 8 học sinh xếp thành một hàng ngang?",
       "type": "mcq",
       "options": [
+        "40320",
+        "64",
+        "8",
+        "16"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "PuG6sFQLwocPB1cs4bucFUMK4buaBH9ew5ASElVAVFVGWF9EbUNBTQ==",
+      "metadata": {
+        "raw_yaml": "topic: 'q4'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q4",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q5",
+      "content": "Kết quả của $A_{9}^{3}$ là",
+      "type": "mcq",
+      "options": [
+        "84",
+        "504",
+        "16",
+        "27"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "SSArE18RMQxsDkVeUlxaZxwHEgtNVERcQkI=",
+      "metadata": {
+        "raw_yaml": "topic: 'q5'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q5",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q6",
+      "content": "Tổ I có 7 học sinh, trong đó có bạn Bình làm tổ trưởng. Có bao nhiêu cách sắp xếp tổ I thành một hàng dọc sao cho bạn Bình luôn đứng ở cuối hàng?",
+      "type": "mcq",
+      "options": [
+        "720",
+        "5040",
+        "40320",
+        "120"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "KQ5UCuG7hwJPNcKzHQ1DxaPHleG6lzwSSOG6jUZNAuG6pUjFt+G6pwEff+G6rEUAB+G6tB1/WsOQXFFND8KeBkYPwp0Zfx/hu4QKUlNUKeG7uRBGRMKAQcWl4bqrRhThu5AHf0VFC+G6vwZULFteWhYOwpMaSArhu40GW38Y4buaF1IUAeG7vBIUBBdNXFRfVFxLVzzCkgYLXA==",
+      "metadata": {
+        "raw_yaml": "topic: 'q6'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q6",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q7",
+      "content": "Tính $C_{8}^{6}$.",
+      "type": "mcq",
+      "options": [
+        "48",
+        "14",
+        "28",
+        "36"
+      ],
+      "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
+      "explanation": "SSIrE14RMQxpDkVeUiYrJApNbE1fHFRVRjAJBT4QHltSOQA2X1VBFlocD1obTFJXbUtBTQ==",
+      "metadata": {
+        "raw_yaml": "topic: 'q7'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q7",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q8",
+      "content": "Trong mặt phẳng Oxy, đường thẳng $\\Delta: 3x-y+5=0$ có một vectơ pháp tuyến là",
+      "type": "mcq",
+      "options": [
+        "$\\vec{n}=(3;-1)$",
+        "$\\vec{n}=(3;1)$",
+        "$\\vec{n}=(1;3)$",
+        "$\\vec{n}=(3;5)$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "LgnCjkjCm1ZPxafHr+G6rgsEUhEc4busXFcSEgwZXwofRwxKb1dFAMKBRSILYmQSWsKNQVA0EAkMVzFOTQJJB117HA==",
+      "metadata": {
+        "raw_yaml": "topic: 'q8'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q8",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q9",
+      "content": "Trong mặt phẳng Oxy, đường thẳng $\\Delta: x-2y+4=0$ có một vectơ chỉ phương là",
+      "type": "mcq",
+      "options": [
+        "$\\vec{u}=(1;-2)$",
+        "$\\vec{u}=(-1;2)$",
+        "$\\vec{u}=(-2;1)$",
+        "$\\vec{u}=(2;1)$"
+      ],
+      "answer": "01c6b0d64395f3d7bf091357884eab0299392344e0bae206a60c0553a4543850",
+      "explanation": "OzUkPEYAwo9Xey8TBhEeGiIPGAMNQFNdNCoDARAtGgILBgQGLV1HbkAIAg8dG1FHRWRCTEdcRTc3w4gQw48MTUPFpeG7iwlMGeG6vH8HF8KOUhPClH/Eo+G7pVsWCeG7hAFIV0wbH8K/HQ1DAg3hu5MxEA==",
+      "metadata": {
+        "raw_yaml": "topic: 'q9'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q9",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q10",
+      "content": "Trong mặt phẳng Oxy, điểm nào sau đây thuộc đường thẳng $\\Delta: \\begin{cases} x=3+2t \\\\ y=-5t \\end{cases}$?",
+      "type": "mcq",
+      "options": [
+        "$M(2;-5)$",
+        "$M(0;-5)$",
+        "$M(3;-5)$",
+        "$M(3;0)$"
+      ],
+      "answer": "01c6b0d64395f3d7bf091357884eab0299392344e0bae206a60c0553a4543850",
+      "explanation": "IwnCmAZGD+G6tgN/AOG6tEMG4bqUVDtdHBISIElHU1ZFMx4xLyEGHhEVexw=",
+      "metadata": {
+        "raw_yaml": "topic: 'q10'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q10",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q11",
+      "content": "Trong mặt phẳng Oxy, đường thẳng $\\Delta: \\begin{cases} x=1-3t \\\\ y=-4+t \\end{cases}$ có một vectơ chỉ phương là",
+      "type": "mcq",
+      "options": [
+        "$\\vec{u}=(1;-4)$",
+        "$\\vec{u}=(-3;1)$",
+        "$\\vec{u}=(3;1)$",
+        "$\\vec{u}=(-3;-4)$"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "IwnCmAZGD+G6tgN/G+G6okMB4bq0VDzhu5VREhIZRVhIQjAZEjwIEB5PTVlsCQEbEkM=",
+      "metadata": {
+        "raw_yaml": "topic: 'q11'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q11",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q12",
+      "content": "Trong mặt phẳng Oxy, cho $M(3;-1)$ và $N(-2;5)$. Toạ độ vectơ $\\vec{MN}$ là",
+      "type": "mcq",
+      "options": [
+        "$\\vec{MN}=(-5;6)$",
+        "$\\vec{MN}=(1;4)$",
+        "$\\vec{MN}=(5;-6)$",
+        "$\\vec{MN}=(-6;-5)$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "Ty8T4bqlCEwbBeG6tFMC4bqyEUdYfxZ+H3tJTw==",
+      "metadata": {
+        "raw_yaml": "topic: 'q12'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q12",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q13",
+      "content": "Trong mặt phẳng Oxy, đường thẳng đi qua hai điểm $A(1;3)$ và $B(2;-3)$ có phương trình tham số là",
+      "type": "mcq",
+      "options": [
+        "$\\begin{cases} x=1+t \\\\ y=3-6t \\end{cases}$",
+        "$\\begin{cases} x=2+t \\\\ y=-3-6t \\end{cases}$",
+        "$\\begin{cases} x=1+2t \\\\ y=3-3t \\end{cases}$",
+        "Cả A và B đúng"
+      ],
+      "answer": "01c6b0d64395f3d7bf091357884eab0299392344e0bae206a60c0553a4543850",
+      "explanation": "PRVUC+G6gQ1PxaYrU8W0ClIUAT4SFHMeXFpHQUJMGcKXfx0N4buOHEVQA0RVUU0sIwlVTl1UWmlaQUMewoUZf0REUUZNDcKUSEIwDRI4GgsYEQQHOkFNEk5QUF8cRjAzVyZOVk5EEVQDV15WTQ4ABw0VEUtZ",
+      "metadata": {
+        "raw_yaml": "topic: 'q13'\ngrade: '11'\nlevel: 'VD'\ntype: 'Trắc nghiệm'",
+        "topic": "q13",
+        "grade": "11",
+        "level": "VD",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q14",
+      "content": "Trong mặt phẳng Oxy, cho Parabol $(P): y^2=20x$. Tiêu điểm F của Parabol là",
+      "type": "mcq",
+      "options": [
+        "$F(20;0)$",
+        "$F(10;0)$",
+        "$F(0;5)$",
+        "$F(5;0)$"
+      ],
+      "answer": "01c6b0d64395f3d7bf091357884eab0299392344e0bae206a60c0553a4543850",
+      "explanation": "LgnCjkjCm0xLXw9aX0MLO0ZiWR5KFklBBx0fTB0WfwcMwokHRcWlNuG7sV0SEitJKA4UDQwMNA4eVw9eVG8bFBw=",
+      "metadata": {
+        "raw_yaml": "topic: 'q14'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q14",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q15",
+      "content": "Trong mặt phẳng Oxy, Parabol có tiêu điểm $F(2;0)$ có phương trình chính tắc là",
+      "type": "mcq",
+      "options": [
+        "$(P): y^2=4x$",
+        "$(P): y^2=8x$",
+        "$(P): y^2=2x$",
+        "$(P): y^2=16x$"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q15'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q15",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q16",
+      "content": "Phương trình chính tắc của Hypebol có độ dài trục thực bằng 10 và độ dài trục ảo bằng 8 là",
+      "type": "mcq",
+      "options": [
+        "$\\frac{x^2}{25}-\\frac{y^2}{16}=0$",
+        "$\\frac{x^2}{25}+\\frac{y^2}{16}=1$",
+        "$\\frac{x^2}{25}-\\frac{y^2}{16}=1$",
+        "$\\frac{x^2}{16}-\\frac{y^2}{25}=1$"
+      ],
+      "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
+      "explanation": "SVMVVVdcTysNGgILBgQGLV1HEldQVFBTRkhdFWJLRT8gDBM3RlFARAIWVApbWEtbfyXhu4gaUhEVf1HDgxISRSldUjoKHRY8CB09QBgPbQdNH2oLExULHRUxRSIIVFUPWEV7HA==",
+      "metadata": {
+        "raw_yaml": "topic: 'q16'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q16",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q17",
+      "content": "Phương trình chính tắc của Hypebol có độ dài trục ảo bằng 6 và tiêu cự bằng 8 là",
+      "type": "mcq",
+      "options": [
+        "$\\frac{x^2}{7}-\\frac{y^2}{9}=1$",
+        "$\\frac{x^2}{8}-\\frac{y^2}{6}=1$",
+        "$\\frac{x^2}{9}-\\frac{y^2}{7}=1$",
+        "$\\frac{x^2}{36}-\\frac{y^2}{64}=1$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "SVMWVVBMMyU2FA0XExcGMEUQUAteRU9IQl4MSmdTOTEbAhwrU0JAWRpBF1VSSEFXCxJFAMKBRVA+bAIPVTNTWQo4Xk9Kf0JTTktYQ3scEGThupsUQVA0AB4OFCQLO1EPHkMiH2xURAwCDxE4XhIMZg5YUlZL",
+      "metadata": {
+        "raw_yaml": "topic: 'q17'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q17",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q18",
+      "content": "Phương trình chính tắc của Elip có độ dài trục lớn bằng 12 và tiêu cự bằng 8 là",
+      "type": "mcq",
+      "options": [
+        "$\\frac{x^2}{12}+\\frac{y^2}{8}=1$",
+        "$\\frac{x^2}{36}+\\frac{y^2}{20}=1$",
+        "$\\frac{x^2}{36}+\\frac{y^2}{16}=1$",
+        "$\\frac{x^2}{6}+\\frac{y^2}{4}=1$"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "SVMVVVdeTysNGgILBgQGLV1HEldQV1BTRkhdFGJLRT8gDBM3RlFARAIWVAtbWEtZf1cHPUBYFQEAHVFoX0FJSFVaQkZpTldTVktUxY/hu7MQUcaGx4wPE0gFwp9PG+G6iBpFxbLCkxVUwr5cHBLEp8KMEVTCiQhMxb7CjTEURQ/CkkVQA1RCU1UWGSpaGxdcQSJYOQUABBckS24ASxZTRBVbXUtZ",
+      "metadata": {
+        "raw_yaml": "topic: 'q18'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q18",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q19",
+      "content": "Hộp đựng 7 bi xanh, 5 bi đỏ, 4 bi vàng. Chọn ngẫu nhiên một viên. Xác suất chọn được bi đỏ là",
+      "type": "mcq",
+      "options": [
+        "$\\frac{7}{16}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{11}{16}$",
+        "$\\frac{5}{16}$"
+      ],
+      "answer": "01c6b0d64395f3d7bf091357884eab0299392344e0bae206a60c0553a4543850",
+      "explanation": "OeG6tBoPRh/hur5XKRrCjw1SBx1/XsOQEhJaSkFDUlFeQXtdRTvCkwZULEfhupVGFgHCgVRMOgodFjwIUB4JVEIiFh4=",
+      "metadata": {
+        "raw_yaml": "topic: 'q19'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q19",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q20",
+      "content": "Hộp chứa 15 thẻ đánh số từ 1 đến 15. Xác suất rút được thẻ chia hết cho 4 là",
+      "type": "mcq",
+      "options": [
+        "$\\frac{4}{15}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{3}{4}$"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "LsKAF0gV4bq9TxQ3GgRDGuG7mgB/UVhdFllBGMKIRkgzDGtIRVtJRUVtbk0WFkUCwodIVUwc4bqmdlMz4buOC0UMwr5REEFD4buIFVQL4buBAk8DwrMeSUNWNVRiEmxURAwCD1sbF15CIlNYQy4DBj5RSwNLFlQJTEg=",
+      "metadata": {
+        "raw_yaml": "topic: 'q20'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q20",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q21",
+      "content": "Tính giá trị của biểu thức $S=C_{4}^{0}+C_{4}^{1}+C_{4}^{2}+C_{4}^{3}+C_{4}^{4}$",
+      "type": "mcq",
+      "options": [
+        "36",
+        "64",
+        "16",
+        "25"
+      ],
+      "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
+      "explanation": "L+G7hBlIC8KNFlc3HOG7kgBSCxzhu7JcEErDnxlBxaXHmOG6hQ9PUwxTWENaVF9uG24GFlBBRjZSTFJXbkVBTQ==",
+      "metadata": {
+        "raw_yaml": "topic: 'q21'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q21",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q22",
+      "content": "Cho tam thức bậc hai $f(x)=x^2-10x-5$. Khẳng định đúng là",
+      "type": "mcq",
+      "options": [
+        "$f(0)<0$ và $f(2026)<0$",
+        "$f(0)<0$ và $f(2026)>0$",
+        "$f(0)>0$ và $f(2026)>0$",
+        "$f(0)>0$ và $f(2026)<0$"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "L+G7hBlIC8KNFlc3HOG7kgBSFgEmElxH4bqbA0EaAMeWTBwWKklFRxRNRHYPHQcWUUFETEhMOcKbf1cEXkNbRHseEFzDnANBAuG6sw9MSw97Uxfhu4YGRRjhuoRcEEZXTQLCh0hCCkcPdk1VR1JNF8KmXFcSUuG7iBRUHuG6vQVPUz5XTE0=",
+      "metadata": {
+        "raw_yaml": "topic: 'q22'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q22",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q23",
+      "content": "Góc giữa hai đường thẳng $\\Delta: x-3y+4=0$ và $\\Delta': 2x+y-1=0$ là (làm tròn đến hàng phần mười)",
+      "type": "mcq",
+      "options": [
+        "$81,9^{\\circ}$",
+        "$80,9^{\\circ}$",
+        "$80,8^{\\circ}$",
+        "$89,1^{\\circ}$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "ST0XBxVMMxYzAw0CUlhUA1RCU1UWHUVAVEVEX3JATEtDTAgiSWxBRx8VD1k4XkRfckBMPUAYVANBQUBCFlMqWk1dMUUiDkVeUjkSLVNTSQcQGigbFx4bDG5DGD8BFAYrSQVPS01cVDQAHg4UJEIYGC4WBS1GSwcGEBxUNDQFCB8rEhcRHRJUA1NcQl4MQSgJFhwdGCdTXVJeXCokblNbRA4cUEY=",
+      "metadata": {
+        "raw_yaml": "topic: 'q23'\ngrade: '11'\nlevel: 'VD'\ntype: 'Trắc nghiệm'",
+        "topic": "q23",
+        "grade": "11",
+        "level": "VD",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q24",
+      "content": "Tìm số hạng chứa $x^3$ trong khai triển nhị thức $(3x-2)^6$.",
+      "type": "mcq",
+      "options": [
+        "$-4320x^3$.",
+        "$4320x^3$.",
+        "$-4320$.",
+        "$4320$."
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "PuG6sFQA4buHAghXK+G6pgsEUhQBwr5GEEZEAg8TSA0EDh5/BxcK4bqxC1Qzw5IQFmIyGh9DVxFPSn8wOlUsDlQDUVRdQk1JRxBPMhRBchgYQy4GEDBGEBobX0gqA0ZRTzQARTsIUjkXO11EEgUzGkJFDRFPKzwXChdSTVltG25ZFjECEAcSTBcpJEVICA9BVCnhu6lZEhJdQSgEA0wEVwMfAENESVQ0EmxbWE09GQkSBA0VJD0YR1xvJ+G6jhJY4bqTWApBFwDhuo8NT1MnLVZHUuG6jBo4Ekbhu6lfTUVCSEtMBFdiU1ZDLikROUZCW1EFFRUaFAMYVzRTWENBQVpVZOG6nUsWHuG6sFQA4buHAghXPOG7lAtDBsKJGX9ew5ASEi4+QjZVTDMUOxwRQ0E7R39uU1ZZGUFcRVRFMUR/LwYHHRFUJ2wDEgtNTEBbVFwXKWxXS2k+x5UBf8OPEEJewo8PVAoP4bqrG1c4GuG6igJSRwfhuo4SWOG6k1gKQ1RAAeG6vwJXPOG7kEUBG+G7mhp2EkbDkhZPCeG6s0gV4bq9TVd3EA3huqpSBsKHf0JY4bqVWE0S4bqlQUg=",
+      "metadata": {
+        "raw_yaml": "topic: 'q24'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q24",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q25",
+      "content": "Cho tam giác $ABC$ có $A(2;-1)$, $B(0;5)$, $C(-4;7)$. Khẳng định nào sau đây \\textbf{sai}?",
+      "type": "mcq",
+      "options": [
+        "Trọng tâm $G$ của tam giác $ABC$ có tọa độ là $G\\left(-\\frac{2}{3};\\frac{11}{3}\\right)$.",
+        "Đường thẳng qua $A$ và vuông góc với $BC$ có phương trình $2x-y-5=0$.",
+        "Đường thẳng qua $B$ và song song với $BC$ có phương trình $\\begin{cases} x=3t \\\\ y=5+4t. \\end{cases}$",
+        "Trung điểm $M$ của cạnh $BC$ có tọa độ là $(-2;6)$."
+      ],
+      "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
+      "explanation": "R0EgGuG6qwIIVyvCkQhDViJQf1Hhu5dTFhkAGUgBBcKOFH9XJCExQVQ8w4EQRuG7uwxBxaXhurFcTEsrPRYCChweFz5BVUFLTRkrL0ZRTys5AQQACVdfbx8ET01eHFRVRkEzES0SBhhAGA9sTxBuak0YKy9GUU8rOQEEAAlIRXQHGwVLFlIJSFtMMxEtEgYYQ1QJJAFNEmoIDxATBQ0cEiwORT8gDBM3RlFARAIWVC86AAoRK1tIPxQXFTxJAk9NXhxPNAAeDhQkQlQeCVYJA0BZVV4ZSFBITicH4buEMRRFxbLhurkLHH/Eo8OKXFFET35CRjgOVzzCgEVHLhMRPElycUtNXFRAS1hURXZXS0PFoseV4bqpMVUQRl7hu54PE0gXGQ5XezJBQwTChVQpR8OEXFFNBsKHC0Ya4bq0Hn9XJyBWRRo34bqfXhISMRcRCx0CEldiU01RSUhFdhYQXsOWAEECDQUYx45XLxvChBNSEQEm4bqNXh4WHQnHhMeJCAtPAy3CnwsLUgnClGUSFAAeFUxGQUtdRw50QkxeQkUoE1dWRkQEBhwcBx4dGChTVxtfHFlqDwAWFkUqHOG7mwgLT8Wm4bqUHQ1DxaPCnxo4Gx44HE01Bh0IC0/FpjbhurAIQ1YoUH9R4buXUxYO4buAGgBGSC00e1MGwpBSEeG6uT4SxKHhu6sMTUUoCgMLBhkkEAQQFxYJf0pvfxZQQSgOFA0MDG9eUR4JVwl/DxAfBE09KEgfMyJXYlM5BQAEFyQHGwVLFlMJSFtMWVcDFgsHCQYVLFdDTxYxMx0PDhgOBS0cEkM/TVltCQYbEk1JPwDhu5UCCFfFjuG6uAsLUsW0wo4xVRkcPEdBxaTHmOG6uwIIVysb4buWDRVFxaU2EkFHV01FNkxGGAfCm38YDcKXHAJUK1rhu7MSRQIPE0gVAwEQfwXhur4KUsW0x4ThuoJcVxJCBeG7khoPRkgtNHtdRScdRcWlwqwSW1rhuoUDBlTFueG6rQIHVzHCkxxDAQQdcQ==",
+      "metadata": {
+        "raw_yaml": "topic: 'q25'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q25",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q26",
+      "content": "Bất phương trình $-4x^2-12x+27>0$ có bao nhiêu nghiệm nguyên?",
+      "type": "mcq",
+      "options": [
+        "$4$.",
+        "$5$.",
         "$6$.",
+        "$7$."
+      ],
+      "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
+      "explanation": "NcKIAEgWBMefx5YxFEUXAMKJGjcSFB8CFT9GSEtMXkUnU05DQFJUYhIAEmohBBIcFAUIHysSFxEdElQDUFVVXwMaFwkVCRwKfwtFXlI5Ei1TU0kFEBpGFUYwM1cnU1hDXzkSLVNTSQ8QGkYVSEwzEjEXHgATFhEsTxQ4cgJBHOG6r0Yf4bq+V3sSRV5SSEB/DhACEkFBFuG7jRJMHx/Hr8eSCwRSEQbCs1xYEhJAVQw2VEFeRSdYV1RMVVB/UcODEkLhu4ARVAYBBAbhurAyUwnCg1JBJ38PEG5aCAcAQEswCQU+EB5aDx5GIgkQblAfABcTVREURSIvFwoVDQB2Eg0SHkBVWl1dTF5ZalpBTXgmwpU8El5VXgThuqYZSAgLGg7CtR1FAOG6lQRUPeG6l0QSRgXHkceVBgFMGwXCsx0NQwYN4bq7PhJdw5FYTUVZXEhZT0t/C0VfUlRaahYQRMOWTUUMSDoFAVcDHgQXGgcWJGhNFhYBwoFUTB5MMx4xUzkYX1FPfx8DCRZAU09IS11UV29IRVIuGFBxOGbhup9PTQPhu5EcRhwHx4fHvh0CQwYXwpgxWhDEo8OVTQIcB0YPwpxXe0VBQxwCHDbhu7VdElgKFA3CgghC",
+      "metadata": {
+        "raw_yaml": "topic: 'q26'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q26",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q27",
+      "content": "Cho $\\alpha$ là góc giữa hai vectơ $\\vec{u}=(1;5)$ và $\\vec{v}=(-2;3)$. Tính giá trị gần đúng của $\\cos\\alpha$ (làm tròn đến hàng phần trăm).",
+      "type": "mcq",
+      "options": [
+        "$0{,}71$.",
+        "$0{,}70$.",
+        "$0{,}45$.",
+        "$0{,}50$."
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "OQBUC8KVTEsrPBwWQy4EGC9aURILTT0SGgcPFCspFgYYBxhUA1FUXUJNPQINBRcZCiIIGT8EABckR01OFjECEAcSTBMrKRYGGAQYCCISDRJqCxMVCx1dTys8FwoXUk1ZbRsQGRZYQSgLAgMbV2wOHj8BFAYrSQFsBE1KVF04XhJXAxABDAZFKCxDQkZNRUxGQTheT1x/QDtRDxhUYhJsVEQMAg9ZVREUKywCFxcJV0IiEmxRUgIVVDQVHR0DJEJWHg9FSX9uVkBXDhpFFR0wHAYtBx5RDxhUYhJsVEQMAg80FR0dAyRBGB4JVwl7HDpw4bqHAwZUBcKHFU8DwrIdDUMR4buCGX9GUUsaTRUVSAThu4kCVzgawoRDBhfhur9/SuG6lUIWFeG6qE5IQjAJBT4QHj8BFAYrSQJPSxZTCUg6DR8HLRwdQ0IeWCIFAAUHQ09aTEZmI8KXMlMREcKAC1TFjuG6jV4SXsKNDxNIFgThu4gZfwcXxaAfRVw8WuG7nxJF4bq8QQAA4buLHE8HN8KRC0MGDeG6nX9aUVsfQUEQB0YPB+G6mH8A4bq0QxwCFSYSQ1NDTQ/Ch0gKwoxPU2hTOQQXRUF7El7DmFhNFRVIBeG6tQEQfwcNwokfRVBuFhBEw5YCQRzCiAgLTwc34buUC0MGF8W3Mh4QxKPGhuG6jgJUA+G7mRhPBirhu5BFD8KSRVBvSRxPAVxFWmJMIeG7lhh/EeG7gA5SCMKVJhJeWlcDCU5CRj/huoJXO+G6lgsEUhHCmTFaEFzEtQMGVD4DDxsYLVMREcKYC1Qcc2N7eU3FsOG6t0gSwoEBH38UwpYAUgId4bqwUxBaVwRBAg0FGMeOV3svEwYRHgEiFhBEw5ZNRSgeAw8UASJXRRcaEFTFjsaC4buTURYG4bueAEgXGeG7jFc4woAGQ1ZRQQFuU1tEDkVYSBUNGlfFjsKARRfCnwscfxZsUVkeQUBdODAMHi0QRT8TFQQtXUgSBhZNCV9XSEE=",
+      "metadata": {
+        "raw_yaml": "topic: 'q27'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q27",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q28",
+      "content": "Trong một giỏ hoa có $5$ bông hoa hồng trắng, $4$ bông hoa hồng đỏ và $3$ bông hoa hồng vàng. Có bao nhiêu cách chọn ra một bó hoa gồm $7$ bông sao cho bó hoa có đúng một bông hoa màu đỏ?",
+      "type": "mcq",
+      "options": [
+        "$112$.",
+        "$120$.",
+        "$792$.",
+        "$144$."
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "xb3huqJUCw7huqEBVz3CgEULHQRUOOG7oV0SElpFVArCkgIIVzzCgEXFssKICxN/X+G7qUYWD8KVGg9GBAAWfx7ChRZSxbThurtzEkRTFhkJ4bqFC0YEBuG6sDFTDQIbRRfCq1xXEsSnAuG7gBpICgXChRl/Bwzhu5wCX351EnPDhlgKQcWlB+G7hwJPRmVTJgvhur8LVHsDFBJUwpkPE0gOAw5XMsKTEEPFo+G6qlQr4buZEBYCSUEWwpwIC08fMBJFDsKSEFTFjuG7vRwSVcKeQVArOVgxRn9ORVdWRRfCvlFYHDxHQTfCnAgLT8WmMOG7kgtDQF9UHFrhu71cFklXUEgEwpgBEH8bCgJSBsKGMRJc4bqTX00V4bqfSEJUS1c9wocLBFINGz4SW1rDggMGVBgO4buPBlcywpMQQ8Wj4bqqVHdV4bujXxZJVFBIBMKYARB/Bxfhu4wcAlQpw5IQFgVJQRbCnAgLTwHCvx0CSl5FF8KsEhRxaVU/QkhbTF1Pe1MGwoIRDVpVZlhXWU0QARFGGOG7gBR/HQ3CgRxJVCzhu6MQUcOXDglUCw7huqEBVz3CgEULHQRUK1rhu79TFgDCghpIH8KGGlc84buUEEPFo+G6pFQ9w5JZElrCjVtUTFJMMxQ7HBFDQF1UYhIBAwRJQRfCiQUEQQ==",
+      "metadata": {
+        "raw_yaml": "topic: 'q28'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q28",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q29",
+      "content": "Cho elip có phương trình chính tắc $\\frac{x^2}{20} + \\frac{y^2}{9} = 1$. Tính giá trị của biểu thức $a^2 + b^2 - c^2$.",
+      "type": "mcq",
+      "options": [
+        "$29$.",
         "$18$.",
-        "$12$.",
-        "$\\frac{3}{2}$."
+        "$20$.",
+        "$11$."
       ],
-      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "OeG6ilQYDsecx44ZOFMREcKeCxx/UVjDn1gFQQDhu4cFTAzhupA+UwAPGxVYf0ZRElXCnkFQCTheT0p/QVVHUhPClH8WUmwETVxUUUJCZTrhu6gHRQgawoQXcxJEUxYBFMKABkYPwpxXN+G6tEUXGuG6jBd/XlnDmFhNCeG6s1JGSAwpbVNYQxM7Rn8fEFBoX0VaYjIEDg5/BcKFDFIHHeG6nEcQRl7huoQCVAvhu4ECTwPCsh0NT1IRFX/Eo8aA4buRVVdrUAk4Xk9cfxE7UVJIVDxsAhILTQAqWkZHTxUBQUVOUk0VAQAQHxYPP0ZBRlFPRT0tV0dcbyLhu7JLEBZXM1NUQ0YOMUV/XkUALFdUYhICEmoOBRscRlVPSn9CXUdcb14S4bqLXxJCx51BEB0fTAEfPh0NWVhFPOG6klEQQV8DCVQDDsKYARB/EOG7gg1SEcKZMVoQUeG7k00VHOG6q0ZIDFdiUzkQAxcAJAMBTxJNE+G6pwFGDsKDGTdTFQvHgseEGjgeEF/Dlk0CHOG6oUYP4buIGX8XwpwNFUUWNuG6jV4SxKfhurgIVMW54buHBU8E4bqOU8W04bqgUhEGNuG7tUQSQgTCiwFIQg0xRXtfRQQbwp8Ef1DDkFsWGQ7ClQZGC+G6ohl/FMKFDRVFHMe+XBBA4bqTGUEaAA/huq0aWQ==",
       "metadata": {
-        "raw_yaml": "label: \"quan_he_vuong_goc\"\nlop: 11\nloai: \"Trắc nghiệm\"\nmuc_do: \"Hieu\"\ntags:\n  - quan_he_vuong_goc\nlinks:\n  - \"[[quan_he_vuong_goc]]\"\n  - \"[[lop_11]]\"\ndate: \"2026-05-03\"",
-        "label": "quan_he_vuong_goc",
-        "lop": "11",
-        "loai": "Trắc nghiệm",
-        "muc_do": "Hieu",
-        "tags": "",
-        "links": "",
-        "date": "2026-05-03"
-      }
-    },
-    {
-      "id": "unlabeled",
-      "content": "Cho điểm $A$ nằm ngoài mặt phẳng $(\\alpha)$. Có bao nhiêu đường thẳng đi qua $A$ và vuông góc với mặt phẳng $(\\alpha)$?",
-      "type": "mcq",
-      "options": [
-        "$1$.",
-        "$0$.",
-        "$2$.",
-        "Vô số."
-      ],
-      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
-      "metadata": {
-        "raw_yaml": "label: \"quan_he_vuong_gco\"\nlop: 11\nloai: \"Trắc nghiệm\"\nmuc_do: \"Biet\"\ntags:\n  - quan_he_vuong_goc\n  - hk2\nlinks:\n  - \"[[quan_he_vuong_goc]]\"\n  - \"[[lop_11]]\"\ndate: \"2026-05-03\"",
-        "label": "quan_he_vuong_gco",
-        "lop": "11",
-        "loai": "Trắc nghiệm",
-        "muc_do": "Biet",
-        "tags": "",
-        "links": "",
-        "date": "2026-05-03"
-      }
-    },
-    {
-      "id": "unlabeled",
-      "content": "Cho hình chóp $S.ABC$ có $SA\\perp(ABC)$ và $\\widehat{BSA} = 50^\\circ$. Tính góc giữa đường thẳng $SB$ và mặt phẳng $(ABC)$.",
-      "type": "mcq",
-      "options": [
-        "$40^\\circ$.",
-        "$50^\\circ$.",
-        "$90^\\circ$.",
-        "$130^\\circ$."
-      ],
-      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
-      "metadata": {
-        "raw_yaml": "label: \"quan_he_vuong_goc\"\nlop: 11\nloai: \"Trắc nghiệm\"\nmuc_do: \"Hieu\"\ntags:\n  - quan_he_vuong_goc\n  - easy\nlinks:\n  - \"[[quan_he_vuong_goc]]\"\n  - \"[[lop_11]]\"\n  - \"[[goc]]\"\ndate: \"2026-05-12\"",
-        "label": "quan_he_vuong_goc",
-        "lop": "11",
-        "loai": "Trắc nghiệm",
-        "muc_do": "Hieu",
-        "tags": "",
-        "links": "",
-        "date": "2026-05-12"
-      }
-    },
-    {
-      "id": "unlabeled",
-      "content": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$. Biết $\\widehat{ASC}=30^\\circ$, tính góc giữa đường thẳng $SC$ và mặt phẳng $(ABC)$.",
-      "type": "mcq",
-      "options": [
-        "$30^\\circ$.",
-        "$60^\\circ$.",
-        "$90^\\circ$.",
-        "$45^\\circ$."
-      ],
-      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
-      "metadata": {
-        "raw_yaml": "label: \"quan_he_vuong_gco\"\nlop: 11\nloai: \"Trắc nghiệm\"\nmuc_do: \"Hieu\"\ntags:\n  - quan_he_vuong_goc\n  - hk2\nlinks:\n  - \"[[quan_he_vuong_goc]]\"\n  - \"[[lop_11]]\"\n  - \"[[goc]]\"\ndate: \"2026-05-03\"",
-        "label": "quan_he_vuong_gco",
-        "lop": "11",
-        "loai": "Trắc nghiệm",
-        "muc_do": "Hieu",
-        "tags": "",
-        "links": "",
-        "date": "2026-05-03"
-      }
-    },
-    {
-      "id": "unlabeled",
-      "content": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA \\perp (ABCD)$ và $SA = a\\sqrt{6}$. Gọi $\\alpha$ là góc giữa đường thẳng $SB$ và mặt phẳng $(ABCD)$. Giá trị của $\\tan \\alpha$ bằng\n    \\choicess{4}\n    {$\\sqrt{6}$}\n    {$\\frac{\\sqrt{6}}{6}$}\n    {$\\sqrt{7}$}\n    {$\\frac{\\sqrt{6}}{2}$}",
-      "type": "short_answer",
-      "options": [],
-      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
-      "metadata": {
-        "raw_yaml": "label: \"quan_he_vuong_goc\"\nlop: 11\nloai: \"Trắc nghiệm\"\nmuc_do: \"Hieu\"\ntags:\n  - quan_he_vuong_goc\n  - hk2\nlinks:\n  - \"[[quan_he_vuong_goc]]\"\n  - \"[[lop_11]]\"\n  - \"goc\"\n  - \"hinh_chop\"\ndate: \"2026-05-11\"",
-        "label": "quan_he_vuong_goc",
-        "lop": "11",
-        "loai": "Trắc nghiệm",
-        "muc_do": "Hieu",
-        "tags": "",
-        "links": "",
-        "date": "2026-05-11"
+        "raw_yaml": "topic: 'q29'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q29",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
       }
     }
   ],
-  "allowSolve": false,
-  "matrix": null
+  "allowSolve": true,
+  "matrix": null,
+  "timeLimit": 45.0
 };
