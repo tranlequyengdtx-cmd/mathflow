@@ -1,3 +1,19 @@
+
+// URL Query Parameter Parsing
+const urlParams = new URLSearchParams(window.location.search);
+const classParam = (urlParams.get('class') || urlParams.get('c') || urlParams.get('lop') || '').trim();
+const examParam = (urlParams.get('exam') || urlParams.get('e') || urlParams.get('de') || '').trim();
+
+function initURLParams() {
+    if (classParam && elements.studentClass) {
+        elements.studentClass.value = classParam.toUpperCase();
+        elements.studentClass.readOnly = true;
+        elements.studentClass.style.backgroundColor = 'rgba(255, 255, 255, 0.08)';
+        elements.studentClass.style.cursor = 'not-allowed';
+        elements.studentClass.style.borderColor = 'var(--primary)';
+        elements.studentClass.title = 'Lớp đã được cố định theo đường dẫn của bài thi';
+    }
+}
 // App State
 let questions = []; // Will be loaded from questions.json
 let currentState = {
@@ -148,18 +164,55 @@ function shuffleArray(array) {
     return array;
 }
 
-function loadQuestions() {
-    if (typeof window.mathflowData === 'undefined') {
-        alert("Lỗi: Không tìm thấy dữ liệu câu hỏi mathflowData!");
+async function loadQuestions() {
+    let rawData = null;
+
+    if (examParam) {
+        try {
+            const resp = await fetch(`exams/${examParam}.json`);
+            if (resp.ok) {
+                rawData = await resp.json();
+                console.log(`Đã tải thành công đề thi từ exams/${examParam}.json`);
+            }
+        } catch (e) {
+            console.warn(`Không thể tải exams/${examParam}.json qua fetch, thử đọc qua JS global variable...`, e);
+        }
+
+        if (!rawData && window[`mathflowData_${examParam}`]) {
+            rawData = window[`mathflowData_${examParam}`];
+        }
+    }
+
+    if (!rawData) {
+        if (typeof window.mathflowData !== 'undefined') {
+            rawData = window.mathflowData;
+        } else {
+            try {
+                const resp = await fetch('questions.json');
+                if (resp.ok) {
+                    rawData = await resp.json();
+                }
+            } catch (e) {
+                console.warn('Không thể tải questions.json', e);
+            }
+        }
+    }
+
+    if (!rawData) {
+        alert("Lỗi: Không tìm thấy dữ liệu câu hỏi!");
         return;
     }
 
-    const rawData = window.mathflowData;
     let poolQuestions = rawData.questions || [];
     
     // Đọc cấu hình bảo mật cơ bản
     currentState.allowSolve = rawData.allowSolve || false;
-    currentState.timeLimit = rawData.timeLimit ? rawData.timeLimit * 60 : 0;
+    if (rawData.timeLimit) {
+        currentState.timeLimit = rawData.timeLimit * 60;
+        if (elements.examTime) {
+            elements.examTime.value = rawData.timeLimit;
+        }
+    }
 
     // XỬ LÝ MA TRẬN PHÂN TẦNG NATIVE TRÊN TRÌNH DUYỆT (E:NB:TH:VD)
     if (rawData.matrix && poolQuestions.length > 0) {
@@ -543,6 +596,7 @@ async function submitQuiz() {
     sendDataToGoogle({
         studentName: currentState.studentName,
         studentClass: currentState.studentClass,
+        examName: examParam ? examParam : "Đề chung",
         score: scoreText,
         time: timeText,
         cheated: cheatInfo,
@@ -828,4 +882,5 @@ document.addEventListener('fullscreenchange', () => {
 // Khởi chạy chế độ bảo mật và kiểm tra bài thi chưa hoàn thành
 setupSecurityRestrictions();
 checkSavedState();
+initURLParams();
 loadQuestions();
