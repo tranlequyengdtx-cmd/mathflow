@@ -205,12 +205,32 @@ async function loadQuestions() {
 
     let poolQuestions = rawData.questions || [];
     
-    // Đọc cấu hình bảo mật cơ bản
-    currentState.allowSolve = rawData.allowSolve || false;
-    if (rawData.timeLimit) {
-        currentState.timeLimit = rawData.timeLimit * 60;
+    // Đọc cấu hình bảo mật & thời gian làm bài
+    currentState.allowSolve = rawData.allowSolve !== undefined ? rawData.allowSolve : false;
+    if (rawData.timeLimit !== undefined && rawData.timeLimit !== null) {
+        const tVal = parseFloat(rawData.timeLimit);
+        currentState.presetTimeLimit = tVal;
+        currentState.timeLimit = tVal;
+        
         if (elements.examTime) {
-            elements.examTime.value = rawData.timeLimit;
+            let optionExists = false;
+            for (let i = 0; i < elements.examTime.options.length; i++) {
+                if (parseFloat(elements.examTime.options[i].value) === tVal) {
+                    optionExists = true;
+                    break;
+                }
+            }
+            if (!optionExists) {
+                const newOpt = document.createElement('option');
+                newOpt.value = tVal;
+                newOpt.textContent = tVal > 0 ? `${tVal} Phút (Cố định bởi GV)` : "Không giới hạn";
+                elements.examTime.appendChild(newOpt);
+            }
+            elements.examTime.value = tVal;
+            elements.examTime.disabled = true;
+            elements.examTime.style.backgroundColor = 'rgba(255, 255, 255, 0.08)';
+            elements.examTime.style.cursor = 'not-allowed';
+            elements.examTime.title = 'Thời gian làm bài đã được cố định theo cấu hình bài thi.';
         }
     }
 
@@ -309,7 +329,11 @@ async function startQuiz() {
     currentState.studentClass = classInfo;
     currentState.startTime = new Date();
     currentState.reviewMode = false;
-    currentState.timeLimit = parseFloat(elements.examTime.value) || 0;
+    if (currentState.presetTimeLimit !== undefined && currentState.presetTimeLimit !== null) {
+        currentState.timeLimit = currentState.presetTimeLimit;
+    } else {
+        currentState.timeLimit = parseFloat(elements.examTime.value) || 0;
+    }
 
     // Re-initialize answers array with the correct length
     currentState.answers = Array(questions.length).fill(null);
