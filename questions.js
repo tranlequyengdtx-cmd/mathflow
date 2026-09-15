@@ -2,7 +2,7 @@ window.mathflowData = {
   "questions": [
     {
       "id": "q1",
-      "content": "Cho tập hợp $A={n\\in\\mathbb N\\mid 1<n<5}$, viết tập hợp $A$ dưới dạng liệt kê các phần tử.\n\n[!info]\nCác số tự nhiên n thỏa mãn điều kiện $1<n<5$ là $2,3,4$.\nDo đó, tập hợp $A$ được viết dưới dạng liệt kê các phần tử là $A=\\{2;3;4\\}.",
+      "content": "Cho tập hợp $A=\\{n\\in\\mathbb N\\mid 1<n<5\\}$, viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
       "type": "mcq",
       "options": [
         "A=\\{2;3;4\\}",
@@ -11,7 +11,7 @@ window.mathflowData = {
         "A=\\{1;2;3;4;5\\}"
       ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "",
+      "explanation": "LsKAF0gV4bq9TwPhuq5TCwsbwo8af1wQRl7huqIAVAXChQJPxaY24bqyEEMZDOG6szESFAMKA11BTEYAwo9Xe0FJUF5RUHESdF0WxbzCklhIEuG7gR9XN+G6kBVDViRQf8SjxoDhu5FVTRcd4buXEkwLx4fhuoQaRQfhu5MLE39eWeG7tUJNCsKeSAXCjQxXLxvhu4INUhHhupl/XsOQEhIsXCgTVFdcTGsvGE0=",
       "metadata": {
         "raw_yaml": "topic: 'q1'\ngrade: '10'\nlevel: 'BIET'\ntype: 'Trắc nghiệm'",
         "topic": "q1",
@@ -197,7 +197,7 @@ window.mathflowData = {
     },
     {
       "id": "q11",
-      "content": "Lớp 10A có 40 học sinh, trong đó có 25 học sinh thích môn Toán, 20 học sinh thích môn Văn và 8 học sinh không thích môn nào trong hai môn này. Hỏi có bao nhiêu học sinh thích cả hai môn Toán và Văn?",
+      "content": "Lớp 10A có 40 học sinh, trong đó có 25 học sinh thích môn Toán, 20 học sinh thích môn Văn và 8 học sinh không thích môn nào trong hai môn này.\nHỏi có bao nhiêu học sinh thích cả hai môn Toán và Văn?",
       "type": "mcq",
       "options": [
         "$5$",
