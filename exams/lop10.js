@@ -2,16 +2,16 @@ window.mathflowData_lop10 = {
   "questions": [
     {
       "id": "q1",
-      "content": "Cho tập hợp $A=\\{n\\in\\mathbb{N}\\mid 1<n<5\\}$. Viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
+      "content": "Xét tập hợp $A=\\{n\\in\\mathbb N \\mid 1<n<6\\}$. Viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
       "type": "mcq",
       "options": [
-        "$A=\\{2; 3; 4\\}$.",
-        "$A=\\{1; 2; 3; 4\\}$.",
         "$A=\\{2; 3; 4; 5\\}$.",
-        "$A=\\{1; 2; 3; 4; 5\\}$."
+        "$A=\\{1; 2; 3; 4; 5\\}$.",
+        "$A=\\{2; 3; 4; 5; 6\\}$.",
+        "$A=\\{1; 2; 3; 4; 5; 6\\}$."
       ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "LsKAF0gV4bq9TwPhuq5TCwsbwo8afxZeFhYZCeG6uwlGAcKMGX9XVENORRp/DhAHEk0NwpRIQl5DV2xfRVdWS34bXRDEo8OFQUEA4buFFkwH4bqUL1NBIlZFAjbhuo1EElLHneG6uh1IAuG7jQEQfx8M4bqkBkUfwrUSU8OTVU0RHOG7jwhMG+G6mn8fwoVDViRUYhJsSQRWQUdTRlgzCntd",
+      "explanation": "LsKAF0gV4bq9TwPhuq5TCwsbwo8afxZeFhYZCeG6uwlGAcKMGX9XVENORRp/DhAEEk0NwpRIQl5DV2xfRVdeRUF7HDp2WU3FsMKHREYaBuG7iCtTAceT4bqpDFQ74bqTXlUWAQjhurMcRgfChVcrEkXFsseC4bqGF38WcRILTT0PWl1MXEx/R15DRzkJexw=",
       "metadata": {
         "raw_yaml": "topic: 'q1'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
         "topic": "q1",
@@ -102,11 +102,16 @@ window.mathflowData_lop10 = {
     },
     {
       "id": "q6",
-      "content": "Tập hợp nào sau đây mô tả nửa khoảng $[2; 5)$?\n\\choicess{4}\n{*$\\{x \\in \\mathbb{R} \\mid 2 \\le x < 5\\}$.}\n{$\\{x \\in \\mathbb{R} \\mid 2 < x < 5\\}$.}\n{$\\{x \\in \\mathbb{R} \\mid 2 \\le x \\le 5\\}$.}\n{$\\{x \\in \\mathbb{R} \\mid 2 < x \\le 5\\}$.}",
-      "type": "short_answer",
-      "options": [],
+      "content": "Tập hợp nào sau đây mô tả nửa khoảng $(2;5]$?",
+      "type": "mcq",
+      "options": [
+        "$\\{x\\in\\mathbb R\\mid 2<x\\le 5\\}$.",
+        "$\\{x\\in\\mathbb R\\mid 2\\le x\\le 5\\}$.",
+        "$\\{x\\in\\mathbb R\\mid 2<x< 5\\}$.",
+        "$\\{x\\in\\mathbb R\\mid 2\\le x< 5\\}$."
+      ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "I+G6jBVIDQQA4buUMRRFRylXT38HGRYWCuG6shlIBcKNDFcs4bqiRRca4bqUF38WSBYWGQnhursJRgHCjBl/V1dDLgkRf0oQDhZYRVpiIgNPxabCrF9FB+G7kwsTf1BZ4buxQ00FHeG6rQhMG+G7mi9TDeG6gAJFGMK/EhRuTRVBKAEITDMaPgcNARAeJiISbF9fCUFGSDoAClcnU1lDRzkJexw=",
+      "explanation": "I+G6jBVIDQQA4buUMRRFR1pXT2pvFBJR4bq+DFQLwocPTwThuo5TEQvhuoMGVHtKFBJCBeG6rhVIC8KPAVd7QUVfUh1UA15VEgNJTVQc4bqPD08bwr9TQT8JHSg2XGxfVxkJFgpGPjMaNhdFUU4dKDNXEAdqEEVa",
       "metadata": {
         "raw_yaml": "topic: 'q6'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
         "topic": "q6",
@@ -137,7 +142,7 @@ window.mathflowData_lop10 = {
     },
     {
       "id": "q8",
-      "content": "Cho tập hợp $A = (-\\infty; 4]$ và $B = (0; +\\infty)$. Tìm hiệu $A \\setminus B$.",
+      "content": "Cho tập hợp $A = (-\\infty; 4]$ và $B = (0; +\\infty)$. Xác định tập $A \\setminus B$.",
       "type": "mcq",
       "options": [
         "$(-\\infty; 0]$",
@@ -232,6 +237,26 @@ window.mathflowData_lop10 = {
         "topic": "q12",
         "grade": "10",
         "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q13",
+      "content": "Tìm tất cả các giá trị của tham số $m$ sao cho $(-\\infty; 1] \\cup (m; +\\infty) = \\mathbb{R}$.",
+      "type": "mcq",
+      "options": [
+        "$m < 1$.",
+        "$m \\le 1$.",
+        "$m > 1$.",
+        "$m \\ge 1$."
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "OQBUC8KVTEtfci8MDRQRDWQSAW8WMQIBGEZEAkx/WDkKHAMAJhsQDxYxDBUcDg4NDA0OQUMZDR1/RMOQElUF4bqoVAMOBU8fPhpFF+G7nxVUN+G7kUASVQXhurIaD0YA4buKB38bCuG7lBFFGuG6jlsQXl/huqwPVAYODRpbfx0CC8WbBFQzw5IQFltNPRgNRl1LWQ==",
+      "metadata": {
+        "raw_yaml": "topic: 'q13'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q13",
+        "grade": "10",
+        "level": "TH",
         "type": "Trắc nghiệm"
       }
     }
