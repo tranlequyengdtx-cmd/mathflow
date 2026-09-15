@@ -334,8 +334,18 @@ def main():
         json.dump(output_data, f, ensure_ascii=False, indent=2)
     with open(os.path.join(APP_PATH, "questions.js"), "w", encoding="utf-8") as f:
         f.write(f"window.mathflowData = {json.dumps(output_data, ensure_ascii=False, indent=2)};")
+
+    # Ghi thêm vào exams/lop{N} để URL ?exam=lop{N} luôn tải đúng dữ liệu mới
+    exam_dir = os.path.join(APP_PATH, "exams")
+    os.makedirs(exam_dir, exist_ok=True)
+    exam_name = f"lop{args.lop}"
+    with open(os.path.join(exam_dir, f"{exam_name}.json"), "w", encoding="utf-8") as f:
+        json.dump(output_data, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(exam_dir, f"{exam_name}.js"), "w", encoding="utf-8") as f:
+        f.write(f"window.mathflowData_{exam_name} = {json.dumps(output_data, ensure_ascii=False, indent=2)};")
     
     print(f"➔ Đã xuất đầy đủ {len(questions)} câu hỏi gốc và đính kèm cấu hình ma trận '{args.matrix}' lên Git Frontend!")
+    print(f"  ↳ Đồng bộ exams/{exam_name}.json + exams/{exam_name}.js")
 
 if __name__ == "__main__":
     main()
