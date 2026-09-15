@@ -102,11 +102,11 @@
     },
     {
       "id": "q6",
-      "content": "Ký hiệu nào sau đây biểu diễn nửa khoảng $[2; 5)$?\n\\choicess{4}\n{*$\\{x \\in \\mathbb{R} \\mid 2 \\le x < 5\\}$}\n{$\\{x \\in \\mathbb{R} \\mid 2 < x < 5\\}$}\n{$\\{x \\in \\mathbb{R} \\mid 2 \\le x \\le 5\\}$}\n{$\\{x \\in \\mathbb{R} \\mid 2 < x \\le 5\\}$}",
+      "content": "Tập hợp nào sau đây mô tả nửa khoảng $[2; 5)$?\n\\choicess{4}\n{*$\\{x \\in \\mathbb{R} \\mid 2 \\le x < 5\\}$.}\n{$\\{x \\in \\mathbb{R} \\mid 2 < x < 5\\}$.}\n{$\\{x \\in \\mathbb{R} \\mid 2 \\le x \\le 5\\}$.}\n{$\\{x \\in \\mathbb{R} \\mid 2 < x \\le 5\\}$.}",
       "type": "short_answer",
       "options": [],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "I+G6jBVIDQQA4buUMRRFRylXT38HGRYWCuG6shlIBcKNDFcs4bqiRRca4bqUF38WSBYWGQnhursJRgHCjBl/V1dDLgkRf0oQDhZYRVo=",
+      "explanation": "I+G6jBVIDQQA4buUMRRFRylXT38HGRYWDwAbSAHhur8CVzzCkgZDAeG6tFQrWuG7gVEWSRlQSBIE4bqgFn8ewoYNUkFGf25cVxYVQUhIU0hB",
       "metadata": {
         "raw_yaml": "topic: 'q6'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
         "topic": "q6",
