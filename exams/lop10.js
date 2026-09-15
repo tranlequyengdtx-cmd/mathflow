@@ -71,7 +71,7 @@ window.mathflowData_lop10 = {
         "$\\{6\\}$"
       ],
       "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
-      "explanation": "KggVB0YP4bqIFn8bBApSEeG7mS8SWOG7kUZNRTVIOg8OB38xQUMRDeG6nT4SU8OTVU0RHOG7jwhMG+G6mn8QDRYcAlQ84buVURISLEVUHsKGTEs1e1MJwoNSQUZ7EkbDkhZJVVBG",
+      "explanation": "PQnhu5MGRhjhuoJXPBsQDRVFGMK/EhQADVlFWg==",
       "metadata": {
         "raw_yaml": "topic: 'q4'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
         "topic": "q4",
@@ -91,7 +91,7 @@ window.mathflowData_lop10 = {
         "$\\mathbb{R}$"
       ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "OeG7jARIDuG6jx9XPMKSBkMB4bq0VCvhu4MQXF4EwosaSMW3x5zhuowUfxjCiEMaDOG6syoSXMOSFkk9GQkSBA0VJD0YR1w=",
+      "explanation": "",
       "metadata": {
         "raw_yaml": "topic: 'q5'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
         "topic": "q5",
@@ -106,7 +106,7 @@ window.mathflowData_lop10 = {
       "type": "short_answer",
       "options": [],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "I+G6jBVIDQQA4buUMRRFRylXT38HGRYWDwAbSAHhur8CVzzCkgZDAeG6tFQrWuG7gVEWSRlQSBIE4bqgFn8ewoYNUkFGf25cVxYVQUhIU0hB",
+      "explanation": "I+G6jBVIDQQA4buUMRRFRylXT38HGRYWCuG6shlIBcKNDFcs4bqiRRca4bqUF38WSBYWGQnhursJRgHCjBl/V1dDLgkRf0oQDhZYRVpiIgNPxabCrF9FB+G7kwsTf1BZ4buxQ00FHeG6rQhMG+G7mi9TDeG6gAJFGMK/EhRuTRVBKAEITDMaPgcNARAeJiISbF9fCUFGSDoAClcnU1lDRzkJexw=",
       "metadata": {
         "raw_yaml": "topic: 'q6'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
         "topic": "q6",
@@ -217,7 +217,7 @@ window.mathflowData_lop10 = {
     },
     {
       "id": "q12",
-      "content": "Hình vẽ bên dưới là biểu diễn trên trục số của tập hợp nào?\n\\begin{center}\n\\begin{tikzpicture}[scale=1]\n    \n    \\pgfmathsetmacro{\\a}{1}\n    \n    \n    \\draw[->] (-1,0) -- (4,0) node[right] {};\n    \n    \n    \\draw (\\a, 0.1) -- (\\a, -0.1);\n    \\node[below] at (\\a, -0.1) {$1$};\n\n    \n    \\foreach \\x in {-.9,-.8,...,.9}\n      \\draw[gray] (\\x,0.15) -- ++(0,-0.3);\n    \n    \n    \\draw[very thick, blue] (\\a, 0.2) -- (\\a, -0.2); \n    \\draw[very thick, blue] (\\a, 0.2) -- (\\a + 0.1, 0.2); \n    \\draw[very thick, blue] (\\a, -0.2) -- (\\a + 0.1, -0.2); \n\\end{tikzpicture}\n\\end{center}",
+      "content": "Hình vẽ bên dưới là biểu diễn trên trục số của tập hợp nào?\n\\begin{tikzpicture}[scale=1]\n    \n    \\pgfmathsetmacro{\\a}{1}\n     \n    \\draw[->] (-1,0) -- (4,0) node[right] {};\n     \n    \\draw (\\a, 0.1) -- (\\a, -0.1);\n    \\node[below] at (\\a, -0.1) {$1$};\n    \n    \\foreach \\x in {-.9,-.8,...,.9}\n      \\draw[gray] (\\x,0.15) -- ++(0,-0.3);  \n    \n    \\draw[very thick, blue] (\\a, 0.2) -- (\\a, -0.2); \n    \\draw[very thick, blue] (\\a, 0.2) -- (\\a + 0.1, 0.2); \n    \\draw[very thick, blue] (\\a, -0.2) -- (\\a + 0.1, -0.2); \n\\end{tikzpicture}",
       "type": "mcq",
       "options": [
         "$[1; +\\infty)$.",
