@@ -2,7 +2,7 @@ window.mathflowData = {
   "questions": [
     {
       "id": "q1",
-      "content": "Cho tập hợp $A=\\{n\\in\\mathbb N\\mid 1<n<5\\}$, viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
+      "content": "Cho tập hợp $A=\\{n\\in\\mathbb{N}\\mid 1<n<5\\}$, viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
       "type": "mcq",
       "options": [
         "A=\\{2;3;4\\}",
