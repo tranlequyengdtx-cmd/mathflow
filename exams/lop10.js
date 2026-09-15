@@ -2,7 +2,7 @@ window.mathflowData_lop10 = {
   "questions": [
     {
       "id": "q1",
-      "content": "Xét tập hợp $A=\\{n\\in\\mathbb{N}\\mid 1<n<6\\}$. Viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
+      "content": "Xét tập hợp $A=\\{n \\in \\mathbb{N} \\mid 1<n<6\\}$. Viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
       "type": "mcq",
       "options": [
         "$A=\\{2; 3; 4; 5\\}$",
@@ -22,7 +22,7 @@ window.mathflowData_lop10 = {
     },
     {
       "id": "q2",
-      "content": "Cho tập hợp $A = \\{x \\in \\mathbb{R} \\mid x^2 - 4 = 0\\}$. Viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
+      "content": "Cho tập hợp $A = \\{x \\in \\mathbb{R} \\mid x^2 - 4 = 0\\}$. Viết $A$ dưới dạng liệt kê các phần tử.",
       "type": "mcq",
       "options": [
         "$A = \\{-2\\}$",
@@ -102,7 +102,7 @@ window.mathflowData_lop10 = {
     },
     {
       "id": "q6",
-      "content": "Tập hợp nào sau đây mô tả nửa khoảng $(2;5]$?\n\\choicess{4}{*$\\{x\\in\\mathbb{R}\\mid 2<x\\le 5\\}$}{$\\{x\\in\\mathbb{R}\\mid 2\\le x\\le 5\\}$}{$\\{x\\in\\mathbb{R}\\mid 2<x< 5\\}$}{$\\{x\\in\\mathbb{R}\\mid 2\\le x< 5\\}$}",
+      "content": "Tập hợp nào sau đây mô tả nửa khoảng $(2;5]$?\n\\choicess{4}{*$\\{x \\in \\mathbb{R} \\mid 2<x\\le 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2\\le x\\le 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2<x< 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2\\le x< 5\\}$}",
       "type": "short_answer",
       "options": [],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
