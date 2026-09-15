@@ -2,13 +2,13 @@ window.mathflowData = {
   "questions": [
     {
       "id": "q1",
-      "content": "Xét tập hợp $A=\\{n\\in\\mathbb N \\mid 1<n<6\\}$. Viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
+      "content": "Xét tập hợp $A=\\{n\\in\\mathbb{N}\\mid 1<n<6\\}$. Viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
       "type": "mcq",
       "options": [
-        "$A=\\{2; 3; 4; 5\\}$.",
-        "$A=\\{1; 2; 3; 4; 5\\}$.",
-        "$A=\\{2; 3; 4; 5; 6\\}$.",
-        "$A=\\{1; 2; 3; 4; 5; 6\\}$."
+        "$A=\\{2; 3; 4; 5\\}$",
+        "$A=\\{1; 2; 3; 4; 5\\}$",
+        "$A=\\{2; 3; 4; 5; 6\\}$",
+        "$A=\\{1; 2; 3; 4; 5; 6\\}$"
       ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "LsKAF0gV4bq9TwPhuq5TCwsbwo8afxZeFhYZCeG6uwlGAcKMGX9XVENORRp/DhAEEk0NwpRIQl5DV2xfRVdeRUF7HDp2WU3FsMKHREYaBuG7iCtTAceT4bqpDFQ74bqTXlUWAQjhurMcRgfChVcrEkXFsseC4bqGF38WcRILTT0PWl1MXEx/R15DRzkJexw=",
@@ -42,7 +42,7 @@ window.mathflowData = {
     },
     {
       "id": "q3",
-      "content": "Cho tập hợp $A = \\{1; 3; 5; 7\\}$. Khẳng định nào sau đây là **đúng**?",
+      "content": "Cho tập hợp $A = \\{1; 3; 5; 7\\}$. Khẳng định nào sau đây là *đúng*?",
       "type": "mcq",
       "options": [
         "$3 \\in A$",
@@ -102,16 +102,11 @@ window.mathflowData = {
     },
     {
       "id": "q6",
-      "content": "Tập hợp nào sau đây mô tả nửa khoảng $(2;5]$?",
-      "type": "mcq",
-      "options": [
-        "$\\{x\\in\\mathbb R\\mid 2<x\\le 5\\}$.",
-        "$\\{x\\in\\mathbb R\\mid 2\\le x\\le 5\\}$.",
-        "$\\{x\\in\\mathbb R\\mid 2<x< 5\\}$.",
-        "$\\{x\\in\\mathbb R\\mid 2\\le x< 5\\}$."
-      ],
+      "content": "Tập hợp nào sau đây mô tả nửa khoảng $(2;5]$?\n\\choicess{4}{*$\\{x\\in\\mathbb{R}\\mid 2<x\\le 5\\}$}{$\\{x\\in\\mathbb{R}\\mid 2\\le x\\le 5\\}$}{$\\{x\\in\\mathbb{R}\\mid 2<x< 5\\}$}{$\\{x\\in\\mathbb{R}\\mid 2\\le x< 5\\}$}",
+      "type": "short_answer",
+      "options": [],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "I+G6jBVIDQQA4buUMRRFR1pXT2pvFBJR4bq+DFQLwocPTwThuo5TEQvhuoMGVHtKFBJCBeG6rhVIC8KPAVd7QUVfUh1UA15VEgNJTVQc4bqPD08bwr9TQT8JHSg2XGxfVxkJFgpGPjMaNhdFUU4dKDNXEAdqEEVa",
+      "explanation": "I+G6jBVIDQQA4buUMRRFR1pXT2pvFBJR4bq+DFQLwocPTwThuo5TEQvhuoMGVHtKFBJCBeG6rhVIC8KPAVd7QUVfUh1UA15VEgNJTVQc4bqPD08bwr9TQT8JHSg2XGxfVxkJFgodPhIrMhoBQ0BZDANeVRIDMRxQRg==",
       "metadata": {
         "raw_yaml": "topic: 'q6'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
         "topic": "q6",
@@ -182,26 +177,6 @@ window.mathflowData = {
     },
     {
       "id": "q10",
-      "content": "Cho $A = \\{x \\in \\mathbb{R} \\mid x - 1 > 0\\}$ và $B = \\{x \\in \\mathbb{R} \\mid x + 2 \\le 5\\}$. Tìm $A \\cap B$.",
-      "type": "mcq",
-      "options": [
-        "$(1; 3)$",
-        "$(1; 3]$",
-        "$[1; 3]$",
-        "$(-\\infty; 3]$"
-      ],
-      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
-      "explanation": "OQBUC8KVTEs2f05FS0NeVHRuWVxQGRhdTEYawo9XezFFXlJNWQNbXlRCFFpUWztIQVcbHEXFssKBRVAeEmxRVx1BNkhbTEdGZFNWPlZL",
-      "metadata": {
-        "raw_yaml": "topic: 'q10'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
-        "topic": "q10",
-        "grade": "10",
-        "level": "TH",
-        "type": "Trắc nghiệm"
-      }
-    },
-    {
-      "id": "q11",
       "content": "Lớp 10A có 40 học sinh, trong đó có 25 học sinh thích môn Toán, 20 học sinh thích môn Văn và 8 học sinh không thích môn nào trong hai môn này.\nHỏi có bao nhiêu học sinh thích cả hai môn Toán và Văn?",
       "type": "mcq",
       "options": [
@@ -213,45 +188,65 @@ window.mathflowData = {
       "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
       "explanation": "PuG6sFQA4bqrD08ENh0NQwYNwpk8WhDDn0JNDxzhu40STALhuq4rUwjClxxFIDDDk14SXgLhu5YXSDDFrwFXM8KTX0NWUUR/HxAKFlBBR1pCTAfhuro8UxYKHA1aVWHhu6ESXuG6oAJUGw8CB1crG8KIABpFF+G7vBJYU19NDMKABkYAwo9Nf1dXVlJOVG0CEB8WXlNUVUZdXFN/G+G6qABSFh0xWh4=",
       "metadata": {
-        "raw_yaml": "topic: 'q11'\ngrade: '10'\nlevel: 'VD'\ntype: 'Trắc nghiệm'",
-        "topic": "q11",
+        "raw_yaml": "topic: 'q10'\ngrade: '10'\nlevel: 'VD'\ntype: 'Trắc nghiệm'",
+        "topic": "q10",
         "grade": "10",
         "level": "VD",
         "type": "Trắc nghiệm"
       }
     },
     {
-      "id": "q12",
+      "id": "q11",
       "content": "Hình vẽ bên dưới là biểu diễn trên trục số của tập hợp nào?\n\\begin{tikzpicture}[scale=1]\n    \n    \\pgfmathsetmacro{\\a}{1}\n     \n    \\draw[->] (-1,0) -- (4,0) node[right] {};\n     \n    \\draw (\\a, 0.1) -- (\\a, -0.1);\n    \\node[below] at (\\a, -0.1) {$1$};\n    \n    \\foreach \\x in {-.9,-.8,...,.9}\n      \\draw[gray] (\\x,0.15) -- ++(0,-0.3);  \n    \n    \\draw[very thick, blue] (\\a, 0.2) -- (\\a, -0.2); \n    \\draw[very thick, blue] (\\a, 0.2) -- (\\a + 0.1, 0.2); \n    \\draw[very thick, blue] (\\a, -0.2) -- (\\a + 0.1, -0.2); \n\\end{tikzpicture}",
       "type": "mcq",
       "options": [
-        "$[1; +\\infty)$.",
-        "$(-\\infty; 1)$.",
-        "$(1; +\\infty)$.",
-        "$(-\\infty; 1]$."
+        "$[1; +\\infty)$",
+        "$(-\\infty; 1)$",
+        "$(1; +\\infty)$",
+        "$(-\\infty; 1]$"
       ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "PQnhu5MGRgcHwoMxFEUB4bq5RRPhu75RWBJVBcKIG0gE4buDG1fFjuG7lBBDBuG6jlR7AxQSHg7CklQE4buDFU/FpjbhurAIQ1ZUUHMSW8OfFgUI4bqzHUZINFN2Uw7Cih1FEMK/WxBE4bu3TREcwoUHTA3CnTFTFQvhu5EMVMWO4bqNXhISRj0dBgAYFlNxeSEMUsW0wodzEljDnlgFQQLhu5VGGB3CnTFTBwrhurEQVDtb4bu1XBYZ4buMBEgO4bqPH1d7KFRYUk4oNlxWRk9ERVo=",
       "metadata": {
-        "raw_yaml": "topic: 'q12'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
-        "topic": "q12",
+        "raw_yaml": "topic: 'q11'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q11",
         "grade": "10",
         "level": "NB",
         "type": "Trắc nghiệm"
       }
     },
     {
-      "id": "q13",
+      "id": "q12",
       "content": "Tìm tất cả các giá trị của tham số $m$ sao cho $(-\\infty; 1] \\cup (m; +\\infty) = \\mathbb{R}$.",
       "type": "mcq",
       "options": [
-        "$m < 1$.",
-        "$m \\le 1$.",
-        "$m > 1$.",
-        "$m \\ge 1$."
+        "$m < 1$",
+        "$m \\le 1$",
+        "$m > 1$",
+        "$m \\ge 1$"
       ],
       "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
       "explanation": "OQBUC8KVTEtfci8MDRQRDWQSAW8WMQIBGEZEAkx/WDkKHAMAJhsQDxYxDBUcDg4NDA0OQUMZDR1/RMOQElUF4bqoVAMOBU8fPhpFF+G7nxVUN+G7kUASVQXhurIaD0YA4buKB38bCuG7lBFFGuG6jlsQXl/huqwPVAYODRpbfx0CC8WbBFQzw5IQFltNPRgNRl1LWQ==",
+      "metadata": {
+        "raw_yaml": "topic: 'q12'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q12",
+        "grade": "10",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q13",
+      "content": "Cho hai tập hợp $A = (-2; 6)$ và $B = (0; 5)$. Khẳng định nào sau đây đúng?",
+      "type": "mcq",
+      "options": [
+        "$A \\cap B = A$.",
+        "$A \\cup B = B$.",
+        "$B \\setminus A = \\emptyset$.",
+        "$A \\setminus B = (-2; 0]$."
+      ],
+      "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
+      "explanation": "OQBUC8KVTEs1fy8WFhAWESsScRYWG8KNVExWTFFXckFBQwTChVR7BxAOFltFWmIiA0/FpsKsU0EhUjkHOkZdW1gYElQpRlFPKzoeFRcLFhErFh4=",
       "metadata": {
         "raw_yaml": "topic: 'q13'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
         "topic": "q13",
