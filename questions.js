@@ -102,7 +102,7 @@ window.mathflowData = {
     },
     {
       "id": "q6",
-      "content": "Mệnh đề nào sau đây đúng?",
+      "content": "Xét tập $A=\\{x\\in\\mathbb R\\mid 0&lt;x\\le 5\\}$. Mệnh đề nào sau đây đúng?",
       "type": "mcq",
       "options": [
         "$A=(0;5]$.",
@@ -122,6 +122,26 @@ window.mathflowData = {
     },
     {
       "id": "q7",
+      "content": "Xét tập hợp $B = \\{x \\in \\mathbb{R} \\mid x - 1 &gt; 0\\}$. Mệnh đề nào sau đây đúng?",
+      "type": "mcq",
+      "options": [
+        "$B = (1; +\\infty)$.",
+        "$B = [1; +\\infty)$.",
+        "$B = (-\\infty; 1)$.",
+        "$B = (-\\infty; 1]$."
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "OQBUC8KVTEsPf15FUlJDEysJEAIWMS0RDhIeBhA3BwQRAAoDf0oQFFEZWlRZQkJlMzBTxbTCkF5FAOG7skIQWuG7lR1BUCpGUU9fbkhFSC4MGjlGSRsSQw==",
+      "metadata": {
+        "raw_yaml": "topic: 'q7'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q7",
+        "grade": "10",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q8",
       "content": "Cho tập hợp $A = [-2; 3)$ và $B = (1; 5]$. Xác định tập hợp $A \\cup B$.",
       "type": "mcq",
       "options": [
@@ -133,15 +153,15 @@ window.mathflowData = {
       "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
       "explanation": "JeG6ggRIBeG6iw5XNxIMQwbhu4gEf1rhu5NCFkkgVDQFGR9XHVNYQylIRmQSAxsWMQIBGEZEXkx/RjhDT0UvcgALEgMwRVo=",
       "metadata": {
-        "raw_yaml": "topic: 'q7'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
-        "topic": "q7",
+        "raw_yaml": "topic: 'q8'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q8",
         "grade": "10",
         "level": "TH",
         "type": "Trắc nghiệm"
       }
     },
     {
-      "id": "q8",
+      "id": "q9",
       "content": "Cho tập hợp $A = (-\\infty; 4]$ và $B = (0; +\\infty)$. Xác định tập $A \\setminus B$.",
       "type": "mcq",
       "options": [
@@ -153,15 +173,15 @@ window.mathflowData = {
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "JQjhurMdRkguVwMAABcfDBoqQRBwFlBBXEU6BQERKwpeQ0Y4VANBVUZbBA8BG0ZEX0x/WDkKHAMAJhsQDxZFTCgBCAobDmRTVT5WSw==",
       "metadata": {
-        "raw_yaml": "topic: 'q8'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
-        "topic": "q8",
+        "raw_yaml": "topic: 'q9'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q9",
         "grade": "10",
         "level": "TH",
         "type": "Trắc nghiệm"
       }
     },
     {
-      "id": "q9",
+      "id": "q10",
       "content": "Cho tập hợp $A = \\{1; 2; 3\\}$. Tập hợp $A$ có tất cả bao nhiêu tập hợp con?",
       "type": "mcq",
       "options": [
@@ -173,15 +193,15 @@ window.mathflowData = {
       "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
       "explanation": "PuG6sFQc4buLHE8f4bq8A0UAHQtUPOG7lVESQuG7gBFUAOG6hRxPEOG6jB5FRxxBVC9a4bqXXBYZ4bqMVATChkxLRQEdQU1S4bq7VMWOw5BJEhIDQUlIVUwzJTYUDRcTFwYwRRAAaF5BSUheSEE=",
       "metadata": {
-        "raw_yaml": "topic: 'q9'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
-        "topic": "q9",
+        "raw_yaml": "topic: 'q10'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q10",
         "grade": "10",
         "level": "TH",
         "type": "Trắc nghiệm"
       }
     },
     {
-      "id": "q10",
+      "id": "q11",
       "content": "Lớp 10A có 40 học sinh, trong đó có 25 học sinh thích môn Toán, 20 học sinh thích môn Văn và 8 học sinh không thích môn nào trong hai môn này.\nHỏi có bao nhiêu học sinh thích cả hai môn Toán và Văn?",
       "type": "mcq",
       "options": [
@@ -193,15 +213,15 @@ window.mathflowData = {
       "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
       "explanation": "PuG6sFQA4bqrD08ENh0NQwYNwpk8WhBmWcKMD1QACeG7mwxXCcWwC0MewoVOfxYEAhZAQUxIW0xcRXtTDeG6rhFFBzZcWBw8PuG6sFQA4bqrD08ENh0NQwYNwpk8WhBR4bqVTQkVAUYBwpsZfx/ChVlSQUZqEhsSBF1BWUhVXk9Kf0JWR1IN4bq5PBJDW1gFTw==",
       "metadata": {
-        "raw_yaml": "topic: 'q10'\ngrade: '10'\nlevel: 'VD'\ntype: 'Trắc nghiệm'",
-        "topic": "q10",
+        "raw_yaml": "topic: 'q11'\ngrade: '10'\nlevel: 'VD'\ntype: 'Trắc nghiệm'",
+        "topic": "q11",
         "grade": "10",
         "level": "VD",
         "type": "Trắc nghiệm"
       }
     },
     {
-      "id": "q11",
+      "id": "q12",
       "content": "Hình vẽ bên dưới là biểu diễn trên trục số của tập hợp nào?\n<img src=\"assets/tikz_543e63ec86.svg\" class=\"tikz-img\">",
       "type": "mcq",
       "options": [
@@ -213,15 +233,15 @@ window.mathflowData = {
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "PQnhu5MGRgcHwoMxFEUB4bq5RRPhu75RWBJVBcKIG0gE4buDG1fFjuG7lBBDBuG6jlR7AxQSHg7CklQE4buDFU9TbldMQwTChVQ0w5tfElLCjQhUHuG6p0wfH8KyEkUBwpgLVC9a4bqTWxbFvOG7nhpIQkczHjEVERpWS34bXRDEo8OFQUEcwoQIBE8B4buiUxERwpgLVD1b4buzRxYJCOG6sQZGGOG7ggd/G+G6hhNSQS9uCRAZagQPEhwfRUtZ",
       "metadata": {
-        "raw_yaml": "topic: 'q11'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
-        "topic": "q11",
+        "raw_yaml": "topic: 'q12'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q12",
         "grade": "10",
         "level": "NB",
         "type": "Trắc nghiệm"
       }
     },
     {
-      "id": "q12",
+      "id": "q13",
       "content": "Tìm tất cả các giá trị của tham số $m$ sao cho $(-\\infty; 1] \\cup (m; +\\infty) = \\mathbb{R}$.",
       "type": "mcq",
       "options": [
@@ -233,15 +253,15 @@ window.mathflowData = {
       "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
       "explanation": "OQBUC8KVTEtfci8MDRQRDWQSAW8WMQIBGEZEAkx/WDkKHAMAJhsQDxYxDBUcDg4NDA0OQUMZDR1/RMOQElUF4bqoVAMOBU8fPhpFF+G7nxVUN+G7kUASVQXhurIaD0YA4buKB38bCuG7lBFFGuG6jlsQXl/huqwPVAYODRpbfx0CC8WbBFQzw5IQFltNPRgNRl1LWQ==",
       "metadata": {
-        "raw_yaml": "topic: 'q12'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
-        "topic": "q12",
+        "raw_yaml": "topic: 'q13'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q13",
         "grade": "10",
         "level": "TH",
         "type": "Trắc nghiệm"
       }
     },
     {
-      "id": "q13",
+      "id": "q14",
       "content": "Cho hai tập hợp $A = (-2; 6)$ và $B = (0; 5)$. Khẳng định nào sau đây đúng?",
       "type": "mcq",
       "options": [
@@ -253,8 +273,8 @@ window.mathflowData = {
       "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
       "explanation": "OQBUC8KVTEs1fy8WFhAWESsScRYWG8KNVExWTEkQK0hFTkBBVCnDkhAWA01HGBxdTFlTcXkhDFLFtMKHfxZyEmoeBAAFDwIaBH8yRV5SOREyQkRLRQgVUEY=",
       "metadata": {
-        "raw_yaml": "topic: 'q13'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
-        "topic": "q13",
+        "raw_yaml": "topic: 'q14'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q14",
         "grade": "10",
         "level": "TH",
         "type": "Trắc nghiệm"
