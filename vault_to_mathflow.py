@@ -95,6 +95,40 @@ def get_svg_for_tikz(tikz_code):
                     pass
     return img_name
 
+def extract_choicess(text):
+    match = re.search(r'\\choicess\s*\{', text)
+    if not match:
+        return None
+    start_idx = match.start()
+    idx = match.end() - 1
+    blocks = []
+    while len(blocks) < 5 and idx < len(text):
+        while idx < len(text) and text[idx].isspace():
+            idx += 1
+        if idx >= len(text) or text[idx] != '{':
+            break
+        brace_depth = 0
+        block_start = idx + 1
+        block_end = -1
+        while idx < len(text):
+            char = text[idx]
+            if char == '{':
+                brace_depth += 1
+            elif char == '}':
+                brace_depth -= 1
+                if brace_depth == 0:
+                    block_end = idx
+                    idx += 1
+                    break
+            idx += 1
+        if block_end != -1:
+            blocks.append(text[block_start:block_end])
+        else:
+            break
+    if len(blocks) == 5:
+        return blocks[0].strip(), [b.strip() for b in blocks[1:]], text[start_idx:idx]
+    return None
+
 def parse_md_file(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -119,20 +153,9 @@ def parse_md_file(file_path):
     options = []
     answer_index = 0
 
-    # 7. Use robust regex with 1 level of nested braces for option blocks
-    choicess_match = re.search(
-        r'\\choicess\s*\{(\d+)\}\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}',
-        body,
-        re.DOTALL
-    )
-    if choicess_match:
-        raw_options = [
-            choicess_match.group(2).strip(),
-            choicess_match.group(3).strip(),
-            choicess_match.group(4).strip(),
-            choicess_match.group(5).strip()
-        ]
-        
+    parsed_choicess = extract_choicess(body)
+    if parsed_choicess:
+        _, raw_options, full_match_str = parsed_choicess
         correct_index = 0
         for i, opt in enumerate(raw_options):
             if opt.startswith('*'):
@@ -140,8 +163,7 @@ def parse_md_file(file_path):
                 options.append(opt[1:].strip())
             else:
                 options.append(opt)
-                
-        body = body.replace(choicess_match.group(0), "")
+        body = body.replace(full_match_str, "")
         answer_index = correct_index
     
     if not options:

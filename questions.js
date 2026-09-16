@@ -102,11 +102,16 @@ window.mathflowData = {
     },
     {
       "id": "q6",
-      "content": "Tập hợp nào sau đây mô tả nửa khoảng $(2;5]$?\n\\choicess{4}{*$\\{x \\in \\mathbb{R} \\mid 2 &lt; x \\le 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2 \\le x \\le 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2&lt;x&lt; 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2 \\le x &lt; 5\\}$}",
-      "type": "short_answer",
-      "options": [],
+      "content": "Mệnh đề nào sau đây đúng?",
+      "type": "mcq",
+      "options": [
+        "$A=(0;5]$.",
+        "$A=[0;5]$.",
+        "$A=(0;5)$.",
+        "$A=[0;5)$."
+      ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "I+G6jBVIDQQA4buUMRRFR1pXT2pvFBJR4bq+DFQLwocPTwThuo5TEQvhuoMGVHtKFBJCBeG6rhVIC8KPAVd7QUVFHhFPf0oQbloIQUFMSkwb4bqePFMJwoNSQSgkShBuXwNBKAUHGAcVPQg3HlI5GTZWEAAWSw0AU0YUTyszFkVWLhhQcQ==",
+      "explanation": "OQBUC8KVTEs2Yi8eGy4MGgNfUUZeDwNUOjoBBhN/Q0MPBl4MA15VEgMxHFBGRmYrGH9XHUUVEU9vFhAaXQXClRoPRgDhu4oOf8WiDOG6oB9FUG8WGRJAwo1BUBA6AApXaldFSxHCllQz4bqXSRLEpwThuqIZSEJZS15/HcKPDVIR4buZLxJY4buRRk1FNUxGxb3Hn+G6lDxTBwrhurEQVDtb4bu1XBYJx5Hhuq8BRgjhu44ZOFMOCx3hu4YaOBIdEljhuoAAVAMOA+G7jBk4UwnCg1JBNWIaAAkDMEVa",
       "metadata": {
         "raw_yaml": "topic: 'q6'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
         "topic": "q6",
@@ -186,7 +191,7 @@ window.mathflowData = {
         "$15$"
       ],
       "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
-      "explanation": "PuG6sFQA4bqrD08ENh0NQwYNwpk8WhDDn0JNDxzhu40STALhuq4rUwjClxxFIDDDk14SXgLhu5YXSDDFrwFXM8KTX0NWUUR/HxAKFlBBR1pCTAfhuro8UxYKHA1aVWHhu6ESXuG6oAJUGw8CB1crG8KIABpFF+G7vBJYU19NDMKABkYAwo9Nf1dXVlJOVG0CEB8WXlNUVUZdXFN/G+G6qABSFh0xWh4=",
+      "explanation": "PuG6sFQA4bqrD08ENh0NQwYNwpk8WhBmWcKMD1QACeG7mwxXCcWwC0MewoVOfxYEAhZAQUxIW0xcRXtTDeG6rhFFBzZcWBw8PuG6sFQA4bqrD08ENh0NQwYNwpk8WhBR4bqVTQkVAUYBwpsZfx/ChVlSQUZqEhsSBF1BWUhVXk9Kf0JWR1IN4bq5PBJDW1gFTw==",
       "metadata": {
         "raw_yaml": "topic: 'q10'\ngrade: '10'\nlevel: 'VD'\ntype: 'Trắc nghiệm'",
         "topic": "q10",
