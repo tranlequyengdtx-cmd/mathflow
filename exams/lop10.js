@@ -2,7 +2,7 @@ window.mathflowData_lop10 = {
   "questions": [
     {
       "id": "q1",
-      "content": "Xét tập hợp $A=\\{n \\in \\mathbb{N} \\mid 1<n<6\\}$. Viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
+      "content": "Xét tập hợp $A=\\{n \\in \\mathbb{N} \\mid 1 < n < 6\\}$. Viết tập hợp $A$ dưới dạng liệt kê các phần tử.",
       "type": "mcq",
       "options": [
         "$A=\\{2; 3; 4; 5\\}$",
@@ -206,7 +206,7 @@ window.mathflowData_lop10 = {
         "$(-\\infty; 1]$"
       ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "PQnhu5MGRgcHwoMxFEUB4bq5RRPhu75RWBJVBcKIG0gE4buDG1fFjuG7lBBDBuG6jlR7AxQSHg7CklQE4buDFU/FpjbhurAIQ1ZUUHMSW8OfFgUI4bqzHUZINFN2Uw7Cih1FEMK/WxBE4bu3TREcwoUHTA3CnTFTFQvhu5EMVMWO4bqNXhISRj0dBgAYFlNxeSEMUsW0wodzEljDnlgFQQLhu5VGGB3CnTFTBwrhurEQVDtb4bu1XBYZ4buMBEgO4bqPH1d7KFRYUk4oNlxWRk9ERVo=",
+      "explanation": "PQnhu5MGRgcHwoMxFEUB4bq5RRPhu75RWBJVBcKIG0gE4buDG1fFjuG7lBBDBuG6jlR7AxQSHg7CklQE4buDFU9TbldMQwTChVQ0w5tfElLCjQhUHuG6p0wfH8KyEkUBwpgLVC9a4bqTWxbFvOG7nhpIQkczHjEVERpWS34bXRDEo8OFQUEcwoQIBE8B4buiUxERwpgLVD1b4buzRxYJCOG6sQZGGOG7ggd/G+G6hhNSQS9uCRAZagQPEhwfRUtZ",
       "metadata": {
         "raw_yaml": "topic: 'q11'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
         "topic": "q11",
