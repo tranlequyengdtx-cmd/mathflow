@@ -157,6 +157,13 @@ input[type="text"]:focus, textarea:focus, select:focus {
     box-shadow: 0 0 0 4px rgba(0, 210, 255, 0.1);
 }
 
+input[type="text"]:disabled, select:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+    background: rgba(255, 255, 255, 0.02);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
 @keyframes pulseWarning {
     0% { opacity: 1; }
     50% { opacity: 0.5; }

@@ -114,6 +114,48 @@ safeCreateIcons();
 
 // --- Core Functions ---
 
+function applyUrlParameters() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const classVal = urlParams.get('class') || urlParams.get('lop') || urlParams.get('studentClass');
+    if (classVal && elements.studentClass) {
+        elements.studentClass.value = classVal;
+        elements.studentClass.disabled = true;
+    }
+    const nameVal = urlParams.get('name') || urlParams.get('hoten') || urlParams.get('studentName');
+    if (nameVal && elements.studentName) {
+        elements.studentName.value = nameVal;
+    }
+}
+
+function applyExamConfig() {
+    if (typeof window.mathflowData === 'undefined') return;
+    const data = window.mathflowData;
+    
+    if (data.timeLimit !== undefined && data.timeLimit !== null) {
+        const timeVal = parseFloat(data.timeLimit);
+        currentState.timeLimit = timeVal;
+        if (elements.examTime) {
+            let optionExists = false;
+            for (let i = 0; i < elements.examTime.options.length; i++) {
+                if (parseFloat(elements.examTime.options[i].value) === timeVal) {
+                    optionExists = true;
+                    elements.examTime.options[i].selected = true;
+                    break;
+                }
+            }
+            if (!optionExists) {
+                const newOpt = document.createElement('option');
+                newOpt.value = timeVal;
+                newOpt.textContent = timeVal > 0 ? (timeVal < 1 ? `${Math.round(timeVal * 60)} Giây` : `${timeVal} Phút`) : "Không giới hạn";
+                elements.examTime.appendChild(newOpt);
+                newOpt.selected = true;
+            }
+            elements.examTime.value = timeVal;
+            elements.examTime.disabled = true; // Học sinh không được tự chọn
+        }
+    }
+}
+
 function parseQuestionsData(data) {
     if (Array.isArray(data)) {
         questions = data;
@@ -121,28 +163,7 @@ function parseQuestionsData(data) {
     } else {
         questions = data.questions || [];
         currentState.allowSolve = data.allowSolve !== undefined ? data.allowSolve : false;
-        
-        // Nếu file xuất cấu hình thời gian kiểm tra cố định, áp dụng và vô hiệu hóa thay đổi trên UI
-        if (data.timeLimit !== undefined) {
-            currentState.timeLimit = data.timeLimit;
-            if (elements.examTime) {
-                let optionExists = false;
-                for (let i = 0; i < elements.examTime.options.length; i++) {
-                    if (parseFloat(elements.examTime.options[i].value) === data.timeLimit) {
-                        optionExists = true;
-                        break;
-                    }
-                }
-                if (!optionExists) {
-                    const newOpt = document.createElement('option');
-                    newOpt.value = data.timeLimit;
-                    newOpt.textContent = data.timeLimit > 0 ? (data.timeLimit < 1 ? `${data.timeLimit * 60} Giây` : `${data.timeLimit} Phút`) : "Không giới hạn";
-                    elements.examTime.appendChild(newOpt);
-                }
-                elements.examTime.value = data.timeLimit;
-                elements.examTime.disabled = true; // Học sinh không được tự chọn
-            }
-        }
+        applyExamConfig();
     }
 }
 
@@ -166,7 +187,7 @@ function loadQuestions() {
     
     // Đọc cấu hình bảo mật cơ bản
     currentState.allowSolve = rawData.allowSolve || false;
-    currentState.timeLimit = rawData.timeLimit ? rawData.timeLimit * 60 : 0;
+    applyExamConfig();
 
     // XỬ LÝ MA TRẬN PHÂN TẦNG NATIVE TRÊN TRÌNH DUYỆT (E:NB:TH:VD)
     if (rawData.matrix && poolQuestions.length > 0) {
@@ -834,5 +855,7 @@ document.addEventListener('fullscreenchange', () => {
 
 // Khởi chạy chế độ bảo mật và kiểm tra bài thi chưa hoàn thành
 setupSecurityRestrictions();
+applyUrlParameters();
+applyExamConfig();
 checkSavedState();
 loadQuestions();
