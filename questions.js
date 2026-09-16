@@ -299,6 +299,26 @@ window.mathflowData = {
         "level": "TH",
         "type": "Trắc nghiệm"
       }
+    },
+    {
+      "id": "q16",
+      "content": "Tìm tất cả các giá trị của tham số $m$ sao cho $(-1;2] \\cap (m;+\\infty) \\ne \\emptyset$.",
+      "type": "mcq",
+      "options": [
+        "$m &lt; 2$.",
+        "$m \\le 2$.",
+        "$m &lt; -1$.",
+        "$m \\le -1$."
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "OQBUC8KVTEtfckJeUS9FKDxTQBIeAFpfNA8CCQMmWkU/HABUA1ddQkIUEhEcQkwEHzZTE8KDUgYc4bqWEltaX01FGUhAABtMf0FBTXghG3/Eo8ODHhbFvMKABEjChwJPxabCpR0CQx7ChVR7XxAUWhlaVFpCQg==",
+      "metadata": {
+        "raw_yaml": "topic: 'q16'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q16",
+        "grade": "10",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
     }
   ],
   "allowSolve": true,
