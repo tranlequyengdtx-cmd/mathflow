@@ -102,11 +102,11 @@ window.mathflowData = {
     },
     {
       "id": "q6",
-      "content": "Tập hợp nào sau đây mô tả nửa khoảng $(2;5]$?\n\\choicess{4}{*$\\{x \\in \\mathbb{R} \\mid 2<x\\le 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2\\le x\\le 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2<x< 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2\\le x< 5\\}$}",
+      "content": "Tập hợp nào sau đây mô tả nửa khoảng $(2;5]$?\n\\choicess{4}{*$\\{x \\in \\mathbb{R} \\mid 2 < x \\le 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2 \\le x \\le 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2<x< 5\\}$}{$\\{x \\in \\mathbb{R} \\mid 2 \\le x < 5\\}$}",
       "type": "short_answer",
       "options": [],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
-      "explanation": "I+G6jBVIDQQA4buUMRRFR1pXT2pvFBJR4bq+DFQLwocPTwThuo5TEQvhuoMGVHtKFBJCBeG6rhVIC8KPAVd7QUVfUh1UA15VEgNJTVQc4bqPD08bwr9TQT8JHSg2XGxfVxkJFgodPhIrMhoBQ0BZDANeVRIDMRxQRg==",
+      "explanation": "I+G6jBVIDQQA4buUMRRFR1pXT2pvFBJR4bq+DFQLwocPTwThuo5TEQvhuoMGVHtKFBJCBeG6rhVIC8KPAVd7QUVfUh1UA15VEgNJTVQc4bqPD08bwr9TQT8JHVQDW14SagAAAAAEDhQlIlM5DhsBVG0SDBJOTT0YDUZZMwp7XQ==",
       "metadata": {
         "raw_yaml": "topic: 'q6'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
         "topic": "q6",
