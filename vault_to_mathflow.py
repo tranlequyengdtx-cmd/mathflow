@@ -34,6 +34,14 @@ def xor_encrypt(text, key):
 def hash_answer(answer_index, salt):
     return hashlib.sha256(f"{answer_index}_{salt}".encode('utf-8')).hexdigest()
 
+def escape_math_html(text):
+    if not text:
+        return ""
+    def replacer(match):
+        m = match.group(0)
+        return m.replace("<", "&lt;").replace(">", "&gt;")
+    return re.sub(r'(\$\$.*?\$\$|\$[^\$\n]+?\$)', replacer, text, flags=re.DOTALL)
+
 def get_svg_for_tikz(tikz_code):
     hash_object = hashlib.md5(tikz_code.encode())
     img_hash = hash_object.hexdigest()[:10]
@@ -54,6 +62,10 @@ def get_svg_for_tikz(tikz_code):
             return img_name
         except Exception as e:
             print(f"Error copying from cache: {e}")
+
+    if not shutil.which("latex"):
+        print("[TikZ Warning] Máy chưa cài 'latex' (TeX Live). Hình vẽ TikZ không thể biên dịch thành SVG. Hãy cài texlive và dvisvgm.")
+        return None
             
     tex_content = f"\\documentclass[tikz,border=5pt]{{standalone}}\n\\usepackage{{amsmath,amssymb}}\n\\usepackage{{tikz-3dplot}}\n\\usetikzlibrary{{shapes.geometric,arrows,calc,intersections,angles,quotes}}\n\\begin{{document}}\n{tikz_code}\n\\end{{document}}"
     
@@ -175,13 +187,17 @@ def parse_md_file(file_path):
     body = body.split("> [!info]")[0].strip()
     body = re.sub(r'\n{3,}', '\n\n', body).strip()
 
+    escaped_body = escape_math_html(body.strip())
+    escaped_options = [escape_math_html(opt) for opt in options]
+    escaped_explanation = escape_math_html(explanation)
+
     return {
         "id": metadata.get("topic", "unlabeled"),
-        "content": body.strip(),
+        "content": escaped_body,
         "type": "mcq" if options else "short_answer",
-        "options": options,
+        "options": escaped_options,
         "answer": hash_answer(answer_index if options else 0, MATHFLOW_SALT),
-        "explanation": xor_encrypt(explanation, MATHFLOW_SALT),
+        "explanation": xor_encrypt(escaped_explanation, MATHFLOW_SALT),
         "metadata": metadata
     }
 
@@ -334,18 +350,8 @@ def main():
         json.dump(output_data, f, ensure_ascii=False, indent=2)
     with open(os.path.join(APP_PATH, "questions.js"), "w", encoding="utf-8") as f:
         f.write(f"window.mathflowData = {json.dumps(output_data, ensure_ascii=False, indent=2)};")
-
-    # Ghi thêm vào exams/lop{N} để URL ?exam=lop{N} luôn tải đúng dữ liệu mới
-    exam_dir = os.path.join(APP_PATH, "exams")
-    os.makedirs(exam_dir, exist_ok=True)
-    exam_name = f"lop{args.lop}"
-    with open(os.path.join(exam_dir, f"{exam_name}.json"), "w", encoding="utf-8") as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
-    with open(os.path.join(exam_dir, f"{exam_name}.js"), "w", encoding="utf-8") as f:
-        f.write(f"window.mathflowData_{exam_name} = {json.dumps(output_data, ensure_ascii=False, indent=2)};")
     
     print(f"➔ Đã xuất đầy đủ {len(questions)} câu hỏi gốc và đính kèm cấu hình ma trận '{args.matrix}' lên Git Frontend!")
-    print(f"  ↳ Đồng bộ exams/{exam_name}.json + exams/{exam_name}.js")
 
 if __name__ == "__main__":
     main()

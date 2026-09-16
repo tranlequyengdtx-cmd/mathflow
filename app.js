@@ -1,19 +1,3 @@
-
-// URL Query Parameter Parsing
-const urlParams = new URLSearchParams(window.location.search);
-const classParam = (urlParams.get('class') || urlParams.get('c') || urlParams.get('lop') || '').trim();
-const examParam = (urlParams.get('exam') || urlParams.get('e') || urlParams.get('de') || '').trim();
-
-function initURLParams() {
-    if (classParam && elements.studentClass) {
-        elements.studentClass.value = classParam.toUpperCase();
-        elements.studentClass.readOnly = true;
-        elements.studentClass.style.backgroundColor = 'rgba(255, 255, 255, 0.08)';
-        elements.studentClass.style.cursor = 'not-allowed';
-        elements.studentClass.style.borderColor = 'var(--primary)';
-        elements.studentClass.title = 'Lớp đã được cố định theo đường dẫn của bài thi';
-    }
-}
 // App State
 let questions = []; // Will be loaded from questions.json
 let currentState = {
@@ -102,6 +86,13 @@ function safeCreateIcons() {
     }
 }
 
+function safeHtmlWithMath(str) {
+    if (!str) return "";
+    return str.replace(/(\$\$.*?\$\$|\$[^\$\n]+?\$)/gs, (match) => {
+        return match.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    });
+}
+
 function safeRenderMath(element) {
     if (typeof renderMathInElement !== 'undefined') {
         try {
@@ -164,75 +155,18 @@ function shuffleArray(array) {
     return array;
 }
 
-async function loadQuestions() {
-    let rawData = null;
-
-    if (examParam) {
-        try {
-            const resp = await fetch(`exams/${examParam}.json`);
-            if (resp.ok) {
-                rawData = await resp.json();
-                console.log(`Đã tải thành công đề thi từ exams/${examParam}.json`);
-            }
-        } catch (e) {
-            console.warn(`Không thể tải exams/${examParam}.json qua fetch, thử đọc qua JS global variable...`, e);
-        }
-
-        if (!rawData && window[`mathflowData_${examParam}`]) {
-            rawData = window[`mathflowData_${examParam}`];
-        }
-    }
-
-    if (!rawData) {
-        if (typeof window.mathflowData !== 'undefined') {
-            rawData = window.mathflowData;
-        } else {
-            try {
-                const resp = await fetch('questions.json');
-                if (resp.ok) {
-                    rawData = await resp.json();
-                }
-            } catch (e) {
-                console.warn('Không thể tải questions.json', e);
-            }
-        }
-    }
-
-    if (!rawData) {
-        alert("Lỗi: Không tìm thấy dữ liệu câu hỏi!");
+function loadQuestions() {
+    if (typeof window.mathflowData === 'undefined') {
+        alert("Lỗi: Không tìm thấy dữ liệu câu hỏi mathflowData!");
         return;
     }
 
+    const rawData = window.mathflowData;
     let poolQuestions = rawData.questions || [];
     
-    // Đọc cấu hình bảo mật & thời gian làm bài
-    currentState.allowSolve = rawData.allowSolve !== undefined ? rawData.allowSolve : false;
-    if (rawData.timeLimit !== undefined && rawData.timeLimit !== null) {
-        const tVal = parseFloat(rawData.timeLimit);
-        currentState.presetTimeLimit = tVal;
-        currentState.timeLimit = tVal;
-        
-        if (elements.examTime) {
-            let optionExists = false;
-            for (let i = 0; i < elements.examTime.options.length; i++) {
-                if (parseFloat(elements.examTime.options[i].value) === tVal) {
-                    optionExists = true;
-                    break;
-                }
-            }
-            if (!optionExists) {
-                const newOpt = document.createElement('option');
-                newOpt.value = tVal;
-                newOpt.textContent = tVal > 0 ? `${tVal} Phút (Cố định bởi GV)` : "Không giới hạn";
-                elements.examTime.appendChild(newOpt);
-            }
-            elements.examTime.value = tVal;
-            elements.examTime.disabled = true;
-            elements.examTime.style.backgroundColor = 'rgba(255, 255, 255, 0.08)';
-            elements.examTime.style.cursor = 'not-allowed';
-            elements.examTime.title = 'Thời gian làm bài đã được cố định theo cấu hình bài thi.';
-        }
-    }
+    // Đọc cấu hình bảo mật cơ bản
+    currentState.allowSolve = rawData.allowSolve || false;
+    currentState.timeLimit = rawData.timeLimit ? rawData.timeLimit * 60 : 0;
 
     // XỬ LÝ MA TRẬN PHÂN TẦNG NATIVE TRÊN TRÌNH DUYỆT (E:NB:TH:VD)
     if (rawData.matrix && poolQuestions.length > 0) {
@@ -329,11 +263,7 @@ async function startQuiz() {
     currentState.studentClass = classInfo;
     currentState.startTime = new Date();
     currentState.reviewMode = false;
-    if (currentState.presetTimeLimit !== undefined && currentState.presetTimeLimit !== null) {
-        currentState.timeLimit = currentState.presetTimeLimit;
-    } else {
-        currentState.timeLimit = parseFloat(elements.examTime.value) || 0;
-    }
+    currentState.timeLimit = parseFloat(elements.examTime.value) || 0;
 
     // Re-initialize answers array with the correct length
     currentState.answers = Array(questions.length).fill(null);
@@ -452,7 +382,7 @@ function renderQuestion() {
     }
 
     // Update question content
-    qTextEl.innerHTML = q.content;
+    qTextEl.innerHTML = safeHtmlWithMath(q.content);
 
     // Adjust the number of option elements to match q.options.length
     let optionEls = optsListEl.querySelectorAll('.option-item');
@@ -482,7 +412,7 @@ function renderQuestion() {
         item.setAttribute('data-original-index', optObj.originalIndex);
         
         const contentEl = item.querySelector('.option-content');
-        contentEl.innerHTML = optObj.text;
+        contentEl.innerHTML = safeHtmlWithMath(optObj.text);
 
         // Reset classes
         item.className = 'option-item';
@@ -506,7 +436,7 @@ function renderQuestion() {
         if (q.explanation) {
             explainBoxEl.classList.remove('hidden');
             explainTitleEl.innerHTML = `<i data-lucide="info"></i> Giải thích chi tiết:`;
-            explainContentEl.innerHTML = MathFlowCrypto.xorDecrypt(q.explanation);
+            explainContentEl.innerHTML = safeHtmlWithMath(MathFlowCrypto.xorDecrypt(q.explanation));
         } else {
             explainBoxEl.classList.remove('hidden');
             const correctOptText = q.options.find(o => o.originalIndex === q.correctOriginalIndex)?.text || '';
@@ -620,7 +550,6 @@ async function submitQuiz() {
     sendDataToGoogle({
         studentName: currentState.studentName,
         studentClass: currentState.studentClass,
-        examName: examParam ? examParam : "Đề chung",
         score: scoreText,
         time: timeText,
         cheated: cheatInfo,
@@ -906,5 +835,4 @@ document.addEventListener('fullscreenchange', () => {
 // Khởi chạy chế độ bảo mật và kiểm tra bài thi chưa hoàn thành
 setupSecurityRestrictions();
 checkSavedState();
-initURLParams();
 loadQuestions();
