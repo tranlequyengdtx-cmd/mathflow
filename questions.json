@@ -242,6 +242,26 @@
     },
     {
       "id": "q13",
+      "content": "Hình vẽ bên dưới là biểu diễn trên trục số của tập hợp nào?\n<img src=\"assets/tikz_7e7043cf42.svg\" class=\"tikz-img\">",
+      "type": "mcq",
+      "options": [
+        "$(-\\infty; -2]$",
+        "$(-\\infty; -2)$",
+        "$[-2; +\\infty)$",
+        "$(-2; +\\infty)$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "PQnhu5MGRgcHwoMxFEUB4bq5RRPhu75RWBJVBcKIG0gNwoUAVzvCkwxDBuG6jlR7H2xbWAsVDUxGxb3hu5AZf1dIUVZFXDzDgRBe4bqTFEFQRVRIRllVNwpDxaPCllh/WsOcXF5NF+G7iUgSHsKFGX8RDOG6oAdFEDbhu7deEkLhu4ARVADhuoUcT1N3XjkKHAMAJgkQHwQwRVo=",
+      "metadata": {
+        "raw_yaml": "topic: 'q13'\ngrade: '10'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q13",
+        "grade": "10",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q14",
       "content": "Tìm tất cả các giá trị của tham số $m$ sao cho $(-\\infty; 1] \\cup (m; +\\infty) = \\mathbb{R}$.",
       "type": "mcq",
       "options": [
@@ -253,15 +273,15 @@
       "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
       "explanation": "OQBUC8KVTEtfci8MDRQRDWQSAW8WMQIBGEZEAkx/WDkKHAMAJhsQDxYxDBUcDg4NDA0OQUMZDR1/RMOQElUF4bqoVAMOBU8fPhpFF+G7nxVUN+G7kUASVQXhurIaD0YA4buKB38bCuG7lBFFGuG6jlsQXl/huqwPVAYODRpbfx0CC8WbBFQzw5IQFltNPRgNRl1LWQ==",
       "metadata": {
-        "raw_yaml": "topic: 'q13'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
-        "topic": "q13",
+        "raw_yaml": "topic: 'q14'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q14",
         "grade": "10",
         "level": "TH",
         "type": "Trắc nghiệm"
       }
     },
     {
-      "id": "q14",
+      "id": "q15",
       "content": "Cho hai tập hợp $A = (-2; 6)$ và $B = (0; 5)$. Khẳng định nào sau đây đúng?",
       "type": "mcq",
       "options": [
@@ -273,8 +293,8 @@
       "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
       "explanation": "OQBUC8KVTEs1fy8WFhAWESsScRYWG8KNVExWTEkQK0hFTkBBVCnDkhAWA01HGBxdTFlTcXkhDFLFtMKHfxZyEmoeBAAFDwIaBH8yRV5SOREyQkRLRQgVUEY=",
       "metadata": {
-        "raw_yaml": "topic: 'q14'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
-        "topic": "q14",
+        "raw_yaml": "topic: 'q15'\ngrade: '10'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q15",
         "grade": "10",
         "level": "TH",
         "type": "Trắc nghiệm"
@@ -283,5 +303,5 @@
   ],
   "allowSolve": true,
   "matrix": null,
-  "timeLimit": 10.0
+  "timeLimit": 15.0
 }
