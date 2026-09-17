@@ -161,6 +161,9 @@ async function initExamData() {
     const examParam = urlParams.get('exam');
 
     if (examParam) {
+        // Xóa window.mathflowData cũ để đảm bảo không hiển thị nhầm dữ liệu bài thi khác
+        window.mathflowData = null;
+
         if (window.mathflowExams && window.mathflowExams[examParam]) {
             window.mathflowData = window.mathflowExams[examParam];
             setupExamUI();
@@ -173,10 +176,18 @@ async function initExamData() {
                     script.onerror = reject;
                     document.head.appendChild(script);
                 });
+
                 if (window.mathflowExams && window.mathflowExams[examParam]) {
                     window.mathflowData = window.mathflowExams[examParam];
+                } else if (window[`mathflowData_${examParam}`]) {
+                    window.mathflowData = window[`mathflowData_${examParam}`];
                 }
-                setupExamUI();
+
+                if (window.mathflowData) {
+                    setupExamUI();
+                } else {
+                    alert(`Không tìm thấy dữ liệu cho bài thi mã '${examParam}'. Vui lòng kiểm tra lại mã bài thi!`);
+                }
             } catch (err) {
                 console.warn("Không thể nạp file script bài thi, thử fetch JSON:", err);
                 try {
@@ -184,6 +195,8 @@ async function initExamData() {
                     if (res.ok) {
                         window.mathflowData = await res.json();
                         setupExamUI();
+                    } else {
+                        alert(`Không thể tải bài thi mã '${examParam}'. File bài thi không tồn tại!`);
                     }
                 } catch (e) {
                     console.error("Lỗi nạp bài thi:", e);

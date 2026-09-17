@@ -413,12 +413,6 @@ def main():
 
     exam_id = args.exam.strip() if args.exam else None
 
-    # Luôn ghi ra questions.json và questions.js mặc định
-    with open(os.path.join(APP_PATH, "questions.json"), "w", encoding="utf-8") as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
-    with open(os.path.join(APP_PATH, "questions.js"), "w", encoding="utf-8") as f:
-        f.write(f"window.mathflowData = {json.dumps(output_data, ensure_ascii=False, indent=2)};")
-
     if exam_id:
         exams_dir = os.path.join(APP_PATH, "exams")
         os.makedirs(exams_dir, exist_ok=True)
@@ -446,7 +440,13 @@ window.mathflowData = window.mathflowExams["{exam_id}"];"""
             print(f"  • Giờ đóng đề: {args.end}")
         print(f"==================================================")
     else:
-        print(f"➔ Đã xuất đầy đủ {len(questions)} câu hỏi gốc và đính kèm cấu hình ma trận '{args.matrix}' lên Git Frontend!")
+        # Chỉ khi không có --exam mới ghi đè kho mặc định questions.js / questions.json
+        with open(os.path.join(APP_PATH, "questions.json"), "w", encoding="utf-8") as f:
+            json.dump(output_data, f, ensure_ascii=False, indent=2)
+        with open(os.path.join(APP_PATH, "questions.js"), "w", encoding="utf-8") as f:
+            f.write(f"window.mathflowData = {json.dumps(output_data, ensure_ascii=False, indent=2)};")
+
+        print(f"➔ Đã xuất đầy đủ {len(questions)} câu hỏi gốc và đính kèm cấu hình ma trận '{args.matrix}' vào kho chung questions.js!")
         if pin_val:
             print(f"➔ MÃ PIN BẢO MẬT: {pin_val}")
 
