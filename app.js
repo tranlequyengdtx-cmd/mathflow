@@ -42,6 +42,25 @@ const MathFlowCrypto = {
             console.error("Lỗi giải mã:", e);
             return "Lỗi giải mã lời giải.";
         }
+    },
+
+    pinDecrypt(base64Str, pinKey) {
+        if (!base64Str) return "";
+        try {
+            const binaryStr = atob(base64Str);
+            const keyStr = `${pinKey}_${this.salt}`;
+            const encoder = new TextEncoder();
+            const keyBytes = encoder.encode(keyStr);
+            const bytes = new Uint8Array(binaryStr.length);
+            for (let i = 0; i < binaryStr.length; i++) {
+                bytes[i] = binaryStr.charCodeAt(i) ^ keyBytes[i % keyBytes.length];
+            }
+            const decoder = new TextDecoder('utf-8');
+            return decoder.decode(bytes);
+        } catch (e) {
+            console.error("Lỗi giải mã PIN:", e);
+            return null;
+        }
     }
 };
 
@@ -55,6 +74,10 @@ const screens = {
 const elements = {
     studentName: document.getElementById('student-name'),
     studentClass: document.getElementById('student-class'),
+    examPin: document.getElementById('exam-pin'),
+    pinGroup: document.getElementById('pin-group'),
+    timeStatus: document.getElementById('time-status'),
+    watermarkOverlay: document.getElementById('watermark-overlay'),
     startBtn: document.getElementById('start-btn'),
     questionContainer: document.getElementById('question-container'),
     prevBtn: document.getElementById('prev-btn'),
@@ -124,6 +147,108 @@ function applyUrlParameters() {
     const nameVal = urlParams.get('name') || urlParams.get('hoten') || urlParams.get('studentName');
     if (nameVal && elements.studentName) {
         elements.studentName.value = nameVal;
+    }
+    const pinVal = urlParams.get('pin') || urlParams.get('passcode');
+    if (pinVal && elements.examPin) {
+        elements.examPin.value = pinVal;
+    }
+}
+
+async function initExamData() {
+    applyUrlParameters();
+    
+    const urlParams = new URLSearchParams(window.location.search);
+    const examParam = urlParams.get('exam');
+
+    if (examParam) {
+        if (window.mathflowExams && window.mathflowExams[examParam]) {
+            window.mathflowData = window.mathflowExams[examParam];
+            setupExamUI();
+        } else {
+            try {
+                await new Promise((resolve, reject) => {
+                    const script = document.createElement('script');
+                    script.src = `exams/${examParam}.js`;
+                    script.onload = resolve;
+                    script.onerror = reject;
+                    document.head.appendChild(script);
+                });
+                if (window.mathflowExams && window.mathflowExams[examParam]) {
+                    window.mathflowData = window.mathflowExams[examParam];
+                }
+                setupExamUI();
+            } catch (err) {
+                console.warn("Không thể nạp file script bài thi, thử fetch JSON:", err);
+                try {
+                    const res = await fetch(`exams/${examParam}.json`);
+                    if (res.ok) {
+                        window.mathflowData = await res.json();
+                        setupExamUI();
+                    }
+                } catch (e) {
+                    console.error("Lỗi nạp bài thi:", e);
+                    alert(`Không thể tải bài thi mã '${examParam}'. Vui lòng kiểm tra lại đường dẫn!`);
+                }
+            }
+        }
+    } else {
+        setupExamUI();
+    }
+}
+
+function setupExamUI() {
+    applyExamConfig();
+    const data = window.mathflowData;
+    if (!data) return;
+
+    if (data.pinRequired || data.encrypted) {
+        if (elements.pinGroup) elements.pinGroup.classList.remove('hidden');
+    } else {
+        if (elements.pinGroup) elements.pinGroup.classList.add('hidden');
+    }
+
+    if (elements.timeStatus) {
+        const now = new Date();
+        let timeMsg = "";
+        let isError = false;
+        let isBlocked = false;
+
+        if (data.startTime) {
+            const startDate = new Date(data.startTime.replace(' ', 'T'));
+            if (!isNaN(startDate.getTime()) && now < startDate) {
+                isBlocked = true;
+                isError = true;
+                timeMsg = `⚠️ Bài thi chưa mở! Thời gian mở bài: <b>${startDate.toLocaleString('vi-VN')}</b>`;
+            }
+        }
+
+        if (data.endTime && !isBlocked) {
+            const endDate = new Date(data.endTime.replace(' ', 'T'));
+            if (!isNaN(endDate.getTime()) && now > endDate) {
+                isBlocked = true;
+                isError = true;
+                timeMsg = `❌ Bài thi đã kết thúc vào lúc <b>${endDate.toLocaleString('vi-VN')}</b>`;
+            } else if (!isNaN(endDate.getTime())) {
+                timeMsg = `🕒 Bài thi mở đến: <b>${endDate.toLocaleString('vi-VN')}</b>`;
+            }
+        } else if (data.startTime && !isBlocked) {
+            const startDate = new Date(data.startTime.replace(' ', 'T'));
+            timeMsg = `🕒 Bài thi đã mở từ: <b>${startDate.toLocaleString('vi-VN')}</b>`;
+        }
+
+        if (timeMsg) {
+            elements.timeStatus.innerHTML = timeMsg;
+            elements.timeStatus.className = `time-status ${isError ? 'error' : 'info'}`;
+            elements.timeStatus.classList.remove('hidden');
+        } else {
+            elements.timeStatus.classList.add('hidden');
+        }
+
+        if (isBlocked && elements.startBtn) {
+            elements.startBtn.disabled = true;
+            elements.startBtn.style.opacity = '0.5';
+            elements.startBtn.style.cursor = 'not-allowed';
+        }
     }
 }
 
@@ -260,17 +385,64 @@ async function startQuiz() {
         return;
     }
 
+    const rawData = window.mathflowData || {};
+
+    let enteredPin = "";
+    if (rawData.pinRequired || rawData.encrypted) {
+        enteredPin = elements.examPin ? elements.examPin.value.trim() : "";
+        if (!enteredPin) {
+            alert('Vui lòng nhập Mã PIN bài thi do giáo viên cung cấp!');
+            return;
+        }
+        const enteredHash = await MathFlowCrypto.hashAnswer(enteredPin);
+        if (rawData.pinHash && enteredHash !== rawData.pinHash) {
+            alert('Mã PIN bài thi không chính xác! Vui lòng hỏi lại giáo viên.');
+            return;
+        }
+    }
+
     await loadQuestions();
 
+    if (rawData.encrypted && enteredPin && questions.length > 0) {
+        questions.forEach(q => {
+            if (q._decrypted) return;
+            const decContent = MathFlowCrypto.pinDecrypt(q.content, enteredPin);
+            if (decContent !== null) {
+                q.content = decContent;
+            }
+            if (Array.isArray(q.options)) {
+                q.options = q.options.map(opt => {
+                    const rawOpt = typeof opt === 'object' ? opt.text : opt;
+                    const decOpt = MathFlowCrypto.pinDecrypt(rawOpt, enteredPin);
+                    const finalText = decOpt !== null ? decOpt : rawOpt;
+                    return typeof opt === 'object' ? { ...opt, text: finalText } : finalText;
+                });
+            }
+            q._decrypted = true;
+        });
+    }
+
+    if (rawData.watermark && elements.watermarkOverlay) {
+        elements.watermarkOverlay.innerHTML = '';
+        const timestamp = new Date().toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' });
+        const markText = `${name} • Lớp ${classInfo} • ${timestamp}`;
+        for (let i = 0; i < 9; i++) {
+            const item = document.createElement('div');
+            item.className = 'watermark-item';
+            item.textContent = markText;
+            elements.watermarkOverlay.appendChild(item);
+        }
+        elements.watermarkOverlay.classList.remove('hidden');
+    } else if (elements.watermarkOverlay) {
+        elements.watermarkOverlay.classList.add('hidden');
+    }
+
     if (questions.length === 0) {
-        // Sample fallback if no questions exported
         questions = [
             { id: "demo", content: "Chưa có câu hỏi nào được xuất từ Vault. Vui lòng chạy kịch bản kết nối.", type: "mcq", options: ["Đã hiểu"], answer: 0 }
         ];
     } else {
-        // Shuffle Questions
         shuffleArray(questions);
-        // Shuffle Options for each question
         questions.forEach(q => {
             if (q.options && q.options.length > 0 && typeof q.options[0] === 'string') {
                 const optionsWithIndices = q.options.map((opt, i) => ({ text: opt, originalIndex: i }));
@@ -286,20 +458,16 @@ async function startQuiz() {
     currentState.reviewMode = false;
     currentState.timeLimit = parseFloat(elements.examTime.value) || 0;
 
-    // Re-initialize answers array with the correct length
     currentState.answers = Array(questions.length).fill(null);
     currentState.currentQuestionIndex = 0;
     currentState.totalTimeSeconds = 0;
     currentState.cheatCount = 0;
 
-    // Kích hoạt chế độ chống sao chép
     document.body.classList.add('no-select');
 
     showScreen('quiz');
     renderQuestion();
     startTimer();
-
-    // Lưu trạng thái làm bài ban đầu
     saveStateToLocalStorage();
 }
 
@@ -855,7 +1023,5 @@ document.addEventListener('fullscreenchange', () => {
 
 // Khởi chạy chế độ bảo mật và kiểm tra bài thi chưa hoàn thành
 setupSecurityRestrictions();
-applyUrlParameters();
-applyExamConfig();
+initExamData();
 checkSavedState();
-loadQuestions();

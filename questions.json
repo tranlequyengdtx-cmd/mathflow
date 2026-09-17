@@ -321,7 +321,10 @@
       }
     }
   ],
-  "allowSolve": true,
+  "allowSolve": false,
   "matrix": null,
-  "timeLimit": 15.0
+  "encrypted": false,
+  "pinRequired": false,
+  "watermark": true,
+  "timeLimit": 10.0
 }

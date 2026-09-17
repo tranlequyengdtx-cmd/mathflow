@@ -29,6 +29,7 @@
                 <p>Hệ thống đánh giá năng lực Toán học</p>
             </header>
             <main>
+                <div id="time-status" class="time-status hidden"></div>
                 <div class="input-group">
                     <label for="student-name">Họ và tên</label>
                     <input type="text" id="student-name" placeholder="Nhập tên của bạn...">
@@ -36,6 +37,10 @@
                 <div class="input-group">
                     <label for="student-class">Lớp</label>
                     <input type="text" id="student-class" placeholder="VD: 11A1...">
+                </div>
+                <div class="input-group hidden" id="pin-group">
+                    <label for="exam-pin">Mã PIN bài thi <span style="color: var(--error);">*</span></label>
+                    <input type="password" id="exam-pin" placeholder="Nhập mã PIN 6 số do GV cung cấp...">
                 </div>
                 <div class="input-group">
                     <label for="exam-time">Thời gian làm bài</label>
@@ -53,6 +58,7 @@
 
         <!-- Quiz Screen -->
         <div id="quiz-screen" class="screen">
+            <div id="watermark-overlay" class="watermark-overlay hidden"></div>
             <div id="cheat-overlay" class="cheat-overlay">
                 <div class="cheat-message">
                     <i data-lucide="alert-triangle" style="width: 48px; height: 48px; color: var(--error); margin-bottom: 15px;"></i>

@@ -7,6 +7,8 @@ import base64
 import sys
 import argparse
 import shutil
+import random
+from datetime import datetime
 from concurrent.futures import ProcessPoolExecutor
 
 try:
@@ -26,10 +28,19 @@ ASSETS_PATH = os.path.join(APP_PATH, "assets")
 
 MATHFLOW_SALT = "mathflow_secret_2026"
 
+def pin_encrypt(text, pin_key):
+    if not text:
+        return ""
+    text_bytes = text.encode('utf-8')
+    key_bytes = f"{pin_key}_{MATHFLOW_SALT}".encode('utf-8')
+    encrypted_bytes = bytes([b ^ key_bytes[i % len(key_bytes)] for i, b in enumerate(text_bytes)])
+    return base64.b64encode(encrypted_bytes).decode('ascii')
+
 def xor_encrypt(text, key):
     if not text: return ""
     encrypted = [chr(ord(char) ^ ord(key[i % len(key)])) for i, char in enumerate(text)]
     return base64.b64encode("".join(encrypted).encode('utf-8')).decode('utf-8')
+
 
 def hash_answer(answer_index, salt):
     return hashlib.sha256(f"{answer_index}_{salt}".encode('utf-8')).hexdigest()
@@ -252,6 +263,11 @@ def main():
     parser.add_argument("--time", type=str, default=None)
     parser.add_argument("--solve", action="store_true")
     parser.add_argument("--matrix", type=str, default=None, help="Cấu hình ma trận E:NB:TH:VD (Ví dụ: 2:3:3:2)")
+    parser.add_argument("--exam", type=str, default=None, help="Tên mã bài thi riêng biệt (ví dụ: 10B5_GK1)")
+    parser.add_argument("--pin", type=str, default=None, help="Mã PIN mở đề thi (ví dụ: 686868 hoặc 'auto')")
+    parser.add_argument("--start", type=str, default=None, help="Thời gian bắt đầu mở đề (YYYY-MM-DD HH:MM)")
+    parser.add_argument("--end", type=str, default=None, help="Thời gian đóng đề (YYYY-MM-DD HH:MM)")
+    parser.add_argument("--watermark", action="store_true", help="Bật hiển thị watermark thông tin học sinh chống chụp ảnh")
     args = parser.parse_args()
 
     questions = []
@@ -360,20 +376,79 @@ def main():
         except ValueError:
             return
 
+    pin_val = None
+    if args.pin:
+        if args.pin.lower() == "auto":
+            pin_val = f"{random.randint(100000, 999999)}"
+        else:
+            pin_val = args.pin.strip()
+
+    output_questions = []
+    if pin_val:
+        for q in questions:
+            q_enc = dict(q)
+            q_enc["content"] = pin_encrypt(q.get("content", ""), pin_val)
+            if q.get("options"):
+                q_enc["options"] = [pin_encrypt(opt, pin_val) for opt in q["options"]]
+            output_questions.append(q_enc)
+    else:
+        output_questions = questions
+
     output_data = {
-        "questions": questions, 
+        "questions": output_questions, 
         "allowSolve": args.solve,
-        "matrix": args.matrix
+        "matrix": args.matrix,
+        "encrypted": bool(pin_val),
+        "pinRequired": bool(pin_val),
+        "watermark": args.watermark
     }
+    if pin_val:
+        output_data["pinHash"] = hashlib.sha256(f"{pin_val}_{MATHFLOW_SALT}".encode('utf-8')).hexdigest()
+    if args.start:
+        output_data["startTime"] = args.start.strip()
+    if args.end:
+        output_data["endTime"] = args.end.strip()
     if time_limit_minutes is not None:
         output_data["timeLimit"] = time_limit_minutes
 
+    exam_id = args.exam.strip() if args.exam else None
+
+    # Luôn ghi ra questions.json và questions.js mặc định
     with open(os.path.join(APP_PATH, "questions.json"), "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
     with open(os.path.join(APP_PATH, "questions.js"), "w", encoding="utf-8") as f:
         f.write(f"window.mathflowData = {json.dumps(output_data, ensure_ascii=False, indent=2)};")
-    
-    print(f"➔ Đã xuất đầy đủ {len(questions)} câu hỏi gốc và đính kèm cấu hình ma trận '{args.matrix}' lên Git Frontend!")
+
+    if exam_id:
+        exams_dir = os.path.join(APP_PATH, "exams")
+        os.makedirs(exams_dir, exist_ok=True)
+        
+        exam_json_path = os.path.join(exams_dir, f"{exam_id}.json")
+        exam_js_path = os.path.join(exams_dir, f"{exam_id}.js")
+        
+        with open(exam_json_path, "w", encoding="utf-8") as f:
+            json.dump(output_data, f, ensure_ascii=False, indent=2)
+        with open(exam_js_path, "w", encoding="utf-8") as f:
+            js_content = f"""window.mathflowExams = window.mathflowExams || {{}};
+window.mathflowExams["{exam_id}"] = {json.dumps(output_data, ensure_ascii=False, indent=2)};
+window.mathflowData = window.mathflowExams["{exam_id}"];"""
+            f.write(js_content)
+        
+        print(f"==================================================")
+        print(f"➔ ĐÃ TẠO BÀI THI RIÊNG BỆNH MÃ: {exam_id}")
+        print(f"  • File lưu trữ: exams/{exam_id}.js")
+        print(f"  • Đường dẫn thi: ?exam={exam_id}&class=10B5")
+        if pin_val:
+            print(f"  • MÃ PIN BẢO MẬT: {pin_val}")
+        if args.start:
+            print(f"  • Giờ mở đề: {args.start}")
+        if args.end:
+            print(f"  • Giờ đóng đề: {args.end}")
+        print(f"==================================================")
+    else:
+        print(f"➔ Đã xuất đầy đủ {len(questions)} câu hỏi gốc và đính kèm cấu hình ma trận '{args.matrix}' lên Git Frontend!")
+        if pin_val:
+            print(f"➔ MÃ PIN BẢO MẬT: {pin_val}")
 
 if __name__ == "__main__":
     main()
