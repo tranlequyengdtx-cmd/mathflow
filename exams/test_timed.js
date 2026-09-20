@@ -1,4 +1,5 @@
-{
+window.mathflowExams = window.mathflowExams || {};
+window.mathflowExams["test_timed"] = {
   "questions": [
     {
       "id": "unlabeled",
@@ -1639,4 +1640,5 @@
   "pinHash": "0dba4ac5b7bed0230656918f2840afa5f005334fe9717d1d183073fb8545800e",
   "startTime": "2026-09-20 07:30",
   "endTime": "2026-09-20 08:30"
-}
+};
+window.mathflowData = window.mathflowExams["test_timed"];
