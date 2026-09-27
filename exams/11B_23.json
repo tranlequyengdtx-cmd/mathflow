@@ -341,7 +341,7 @@
       }
     }
   ],
-  "allowSolve": false,
+  "allowSolve": true,
   "matrix": null,
   "encrypted": false,
   "pinRequired": false,

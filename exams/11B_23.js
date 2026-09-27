@@ -342,7 +342,7 @@ window.mathflowExams["11B_23"] = {
       }
     }
   ],
-  "allowSolve": false,
+  "allowSolve": true,
   "matrix": null,
   "encrypted": false,
   "pinRequired": false,
