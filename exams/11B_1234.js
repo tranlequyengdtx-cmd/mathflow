@@ -163,7 +163,7 @@ window.mathflowExams["11B_1234"] = {
     },
     {
       "id": "q9",
-      "content": "Nghiệm của phương trình $\\tan x = \\tan \\alpha$ là",
+      "content": "Công thức nghiệm của phương trình $\\tan x = \\tan \\alpha$ là",
       "type": "mcq",
       "options": [
         "$x = \\alpha + k\\pi$",
@@ -183,7 +183,7 @@ window.mathflowExams["11B_1234"] = {
     },
     {
       "id": "q10",
-      "content": "Nghiệm của phương trình $\\sin x + \\cos x = 0$ là",
+      "content": "Nghiệm của phương trình $\\sin x =-\\cos x $ là",
       "type": "mcq",
       "options": [
         "$x = -\\frac{\\pi}{4} + k\\pi\\quad(k\\in\\mathbb Z)$",
@@ -202,11 +202,13 @@ window.mathflowExams["11B_1234"] = {
       }
     }
   ],
-  "allowSolve": true,
+  "allowSolve": false,
   "matrix": null,
   "encrypted": false,
   "pinRequired": false,
   "watermark": true,
+  "startTime": "2026-10-01 19:30",
+  "endTime": "2026-10-01 19:45",
   "timeLimit": 10.0
 };
 window.mathflowData = window.mathflowExams["11B_1234"];
