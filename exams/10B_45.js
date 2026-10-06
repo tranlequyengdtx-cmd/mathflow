@@ -347,6 +347,6 @@ window.mathflowExams["10B_45"] = {
   "encrypted": false,
   "pinRequired": false,
   "watermark": false,
-  "timeLimit": 10.0
+  "timeLimit": 17.0
 };
 window.mathflowData = window.mathflowExams["10B_45"];
