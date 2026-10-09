@@ -214,7 +214,7 @@ def parse_md_file(file_path):
             explanation = re.sub(r'^>\s*', '', info_split[1], flags=re.MULTILINE).strip()
 
     body = re.sub(r'\\begin\{minipage\}(\[.*?\])?\{.*?\}|\\end\{minipage\}|\\hfill|\\centering|\\vspace\{.*?\}', '', body)
-    body = re.sub(r'%.*$', '', body, flags=re.MULTILINE)
+    body = re.sub(r'(?<!\\)%.*$', '', body, flags=re.MULTILINE)
     body = re.sub(r'^#.*?\n+', '', body, count=1).strip()
     body = re.sub(r'\^q-.*$|\\item\s*', '', body).strip()
     body = body.split("> [!info]")[0].strip()

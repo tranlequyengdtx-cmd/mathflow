@@ -1,4 +1,5 @@
-{
+window.mathflowExams = window.mathflowExams || {};
+window.mathflowExams["11B_0910v3"] = {
   "questions": [
     {
       "id": "q1",
@@ -408,4 +409,5 @@
   "watermark": false,
   "endTime": "2026-10-14 22:00",
   "timeLimit": 20.0
-}
+};
+window.mathflowData = window.mathflowExams["11B_0910v3"];

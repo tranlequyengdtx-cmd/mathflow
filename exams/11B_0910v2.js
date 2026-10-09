@@ -363,7 +363,7 @@ window.mathflowExams["11B_0910v2"] = {
     },
     {
       "id": "q19",
-      "content": "Năm 2026, dân số của một quốc gia là $100$ triệu người và tốc độ tăng trưởng dân số hằng năm là $0{,}97\\",
+      "content": "Năm 2026, dân số của một quốc gia là $100$ triệu người và tốc độ tăng trưởng dân số hằng năm là $0{,}97\\% $. Nếu tốc độ tăng trưởng dân số này được giữ nguyên, hãy ước tính dân số của quốc gia đó vào năm 2036 (lấy đơn vị là triệu người, làm tròn kết quả đến hàng phần mười).",
       "type": "mcq",
       "options": [
         "$110{,}1$ triệu người",
@@ -383,7 +383,7 @@ window.mathflowExams["11B_0910v2"] = {
     },
     {
       "id": "q20",
-      "content": "Một người mua một chiếc điện thoại với giá $12$ triệu đồng. Biết rằng cứ sau mỗi năm sử dụng, giá trị của chiếc điện thoại đó giảm đi $15\\",
+      "content": "Một người mua một chiếc điện thoại với giá $12$ triệu đồng. Biết rằng cứ sau mỗi năm sử dụng, giá trị của chiếc điện thoại đó giảm đi $15\\% $ so với giá trị của nó trong năm liền trước. Giá trị còn lại của chiếc điện thoại đó sau $4$ năm sử dụng là bao nhiêu? (Lấy đơn vị là triệu đồng, kết quả làm tròn đến hàng phần trăm).",
       "type": "mcq",
       "options": [
         "$6{,}26$ triệu đồng.",
