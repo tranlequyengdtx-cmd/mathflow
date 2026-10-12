@@ -407,5 +407,5 @@
   "pinRequired": false,
   "watermark": true,
   "endTime": "2026-10-14 22:00",
-  "timeLimit": 10.0
+  "timeLimit": 20.0
 }

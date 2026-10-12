@@ -1,5 +1,5 @@
 window.mathflowExams = window.mathflowExams || {};
-window.mathflowExams["11B_1210v1"] = {
+window.mathflowExams["11B_1210v2"] = {
   "questions": [
     {
       "id": "q1",
@@ -408,6 +408,6 @@ window.mathflowExams["11B_1210v1"] = {
   "pinRequired": false,
   "watermark": true,
   "endTime": "2026-10-14 22:00",
-  "timeLimit": 10.0
+  "timeLimit": 20.0
 };
-window.mathflowData = window.mathflowExams["11B_1210v1"];
+window.mathflowData = window.mathflowExams["11B_1210v2"];
