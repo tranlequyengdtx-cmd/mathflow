@@ -1,0 +1,413 @@
+window.mathflowExams = window.mathflowExams || {};
+window.mathflowExams["11B_1410v1"] = {
+  "questions": [
+    {
+      "id": "q1",
+      "content": "Dãy số nào sau đây là dãy số giảm?",
+      "type": "mcq",
+      "options": [
+        "$3;5;7;9;11$",
+        "$1;\\frac{1}{2};\\frac13;\\frac14;\\frac15$",
+        "$-1;1-1;1;-1$",
+        "$\\frac15;\\frac14;\\frac13;\\frac12;1$"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q1'\ngrade: '11'\nlevel: 'E'\ntype: 'Trắc nghiệm'",
+        "topic": "q1",
+        "grade": "11",
+        "level": "E",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q2",
+      "content": "Xét dãy số $(u_n)$ có số hạng tổng quát $u_n=\\sin(n\\cdot\\frac\\pi2)$. Khẳng định nào sau đây đúng?",
+      "type": "mcq",
+      "options": [
+        "$(u_n)$ là dãy bị chặn",
+        "$(u_n)$ là dãy giảm",
+        "$u_3 = 1$",
+        "$(u_n)$ là dãy số tăng"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q2'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q2",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q3",
+      "content": "Cho dãy số $(u_n)$ với $u_n = n(n+1)$. Tính $u_9$.",
+      "type": "mcq",
+      "options": [
+        "$110$",
+        "$90$",
+        "$80$",
+        "$99$"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "SRQrUUZRT05/LwYHHRFUdwsQGRZcSFRVRlVfU3E=",
+      "metadata": {
+        "raw_yaml": "topic: 'q3'\ngrade: '11'\nlevel: 'E'\ntype: 'Trắc nghiệm'",
+        "topic": "q3",
+        "grade": "11",
+        "level": "E",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q4",
+      "content": "Xét dãy số $(u_n)$ với $u_n = \\frac{n}{n+1}$. Khẳng định nào sau đây *sai*?",
+      "type": "mcq",
+      "options": [
+        "$(u_n)$ là dãy tăng",
+        "$(u_n)$ là dãy giảm",
+        "$(u_n)$ là dãy bị chặn",
+        "$u_1=\\frac12$"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "SRQrWVswCQU+EFRRVAkAZEdvAAsxBwYJBV5cU38dwo8NUkFcKm1eGxJNChzCnAgLTxvCv1MBwoALRRM24bqRXRw=",
+      "metadata": {
+        "raw_yaml": "topic: 'q4'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q4",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q5",
+      "content": "Cho cấp số cộng $(u_n)$ có $u_1 = 1$ và công sai $d = 3$. Tính $u_8$.",
+      "type": "mcq",
+      "options": [
+        "$22$",
+        "$25$",
+        "$24$",
+        "$21$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "OQBUC8KVTEsCAEtFXlIQK24SGxIeVUFZSFdFC1diU1RDWUVDf25TVlkZQUdIW0xdRXtd",
+      "metadata": {
+        "raw_yaml": "topic: 'q5'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q5",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q6",
+      "content": "Cho cấp số cộng $1; 6; 11; 16;\\cdots$. Xác định công sai $d$ và số hạng thứ $5$ của cấp số cộng đã cho.",
+      "type": "mcq",
+      "options": [
+        "$d = 5, u_5 = 21$",
+        "$d = 5, u_5 = 26$",
+        "$d = 6, u_5 = 21$",
+        "$d = 6, u_5 = 22$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "LsKVGg9GHw4efxDhuoICUgbhu5EvEkPhu6MWDuG6uBoPRgDCj1d7F0VeUhArbRIdEkMyUFRVRlpPWn9CRV5SUFBxOGPhu6MWBeG7gBoPRhgH4bqef1dQR1IG4bqTPhJT4bqXRk0S4bqlSAXhurUBEH8fwoVDVhArahINEkMyVVRDRghPSn9CU0NZRUF/DxAAB0lP",
+      "metadata": {
+        "raw_yaml": "topic: 'q6'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q6",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q7",
+      "content": "Cho cấp số cộng $(u_n)$ có công sai $d = -2$ và $u_{12} = 32$. Tính $u_1$.",
+      "type": "mcq",
+      "options": [
+        "$54$.",
+        "$10$.",
+        "$-54$.",
+        "$54\\sqrt{2}$."
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "OQBUC8KVTEsCAAhUUQ9YAQADGwMHMQIQBxJMC1NxeTELExxULOG7oxAWBV9cATdXR15GAxABDAZNWW0bbEpEBAYcHAceHRgoCBYMHhMRIhJFbQdQVEBMSA==",
+      "metadata": {
+        "raw_yaml": "topic: 'q7'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q7",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q8",
+      "content": "Cho cấp số cộng $(u_n)$ có số hạng đầu $u_1 = 5$ và công sai $d = -3$. Tính $S_9=u_1+u_2+\\cdots+u_9$.",
+      "type": "mcq",
+      "options": [
+        "$-63$",
+        "$-126$",
+        "$63$",
+        "$153$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "wqwRVAzhuoMCCFc8wocLBFIRHOG6tlEQFmUyD1RVRjAJBT4QRQ1APkYqbQESHU1JGkVXRTMUOxwRQxY4UFU4ZFpXFEFQBkZRT057X0VHBzpFfw8QBxJBQVAMRlFPWmxXRRXCkgpUPMOGXlUWGQnhup0LRhgHAn/FoseV4bqAEUVQDG0JDxtbUlBG",
+      "metadata": {
+        "raw_yaml": "topic: 'q8'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q8",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q9",
+      "content": "Xác định công sai của cấp số cộng $(u_n)$ có $u_3 = 1$ và $u_7 = 17$.",
+      "type": "mcq",
+      "options": [
+        "$4$",
+        "$-4$",
+        "$3$",
+        "$16$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "xb3huqJUwpVGxb3hurZXM+G6tAYLUgYc4bqWEkPhu6MWSVZZW1tYS1t/BwRDEcKWVHtHbwUbGD5HVVIIS1t/FwpDBOG7iA1/FgRWFlBBRV5GMCMSOQcXChUNAD5AQl1BTQVUVUZYS1k=",
+      "metadata": {
+        "raw_yaml": "topic: 'q9'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q9",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q10",
+      "content": "Cho cấp số cộng $(u_n)$ có $u_1 = 3$ và $u_{10} = 18$. Tính tổng $S_{10} = u_1 + u_2 + \\dots + u_{10}$.",
+      "type": "mcq",
+      "options": [
+        "$105$",
+        "$210$",
+        "$100$",
+        "$120$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "wqwRVAzhuoMCCFc8wocLBFIRHOG6tlEQFmUyD1RVRjAJBT4QHg0PV1wqbQESHU0UKwZPSEF9VScNAgtFUDESDRIHXUVYSEIZMEZ/TkVQVkUCwr8SFEdpFlBEFUZRT0ZnV0lDBgRUPMOBEBZlMhpFWBtMUlduQ1BHXA==",
+      "metadata": {
+        "raw_yaml": "topic: 'q10'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q10",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q11",
+      "content": "Cho cấp số cộng $(u_n)$ có $u_1 = -5$ và $u_3 = 11$. Tìm $u_2$.",
+      "type": "mcq",
+      "options": [
+        "$3$",
+        "$-8$",
+        "$8$",
+        "$6$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "LgnCjkjCm0BPAz5TBsKQUkEPKm0BEh1NFCtbG0xSXyosV04WTF93R28AHQlISUhUGTBFAxoDBVIQK20PEAEYSQ==",
+      "metadata": {
+        "raw_yaml": "topic: 'q11'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q11",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q12",
+      "content": "Cho cấp số nhân $1, -2, 4, -8, \\dots$. Công bội và số hạng thứ $5$ của cấp số nhân đã cho có giá trị lần lượt là",
+      "type": "mcq",
+      "options": [
+        "$-2,16$",
+        "$2,16$",
+        "$-2,-16$",
+        "$2,-16$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "LsKVGg9GDuG6th5/H8KFQ1YUVGISbFREDAIPHTleEgwqLFQeUlhUA1RCU1UWTEYVHV0SV2JTSFFWS34Jw5IQFkMyVFRVRhkwQ38vBgcdEVQuDxADAElP",
+      "metadata": {
+        "raw_yaml": "topic: 'q12'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q12",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q13",
+      "content": "Cho cấp số nhân có các số hạng đầu lần lượt là $1; 3; 9; 27; \\dots$. Số hạng thứ $8$ của cấp số nhân đó là",
+      "type": "mcq",
+      "options": [
+        "$2187$",
+        "$6561$",
+        "$729$",
+        "$19683$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "LuG7hARIFeG6vU8ZN8KRC0PFo8KGVDxaXxJVwp5BB+G6uUYE4buOGThTxbThu4QHRVAqbQESC01QUEgQwoxPFMKrHQJDEOG6vB1/FkESC009EhoHDxREIghUHlJYVGwWHjh14buKD1QcwooBT1MqLF1DT0UBAAMQblUJDgBIFzIUT3JCGENPRUV/blNWWRlBRzZRTFJXbUJdVFZLfnVxWMOIFsKQS05IMg1PFMKsUxEL4bqxRRo34bqbXRJYBQAaAEYPwo4Ufx/EjBpSERzhurRTEFHhu5EMQVBbQkzFvuG6tH8QDeG6rhxFxaXCvkIQw5NYTcWwwo4GAUwC4bquK1MGwoIRDVQ8WsOdXF5NGcKVC0g=",
+      "metadata": {
+        "raw_yaml": "topic: 'q13'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q13",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q14",
+      "content": "Xác định công bội của cấp số nhân $(u_n)$ có $u_4 = 1$ và $u_7 = 8$.",
+      "type": "mcq",
+      "options": [
+        "$2$",
+        "$\\frac{1}{2}$",
+        "$8$",
+        "$-2$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "xb3huqJUwpVGxb3hurZXM+G6tAYLUgYc4bqWEkPhu6MWSVZZXFtfS1l/JwRDEcKWVHtuVkBXDhoBN1ERFAIARxheAztHexw6OGDhu4AYVEwXMlxKZy8MBRRFBWIAFBw=",
+      "metadata": {
+        "raw_yaml": "topic: 'q14'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q14",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q15",
+      "content": "Cho cấp số nhân $(u_n)$ có $u_1=1$, công bội $q=-2$. Tính $u_7$.",
+      "type": "mcq",
+      "options": [
+        "$64$",
+        "$-64$",
+        "$128$",
+        "$-128$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "OQBUC8KVTEsCAERFXlIQK24SbFFSAhVUGThaT0p/QkU/EQEbKxIYHwREP0JIW0xZQ3td",
+      "metadata": {
+        "raw_yaml": "topic: 'q15'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q15",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q16",
+      "content": "Cho cấp số nhân $(u_n)$ có $u_1 = 2$ và công bội $q = 3$. Tính $u_1 + u_2 + u_3$.",
+      "type": "mcq",
+      "options": [
+        "$26$",
+        "$18$",
+        "$24$",
+        "$38$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "OQBUC8KVTEsCAEJFXlJXUHMSFEdpX0FJSBMzXlcDEAEMBkUFfw8QBBJBQVAdOV9PSn8GOlJSORc7XUQSRzNTVFVGXk8rPBcKF1JWKm0SDRIHVUVaYjDhu4EWV3sGOlJSTlQqbQISHU0UK1tGUU9Ff1hFVVJOVG4KEA8WX1dQRg==",
+      "metadata": {
+        "raw_yaml": "topic: 'q16'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q16",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q17",
+      "content": "Cho cấp số nhân $(u_n)$ có $u_1=2$ và $u_3=8$. Tính $u_2$.",
+      "type": "mcq",
+      "options": [
+        "$u_2 = \\pm 4$",
+        "$u_2 = 4$",
+        "$u_2 = -4$",
+        "$u_2 = 16$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "OQBUC8KVTEsCAEJFPxEBGysSRW0FTVxUNAAeDhQkBjpRDx4FIm5TVlkZSQ8dOV4SKzwXChdSFF1iEkVtBDNTUEZsKABXKeG7nhxDVhArbWwCEgtNUEI0DwoJVyosV14uFRl/BhQc",
+      "metadata": {
+        "raw_yaml": "topic: 'q17'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q17",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q18",
+      "content": "Cho cấp số nhân $(u_n)$ có $u_2 = -1$ và $u_5 = 27$. Tính $u_3 + u_6$.",
+      "type": "mcq",
+      "options": [
+        "$u_3 + u_6 = -80$",
+        "$u_3 + u_6 = 80$",
+        "$u_3 + u_6 = -78$",
+        "$u_3 + u_6 = 78$"
+      ],
+      "answer": "a76cf3be595610ad159843632571857d167fc953faded4329d673c512488afea",
+      "explanation": "OQBUC8KVTEsrOQEEAAkQK2pPS0dpXxxJGThfMyU2FA0XExcGMEUQQ2heXFlaUTA9HjgbEQIAFxsoEkEPG15FWmIq4buNBlcrG+G7gBpSQQEAARtHaVtcATdUMAwTMAdFElkQK2puU1ZZGUEFVUtdQV9yQExIQFJadx8DGwtAVkxMSA==",
+      "metadata": {
+        "raw_yaml": "topic: 'q18'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q18",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q19",
+      "content": "Năm 2026, dân số của một quốc gia là $100$ triệu người và tốc độ tăng trưởng dân số hằng năm là $0,97\\% $. Nếu tốc độ tăng trưởng dân số này được giữ nguyên, hãy ước tính dân số của quốc gia đó vào năm 2036 (lấy đơn vị là triệu người, làm tròn kết quả đến hàng phần mười).",
+      "type": "mcq",
+      "options": [
+        "$110{,}1$ triệu người",
+        "$110{,}0$ triệu người",
+        "$109{,}7$ triệu người",
+        "$110{,}5$ triệu người"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "KcKDGkgV4bq9TxThurgSRRIH4bq0F39VWVMWxbzCklQewoYDTxnFnB5FUUJXQn9ew5ASEhg+RUhbTF5Hb1dLaTbChxp/QeG7oRJYxa4MVFpWXlhXM8KTRUcHOkZiR28DHV1NTV86STMUOxwRQwc6RWJHbwNqDgUbHE5dREdzSlI/V0xQcTjEoOG6hUJNRQVVTl1ER3NKUj9XTFBzEkRTFg7CklRMEzNdSiosVD8RARsrEkEWGGc1x4THiQgLTwPhuq5fRQfCkAtULOG7oxBcxLUAQUZYVFRPG8K/U0EWLVZJKm0CblUJDgBIF0hBfREbx5VDBOG7iA1/VsOTSxYe4bqwVEwTM15MKixXWAc6R2RuU1ZZGRJQSArhu4EfVysbwoUNGkUX4bu6QhBB4bunTQ8cwooITAzCgzEURQHhuqsMVHtDFBw8O+G7jA1IAsKOAVcs4bqiRRXCkgpUMcSxXRIEXVJCSArCjE9TKiweUkMYSSptARxHMxpFWBtRXkZvX1RHXA==",
+      "metadata": {
+        "raw_yaml": "topic: 'q19'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q19",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q20",
+      "content": "Một người mua một chiếc điện thoại với giá $12$ triệu đồng. Biết rằng cứ sau mỗi năm sử dụng, giá trị của chiếc điện thoại đó giảm đi $15\\% $ so với giá trị của nó trong năm liền trước. Giá trị còn lại của chiếc điện thoại đó sau $4$ năm sử dụng là bao nhiêu? (Lấy đơn vị là triệu đồng, kết quả làm tròn đến hàng phần trăm).",
+      "type": "mcq",
+      "options": [
+        "$6{,}26$ triệu đồng.",
+        "$6{,}27$ triệu đồng.",
+        "$4{,}80$ triệu đồng.",
+        "$7{,}38$ triệu đồng."
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "KgjClUgSHuG6pFc9EgtDxaPhu4IBf1Hhu5dTFsW8COG6swZGGAcY4bu+GkUPwpJFUCptARILTVBGTEZEGwU24bq0EEPFo+G6tho4Gx44ZQwUVFlGAsWsGnNTAgrCk0UALeG7uRBR4buRDEEXAA/hu5MMV8WOGuG6og1SERww4bqTWRJawo1BUB05XlICAEJIUkc5UQNRVF1CTRQrWUZRGihuLwYHHRFMam4VFhhnMhUdRl5PGcWcHklDFQzClX9GQuG7uRYOCR3hu5cFTMW+HuG6mB1FFxoK4buVNhJcw5IWSRQrW1sZMEUDEAEMBl1BAxcUHDw+AAFIUkwBxbQyX0UEG8KEVCtA4bu7ElUFCOG7iwtGxb0G4bqwMVMRCx3hu4Qdf17DkBISGD5AVRMzXCs8FwoXSlAoehYeEhZnKuG7ixxGHRrhu5RlU0FVCUkJbQUUEkIfCOG6sx1Gxb3hurwZOF1vIBrCn1TCoggQdsOVFEFQHTldVAIAQV4WLVZYA1FUXUIeRVQE4buLHE8DN8KTCwtSBuG7kS8SQ+G7oxYDCcKWBkYPwpxXPMKHCwRSB+G6rTYSFEMLXU1MXUJCTzMwU8W0wpBSERV/UcODEkIF4bqiVBzCiwIHVzgawoRDBhfhur9/UcOCXBYB4buAHUgVDRpXexhBQxzFphl/UOG6gVxRTQLCgAYBTBsf4bq2EEVHBzoPNBkBTwsYPkVGFzIEU3E=",
+      "metadata": {
+        "raw_yaml": "topic: 'q20'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q20",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    }
+  ],
+  "allowSolve": true,
+  "matrix": null,
+  "encrypted": false,
+  "pinRequired": false,
+  "watermark": true,
+  "endTime": "2026-10-18 22:00",
+  "timeLimit": 20.0
+};
+window.mathflowData = window.mathflowExams["11B_1410v1"];
