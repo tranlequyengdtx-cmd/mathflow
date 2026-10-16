@@ -2,9 +2,14 @@
   "questions": [
     {
       "id": "q1",
-      "content": "Dãy số nào sau đây là dãy số tăng?\n\\choicess1{*$2;5;8;11;14$}{$10;8;6;4;2$}{$3;3;3;3;3$}{$1;-2;3;-4;5$}",
-      "type": "short_answer",
-      "options": [],
+      "content": "Dãy số nào sau đây là dãy số tăng?",
+      "type": "mcq",
+      "options": [
+        "$2;5;8;11;14$",
+        "$10;8;6;4;2$",
+        "$3;3;3;3;3$",
+        "$1;-2;3;-4;5$"
+      ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
@@ -57,9 +62,14 @@
     },
     {
       "id": "q4",
-      "content": "Cho cấp số cộng $2; 6; 10; 14;\\cdots$. Công sai và số hạng thứ $5$ của cấp số cộng đã cho có giá trị lần lượt là\n\\choicess1{*$4;18$}{$4;22$}{$6;20$}{$6;26$}",
-      "type": "short_answer",
-      "options": [],
+      "content": "Cho cấp số cộng $2; 6; 10; 14;\\cdots$. Công sai và số hạng thứ $5$ của cấp số cộng đã cho có giá trị lần lượt là",
+      "type": "mcq",
+      "options": [
+        "$4;18$",
+        "$4;22$",
+        "$6;20$",
+        "$6;26$"
+      ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
@@ -72,9 +82,14 @@
     },
     {
       "id": "q5",
-      "content": "Cho cấp số cộng $(u_n)$ có $u_4 = 6$ và $u_6 = 14$. Tính $u_5$.\n\\choicess4{*$10$}{$8$}{$20$}{$14$}",
-      "type": "short_answer",
-      "options": [],
+      "content": "Cho cấp số cộng $(u_n)$ có $u_4 = 6$ và $u_6 = 14$. Tính $u_5$.",
+      "type": "mcq",
+      "options": [
+        "$10$",
+        "$8$",
+        "$20$",
+        "$14$"
+      ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
@@ -107,9 +122,14 @@
     },
     {
       "id": "q7",
-      "content": "Cho cấp số nhân $1; 2; 4; 8; \\cdots$. Số hạng thứ $9$ của cấp số nhân đó là\n\\choicess4{*$256$}{$512$}{$128$}{$17$}",
-      "type": "short_answer",
-      "options": [],
+      "content": "Cho cấp số nhân $1; 2; 4; 8; \\cdots$. Số hạng thứ $9$ của cấp số nhân đó là",
+      "type": "mcq",
+      "options": [
+        "$256$",
+        "$512$",
+        "$128$",
+        "$17$"
+      ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
@@ -122,9 +142,14 @@
     },
     {
       "id": "q8",
-      "content": "Cho cấp số nhân $(u_n)$ có $u_2 = 2$ và $u_5 = 54$. Tính $u_3 \\cdot u_4$.\n\\choicess4{*$108$}{$18$}{$24$}{$100$}",
-      "type": "short_answer",
-      "options": [],
+      "content": "Cho cấp số nhân $(u_n)$ có $u_2 = 2$ và $u_5 = 54$. Tính $u_3 \\cdot u_4$.",
+      "type": "mcq",
+      "options": [
+        "$108$",
+        "$18$",
+        "$24$",
+        "$100$"
+      ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
@@ -137,9 +162,14 @@
     },
     {
       "id": "q9",
-      "content": "Cho cấp số nhân $(u_n)$ có $u_1 = 3$ và công bội $q = 2$. Tính $u_1 + u_2 + u_3 + u_4$.\n\\choicess4{*$45$}{$21$}{$48$}{$24$}",
-      "type": "short_answer",
-      "options": [],
+      "content": "Cho cấp số nhân $(u_n)$ có $u_1 = 3$ và công bội $q = 2$. Tính $u_1 + u_2 + u_3 + u_4$.",
+      "type": "mcq",
+      "options": [
+        "$45$",
+        "$21$",
+        "$48$",
+        "$24$"
+      ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
@@ -152,9 +182,14 @@
     },
     {
       "id": "q10",
-      "content": "Trong một phòng thí nghiệm, một quần thể vi khuẩn ban đầu có $500$ con. Người ta thấy rằng, cứ sau mỗi $30$ phút, số lượng của quần thể vi khuẩn đó lại tăng gấp đôi. Hỏi sau $3$ giờ, tổng số vi khuẩn trong quần thể đó là bao nhiêu con?\n\\choicess4{*$32\\,000$}{$4\\,000$}{$6\\,000$}{$64\\,000$}",
-      "type": "short_answer",
-      "options": [],
+      "content": "Trong một phòng thí nghiệm, một quần thể vi khuẩn ban đầu có $500$ con. Người ta thấy rằng, cứ sau mỗi $30$ phút, số lượng của quần thể vi khuẩn đó lại tăng gấp đôi. Hỏi sau $3$ giờ, tổng số vi khuẩn trong quần thể đó là bao nhiêu con?",
+      "type": "mcq",
+      "options": [
+        "$32\\,000$",
+        "$4\\,000$",
+        "$6\\,000$",
+        "$64\\,000$"
+      ],
       "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
       "explanation": "",
       "metadata": {
@@ -171,5 +206,7 @@
   "encrypted": false,
   "pinRequired": false,
   "watermark": true,
+  "startTime": "2026-10-16 20:00",
+  "endTime": "2026-10-16 20:15",
   "timeLimit": 10.0
 }
