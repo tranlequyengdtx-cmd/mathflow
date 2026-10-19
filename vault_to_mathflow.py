@@ -273,25 +273,35 @@ def main():
     questions = []
     
     if args.file:
-        sel_file_path = args.file if os.path.isabs(args.file) else os.path.join(VAULT_PATH, args.file)
-        if not os.path.exists(sel_file_path):
-            win_user_match = re.search(r'/mnt/c/Users/([^/]+)', BASE_DIR)
-            win_user = win_user_match.group(1) if win_user_match else "User"
-            potential_desktop_file = f"/mnt/c/Users/{win_user}/Desktop/{args.file}"
-            if os.path.exists(potential_desktop_file):
-                sel_file_path = potential_desktop_file
+        candidates = [
+            args.file if os.path.isabs(args.file) else os.path.abspath(args.file),
+            os.path.join(os.path.expanduser("~"), "Desktop", args.file),
+            os.path.join(os.path.expanduser("~"), "Downloads", args.file),
+            os.path.join(BASE_DIR, args.file),
+            os.path.join(VAULT_PATH, args.file)
+        ]
+        # WSL fallback
+        win_user_match = re.search(r'/mnt/c/Users/([^/]+)', BASE_DIR)
+        win_user = win_user_match.group(1) if win_user_match else "User"
+        candidates.append(f"/mnt/c/Users/{win_user}/Desktop/{args.file}")
+        candidates.append(f"/mnt/c/Users/{win_user}/Downloads/{args.file}")
+
+        sel_file_path = None
+        for cand in candidates:
+            if os.path.exists(cand):
+                sel_file_path = cand
+                break
         
-        if not os.path.exists(sel_file_path):
+        if not sel_file_path and os.path.exists(VAULT_PATH):
             # Fallback search inside vault
-            found = False
             for r, _, f in os.walk(VAULT_PATH):
                 if args.file in f:
                     sel_file_path = os.path.join(r, args.file)
-                    found = True
                     break
-            if not found:
-                print(f"Error: Không thấy file {args.file} ở Vault hay Windows Desktop.")
-                return
+                    
+        if not sel_file_path:
+            print(f"Error: Không thấy file {args.file} ở Desktop, Downloads hay Vault.")
+            return
 
         with open(sel_file_path, "r", encoding="utf-8") as f:
             sel_content = f.read()
