@@ -1,0 +1,213 @@
+window.mathflowExams = window.mathflowExams || {};
+window.mathflowExams["11B_2210v1"] = {
+  "questions": [
+    {
+      "id": "q1",
+      "content": "Dãy số nào sau đây là dãy số giảm?",
+      "type": "mcq",
+      "options": [
+        "$15;12;9;6;3$",
+        "$2;6;10;14;18$",
+        "$4;4;4;4;4$",
+        "$-1;2;-3;4;-5$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q1'\ngrade: '11'\nlevel: 'E'\ntype: 'Trắc nghiệm'",
+        "topic": "q1",
+        "grade": "11",
+        "level": "E",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q2",
+      "content": "Xét dãy số $(u_n)$ có số hạng tổng quát $u_n=\\frac{n}{n+1}$. Khẳng định nào sau đây đúng?",
+      "type": "mcq",
+      "options": [
+        "$(u_n)$ là dãy bị chặn",
+        "$(u_n)$ là dãy giảm",
+        "$u_3 = 1$",
+        "$u_1&gt;u_2$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q2'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q2",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q3",
+      "content": "Cho dãy số $(u_n)$ có số hạng tổng quát $u_n = \\sin \\left(n\\cdot\\frac\\pi2\\right)$. Tính $u_{10}$.",
+      "type": "mcq",
+      "options": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$\\pm1$"
+      ],
+      "answer": "90d7906992416673b28c73ac445c47c07a28165acdfdc93743be309d1f609f86",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q3'\ngrade: '11'\nlevel: 'E'\ntype: 'Trắc nghiệm'",
+        "topic": "q3",
+        "grade": "11",
+        "level": "E",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q4",
+      "content": "Cho cấp số cộng $3; 8; 13; 18;\\cdots$. Công sai và số hạng thứ $5$ của cấp số cộng đã cho có giá trị lần lượt là",
+      "type": "mcq",
+      "options": [
+        "$5;23$",
+        "$5;28$",
+        "$3;21$",
+        "$3;23$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q4'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q4",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q5",
+      "content": "Cho cấp số cộng $(u_n)$ có $u_3 = 8$ và $u_5 = 18$. Tính $u_4$.",
+      "type": "mcq",
+      "options": [
+        "$13$",
+        "$10$",
+        "$26$",
+        "$18$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q5'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q5",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q6",
+      "content": "Cho cấp số cộng $(u_n)$ có $u_1 = 3$ và $u_{10} = 18$. Tính tổng $S_{10} = u_1 + u_2 + \\dots + u_{10}$.",
+      "type": "mcq",
+      "options": [
+        "$105$",
+        "$210$",
+        "$100$",
+        "$120$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q6'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q6",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q7",
+      "content": "Cho cấp số nhân $2; -4; 8; -16; \\cdots$. Số hạng thứ $9$ của cấp số nhân đó là",
+      "type": "mcq",
+      "options": [
+        "$512$",
+        "$-512$",
+        "$256$",
+        "$-256$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q7'\ngrade: '11'\nlevel: 'NB'\ntype: 'Trắc nghiệm'",
+        "topic": "q7",
+        "grade": "11",
+        "level": "NB",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q8",
+      "content": "Cho cấp số nhân $(u_n)$ có $u_1 = 2$ và $u_3 = 18$. Tính $u_2^2$.",
+      "type": "mcq",
+      "options": [
+        "$36$",
+        "$20$",
+        "$10$",
+        "$16$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q8'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q8",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q9",
+      "content": "Cho cấp số nhân $(u_n)$ có $u_1 = 3$ và công bội $q = 2$. Tính $u_1 + u_2 + u_3 + u_4$.",
+      "type": "mcq",
+      "options": [
+        "$45$",
+        "$21$",
+        "$48$",
+        "$24$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q9'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q9",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    },
+    {
+      "id": "q10",
+      "content": "Trong một phòng thí nghiệm, một quần thể vi khuẩn ban đầu có $400$ con. Người ta thấy rằng, cứ sau mỗi $20$ phút, số lượng của quần thể vi khuẩn đó lại tăng gấp đôi. Hỏi sau $2$ giờ, tổng số vi khuẩn trong quần thể đó là bao nhiêu con?",
+      "type": "mcq",
+      "options": [
+        "$25\\,600$",
+        "$12\\,800$",
+        "$4\\,800$",
+        "$51\\,200$"
+      ],
+      "answer": "0ed2c60216f38a9ad688d9136b5297ec9790b1c39c37e3c33ac5e1fd5dce4109",
+      "explanation": "",
+      "metadata": {
+        "raw_yaml": "topic: 'q10'\ngrade: '11'\nlevel: 'TH'\ntype: 'Trắc nghiệm'",
+        "topic": "q10",
+        "grade": "11",
+        "level": "TH",
+        "type": "Trắc nghiệm"
+      }
+    }
+  ],
+  "allowSolve": false,
+  "matrix": null,
+  "encrypted": false,
+  "pinRequired": false,
+  "watermark": true,
+  "startTime": "2020-10-22 07:05",
+  "timeLimit": 10.0
+};
+window.mathflowData = window.mathflowExams["11B_2210v1"];
